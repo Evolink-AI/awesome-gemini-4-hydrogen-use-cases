@@ -336,11 +336,22 @@ MotionViz는 미디어를 통해 Gemini 3.6 Flash 시각적 테스트를 게시�
 
 제작자는 동일한 프롬프트 랜딩 페이지 아카이브에 Gemini 3.6 Flash를 추가하고 새로운 결과가 Gemini 3 및 3.5 출력보다 나쁘다고 판단했습니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg" alt="Case 16 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg" alt="Case 16 source image 2" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg" alt="Case 16 source image 3" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg" alt="Case 16 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg" alt="Case 16 source image 2" width="100%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg" alt="Case 16 source image 3" width="100%"></a>
+</td>
+<td width="50%" valign="top"></td>
+</tr>
+</table>
 
 유형: Evaluation | 날짜: 2026-07-21
 
@@ -425,9 +436,16 @@ create a modern website! Should look amazing! One-code page
 SVG of a Rolls Royce
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png" alt="Case 21 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png" alt="Case 21 source image 2" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png" alt="Case 21 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png" alt="Case 21 source image 2" width="100%"></a>
+</td>
+</tr>
+</table>
 
 유형: Evaluation | 날짜: 2026-07-21
 
@@ -592,13 +610,24 @@ EyeBench에서 제작자는 Gemini 3.6 Flash가 3.5 Flash보다 약간 우수하
 
 테스터는 현재 플래그십 모델을 요청하고 이전 이름을 받은 후 2026년 3월 컷오프를 주장했음에도 불구하고 해당 모델이 2025년 초까지만 최신 지식을 인정했다고 보고했습니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg" alt="Case 32 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg" alt="Case 32 source image 2" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg" alt="Case 32 source image 3" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png" alt="Case 32 source image 4" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg" alt="Case 32 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg" alt="Case 32 source image 2" width="100%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg" alt="Case 32 source image 3" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png" alt="Case 32 source image 4" width="100%"></a>
+</td>
+</tr>
+</table>
 
 유형: Limit | 날짜: 2026-07-21
 
@@ -611,13 +640,24 @@ EyeBench에서 제작자는 Gemini 3.6 Flash가 3.5 Flash보다 약간 우수하
 
 이 게시물은 Gemini 앱과 API 전반에 걸쳐 탈옥했다고 주장하며 테스트된 유해 콘텐츠 카테고리를 나열합니다. 이 저장소는 악용 지침을 재생산하지 않고 안전 신호를 기록합니다.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg" alt="Case 33 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg" alt="Case 33 source image 2" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg" alt="Case 33 source image 3" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg" alt="Case 33 source image 4" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg" alt="Case 33 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg" alt="Case 33 source image 2" width="100%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg" alt="Case 33 source image 3" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg" alt="Case 33 source image 4" width="100%"></a>
+</td>
+</tr>
+</table>
 
 유형: Limit | 날짜: 2026-07-21
 
@@ -640,8 +680,24 @@ EyeBench에서 제작자는 Gemini 3.6 Flash가 3.5 Flash보다 약간 우수하
 2. [EvoLink API 키 생성 또는 관리](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key)
 3. [Gemini 네이티브 API 빠른 시작을 따르세요.](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
 
+검증된 최소 요청을 실행하세요
+
+```bash
+export EVOLINK_API_KEY="your_api_key_here"
+
+curl --fail-with-body --silent --show-error \
+  --request POST \
+  --url "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent" \
+  --header "Authorization: Bearer $EVOLINK_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":128,"temperature":0}}'
+```
+
+> [!TIP]
+> 예상 결과: 표시되는 텍스트가 `OK`인 JSON 응답
+
 > [!IMPORTANT]
-> 공개 경로와 모델 ID는 문서화되어 있지만 이 저장소는 해당 테스트가 실행되거나 명시적으로 면제될 때까지 크레딧을 소모하는 첫 번째 호출을 요구하지 않습니다.
+> 이 요청은 실제 endpoint에서 HTTP 200과 표시 결과 `OK`로 검증되었습니다. 키는 환경 변수에 보관하고 commit에 포함하지 마세요
 
 <a id="acknowledge"></a>
 ## 🙏 승인

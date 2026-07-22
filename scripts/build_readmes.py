@@ -15,6 +15,14 @@ API_DOCS = "https://evolink.ai/docs/en/api-manual/language-series/gemini/native-
 GOOGLE_RELEASE = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
 MODEL_CARD = "https://deepmind.google/models/model-cards/gemini-3-6-flash/"
 CAMPAIGN = "awesome-gemini-3-6-flash-guide-and-use-cases"
+MINIMAL_CURL = r"""export EVOLINK_API_KEY="your_api_key_here"
+
+curl --fail-with-body --silent --show-error \
+  --request POST \
+  --url "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent" \
+  --header "Authorization: Bearer $EVOLINK_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":128,"temperature":0}}'"""
 
 CATEGORY_EMOJI = {
     "efficiency-agents": "⚡",
@@ -73,7 +81,9 @@ ENGLISH = {
     "quick_model": "Open the Gemini 3.6 Flash model page",
     "quick_key": "Create or manage an EvoLink API key",
     "quick_docs": "Follow the Gemini Native API Quick Start",
-    "important": "The public route and model ID are documented, but this repository does not claim a credit-consuming first call until that test has been run or explicitly waived",
+    "quick_run": "Run this verified minimal request",
+    "quick_success": "Expected result: a JSON response whose visible text is `OK`",
+    "important": "This exact request was verified against the live endpoint with HTTP 200 and visible output `OK`; keep your key in the environment and never commit it",
     "acknowledge": "Acknowledge",
     "ack_text": "This collection exists because creators and practitioners shared their Gemini 3.6 Flash work publicly",
     "thanks": "Thanks to the source creators represented here",
@@ -97,18 +107,36 @@ def badges() -> str:
 
 def media_block(item: dict, strings: dict) -> list[str]:
     blocks: list[str] = []
-    image_number = 0
-    for asset in item.get("media_assets", []):
-        if asset["kind"] == "video":
-            blocks.extend([
-                f'<a href="{asset["url"]}"><img src="{asset["poster_url"]}" alt="Case {item["public_number"]} source video poster" height="360"></a>',
-                f'[{strings["play_video"]}]({asset["url"]})',
-            ])
-        elif asset["kind"] == "image":
-            image_number += 1
-            blocks.append(
-                f'<a href="{asset["url"]}"><img src="{asset["url"]}" alt="Case {item["public_number"]} source image {image_number}" height="360"></a>'
-            )
+    assets = item.get("media_assets", [])
+    videos = [asset for asset in assets if asset["kind"] == "video"]
+    images = [asset for asset in assets if asset["kind"] == "image"]
+
+    for asset in videos:
+        blocks.extend([
+            f'<a href="{asset["url"]}"><img src="{asset["poster_url"]}" alt="Case {item["public_number"]} source video poster" height="360"></a>',
+            f'[{strings["play_video"]}]({asset["url"]})',
+        ])
+
+    if len(images) == 1:
+        asset = images[0]
+        blocks.append(
+            f'<a href="{asset["url"]}"><img src="{asset["url"]}" alt="Case {item["public_number"]} source image 1" height="360"></a>'
+        )
+    elif images:
+        gallery = ["<table>"]
+        for offset in range(0, len(images), 2):
+            gallery.append("<tr>")
+            for index, asset in enumerate(images[offset:offset + 2], start=offset + 1):
+                gallery.extend([
+                    '<td width="50%" valign="top" align="center">',
+                    f'<a href="{asset["url"]}"><img src="{asset["url"]}" alt="Case {item["public_number"]} source image {index}" width="100%"></a>',
+                    "</td>",
+                ])
+            if offset + 1 >= len(images):
+                gallery.append('<td width="50%" valign="top"></td>')
+            gallery.append("</tr>")
+        gallery.append("</table>")
+        blocks.append("\n".join(gallery))
     return blocks
 
 
@@ -213,6 +241,15 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         f'1. [{strings["quick_model"]}]({with_utm(MODEL_PAGE, "quickstart", "model_link")})',
         f'2. [{strings["quick_key"]}]({with_utm(API_KEYS, "quickstart", "api_key")})',
         f'3. [{strings["quick_docs"]}]({with_utm(API_DOCS, "docs", "first_run")})',
+        "",
+        strings["quick_run"],
+        "",
+        "```bash",
+        MINIMAL_CURL,
+        "```",
+        "",
+        "> [!TIP]",
+        f'> {strings["quick_success"]}',
         "",
         "> [!IMPORTANT]",
         f'> {strings["important"]}',

@@ -336,11 +336,22 @@ Typ: Demo | Datum: 2026-07-21
 
 Der Ersteller fügte Gemini 3.6 Flash zu einem Landingpage-Archiv mit derselben Eingabeaufforderung hinzu und beurteilte das neuere Ergebnis als schlechter als die Ausgaben von Gemini 3 und 3.5.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg" alt="Case 16 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg" alt="Case 16 source image 2" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg" alt="Case 16 source image 3" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg" alt="Case 16 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg" alt="Case 16 source image 2" width="100%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg" alt="Case 16 source image 3" width="100%"></a>
+</td>
+<td width="50%" valign="top"></td>
+</tr>
+</table>
 
 Typ: Evaluation | Datum: 2026-07-21
 
@@ -425,9 +436,16 @@ Der Beitrag platziert Gemini 3.6 Flash- und 3.5 Flash-Ausgaben nebeneinander fü
 SVG of a Rolls Royce
 ```
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png" alt="Case 21 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png" alt="Case 21 source image 2" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png" alt="Case 21 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png" alt="Case 21 source image 2" width="100%"></a>
+</td>
+</tr>
+</table>
 
 Typ: Evaluation | Datum: 2026-07-21
 
@@ -592,13 +610,24 @@ Typ: Limit | Datum: 2026-07-21
 
 Der Tester fragte nach aktuellen Flaggschiff-Modellen und erhielt ältere Namen. Anschließend berichtete er, dass das Modell nur bis Anfang 2025 aktuelle Erkenntnisse anerkenne, obwohl ein Stichtag im März 2026 angegeben wurde.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg" alt="Case 32 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg" alt="Case 32 source image 2" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg" alt="Case 32 source image 3" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png" alt="Case 32 source image 4" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg" alt="Case 32 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg" alt="Case 32 source image 2" width="100%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg" alt="Case 32 source image 3" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png" alt="Case 32 source image 4" width="100%"></a>
+</td>
+</tr>
+</table>
 
 Typ: Limit | Datum: 2026-07-21
 
@@ -611,13 +640,24 @@ Typ: Limit | Datum: 2026-07-21
 
 Der Beitrag behauptet einen Jailbreak in der Gemini-App und -API und listet getestete Kategorien schädlicher Inhalte auf; Dieses Repository zeichnet das Sicherheitssignal auf, ohne Exploit-Anweisungen zu reproduzieren.
 
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg" alt="Case 33 source image 1" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg" alt="Case 33 source image 2" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg" alt="Case 33 source image 3" height="360"></a>
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg" alt="Case 33 source image 4" height="360"></a>
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg" alt="Case 33 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg" alt="Case 33 source image 2" width="100%"></a>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg" alt="Case 33 source image 3" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg" alt="Case 33 source image 4" width="100%"></a>
+</td>
+</tr>
+</table>
 
 Typ: Limit | Datum: 2026-07-21
 
@@ -640,8 +680,24 @@ Verwenden Sie die unten aufgeführten verifizierten öffentlichen Oberflächen, 
 2. [Erstellen oder verwalten Sie einen EvoLink-API-Schlüssel](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key)
 3. [Befolgen Sie den Schnellstart für die Gemini Native API](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
 
+Führen Sie diese verifizierte Minimalanfrage aus
+
+```bash
+export EVOLINK_API_KEY="your_api_key_here"
+
+curl --fail-with-body --silent --show-error \
+  --request POST \
+  --url "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent" \
+  --header "Authorization: Bearer $EVOLINK_API_KEY" \
+  --header "Content-Type: application/json" \
+  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":128,"temperature":0}}'
+```
+
+> [!TIP]
+> Erwartetes Ergebnis: eine JSON-Antwort mit dem sichtbaren Text `OK`
+
 > [!IMPORTANT]
-> Die öffentliche Route und die Modell-ID sind dokumentiert, aber dieses Repository erhebt keinen Anspruch auf einen kreditintensiven ersten Aufruf, bis dieser Test ausgeführt oder ausdrücklich darauf verzichtet wurde
+> Diese Anfrage wurde am aktiven Endpoint mit HTTP 200 und der sichtbaren Ausgabe `OK` verifiziert; speichern Sie den Schlüssel in der Umgebung und committen Sie ihn niemals
 
 <a id="acknowledge"></a>
 ## 🙏 Bestätigen

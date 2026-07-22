@@ -26,6 +26,9 @@ CONVERSION_PREFIXES = (
     "https://evolink.ai/dashboard/keys",
     "https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart",
 )
+METHOD_BOUND_ENDPOINTS = {
+    "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent",
+}
 
 
 def public_files() -> list[Path]:
@@ -86,6 +89,7 @@ def main() -> int:
     fragment_checked = 0
     utm_checked = 0
     utm_exemptions = 0
+    method_bound_exemptions: set[str] = set()
 
     for path in paths:
         text = path.read_text(encoding="utf-8")
@@ -96,7 +100,12 @@ def main() -> int:
         raw_urls = URL_RE.findall(text)
         total_references += len(markdown_targets) + len(html_targets) + len(raw_urls)
         targets = [target.strip() for target in markdown_targets] + html_targets
-        external_urls.update(url.rstrip(".,;") for url in raw_urls)
+        for raw_url in raw_urls:
+            url = raw_url.rstrip(".,;")
+            if url in METHOD_BOUND_ENDPOINTS:
+                method_bound_exemptions.add(url)
+            else:
+                external_urls.add(url)
         for match in markdown_matches:
             label = match.group(2).strip().lower()
             if not match.group(1) and label in {"here", "click here", "link"}:
@@ -170,6 +179,7 @@ def main() -> int:
         f"- External URLs checked: {checked_count}", f"- Relative file links checked: {relative_checked}",
         f"- Fragment links checked: {fragment_checked}", f"- README EvoLink URLs checked for UTM: {utm_checked}",
         f"- Recorded non-README UTM exemptions: {utm_exemptions}", f"- Manual bot-protection acceptances: {manual_count}",
+        f"- Method-bound API endpoint exemptions: {len(method_bound_exemptions)}",
         f"- Redirects: {len(redirects)}", f"- Relative file failures: {len(relative_failures)}",
         f"- Fragment failures: {len(fragment_failures)}", f"- UTM failures: {len(utm_failures)}",
         f"- Link-copy failures: {len(copy_failures)}", f"- P0 failures: {len(p0)}", f"- P1 failures: {len(p1)}",
@@ -179,6 +189,8 @@ def main() -> int:
     ]
     if redirects:
         lines.extend(["", "## Redirects", "", *[f"- {row}" for row in redirects]])
+    if method_bound_exemptions:
+        lines.extend(["", "## Method-bound API endpoints", "", *[f"- POST-only endpoint: {url}" for url in sorted(method_bound_exemptions)]])
     if p0 or p1 or p2:
         lines.extend(["", "## Findings", ""])
         lines.extend(f"- P0: {row}" for row in p0)

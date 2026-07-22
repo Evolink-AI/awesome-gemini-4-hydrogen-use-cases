@@ -31,7 +31,9 @@ ZH_OVERRIDES = {
         "prompt": "提示词",
         "acknowledge": "致谢",
         "quick_intro": "通过下方经过验证的公开入口开始使用 model ID `gemini-3.6-flash`",
-        "important": "公开路由与 model ID 已有文档依据，但在真实测试完成或获得明确豁免前，本仓库不会声称已执行消耗额度的 first call",
+        "quick_run": "运行这个已验证的最小请求",
+        "quick_success": "预期结果：可见文本为 `OK` 的 JSON 响应",
+        "important": "该请求已在实时 endpoint 验证为 HTTP 200，且可见输出为 `OK`；请将密钥保存在环境变量中，切勿提交到版本库",
         "correction": "我们无法保证每条帖子都指向最早的原创者，如归属、翻译或措辞需要修正，请提交带公开来源的 correction issue",
     },
     "zh-TW": {
@@ -45,7 +47,9 @@ ZH_OVERRIDES = {
         "prompt": "提示詞",
         "acknowledge": "致謝",
         "quick_intro": "透過下方經過驗證的公開入口開始使用 model ID `gemini-3.6-flash`",
-        "important": "公開路由與 model ID 已有文件依據，但在真實測試完成或獲得明確豁免前，本倉庫不會聲稱已執行消耗額度的 first call",
+        "quick_run": "執行這個已驗證的最小請求",
+        "quick_success": "預期結果：可見文字為 `OK` 的 JSON 回應",
+        "important": "此請求已在即時 endpoint 驗證為 HTTP 200，且可見輸出為 `OK`；請將金鑰保存在環境變數中，切勿提交到版本庫",
         "correction": "我們無法保證每則貼文都指向最早的原創者，如歸屬、翻譯或措辭需要修正，請提交附公開來源的 correction issue",
     },
 }
