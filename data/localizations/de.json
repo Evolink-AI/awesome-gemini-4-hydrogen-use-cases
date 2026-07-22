@@ -29,7 +29,7 @@
     "date": "Datum",
     "play_video": "Quellvideo abspielen",
     "related": "Verwandte Repositories",
-    "related_org": "Weitere Modellhandbücher und API-Beispiele von EvoLink",
+    "related_org": "Verifizierter Schnellstart für die Gemini-API-Familie und installierbarer Agent-Skill",
     "related_note": "Während dieser Veröffentlichung wurde kein dedizierter installierbarer Gemini 3.6 Flash-Fähigkeit unabhängig überprüft",
     "quickstart": "Schnellstart",
     "quick_intro": "Verwenden Sie die unten aufgeführten verifizierten öffentlichen Oberflächen, um mit der Modell-ID „gemini-3.6-flash“ zu beginnen",
@@ -43,7 +43,10 @@
     "ack_text": "Diese Sammlung existiert, weil Schöpfer und Praktiker ihre Gemini 3.6 Flash-Arbeit öffentlich geteilt haben",
     "thanks": "Vielen Dank an die hier vertretenen Quellersteller",
     "correction": "Wir können nicht garantieren, dass jeder Beitrag den frühesten ursprünglichen Ersteller identifiziert. Wenn Namensnennung, Übersetzung oder Wortlaut korrigiert werden müssen, öffnen Sie ein Korrekturproblem bei einer öffentlichen Quelle",
-    "contribute": "Um einen weiteren quellengestützten Fall vorzuschlagen, öffnen Sie ein Problem oder eine Pull-Anfrage und folgen Sie der Beitrags-Checkliste"
+    "contribute": "Um einen weiteren quellengestützten Fall vorzuschlagen, öffnen Sie ein Problem oder eine Pull-Anfrage und folgen Sie der Beitrags-Checkliste",
+    "official_sources": "Offizielle Quellen",
+    "official_launch": "Google-Startankündigung",
+    "official_model_card": "Google DeepMind-Modellkarte"
   },
   "categories": {
     "efficiency-agents": "Effizienz & Agenten",

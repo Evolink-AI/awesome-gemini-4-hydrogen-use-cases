@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=top_badge)
-[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
+[![Gemini Native API (English)](https://img.shields.io/badge/Gemini_Native_API-English-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -40,7 +40,9 @@ Dahil edilen her vaka, incelenen kaynak paketinden gelir. Başlıklar orijinal g
 > [!NOTE]
 > Bu koleksiyon abartı yerine gözlemlenebilir kanıtları tercih ediyor. Eksik istemleri yeniden yapılandırmaz, yayınlanmamış kurulum adımlarına ilişkin çıkarımlarda bulunmaz veya bir yaratıcının sonucunu evrensel bir kıyaslama halinde genelleştirmez
 
-**Buradan başlayın: [Gemini 3.6 Flash'ı keşfedin](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [API anahtarı edinin](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [Gemini Yerel API belgelerini açın](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)**
+**Resmî kaynaklar: [Google lansman duyurusu](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) · [Google DeepMind model kartı](https://deepmind.google/models/model-cards/gemini-3-6-flash/)**
+
+**Buradan başlayın: [Gemini 3.6 Flash'ı keşfedin](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [API anahtarı edinin](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [İngilizce Gemini Native API belgelerini açın](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)**
 
 ## 📑 Menü
 
@@ -666,9 +668,7 @@ Tür: Limit | Tarih: 2026-07-21
 <a id="related-repositories"></a>
 ## İlgili Depolar
 
-- [EvoLink-AI on GitHub](https://github.com/Evolink-AI) — EvoLink'ten daha fazla model kılavuzu ve API örneği
-- [Gemini 3.6 Flash official launch](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/)
-- [Gemini 3.6 Flash model card](https://deepmind.google/models/model-cards/gemini-3-6-flash/)
+- [Gemini Omni Flash API Skill](https://github.com/Evolink-AI/gemini-omni-flash-api-skill) — Doğrulanmış Gemini ailesi API hızlı başlangıcı ve kurulabilir agent skill
 - Bu yayın sırasında kurulabilir özel bir Gemini 3.6 Flash becerisi bağımsız olarak doğrulanmadı
 
 <a id="quick-start"></a>
@@ -678,7 +678,7 @@ Tür: Limit | Tarih: 2026-07-21
 
 1. [Gemini 3.6 Flash modeli sayfasını açın](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link)
 2. [EvoLink API anahtarı oluşturun veya yönetin](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key)
-3. [Gemini Yerel API Hızlı Başlangıç'ı izleyin](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
+3. [İngilizce Gemini Native API Hızlı Başlangıç kılavuzunu izleyin](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
 
 Doğrulanmış bu minimum isteği çalıştırın
 

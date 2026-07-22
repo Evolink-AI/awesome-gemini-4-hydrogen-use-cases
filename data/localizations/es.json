@@ -29,7 +29,7 @@
     "date": "Fecha",
     "play_video": "Reproducir vídeo fuente",
     "related": "Repositorios relacionados",
-    "related_org": "Más guías de modelos y ejemplos de API de EvoLink",
+    "related_org": "Inicio rápido verificado de la API de la familia Gemini y skill instalable para agentes",
     "related_note": "Durante esta publicación no se verificó de forma independiente ninguna habilidad Flash Gemini 3.6 instalable dedicada",
     "quickstart": "Inicio rápido",
     "quick_intro": "Utilice las superficies públicas verificadas a continuación para comenzar con el ID de modelo `gemini-3.6-flash`",
@@ -43,7 +43,10 @@
     "ack_text": "Esta colección existe porque los creadores y profesionales compartieron públicamente su trabajo en Gemini 3.6 Flash.",
     "thanks": "Gracias a los creadores de fuentes representados aquí.",
     "correction": "No podemos garantizar que cada publicación identifique al creador original más antiguo. Si es necesario corregir la atribución, la traducción o la redacción, abra una edición de corrección con una fuente pública.",
-    "contribute": "Para proponer otro caso respaldado por fuentes, abra una incidencia o una solicitud de extracción y siga la lista de verificación de contribuciones"
+    "contribute": "Para proponer otro caso respaldado por fuentes, abra una incidencia o una solicitud de extracción y siga la lista de verificación de contribuciones",
+    "official_sources": "Fuentes oficiales",
+    "official_launch": "Anuncio de lanzamiento de Google",
+    "official_model_card": "Ficha del modelo de Google DeepMind"
   },
   "categories": {
     "efficiency-agents": "Eficiencia y agentes",

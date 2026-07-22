@@ -6,5 +6,6 @@
   "source_fidelity_manifest": "data/source-fidelity-manifest.json",
   "languages": ["en", "es", "pt", "ja", "ko", "de", "fr", "tr", "zh-TW", "zh-CN", "ru"],
   "media_policy": "all-source-media",
-  "video_policy": "r2-playable"
+  "video_policy": "r2-playable",
+  "localization_fallback": "english"
 }

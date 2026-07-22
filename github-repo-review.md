@@ -4,7 +4,7 @@ Review date: 2026-07-22
 
 ## Outcome
 
-The repository passes the first-publication review for front-door clarity, source fidelity, localization structure, community files, maintenance ownership, and conversion routing
+The repository passes the first-publication and semantic-link review for front-door clarity, source fidelity, localization structure, community files, maintenance ownership, conversion routing, and destination accuracy
 
 ## Public surface
 
@@ -13,6 +13,15 @@ The repository passes the first-publication review for front-door clarity, sourc
 - The first screen states the evidence boundary and routes readers to the model page, API key page, and Gemini Native API documentation
 - The centralized Menu covers all 33 cases and every case links to its original public source and creator profile
 - Quick Start is the penultimate section and Acknowledge is the final section
+
+## Link routing
+
+- Every documentation CTA uses the verified route for that README language when available
+- Portuguese, Turkish, Traditional Chinese, and Russian visibly disclose their English documentation fallback
+- Simplified Chinese uses EvoLink's verified `cn` documentation route
+- Overview and Quick Start use distinct UTM placements, so conversion attribution is no longer ambiguous
+- Official launch and model-card references sit in Overview; Related Repositories contains only a verified adjacent repository
+- Intentional duplicates are limited to creator attribution reuse, clickable media UI, and cross-language README reuse
 
 ## Evidence and media
 

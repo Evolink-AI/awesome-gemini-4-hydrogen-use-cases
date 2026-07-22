@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=top_badge)
-[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
+[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/de/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -40,7 +40,9 @@ Jeder enthaltene Koffer stammt aus dem überprüften Quellpaket. Titel verweisen
 > [!NOTE]
 > Diese Sammlung bevorzugt beobachtbare Beweise gegenüber Hype. Es rekonstruiert keine fehlenden Eingabeaufforderungen, leitet keine unveröffentlichten Einrichtungsschritte ab und verallgemeinert das Ergebnis eines Erstellers nicht in einem universellen Benchmark
 
-**Beginnen Sie hier: [Entdecken Sie Gemini 3.6 Flash](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [Holen Sie sich einen API-Schlüssel](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [Öffnen Sie die Gemini Native API-Dokumente](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)**
+**Offizielle Quellen: [Google-Startankündigung](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) · [Google DeepMind-Modellkarte](https://deepmind.google/models/model-cards/gemini-3-6-flash/)**
+
+**Beginnen Sie hier: [Entdecken Sie Gemini 3.6 Flash](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [Holen Sie sich einen API-Schlüssel](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [Öffnen Sie die Gemini Native API-Dokumente](https://evolink.ai/docs/de/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)**
 
 ## 📑 Menü
 
@@ -666,9 +668,7 @@ Typ: Limit | Datum: 2026-07-21
 <a id="related-repositories"></a>
 ## Verwandte Repositories
 
-- [EvoLink-AI on GitHub](https://github.com/Evolink-AI) — Weitere Modellhandbücher und API-Beispiele von EvoLink
-- [Gemini 3.6 Flash official launch](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/)
-- [Gemini 3.6 Flash model card](https://deepmind.google/models/model-cards/gemini-3-6-flash/)
+- [Gemini Omni Flash API Skill](https://github.com/Evolink-AI/gemini-omni-flash-api-skill) — Verifizierter Schnellstart für die Gemini-API-Familie und installierbarer Agent-Skill
 - Während dieser Veröffentlichung wurde kein dedizierter installierbarer Gemini 3.6 Flash-Fähigkeit unabhängig überprüft
 
 <a id="quick-start"></a>
@@ -678,7 +678,7 @@ Verwenden Sie die unten aufgeführten verifizierten öffentlichen Oberflächen, 
 
 1. [Öffnen Sie die Gemini 3.6 Flash-Modellseite](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link)
 2. [Erstellen oder verwalten Sie einen EvoLink-API-Schlüssel](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key)
-3. [Befolgen Sie den Schnellstart für die Gemini Native API](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
+3. [Befolgen Sie den Schnellstart für die Gemini Native API](https://evolink.ai/docs/de/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
 
 Führen Sie diese verifizierte Minimalanfrage aus
 

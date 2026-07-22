@@ -29,13 +29,13 @@
     "date": "날짜",
     "play_video": "소스 영상 재생",
     "related": "관련 저장소",
-    "related_org": "EvoLink의 추가 모델 가이드 및 API 예제",
+    "related_org": "검증된 Gemini 계열 API 빠른 시작 및 설치 가능한 에이전트 스킬",
     "related_note": "이 발행물에서는 설치 가능한 전용 Gemini 3.6 Flash 기술이 독립적으로 검증되지 않았습니다.",
     "quickstart": "빠른 시작",
     "quick_intro": "모델 ID `gemini-3.6-flash`로 시작하려면 아래의 검증된 공개 표면을 사용하세요.",
     "quick_model": "Gemini 3.6 플래시 모델 페이지 열기",
     "quick_key": "EvoLink API 키 생성 또는 관리",
-    "quick_docs": "Gemini 네이티브 API 빠른 시작을 따르세요.",
+    "quick_docs": "Gemini 네이티브 API 빠른 시작을 따르세요",
     "quick_run": "검증된 최소 요청을 실행하세요",
     "quick_success": "예상 결과: 표시되는 텍스트가 `OK`인 JSON 응답",
     "important": "이 요청은 실제 endpoint에서 HTTP 200과 표시 결과 `OK`로 검증되었습니다. 키는 환경 변수에 보관하고 commit에 포함하지 마세요",
@@ -43,7 +43,10 @@
     "ack_text": "이 컬렉션은 제작자와 실무자가 Gemini 3.6 Flash 작업을 공개적으로 공유했기 때문에 존재합니다.",
     "thanks": "여기에 표시된 소스 제작자에게 감사드립니다.",
     "correction": "모든 게시물이 최초의 원본 작성자를 식별한다고 보장할 수는 없습니다. 저작자 표시, 번역 또는 문구 수정이 필요한 경우 공개 소스에 수정 문제를 개설하세요.",
-    "contribute": "다른 소스 지원 사례를 제안하려면 이슈를 개설하거나 끌어오기 요청을 하고 기여 체크리스트를 따르세요."
+    "contribute": "다른 소스 지원 사례를 제안하려면 이슈를 개설하거나 끌어오기 요청을 하고 기여 체크리스트를 따르세요.",
+    "official_sources": "공식 자료",
+    "official_launch": "Google 출시 발표",
+    "official_model_card": "Google DeepMind 모델 카드"
   },
   "categories": {
     "efficiency-agents": "효율성 및 에이전트",

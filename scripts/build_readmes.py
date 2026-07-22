@@ -11,9 +11,23 @@ ROOT = Path(__file__).resolve().parents[1]
 R2 = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases"
 MODEL_PAGE = "https://evolink.ai/gemini-3-6-flash"
 API_KEYS = "https://evolink.ai/dashboard/keys"
-API_DOCS = "https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart"
+API_DOCS_PATH = "api-manual/language-series/gemini/native-api/native-api-quickstart"
+DOC_LOCALE_BY_README = {
+    "en": "en",
+    "es": "es",
+    "pt": "en",
+    "ja": "ja",
+    "ko": "ko",
+    "de": "de",
+    "fr": "fr",
+    "tr": "en",
+    "zh-TW": "en",
+    "zh-CN": "cn",
+    "ru": "en",
+}
 GOOGLE_RELEASE = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
 MODEL_CARD = "https://deepmind.google/models/model-cards/gemini-3-6-flash/"
+RELATED_REPOSITORY = "https://github.com/Evolink-AI/gemini-omni-flash-api-skill"
 CAMPAIGN = "awesome-gemini-3-6-flash-guide-and-use-cases"
 MINIMAL_CURL = r"""export EVOLINK_API_KEY="your_api_key_here"
 
@@ -58,6 +72,9 @@ ENGLISH = {
     "overview_media": "All 24 video cases provide a visible poster and a playable R2-hosted MP4; image cases preserve every reviewed source image",
     "overview_model": "EvoLink lists the production model ID as `gemini-3.6-flash`; this repository links to the current model and Gemini Native API surfaces",
     "note": "This collection favors observable evidence over hype. It does not reconstruct missing prompts, infer unpublished setup steps, or generalize one creator's result into a universal benchmark",
+    "official_sources": "Official sources",
+    "official_launch": "Google launch announcement",
+    "official_model_card": "Google DeepMind model card",
     "start_here": "Start here",
     "explore": "explore Gemini 3.6 Flash",
     "get_key": "get an API key",
@@ -74,7 +91,7 @@ ENGLISH = {
     "date": "Date",
     "play_video": "Play source video",
     "related": "Related Repositories",
-    "related_org": "More model guides and API examples from EvoLink",
+    "related_org": "Verified Gemini-family API quick start and installable agent skill",
     "related_note": "No dedicated installable Gemini 3.6 Flash skill was independently verified during this publication",
     "quickstart": "Quick Start",
     "quick_intro": "Use the verified public surfaces below to start with model ID `gemini-3.6-flash`",
@@ -95,6 +112,11 @@ ENGLISH = {
 def with_utm(url: str, medium: str, content: str) -> str:
     separator = "&" if "?" in url else "?"
     return f"{url}{separator}utm_source=github&utm_medium={medium}&utm_campaign={CAMPAIGN}&utm_content={content}"
+
+
+def api_docs_for(locale: str) -> str:
+    doc_locale = DOC_LOCALE_BY_README[locale]
+    return f"https://evolink.ai/docs/{doc_locale}/{API_DOCS_PATH}"
 
 
 def badges() -> str:
@@ -146,6 +168,10 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
     categories = localized["categories"] if localized else curated["category_names"]
     translated_cases = localized["cases"] if localized else {}
     handles = list(dict.fromkeys(item["author_handle"] for item in items))
+    api_docs = api_docs_for(locale)
+    docs_fallback = DOC_LOCALE_BY_README[locale] == "en" and locale != "en"
+    docs_badge_alt = "Gemini Native API (English)" if docs_fallback else "Gemini Native API"
+    docs_badge_text = "Gemini_Native_API-English" if docs_fallback else "Gemini_Native_API-Quick_Start"
     lines = [
         '<div align="center">',
         "",
@@ -153,7 +179,7 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         "",
         "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)",
         f'[![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)]({with_utm(MODEL_PAGE, "badge", "top_badge")})',
-        f'[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)]({with_utm(API_DOCS, "docs", "docs_link")})',
+        f'[![{docs_badge_alt}](https://img.shields.io/badge/{docs_badge_text}-f22f3d)]({with_utm(api_docs, "badge", "docs_link")})',
         "",
         badges(),
         "",
@@ -179,7 +205,9 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         "> [!NOTE]",
         f'> {strings["note"]}',
         "",
-        f'**{strings["start_here"]}: [{strings["explore"]}]({with_utm(MODEL_PAGE, "quickstart", "model_link")}) · [{strings["get_key"]}]({with_utm(API_KEYS, "quickstart", "api_key")}) · [{strings["open_docs"]}]({with_utm(API_DOCS, "docs", "first_run")})**',
+        f'**{strings["official_sources"]}: [{strings["official_launch"]}]({GOOGLE_RELEASE}) · [{strings["official_model_card"]}]({MODEL_CARD})**',
+        "",
+        f'**{strings["start_here"]}: [{strings["explore"]}]({with_utm(MODEL_PAGE, "overview", "model_link")}) · [{strings["get_key"]}]({with_utm(API_KEYS, "overview", "api_key")}) · [{strings["open_docs"]}]({with_utm(api_docs, "overview", "docs_link")})**',
         "",
         f'## 📑 {strings["menu"]}',
         "",
@@ -228,9 +256,7 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         '<a id="related-repositories"></a>',
         f'## {strings["related"]}',
         "",
-        f'- [EvoLink-AI on GitHub](https://github.com/Evolink-AI) — {strings["related_org"]}',
-        f'- [Gemini 3.6 Flash official launch]({GOOGLE_RELEASE})',
-        f'- [Gemini 3.6 Flash model card]({MODEL_CARD})',
+        f'- [Gemini Omni Flash API Skill]({RELATED_REPOSITORY}) — {strings["related_org"]}',
         f'- {strings["related_note"]}',
         "",
         '<a id="quick-start"></a>',
@@ -240,7 +266,7 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         "",
         f'1. [{strings["quick_model"]}]({with_utm(MODEL_PAGE, "quickstart", "model_link")})',
         f'2. [{strings["quick_key"]}]({with_utm(API_KEYS, "quickstart", "api_key")})',
-        f'3. [{strings["quick_docs"]}]({with_utm(API_DOCS, "docs", "first_run")})',
+        f'3. [{strings["quick_docs"]}]({with_utm(api_docs, "docs", "first_run")})',
         "",
         strings["quick_run"],
         "",

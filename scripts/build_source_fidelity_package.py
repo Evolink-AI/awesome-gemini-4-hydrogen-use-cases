@@ -16,7 +16,7 @@ OWNER_PRESENTATION = {
     "quick_start_position": "penultimate-section",
     "media_policy": "all-source-media",
     "video_playback_policy": "r2-playable",
-    "localization_fallback": "block",
+    "localization_fallback": "english",
 }
 
 

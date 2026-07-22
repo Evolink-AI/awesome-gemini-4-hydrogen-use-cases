@@ -27,10 +27,15 @@ ZH_OVERRIDES = {
         "boundary": "每个案例都来自经过审查的来源包，标题链接到原始帖子，作者链接到创作者主页，只有来源文本确实包含 prompt 时才会收录",
         "overview_model": "EvoLink 标注的正式 model ID 是 `gemini-3.6-flash`，本仓库链接到当前模型页与 Gemini Native API 接入文档",
         "note": "本合集优先保留可观察证据，不重建缺失的 prompt，不推断未公开的设置步骤，也不把单个创作者的结果泛化为通用 benchmark",
+        "official_sources": "官方资料",
+        "official_launch": "Google 发布公告",
+        "official_model_card": "Google DeepMind 模型卡",
+        "explore": "探索 Gemini 3.6 Flash",
         "by": "作者",
         "prompt": "提示词",
         "acknowledge": "致谢",
         "quick_intro": "通过下方经过验证的公开入口开始使用 model ID `gemini-3.6-flash`",
+        "quick_model": "打开 Gemini 3.6 Flash 模型页面",
         "quick_run": "运行这个已验证的最小请求",
         "quick_success": "预期结果：可见文本为 `OK` 的 JSON 响应",
         "important": "该请求已在实时 endpoint 验证为 HTTP 200，且可见输出为 `OK`；请将密钥保存在环境变量中，切勿提交到版本库",
@@ -43,10 +48,17 @@ ZH_OVERRIDES = {
         "boundary": "每個案例都來自經過審查的來源包，標題連結到原始貼文，作者連結到創作者主頁，只有來源文字確實包含 prompt 時才會收錄",
         "overview_model": "EvoLink 標註的正式 model ID 是 `gemini-3.6-flash`，本倉庫連結到目前模型頁與 Gemini Native API 接入文件",
         "note": "本合集優先保留可觀察證據，不重建缺失的 prompt，不推斷未公開的設定步驟，也不把單一創作者的結果泛化為通用 benchmark",
+        "official_sources": "官方資料",
+        "official_launch": "Google 發布公告",
+        "official_model_card": "Google DeepMind 模型卡",
+        "explore": "探索 Gemini 3.6 Flash",
+        "open_docs": "開啟英文 Gemini Native API 文件",
         "by": "作者",
         "prompt": "提示詞",
         "acknowledge": "致謝",
         "quick_intro": "透過下方經過驗證的公開入口開始使用 model ID `gemini-3.6-flash`",
+        "quick_model": "開啟 Gemini 3.6 Flash 模型頁面",
+        "quick_docs": "遵循英文 Gemini Native API 快速入門",
         "quick_run": "執行這個已驗證的最小請求",
         "quick_success": "預期結果：可見文字為 `OK` 的 JSON 回應",
         "important": "此請求已在即時 endpoint 驗證為 HTTP 200，且可見輸出為 `OK`；請將金鑰保存在環境變數中，切勿提交到版本庫",
@@ -186,6 +198,8 @@ def main() -> None:
         destination = LOCALE_DIR / f"{locale}.json"
         destination.write_text(json.dumps(cache[locale], ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
         print(destination.relative_to(ROOT))
+    CACHE_PATH.write_text(json.dumps(cache, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    print(CACHE_PATH.relative_to(ROOT))
 
 
 if __name__ == "__main__":

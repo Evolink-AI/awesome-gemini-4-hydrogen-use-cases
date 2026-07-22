@@ -7,6 +7,7 @@ import argparse
 import re
 import subprocess
 import urllib.parse
+from collections import Counter, defaultdict
 from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
@@ -24,7 +25,7 @@ HEADING_RE = re.compile(r'^#{1,6}\s+(.+?)\s*$', re.MULTILINE)
 CONVERSION_PREFIXES = (
     "https://evolink.ai/gemini-3-6-flash",
     "https://evolink.ai/dashboard/keys",
-    "https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart",
+    "https://evolink.ai/docs/",
 )
 METHOD_BOUND_ENDPOINTS = {
     "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent",
@@ -90,6 +91,8 @@ def main() -> int:
     utm_checked = 0
     utm_exemptions = 0
     method_bound_exemptions: set[str] = set()
+    external_occurrences: dict[str, list[str]] = defaultdict(list)
+    within_file_occurrences: Counter[tuple[str, str]] = Counter()
 
     for path in paths:
         text = path.read_text(encoding="utf-8")
@@ -97,11 +100,15 @@ def main() -> int:
         markdown_matches = list(MARKDOWN_LINK_RE.finditer(text))
         markdown_targets = MARKDOWN_DESTINATION_RE.findall(text)
         html_targets = HTML_LINK_RE.findall(text)
-        raw_urls = URL_RE.findall(text)
+        raw_url_matches = list(URL_RE.finditer(text))
+        raw_urls = [match.group(0) for match in raw_url_matches]
         total_references += len(markdown_targets) + len(html_targets) + len(raw_urls)
         targets = [target.strip() for target in markdown_targets] + html_targets
-        for raw_url in raw_urls:
-            url = raw_url.rstrip(".,;")
+        for match in raw_url_matches:
+            url = match.group(0).rstrip(".,;")
+            location = f"{path.relative_to(ROOT)}:{text.count(chr(10), 0, match.start()) + 1}"
+            external_occurrences[url].append(location)
+            within_file_occurrences[(str(path.relative_to(ROOT)), url)] += 1
             if url in METHOD_BOUND_ENDPOINTS:
                 method_bound_exemptions.add(url)
             else:
@@ -141,11 +148,31 @@ def main() -> int:
         elif "https://evolink.ai" in text:
             utm_exemptions += 1
 
+    accepted_duplicate_groups: list[str] = []
+    duplicate_failures: list[str] = []
+    for (relative_path, url), count in sorted(within_file_occurrences.items()):
+        if count < 2:
+            continue
+        parsed = urllib.parse.urlparse(url)
+        expected_creator_reuse = parsed.hostname == "x.com" and "/status/" not in parsed.path
+        expected_video_reuse = url.startswith(R2) and parsed.path.endswith(".mp4")
+        expected_image_reuse = url.startswith(R2) and "/media/source-cases/" in parsed.path and parsed.path.endswith((".jpg", ".jpeg", ".png", ".webp"))
+        if expected_creator_reuse or expected_video_reuse or expected_image_reuse:
+            if expected_creator_reuse:
+                reason = "case attribution + Acknowledge"
+            elif expected_video_reuse:
+                reason = "clickable poster + text playback"
+            else:
+                reason = "clickable image + rendered image"
+            accepted_duplicate_groups.append(f"{relative_path}: {count}× {url} ({reason})")
+        else:
+            duplicate_failures.append(f"{relative_path}: unclassified exact duplicate {count}× {url}")
+
     with ThreadPoolExecutor(max_workers=10) as pool:
         results = sorted(pool.map(check_external, external_urls))
 
     p0: list[str] = []
-    p1: list[str] = [*relative_failures, *fragment_failures, *utm_failures, *copy_failures]
+    p1: list[str] = [*relative_failures, *fragment_failures, *utm_failures, *copy_failures, *duplicate_failures]
     p2: list[str] = []
     redirects: list[str] = []
     rows: list[str] = []
@@ -169,11 +196,12 @@ def main() -> int:
         rows.append(f"{'PASS' if ok else 'FAIL'} {status} {url}" + (f" -> {final_url}" if final_url and not used_oembed and final_url != url else ""))
 
     passed = not p0 and not p1
+    cross_file_duplicate_urls = sum(1 for locations in external_occurrences.values() if len({value.rsplit(":", 1)[0] for value in locations}) > 1)
     lines = [
         "# Public Surface Link Audit v2", "", f"- Status: `{'passed' if passed else 'failed'}`",
         f"- Target commit: `{current_head()}`",
         f"- Checked at: `{datetime.now(timezone.utc).isoformat()}`",
-        "- Method: Markdown link/image, HTML href/src, raw URL, relative file, explicit/heading fragment, external curl readback, and README EvoLink UTM extraction",
+        "- Method: Markdown link/image, HTML href/src, raw URL, relative file, explicit/heading fragment, exact-duplicate classification, external curl readback, and README EvoLink UTM extraction",
         f"- Public files in scope: {len(paths)}", "- Excluded paths: `.codex/**` run-local evidence, `data/**/*.json` structured data, and generated/downloaded media not exposed as Markdown surfaces",
         f"- Total extracted references: {total_references}", f"- Unique external URLs: {len(external_urls)}",
         f"- External URLs checked: {checked_count}", f"- Relative file links checked: {relative_checked}",
@@ -182,7 +210,9 @@ def main() -> int:
         f"- Method-bound API endpoint exemptions: {len(method_bound_exemptions)}",
         f"- Redirects: {len(redirects)}", f"- Relative file failures: {len(relative_failures)}",
         f"- Fragment failures: {len(fragment_failures)}", f"- UTM failures: {len(utm_failures)}",
-        f"- Link-copy failures: {len(copy_failures)}", f"- P0 failures: {len(p0)}", f"- P1 failures: {len(p1)}",
+        f"- Link-copy failures: {len(copy_failures)}", f"- Cross-file duplicate URLs (expected localization reuse): {cross_file_duplicate_urls}",
+        f"- Accepted within-file duplicate groups: {len(accepted_duplicate_groups)}", f"- Unclassified within-file duplicate failures: {len(duplicate_failures)}",
+        f"- P0 failures: {len(p0)}", f"- P1 failures: {len(p1)}",
         f"- P2 warnings: {len(p2)}", f"- Command exit code: {0 if passed else 1}", f"- Result: {'pass' if passed else 'fail'}",
         "", "## Scope", "", *[f"- `{path.relative_to(ROOT)}`" for path in paths],
         "", "## External results", "", "```text", *rows, "```",
@@ -191,6 +221,8 @@ def main() -> int:
         lines.extend(["", "## Redirects", "", *[f"- {row}" for row in redirects]])
     if method_bound_exemptions:
         lines.extend(["", "## Method-bound API endpoints", "", *[f"- POST-only endpoint: {url}" for url in sorted(method_bound_exemptions)]])
+    if accepted_duplicate_groups:
+        lines.extend(["", "## Accepted exact duplicates", "", "These are intentional UI or attribution repetitions, not competing destinations", "", *[f"- {row}" for row in accepted_duplicate_groups]])
     if p0 or p1 or p2:
         lines.extend(["", "## Findings", ""])
         lines.extend(f"- P0: {row}" for row in p0)

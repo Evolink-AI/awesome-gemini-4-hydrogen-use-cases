@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=top_badge)
-[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
+[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/cn/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -40,7 +40,9 @@
 > [!NOTE]
 > 本合集优先保留可观察证据，不重建缺失的 prompt，不推断未公开的设置步骤，也不把单个创作者的结果泛化为通用 benchmark
 
-**从这里开始: [探索Gemini 3.6 Flash](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [获取 API 密钥](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [打开 Gemini Native API 文档](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)**
+**官方资料: [Google 发布公告](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) · [Google DeepMind 模型卡](https://deepmind.google/models/model-cards/gemini-3-6-flash/)**
+
+**从这里开始: [探索 Gemini 3.6 Flash](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [获取 API 密钥](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [打开 Gemini Native API 文档](https://evolink.ai/docs/cn/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)**
 
 ## 📑 菜单
 
@@ -666,9 +668,7 @@ SVG of a Rolls Royce
 <a id="related-repositories"></a>
 ## 相关存储库
 
-- [EvoLink-AI on GitHub](https://github.com/Evolink-AI) — 来自 EvoLink 的更多模型指南和 API 示例
-- [Gemini 3.6 Flash official launch](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/)
-- [Gemini 3.6 Flash model card](https://deepmind.google/models/model-cards/gemini-3-6-flash/)
+- [Gemini Omni Flash API Skill](https://github.com/Evolink-AI/gemini-omni-flash-api-skill) — 经过验证的 Gemini 系列 API 快速入门与可安装 agent skill
 - 在本出版物中，没有独立验证专用的可安装 Gemini 3.6 Flash 技能
 
 <a id="quick-start"></a>
@@ -676,9 +676,9 @@ SVG of a Rolls Royce
 
 通过下方经过验证的公开入口开始使用 model ID `gemini-3.6-flash`
 
-1. [打开Gemini 3.6 Flash模型页面](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link)
+1. [打开 Gemini 3.6 Flash 模型页面](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link)
 2. [创建或管理 EvoLink API 密钥](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key)
-3. [遵循 Gemini Native API 快速入门](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
+3. [遵循 Gemini Native API 快速入门](https://evolink.ai/docs/cn/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
 
 运行这个已验证的最小请求
 
@@ -704,7 +704,7 @@ curl --fail-with-body --silent --show-error \
 
 该合集的存在是因为创作者和实践者公开分享了他们的 Gemini 3.6 Flash 作品
 
-**感谢这里代表的来源创作者:**
+**感谢这里代表的来来源创作者:**
 
 [@JeffDean](https://x.com/JeffDean), [@antigravity](https://x.com/antigravity), [@stevibe](https://x.com/stevibe), [@browser_use](https://x.com/browser_use), [@__apf__](https://x.com/__apf__), [@databricks](https://x.com/databricks), [@jetbrains](https://x.com/jetbrains), [@CodeByPoonam](https://x.com/CodeByPoonam), [@bijanbowen](https://x.com/bijanbowen), [@diegocabezas01](https://x.com/diegocabezas01), [@Majin_AppSheet](https://x.com/Majin_AppSheet), [@AILogDev](https://x.com/AILogDev), [@LuminaXspace](https://x.com/LuminaXspace), [@Motion_Viz](https://x.com/Motion_Viz), [@ozansihay](https://x.com/ozansihay), [@nemumusitocha](https://x.com/nemumusitocha), [@itsPaulAi](https://x.com/itsPaulAi), [@SaiNemani1](https://x.com/SaiNemani1), [@Mr_Salio](https://x.com/Mr_Salio), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ggg78g89](https://x.com/ggg78g89), [@intheworldofai](https://x.com/intheworldofai), [@notjazii](https://x.com/notjazii), [@HarshithLucky3](https://x.com/HarshithLucky3), [@LLMJunky](https://x.com/LLMJunky), [@adonis_singh](https://x.com/adonis_singh), [@OriSilver](https://x.com/OriSilver), [@OmedVibeCodes](https://x.com/OmedVibeCodes), [@naymur_dev](https://x.com/naymur_dev), [@pilvar222](https://x.com/pilvar222), [@Ubannoblesse](https://x.com/Ubannoblesse)
 
