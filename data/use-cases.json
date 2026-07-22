@@ -1,0 +1,1204 @@
+{
+  "schema_version": 1,
+  "source_artifact": "/Users/cheercheung/X-info/热词搜索/gemini-3-6-flash/use-case-media-posts.json",
+  "source_created_at": "2026-07-22T02:40:58.420763+00:00",
+  "selected_case_count": 33,
+  "category_order": [
+    "efficiency-agents",
+    "coding-apps",
+    "web-games-3d",
+    "evaluations",
+    "safety-limits"
+  ],
+  "category_names": {
+    "efficiency-agents": "Efficiency & Agents",
+    "coding-apps": "Coding & Apps",
+    "web-games-3d": "Web, Games & 3D",
+    "evaluations": "Evaluation & Comparisons",
+    "safety-limits": "Safety & Limits"
+  },
+  "items": [
+    {
+      "public_number": 1,
+      "id": "2079591562145870043",
+      "dedup_key": "https://x.com/JeffDean/status/2079591562145870043",
+      "source_url": "https://x.com/JeffDean/status/2079591562145870043",
+      "author_handle": "@JeffDean",
+      "author_url": "https://x.com/JeffDean",
+      "author_name": "Jeff Dean",
+      "title": "Token Efficiency Side by Side",
+      "takeaway": "Compare output-token use on the same workflow before choosing a Flash model for agent-scale workloads.",
+      "body_notes": "Jeff Dean shared a side-by-side demonstration comparing Gemini 3.6 Flash with 3.5 Flash and highlighted lower token use in the newer model.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "Google 团队用并排任务展示 3.6 与 3.5 的 token 使用差异",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "A nice aspect of our new Gemini 3.6 Flash model is that it is much more token efficient than our 3.5 Flash model.   Here's a side-by-side demonstration of that.\n\nNice work by everyone who worked on this model and release! https://t.co/ypGYkraCfO",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01.mp4",
+          "play_label": "Play case 1 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079591478926745600/vid/avc1/1280x720/RtOxpZWLiS0yt6Pg.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 2,
+      "id": "2079663375991046351",
+      "dedup_key": "https://x.com/antigravity/status/2079663375991046351",
+      "source_url": "https://x.com/antigravity/status/2079663375991046351",
+      "author_handle": "@antigravity",
+      "author_url": "https://x.com/antigravity",
+      "author_name": "Google Antigravity",
+      "title": "Modernizing Legacy Code in Antigravity",
+      "takeaway": "Use a controlled legacy-code migration task to compare agent latency, edit quality, and completion behavior.",
+      "body_notes": "Google Antigravity demonstrated both Flash generations rebuilding legacy software and reported faster completion with improved latency and output from Gemini 3.6 Flash.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "在 Antigravity 中演示重建遗留软件并对比速度、延迟与输出",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "In this head-to-head, Gemini 3.6 Flash and 3.5 Flash demonstrate automated code modernization in Antigravity. Watch 3.6 Flash rebuild legacy software faster, with improved latency and output.👇 https://t.co/EKCF5DemXA",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02.mp4",
+          "play_label": "Play case 2 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079663337156055040/vid/avc1/1280x720/1nWTgOb5vajEJRnn.mp4?tag=14"
+      ]
+    },
+    {
+      "public_number": 3,
+      "id": "2079599477216956437",
+      "dedup_key": "https://x.com/stevibe/status/2079599477216956437",
+      "source_url": "https://x.com/stevibe/status/2079599477216956437",
+      "author_handle": "@stevibe",
+      "author_url": "https://x.com/stevibe",
+      "author_name": "stevibe",
+      "title": "Canvas Token Efficiency Test",
+      "takeaway": "Run the same Canvas task across model versions and inspect both the artifact and token usage.",
+      "body_notes": "The creator compared Gemini 3.6 Flash and 3.5 Flash on a short Canvas task and observed substantially lower token usage from 3.6 Flash.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "用 Canvas 任务快速对比 3.6 与 3.5 的生成结果和 token 使用",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash vs Gemini 3.5 Flash\nQuick canvas test\n\n3.6 Flash indeed used way fewer tokens https://t.co/pDc72q4s5p",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03.mp4",
+          "play_label": "Play case 3 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079599129467215872/vid/avc1/1116x720/wIvdGrImGBjG3q0a.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 4,
+      "id": "2079602472516264010",
+      "dedup_key": "https://x.com/browser_use/status/2079602472516264010",
+      "source_url": "https://x.com/browser_use/status/2079602472516264010",
+      "author_handle": "@browser_use",
+      "author_url": "https://x.com/browser_use",
+      "author_name": "Browser Use",
+      "title": "Browser Agent Benchmark",
+      "takeaway": "Benchmark browser-agent success and cost together instead of optimizing either metric alone.",
+      "body_notes": "Browser Use reported 68% on its BU Benchmark for Gemini 3.6 Flash, compared with 67% for GPT-5.6 Sol, 62% for Sonnet 4.6, and 74% for Opus 4.8.",
+      "type": "Benchmark",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "在 Browser Use Benchmark 上实测浏览器任务成功率和成本表现",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash is here, and it's the best price-to-performance model we've tested for browser agents.\n\nOn our BU Benchmark it hits 68%, beating GPT-5.6-sol (67%) and Sonnet 4.6 (62%). Second only to Opus 4.8 (74%), at a fraction of the cost.\n\nFrontier-level web agents at Flash pricing. @GoogleDeepMind",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-04-01.jpg"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNw7RZ1bsAE74Kw.jpg"
+      ]
+    },
+    {
+      "public_number": 5,
+      "id": "2079603658141184134",
+      "dedup_key": "https://x.com/__apf__/status/2079603658141184134",
+      "source_url": "https://x.com/__apf__/status/2079603658141184134",
+      "author_handle": "@__apf__",
+      "author_url": "https://x.com/__apf__",
+      "author_name": "Adriana Porter Felt",
+      "title": "Long-Tail Fact Retrieval Efficiency",
+      "takeaway": "Use difficult fact-retrieval tasks to compare reasoning steps and thought-token overhead.",
+      "body_notes": "The creator ran Gemini 3.5 and 3.6 Flash head to head on a complex long-tail fact retrieval task and reported half as many steps and 75% fewer thought tokens for 3.6 Flash.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "在复杂长尾事实检索任务上对比新旧模型步骤数与思考 token",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "I've been working with the new Gemini 3.6 Flash and love how efficient it is. Here I show 3.5 and 3.6 Flash head to head on a complex tail fact retrieval task. 3.6 Flash finishes in half as many steps and trims thought tokens by 75%. Try it out, hope you like it https://t.co/R9jHBb6iCG",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05.mp4",
+          "play_label": "Play case 5 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079603634695024644/vid/avc1/1280x720/-SrsYkddcuDCtSMZ.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 6,
+      "id": "2079598684455551326",
+      "dedup_key": "https://x.com/databricks/status/2079598684455551326",
+      "source_url": "https://x.com/databricks/status/2079598684455551326",
+      "author_handle": "@databricks",
+      "author_url": "https://x.com/databricks",
+      "author_name": "Databricks",
+      "title": "Enterprise Document Processing",
+      "takeaway": "Evaluate reasoning effort on long patents and document parsing before setting a production default.",
+      "body_notes": "Databricks reported higher document-classification accuracy than 3.5 Flash, strong results on long patents, and about 32% fewer total tokens at medium effort than high effort for document parsing.",
+      "type": "Benchmark",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "Databricks 在专利、长文档分类与解析任务上做内部评测",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Google’s Gemini 3.6 Flash is now available on Databricks!\n\nIn Databricks internal evaluations, it classified documents more accurately than Gemini 3.5 Flash and performed especially well on long-form patents and text-heavy documents. For document parsing, medium effort delivered similar quality to high effort while using about 32% fewer total tokens. It also landed on the cost-quality frontier in our OfficeQA Pro agent harness benchmark.\n\nCongrats to the @Google Gemini team on this release. We can’t wait to see what you build with it! https://t.co/WwEcsAiJg4",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-06-01.png"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNw391VXYAAxMCK.png"
+      ]
+    },
+    {
+      "public_number": 7,
+      "id": "2079618218587574636",
+      "dedup_key": "https://x.com/jetbrains/status/2079618218587574636",
+      "source_url": "https://x.com/jetbrains/status/2079618218587574636",
+      "author_handle": "@jetbrains",
+      "author_url": "https://x.com/jetbrains",
+      "author_name": "JetBrains",
+      "title": "Engineering Task Evaluation in JetBrains",
+      "takeaway": "Build an objective engineering task and compare model generations inside the same IDE workflow.",
+      "body_notes": "JetBrains presented an objective engineering-task evaluation for Gemini 3.6 Flash versus the previous Flash generation in AI Assistant and Junie.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "JetBrains 用客观工程任务评测对比新旧 Flash",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "The new Gemini 3.6 Flash is live in AI Assistant and Junie.\n\nSee how we built an objective evaluation of an engineering task to compare it against the last Flash.\n\nTry it yourself in your JetBrains IDE. @GoogleDeepMind https://t.co/qUpSygmigk",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07.mp4",
+          "play_label": "Play case 7 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079617687844519936/vid/avc1/720x1280/Lt0CxAxtU2mgUd8b.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 8,
+      "id": "2079607995861021073",
+      "dedup_key": "https://x.com/CodeByPoonam/status/2079607995861021073",
+      "source_url": "https://x.com/CodeByPoonam/status/2079607995861021073",
+      "author_handle": "@CodeByPoonam",
+      "author_url": "https://x.com/CodeByPoonam",
+      "author_name": "Poonam Soni",
+      "title": "Multi-Agent Code Migration",
+      "takeaway": "Test code migration with the same orchestration plan and compare latency, edits, and final quality.",
+      "body_notes": "The demonstration shows Gemini 3.6 Flash executing a code migration through multi-agent orchestration in Antigravity and reports lower latency and higher quality than 3.5 Flash.",
+      "type": "Demo",
+      "date": "2026-07-21",
+      "category_key": "efficiency-agents",
+      "category": "Efficiency & Agents",
+      "decision": "high_confidence_update",
+      "decision_reason": "展示 Gemini 3.6 Flash 通过多智能体编排执行代码迁移",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.5 Flash vs Gemini 3.6 Flash\n\n3.6 Flash executes code migrations, using multi-agent orchestration on AGY, with lower latency and higher quality than 3.5 Flash (AGY) https://t.co/KnpUJxmmcH",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08.mp4",
+          "play_label": "Play case 8 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079607963250307076/vid/avc1/1280x720/ITig8q6D2bUdL_2L.mp4?tag=14"
+      ]
+    },
+    {
+      "public_number": 9,
+      "id": "2079675781794443640",
+      "dedup_key": "https://x.com/bijanbowen/status/2079675781794443640",
+      "source_url": "https://x.com/bijanbowen/status/2079675781794443640",
+      "author_handle": "@bijanbowen",
+      "author_url": "https://x.com/bijanbowen",
+      "author_name": "BijanBowen",
+      "title": "Android Guitar Tuner",
+      "takeaway": "Prototype a focused mobile utility that combines conventional audio tooling with AI-assisted alternate tunings.",
+      "body_notes": "The creator used Gemini 3.6 Flash to build an Android guitar-tuner application with AI-driven alternate tuning support.",
+      "type": "Demo",
+      "date": "2026-07-21",
+      "category_key": "coding-apps",
+      "category": "Coding & Apps",
+      "decision": "high_confidence_update",
+      "decision_reason": "生成带 AI 替代调弦能力的吉他调音 Android 应用",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash made this guitar tuner Android app with AI driven alternate tunings https://t.co/B3lkHBZc6j",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09.mp4",
+          "play_label": "Play case 9 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079674956623814656/vid/avc1/1280x720/ri11OOhyV-m2bfEa.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 10,
+      "id": "2079588206513631483",
+      "dedup_key": "https://x.com/diegocabezas01/status/2079588206513631483",
+      "source_url": "https://x.com/diegocabezas01/status/2079588206513631483",
+      "author_handle": "@diegocabezas01",
+      "author_url": "https://x.com/diegocabezas01",
+      "author_name": "Diego | AI 🚀 - e/acc",
+      "title": "Traffic-Light Simulation",
+      "takeaway": "Ask the model for an executable visualization to inspect whether generated code captures timing and random traffic behavior.",
+      "body_notes": "The public prompt requests Python code that visualizes a one-way-street traffic light with cars arriving at random rates, and the post includes the resulting demonstration.",
+      "type": "Demo",
+      "date": "2026-07-21",
+      "category_key": "coding-apps",
+      "category": "Coding & Apps",
+      "decision": "high_confidence_update",
+      "decision_reason": "要求模型编写 Python 代码模拟单向道路随机车流与红绿灯",
+      "quality_tier": "high",
+      "prompt_boundary": "exact-public-text",
+      "prompt_public": true,
+      "prompt_text": "write a python code that visualizes how a traffic light works in a one way street with cars entering at random rate.",
+      "source_text": "Gemini-3.6-flash: write a python code that visualizes how a traffic light works in a one way street with cars entering at random rate.",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10.mp4",
+          "play_label": "Play case 10 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079587440604442624/vid/avc1/1000x720/AoFQ1PnmKwpUW4c7.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 11,
+      "id": "2079734240540041230",
+      "dedup_key": "https://x.com/Majin_AppSheet/status/2079734240540041230",
+      "source_url": "https://x.com/Majin_AppSheet/status/2079734240540041230",
+      "author_handle": "@Majin_AppSheet",
+      "author_url": "https://x.com/Majin_AppSheet",
+      "author_name": "まじん",
+      "title": "Keyboard Piano App",
+      "takeaway": "Turn a simple interaction concept into a playable keyboard-controlled web application.",
+      "body_notes": "The creator built a piano application with Gemini 3.6 Flash that can be played from a computer keyboard and framed it as an app children could explore.",
+      "type": "Demo",
+      "date": "2026-07-22",
+      "category_key": "coding-apps",
+      "category": "Coding & Apps",
+      "decision": "high_confidence_update",
+      "decision_reason": "使用 Gemini 3.6 Flash 制作可用键盘演奏的钢琴应用",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "新しいGemini 3.6 Flashで\nキーボードで弾けるピアノアプリ🎹を作ってみた。\nこれは子どもたちも喜んで遊んでくれそう〜〜 https://t.co/v40BjSCfbD",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11.mp4",
+          "play_label": "Play case 11 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079733824905465856/vid/avc1/1264x720/K0VbA_JESRUcnDkV.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 12,
+      "id": "2079716688745132044",
+      "dedup_key": "https://x.com/AILogDev/status/2079716688745132044",
+      "source_url": "https://x.com/AILogDev/status/2079716688745132044",
+      "author_handle": "@AILogDev",
+      "author_url": "https://x.com/AILogDev",
+      "author_name": "あいろぐ",
+      "title": "Desktop Robot Voice Assistant",
+      "takeaway": "Integrate both Flash and Flash-Lite into a voice application and compare first-response behavior.",
+      "body_notes": "The creator added Gemini 3.6 Flash and Gemini 3.5 Flash-Lite to a voice-dialog application for a desktop robot and noted that the initial response felt slightly slow but usable.",
+      "type": "Integration",
+      "date": "2026-07-21",
+      "category_key": "coding-apps",
+      "category": "Coding & Apps",
+      "decision": "high_confidence_update",
+      "decision_reason": "把模型接入桌面机器人语音对话应用并报告实际响应体验",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "ｽﾀｯｸﾁｬﾝ用の音声対話アプリにGemini 3.6 FlashとGemini 3.5 Flash-Liteを追加してみた\n\n最初の応答が少し遅い気もしますが、いい感じですね https://t.co/5VjenCWben",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12.mp4",
+          "play_label": "Play case 12 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079716656004374528/vid/avc1/720x1280/20XvIUdrUPvBtyxC.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 13,
+      "id": "2079597030922465407",
+      "dedup_key": "https://x.com/LuminaXspace/status/2079597030922465407",
+      "source_url": "https://x.com/LuminaXspace/status/2079597030922465407",
+      "author_handle": "@LuminaXspace",
+      "author_url": "https://x.com/LuminaXspace",
+      "author_name": "Lumina",
+      "title": "Golden Gate Bridge HTML Failure",
+      "takeaway": "Use a strict file-delivery task to test instruction following before trusting generated 3D web experiences.",
+      "body_notes": "The tester needed three prompts, saw the model attempt an in-app simulation and web-image responses instead of the requested HTML file, and judged the final 3D bridge output materially weaker than Gemini 3.1 Pro.",
+      "type": "Limit",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "生成金门大桥 3D HTML 体验并记录多轮修正与功能失败",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "🚨Gemini 3.6 Flash is trash\n\nI tested it on a 3D Golden Gate Bridge, and the results were awful.\n\n• I had to re-prompt it three times because it repeatedly ignored the instructions.\n\n• First attempt, instead of creating the requested .html file, it first tried to build the experience inside the Gemini app using simulations. \n\n• Then second attempt it started placing images from the web into the chat rather than actually producing the file.\n\n• Even after getting it to complete the task, the final output was dramatically worse than Gemini 3.1 Pro, which is 5 months old and now not even a top 10 model on leaderboards.\n\nThis feels like a regression from Gemini 3.5 Flash and honestly, it is one of the weakest models I have tested in the past few months.\n\nHas anyone else tested Gemini 3.6 Flash yet, and are you seeing the same thing?",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13.mp4",
+          "play_label": "Play case 13 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079596873115901952/vid/avc1/1280x720/QlyXKMba8g6E1csg.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 14,
+      "id": "2079592671530938537",
+      "dedup_key": "https://x.com/Motion_Viz/status/2079592671530938537",
+      "source_url": "https://x.com/Motion_Viz/status/2079592671530938537",
+      "author_handle": "@Motion_Viz",
+      "author_url": "https://x.com/Motion_Viz",
+      "author_name": "MotionViz",
+      "title": "Public Prompt Visual Test",
+      "takeaway": "Open the source thread when you need the creator's full prompt instead of reconstructing it from the output.",
+      "body_notes": "MotionViz published a Gemini 3.6 Flash visual test with media and indicated that the full prompt is available in the source thread; this repository does not reconstruct prompt text not present in the source package.",
+      "type": "Demo",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "实际测试 Gemini 3.6 Flash 并在帖子中提供完整 prompt 与媒体结果",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "tested Gemini 3.6 Flash.\n\nfull prompt below 👇 https://t.co/yir3UKh4QV",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14.mp4",
+          "play_label": "Play case 14 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079592646746738688/vid/avc1/1266x720/MIJ2XFqzcQjaMjKl.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 15,
+      "id": "2079599565565468672",
+      "dedup_key": "https://x.com/ozansihay/status/2079599565565468672",
+      "source_url": "https://x.com/ozansihay/status/2079599565565468672",
+      "author_handle": "@ozansihay",
+      "author_url": "https://x.com/ozansihay",
+      "author_name": "Ozan Sihay",
+      "title": "Single-Prompt Canvas Game",
+      "takeaway": "Use one prompt in Canvas to test how quickly the model can turn a compact game concept into an interactive result.",
+      "body_notes": "The creator tested Gemini 3.6 Flash in early access and used a single Canvas prompt to produce a playable game demonstration.",
+      "type": "Demo",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "在 Canvas 中用单一 prompt 生成游戏并提供 prompt 与结果链接",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Bir süredir erken erişimde test etme şansı bulduğum Gemini 3.6 Flash gerçekten inanılmaz hızlı bir model. Özellikle Agentic yapılar için tam bir F/P modeli diyebilirim. Canvas kısmında tek prompt ile şöyle bir oyun denemesi yaptım, merak edenler için prompt ve link aşağıda. @googleturkiye @GeminiApp (tanıtım)",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15.mp4",
+          "play_label": "Play case 15 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079599236568473600/vid/avc1/1080x1114/L9oVscInrualI-EI.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 16,
+      "id": "2079596099854307650",
+      "dedup_key": "https://x.com/nemumusitocha/status/2079596099854307650",
+      "source_url": "https://x.com/nemumusitocha/status/2079596099854307650",
+      "author_handle": "@nemumusitocha",
+      "author_url": "https://x.com/nemumusitocha",
+      "author_name": "しとちゃ！🦊🍮",
+      "title": "Landing Page Version Comparison",
+      "takeaway": "Keep the prompt fixed across model generations to isolate changes in landing-page execution and visual judgment.",
+      "body_notes": "The creator added Gemini 3.6 Flash to a same-prompt landing-page archive and judged the newer result worse than the Gemini 3 and 3.5 outputs.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "在同 prompt 落地页任务上对比 Gemini 3、3.5 与 3.6 输出",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "同プロンプトLP保管サイトにGemini 3.6 flashを追加したのだ！\n\nえっとなーん、なんていえばいいのかなん。\n\nひどいのだ。\n\nセンスは置いておいて、gemini 3 → 3.5 → 3.6と\nverを重ねるごとに劣化してるのはなんなのだ？\n\nhttps://t.co/B5CA3kQPir https://t.co/9ab0W85ci8",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNw1KGLbsAAFEIx.jpg",
+        "https://pbs.twimg.com/media/HNw1O8lbYAAFsLb.jpg",
+        "https://pbs.twimg.com/media/HNw1THxbYAAmaVq.jpg"
+      ]
+    },
+    {
+      "public_number": 17,
+      "id": "2079597536155668890",
+      "dedup_key": "https://x.com/itsPaulAi/status/2079597536155668890",
+      "source_url": "https://x.com/itsPaulAi/status/2079597536155668890",
+      "author_handle": "@itsPaulAi",
+      "author_url": "https://x.com/itsPaulAi",
+      "author_name": "Paul Couvert",
+      "title": "Subway Surfers 3D Prototype",
+      "takeaway": "Enable extended thinking for coding experiments and inspect both interaction quality and visual fidelity.",
+      "body_notes": "The creator used Gemini 3.6 Flash to build a simple 3D Subway Surfers-style replica and recommended extended thinking for coding tasks.",
+      "type": "Demo",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "生成简单 Subway Surfers 风格 3D 原型并给出设置建议",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Lfg!! Google has just released Gemini 3.6 Flash 🔥\n\nMany are waiting for Pro (me too) but this thing is suprisingly capable\n\n- really fast\n- good for frontend tasks\n- surprisingly token efficient\n\nAnd it can even manage to create pretty convincing 3D stuff like this simple Subway Surfers replica!\n\nPro tip: make sure to enable \"extended thinking\" in Gemini to improve the results when it comes to coding.\n\nThanks a lot to Google for the early access 🫶",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17.mp4",
+          "play_label": "Play case 17 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079595879170744320/vid/avc1/1148x720/c-XE5SZOkOiVkDnA.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 18,
+      "id": "2079606113306325496",
+      "dedup_key": "https://x.com/SaiNemani1/status/2079606113306325496",
+      "source_url": "https://x.com/SaiNemani1/status/2079606113306325496",
+      "author_handle": "@SaiNemani1",
+      "author_url": "https://x.com/SaiNemani1",
+      "author_name": "Sai Nemani",
+      "title": "One-Page Website Comparison",
+      "takeaway": "Hold the website prompt and reasoning level constant, then compare token cost, speed, and design preference.",
+      "body_notes": "On the same one-page website prompt, the creator reported about 6,100 tokens for Gemini 3.6 Flash versus about 9,300 for 3.5 Flash, while personally preferring the older model's look.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "同一现代网站 prompt 对比 3.6 与 3.5 的视觉结果、耗时和 token",
+      "quality_tier": "high",
+      "prompt_boundary": "exact-public-text",
+      "prompt_public": true,
+      "prompt_text": "create a modern website! Should look amazing! One-code page",
+      "source_text": "Gemini 3.6 Flash (HIGH) vs. Gemini 3.5 Flash (HIGH)\n\nSome decent improvements ngl\n\n3.6 flash used only ~6100 tokens to make this whereas 3.5 flash used ~9300 tokens.\n\n3.6 flash is also slightly faster!\n\nLeft is 3.6 Flash (NEXUS), right is 3.5 Flash (Synergy).\n\nBut I think I like 3.5 flash's look more, but what do you guys think??\n\nPrompt: \"create a modern website! Should look amazing! One-code page\"",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18.mp4",
+          "play_label": "Play case 18 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079605359254380544/vid/avc1/694x360/S65v6aXVXgPbojmi.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 19,
+      "id": "2079635008424169901",
+      "dedup_key": "https://x.com/Mr_Salio/status/2079635008424169901",
+      "source_url": "https://x.com/Mr_Salio/status/2079635008424169901",
+      "author_handle": "@Mr_Salio",
+      "author_url": "https://x.com/Mr_Salio",
+      "author_name": "Salio",
+      "title": "Wild West Game Failure",
+      "takeaway": "Treat failed game-generation outputs as evidence for deciding when to switch models or revise the task.",
+      "body_notes": "The tester used a Wild West game-generation prompt and judged Gemini 3.6 Flash materially behind GPT-5.6, Kimi K3, and Fable 5 on the observed result.",
+      "type": "Limit",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "用西部题材游戏 prompt 测试模型并展示失败结果",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "🚨 Gemini 3.6 Flash Test\n\nI tested Gemini 3.6 Flash on a Wild West game generation prompt\n\nI expected That It Can catch up GPT-5.6, Kimi K3, and Fable 5 But its so Worse😭\n\nwhat should i ask again? https://t.co/62s5qKRCs1",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19.mp4",
+          "play_label": "Play case 19 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079633369424359425/vid/avc1/1280x720/fvnjpDv6M7En3Iez.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 20,
+      "id": "2079592731211399460",
+      "dedup_key": "https://x.com/Conor_D_Dart/status/2079592731211399460",
+      "source_url": "https://x.com/Conor_D_Dart/status/2079592731211399460",
+      "author_handle": "@Conor_D_Dart",
+      "author_url": "https://x.com/Conor_D_Dart",
+      "author_name": "Conor Dart",
+      "title": "Antigravity Game Material Failure",
+      "takeaway": "Check both visual materials and actual interaction behavior before accepting an AI-generated game prototype.",
+      "body_notes": "In a second Antigravity game test, the creator found weaker wood textures and a marble element that looked similar but remained nonfunctional.",
+      "type": "Limit",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "通过 Antigravity 生成游戏并检查纹理与交互功能",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash Second impressions, but this time... \n\nI used Antigravity.\n\nLook at the results yourself.\n\nThe wood textures are worse.\nThe marble visually looks similar but still isn't functional. \n\nUnfortunately this is another fail for Gemini 3.6 Flash from my AI game test. \n\nI will wait for Gemini 3.5/6 Pro",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20.mp4",
+          "play_label": "Play case 20 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079592621333221376/vid/avc1/1008x720/DK0-8_KI2xcT76gj.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 21,
+      "id": "2079610251444437335",
+      "dedup_key": "https://x.com/ggg78g89/status/2079610251444437335",
+      "source_url": "https://x.com/ggg78g89/status/2079610251444437335",
+      "author_handle": "@ggg78g89",
+      "author_url": "https://x.com/ggg78g89",
+      "author_name": "Ali Haider",
+      "title": "Rolls-Royce SVG Comparison",
+      "takeaway": "Use a fixed SVG subject to compare how two Flash generations handle shape, detail, and composition.",
+      "body_notes": "The post places Gemini 3.6 Flash and 3.5 Flash outputs side by side for the same Rolls-Royce SVG task.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "用相同题目对比 Gemini 3.6 Flash 与 3.5 Flash 生成劳斯莱斯 SVG",
+      "quality_tier": "high",
+      "prompt_boundary": "exact-public-text",
+      "prompt_public": true,
+      "prompt_text": "SVG of a Rolls Royce",
+      "source_text": "Left=Gemini 3.6 Flash . Right= Gemini 3.5 Flash\n\n&gt;SVG of a Rolls Royce https://t.co/xAAzBANkaY",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNxCSPYbQAAHuFu.png",
+        "https://pbs.twimg.com/media/HNxCc07awAAwjoh.png"
+      ]
+    },
+    {
+      "public_number": 22,
+      "id": "2079681107516170431",
+      "dedup_key": "https://x.com/intheworldofai/status/2079681107516170431",
+      "source_url": "https://x.com/intheworldofai/status/2079681107516170431",
+      "author_handle": "@intheworldofai",
+      "author_url": "https://x.com/intheworldofai",
+      "author_name": "WorldofAI",
+      "title": "Realistic Aquarium Test",
+      "takeaway": "Use a bounded 3D scene to compare realism and implementation quality across model versions.",
+      "body_notes": "The creator asked Gemini 3.6 Flash to build a realistic aquarium and judged it only marginally better than 3.5 Flash.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "web-games-3d",
+      "category": "Web, Games & 3D",
+      "decision": "high_confidence_update",
+      "decision_reason": "让模型制作写实水族箱并与 3.5 Flash 的结果对照",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash attempted to make a realistic aquarium. The model may not be the best but it did decent on this test. Marginally better than 3.5 Flash. https://t.co/UGrhYX18lL",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22.mp4",
+          "play_label": "Play case 22 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079680565427470336/vid/avc1/1280x720/5uE2zmiw9-WAi7fN.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 23,
+      "id": "2079609162431181193",
+      "dedup_key": "https://x.com/notjazii/status/2079609162431181193",
+      "source_url": "https://x.com/notjazii/status/2079609162431181193",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "author_name": "J A Z I I",
+      "title": "Gemini Versus Grok at Max Reasoning",
+      "takeaway": "Use the same prompt and maximum reasoning settings to compare speed, cost, and output rather than relying on model reputation.",
+      "body_notes": "The creator ran Gemini 3.6 Flash and Grok 4.5 under the same prompt and maximum reasoning settings, observing that both were fast while Grok was slightly faster and cheaper.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "以相同 prompt 和最高推理设置对比 Gemini 3.6 Flash 与 Grok 4.5",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash vs Grok 4.5\n\nboth models were tested on max reasoning with same prompt \n\n&gt; both models were fast but grok was just a lil faster\n&gt; grok was cheaper then 3.6 flash\n\nwhich one won here? https://t.co/ikMcKTCRgM",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23.mp4",
+          "play_label": "Play case 23 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079608993304260610/vid/avc1/840x360/nhYhaeCgArHRo-Cw.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 24,
+      "id": "2079617706693902416",
+      "dedup_key": "https://x.com/notjazii/status/2079617706693902416",
+      "source_url": "https://x.com/notjazii/status/2079617706693902416",
+      "author_handle": "@notjazii",
+      "author_url": "https://x.com/notjazii",
+      "author_name": "J A Z I I",
+      "title": "Gemini Versus Sonnet at Max Settings",
+      "takeaway": "Compare models on identical prompts and their strongest settings, then inspect the actual generated artifact.",
+      "body_notes": "The creator tested Gemini 3.6 Flash and Sonnet 5 with the same prompts at maximum settings and preferred the Gemini output in the shown task.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "以相同 prompts 和最高设置对比 Gemini 3.6 Flash 与 Sonnet 5 输出",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash vs Sonnet 5\n\nboth models were tested on their max settings with same prompts\n\nbut no idea what sonnet on ultra code was trying to do here\n\nsonnet 5 got mogged harder by 3.6 flash https://t.co/5GLF3kJdwT",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24.mp4",
+          "play_label": "Play case 24 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079617607930650624/vid/avc1/840x360/ccrTdvbnWtjuBQEc.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 25,
+      "id": "2079607042403381313",
+      "dedup_key": "https://x.com/HarshithLucky3/status/2079607042403381313",
+      "source_url": "https://x.com/HarshithLucky3/status/2079607042403381313",
+      "author_handle": "@HarshithLucky3",
+      "author_url": "https://x.com/HarshithLucky3",
+      "author_name": "Harshith",
+      "title": "Visual Understanding Test",
+      "takeaway": "Use a concrete image task to inspect response quality and interaction style before adopting the model for vision workflows.",
+      "body_notes": "The creator presented a vision test that Gemini 3.6 Flash passed and highlighted the response personality as part of the observed experience.",
+      "type": "Demo",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "执行具体视觉测试并展示模型回答与风格",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 Flash passed this vision test\n\ni like its personality https://t.co/MKM4mZaHYT",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-25-01.jpg"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNw_anRbsAQe6Em.jpg"
+      ]
+    },
+    {
+      "public_number": 26,
+      "id": "2079712480683790743",
+      "dedup_key": "https://x.com/LLMJunky/status/2079712480683790743",
+      "source_url": "https://x.com/LLMJunky/status/2079712480683790743",
+      "author_handle": "@LLMJunky",
+      "author_url": "https://x.com/LLMJunky",
+      "author_name": "am.will",
+      "title": "Rocket League Game Benchmark",
+      "takeaway": "Run a repeated game-generation benchmark and record both build time and a consistent subjective ranking.",
+      "body_notes": "The creator tested Gemini 3.6 Flash on a Rocket League-style task, ranked it third on a personal leaderboard, and reported completion in under two minutes.",
+      "type": "Benchmark",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "以 Rocket League 任务做实际生成测试并给出速度与主观排名",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "We're back with another benchmark of everyone's favorite test: Rocket League.\n\nThis time with Gemini 3.6 Flash. \n\nVerdict: this model impressed me! I know everyone wanted to see the larger Pro model come out, and me too, but don't dismiss Flash. \n\nAt least in my testing, it has a lot of potential, and it's incredibly fast. \n\nRanking this version at 3rd on my highly subjective leaderboard, and it did it in under 2 minutes. \n\nLooking forward to Gemini 4!",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26.mp4",
+          "play_label": "Play case 26 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079712137786621952/vid/avc1/1208x720/mwyHbRzHHghlpbPL.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 27,
+      "id": "2079631807817933222",
+      "dedup_key": "https://x.com/adonis_singh/status/2079631807817933222",
+      "source_url": "https://x.com/adonis_singh/status/2079631807817933222",
+      "author_handle": "@adonis_singh",
+      "author_url": "https://x.com/adonis_singh",
+      "author_name": "adi",
+      "title": "EyeBench Visual Comparison",
+      "takeaway": "Use a stable visual benchmark to separate incremental efficiency gains from absolute quality.",
+      "body_notes": "On EyeBench, the creator judged Gemini 3.6 Flash marginally better than 3.5 Flash but still worse than Gemini 3.1 Pro Preview, while noting improved token efficiency.",
+      "type": "Benchmark",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "在 EyeBench 上展示 Gemini 3.6 Flash 的可视化任务结果",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "gemini-3.6-flash on eyebench!\n\nit is marginally better than 3.5-flash but still worse than 3.1-pro-prev.\n\nnot too exciting, but some improvements in token efficiency over 3.5-flash👇 https://t.co/vDAWtGHZIX",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-27-01.jpg"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNxUot7WIAAhe7L.jpg"
+      ]
+    },
+    {
+      "public_number": 28,
+      "id": "2079603778441957776",
+      "dedup_key": "https://x.com/OriSilver/status/2079603778441957776",
+      "source_url": "https://x.com/OriSilver/status/2079603778441957776",
+      "author_handle": "@OriSilver",
+      "author_url": "https://x.com/OriSilver",
+      "author_name": "Ori Silver",
+      "title": "Paper-Cut Animation Comparison",
+      "takeaway": "Compare response speed and the final animation separately when evaluating creative generation.",
+      "body_notes": "The creator compared Gemini 3.6 Flash with Fable 5 on a paper-cut animation task, praising Gemini's near-immediate response but expressing reservations about the result.",
+      "type": "Evaluation",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "用剪纸动画任务对比 Gemini 3.6 Flash 与 Fable 5",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gemini 3.6 flash vs. Fable 5 - paper cut animation test \n\nI was amazed by the split second that Gemini 3.6 flash answered \n\nCan't say I am amazed with the results but you get to decide \n\nWhich one was better? https://t.co/oJ4acYtLmD",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28.mp4",
+          "play_label": "Play case 28 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079603528473993217/vid/avc1/1280x720/mcdZxRd0jQtm3YhD.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 29,
+      "id": "2079663080049660220",
+      "dedup_key": "https://x.com/OmedVibeCodes/status/2079663080049660220",
+      "source_url": "https://x.com/OmedVibeCodes/status/2079663080049660220",
+      "author_handle": "@OmedVibeCodes",
+      "author_url": "https://x.com/OmedVibeCodes",
+      "author_name": "OmedTheVibeCoder",
+      "title": "AI Arena Generation Benchmark",
+      "takeaway": "Use the same arena task to compare build time, price, and artifact quality across multiple coding models.",
+      "body_notes": "The creator tested Grok 4.5, Gemini 3.6 Flash, and GPT-5.6 Luna on one AI Arena task and judged the Gemini result weakest in that run.",
+      "type": "Benchmark",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "在同一 AI Arena 任务上实测 Grok、Gemini 与 GPT 并比较结果和耗时",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Just tested Grok 4.5 vs Gemini 3.6 Flash vs GPT-5.6 Luna on my most underrated AI Arena benchmark.\n\nGemini 3.6 Flash got absolutely cooked.\n\nLuna is surprisingly solid for the price, but Grok 4.5 might be the real sleeper here. It produced this in just 9 minutes.\n\nFast, cheap, and way better than expected. Grok has insane potential.",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29.mp4",
+          "play_label": "Play case 29 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079662825014743040/vid/avc1/1280x720/-gN-giUFX7ukBC0r.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 30,
+      "id": "2079710299918401907",
+      "dedup_key": "https://x.com/naymur_dev/status/2079710299918401907",
+      "source_url": "https://x.com/naymur_dev/status/2079710299918401907",
+      "author_handle": "@naymur_dev",
+      "author_url": "https://x.com/naymur_dev",
+      "author_name": "Naymur Rahman",
+      "title": "Cross-Model Game Build Cost",
+      "takeaway": "Track iteration count, developer experience, features, and cost together when choosing a model for game prototyping.",
+      "body_notes": "Using the same design workflow, the creator reported needing six to seven iterations to fix a Gemini-generated jump-and-fall bug and listed a $0.15 run cost alongside comparative scores.",
+      "type": "Benchmark",
+      "date": "2026-07-21",
+      "category_key": "evaluations",
+      "category": "Evaluation & Comparisons",
+      "decision": "high_confidence_update",
+      "decision_reason": "用同一设计流程对比三个模型生成游戏并记录迭代次数、功能与成本",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "I tested Gemini 3.6 Flash with Kimi K3 and GPT-5.6 Sol\n\nAll are done using the /design feature from Command Code.\n\nKimi K3 and GPT-5.6 Sol played well. Gemini 3.6 Flash struggled, I needed 6–7 iterations to fix the bird’s jump/fall bug, though its UI was cute.\n\nRanking (DX, features, and cost):\n • Kimi K3: 10/10 · $0.024\n • GPT-5.6 Sol: 9/10 · $0.52\n • Gemini 3.6 Flash: 6/10 · $0.15",
+      "media_type": "video",
+      "media_assets": [
+        {
+          "kind": "video",
+          "poster_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30-poster.jpg",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30.mp4",
+          "play_label": "Play case 30 source video"
+        }
+      ],
+      "media_source_urls": [
+        "https://video.twimg.com/amplify_video/2079704378949386240/vid/avc1/1280x720/ihkIliMEV8ecf61N.mp4?tag=29"
+      ]
+    },
+    {
+      "public_number": 31,
+      "id": "2079602157779566836",
+      "dedup_key": "https://x.com/pilvar222/status/2079602157779566836",
+      "source_url": "https://x.com/pilvar222/status/2079602157779566836",
+      "author_handle": "@pilvar222",
+      "author_url": "https://x.com/pilvar222",
+      "author_name": "pilvar (Philippe Dourassov)",
+      "title": "Cybersecurity Refusal Benchmark",
+      "takeaway": "Include refusal behavior in security-tool evaluations because defensive code review may be blocked with offensive requests.",
+      "body_notes": "A cybersecurity benchmark run was refused, leading the evaluator to report that the tested policy blocked vulnerability-finding behavior for defensive code as well as malicious use.",
+      "type": "Limit",
+      "date": "2026-07-21",
+      "category_key": "safety-limits",
+      "category": "Safety & Limits",
+      "decision": "high_confidence_update",
+      "decision_reason": "在漏洞发现基准上测试模型并记录拒答结果",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "We ran Gemini-3.6-flash on our cybersecurity benchmark, but the model said no\n\n@Google decided that the model can't be used for finding vulnerabilities in code.\n\nAttackers can't use it to do hacking, but defenders can't use it to find/patch vulnerabilities in their code either 🫤 https://t.co/T8p3XbqS7q",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-31-01.jpg"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNw6AODX0AAWPho.jpg"
+      ]
+    },
+    {
+      "public_number": 32,
+      "id": "2079587359851737339",
+      "dedup_key": "https://x.com/ggg78g89/status/2079587359851737339",
+      "source_url": "https://x.com/ggg78g89/status/2079587359851737339",
+      "author_handle": "@ggg78g89",
+      "author_url": "https://x.com/ggg78g89",
+      "author_name": "Ali Haider",
+      "title": "Knowledge Freshness Failure",
+      "takeaway": "Verify current facts with retrieval instead of trusting a claimed knowledge cutoff.",
+      "body_notes": "The tester asked for current flagship models and received older names, then reported that the model acknowledged knowledge current only to early 2025 despite claiming a March 2026 cutoff.",
+      "type": "Limit",
+      "date": "2026-07-21",
+      "category_key": "safety-limits",
+      "category": "Safety & Limits",
+      "decision": "high_confidence_update",
+      "decision_reason": "用最新旗舰模型问题测试模型知识截止时间并保留错误回答",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "😠Gemini 3.6 Flash claiming a March 2026 knowledge cutoff just answered with GPT-4o, Claude 3.5 Sonnet, Gemini 1.5 Pro, Grok-2, and Qwen2.5 as the latest flagship models of March 2026. It even admitted its knowledge was only current to early 2025.\n\nGoogle, please quietly quit the AI race and stop pouring all this effort into more Flash models.\n\nDeep in our hearts, we already know you won the AI race. You just can’t prove it with an actual flagship model. Please stop putting us through this misery.",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNws0XcbEAAIbOr.jpg",
+        "https://pbs.twimg.com/media/HNws46obcAAlkW-.jpg",
+        "https://pbs.twimg.com/media/HNws90waQAAwUlL.jpg",
+        "https://pbs.twimg.com/media/HNwtCd0a0AAQbdP.png"
+      ]
+    },
+    {
+      "public_number": 33,
+      "id": "2079711268899086484",
+      "dedup_key": "https://x.com/Ubannoblesse/status/2079711268899086484",
+      "source_url": "https://x.com/Ubannoblesse/status/2079711268899086484",
+      "author_handle": "@Ubannoblesse",
+      "author_url": "https://x.com/Ubannoblesse",
+      "author_name": "SpiritualSpell",
+      "title": "Jailbreak Red-Team Test",
+      "takeaway": "Treat jailbreak claims as red-team signals that require controlled reproduction and safety review, not as reusable instructions.",
+      "body_notes": "The post claims a jailbreak across the Gemini App and API and lists harmful-content categories tested; this repository records the safety signal without reproducing exploit instructions.",
+      "type": "Limit",
+      "date": "2026-07-21",
+      "category_key": "safety-limits",
+      "category": "Safety & Limits",
+      "decision": "high_confidence_update",
+      "decision_reason": "在 Gemini App 与 API 上执行越狱测试并列出具体测试内容",
+      "quality_tier": "high",
+      "prompt_boundary": "not-present-in-source-package",
+      "prompt_public": false,
+      "prompt_text": "",
+      "source_text": "Gotcha 🔫\n\n@Google @OfficialLoganK @GeminiApp \n\nGemini 3.6 Flash Jailbroken\n\nPlatforms: Gemini App and API\n\nJailbreak: ENI for Gemini \n\nContent tested: Taylor Swift NSFW, CBRNE, malicious code, etc. https://t.co/ZcCavRPGnW",
+      "media_type": "image",
+      "media_assets": [
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg"
+        },
+        {
+          "kind": "image",
+          "url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"
+        }
+      ],
+      "media_source_urls": [
+        "https://pbs.twimg.com/media/HNyeSUzbwAA9dw7.jpg",
+        "https://pbs.twimg.com/media/HNyeSUobMAA5c9n.jpg",
+        "https://pbs.twimg.com/media/HNyeSU0bwAErRxO.jpg",
+        "https://pbs.twimg.com/media/HNyeSUzbMAAFFDE.jpg"
+      ]
+    }
+  ]
+}

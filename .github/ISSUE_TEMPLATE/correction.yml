@@ -1,0 +1,24 @@
+name: Report a correction
+description: Correct attribution, translation, wording, facts, or links
+title: "[Correction]: "
+labels: ["correction"]
+body:
+  - type: textarea
+    id: location
+    attributes:
+      label: Affected section
+      placeholder: README language and case number
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: Proposed correction
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Supporting public source
+    validations:
+      required: true

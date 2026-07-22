@@ -1,0 +1,2202 @@
+{
+  "es": {
+    "locale": "es",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "Impresionante guía flash y casos de uso de Gemini 3.6",
+      "introduction": "Introducción",
+      "intro": "Bienvenido a una guía respaldada por fuentes sobre Gemini 3.6 Flash en la práctica",
+      "mission": "Este repositorio recopila flujos de trabajo, compilaciones, evaluaciones, comparaciones y límites concretos de Gemini 3.6 Flash a partir de evidencia pública de creadores.",
+      "boundary": "Cada caso incluido proviene del paquete fuente revisado. Los títulos enlazan con publicaciones originales, los autores enlazan con perfiles de creadores y los mensajes aparecen solo cuando el texto fuente realmente los contiene.",
+      "overview": "Descripción general",
+      "overview_cases": "33 casos de alta confianza seleccionados de 33 publicaciones fuente revisadas",
+      "overview_coverage": "La cobertura incluye agentes, codificación, sitios web, juegos, 3D, comparaciones de estilo de referencia y límites de seguridad prácticos.",
+      "overview_media": "Los 24 casos de vídeo proporcionan un póster visible y un MP4 reproducible alojado en R2; Los casos de imágenes conservan cada imagen fuente revisada.",
+      "overview_model": "EvoLink enumera el ID del modelo de producción como \"gemini-3.6-flash\"; este repositorio enlaza con el modelo actual y las superficies API nativas de Gemini",
+      "note": "Esta colección favorece la evidencia observable sobre las exageraciones. No reconstruye indicaciones faltantes, no infiere pasos de configuración no publicados ni generaliza el resultado de un creador en un punto de referencia universal.",
+      "start_here": "Empieza aquí",
+      "explore": "explorar Géminis 3.6 Flash",
+      "get_key": "obtener una clave API",
+      "open_docs": "abra los documentos de la API nativa de Gemini",
+      "menu": "Menú",
+      "section": "Sección",
+      "cases": "Casos",
+      "case": "Caso",
+      "category": "Categoría",
+      "what_it_shows": "lo que muestra",
+      "type": "Tipo",
+      "by": "por",
+      "prompt": "rápido",
+      "date": "Fecha",
+      "play_video": "Reproducir vídeo fuente",
+      "related": "Repositorios relacionados",
+      "related_org": "Más guías de modelos y ejemplos de API de EvoLink",
+      "related_note": "Durante esta publicación no se verificó de forma independiente ninguna habilidad Flash Gemini 3.6 instalable dedicada",
+      "quickstart": "Inicio rápido",
+      "quick_intro": "Utilice las superficies públicas verificadas a continuación para comenzar con el ID de modelo `gemini-3.6-flash`",
+      "quick_model": "Abra la página del modelo Flash Gemini 3.6",
+      "quick_key": "Crear o administrar una clave API de EvoLink",
+      "quick_docs": "Siga el inicio rápido de la API nativa de Gemini",
+      "important": "La ruta pública y la identificación del modelo están documentadas, pero este repositorio no reclama una primera llamada que consuma crédito hasta que se haya ejecutado esa prueba o se haya renunciado explícitamente.",
+      "acknowledge": "Reconocer",
+      "ack_text": "Esta colección existe porque los creadores y profesionales compartieron públicamente su trabajo en Gemini 3.6 Flash.",
+      "thanks": "Gracias a los creadores de fuentes representados aquí.",
+      "correction": "No podemos garantizar que cada publicación identifique al creador original más antiguo. Si es necesario corregir la atribución, la traducción o la redacción, abra una edición de corrección con una fuente pública.",
+      "contribute": "Para proponer otro caso respaldado por fuentes, abra una incidencia o una solicitud de extracción y siga la lista de verificación de contribuciones"
+    },
+    "categories": {
+      "efficiency-agents": "Eficiencia y agentes",
+      "coding-apps": "Codificación y aplicaciones",
+      "web-games-3d": "Web, juegos y 3D",
+      "evaluations": "Evaluación y comparaciones",
+      "safety-limits": "Seguridad y límites"
+    },
+    "cases": {
+      "1": {
+        "title": "Eficiencia de tokens lado a lado",
+        "takeaway": "Compare el uso del token de salida en el mismo flujo de trabajo antes de elegir un modelo Flash para cargas de trabajo a escala de agente.",
+        "notes": "Jeff Dean compartió una demostración en paralelo comparando Gemini 3.6 Flash con 3.5 Flash y destacó un menor uso de tokens en el modelo más nuevo."
+      },
+      "2": {
+        "title": "Modernización del código heredado en antigravedad",
+        "takeaway": "Utilice una tarea controlada de migración de código heredado para comparar la latencia del agente, la calidad de la edición y el comportamiento de finalización.",
+        "notes": "Google Antigravity demostró ambas generaciones de Flash reconstruyendo software heredado e informó una finalización más rápida con latencia y resultados mejorados desde Gemini 3.6 Flash."
+      },
+      "3": {
+        "title": "Prueba de eficiencia del token de Canvas",
+        "takeaway": "Ejecute la misma tarea de Canvas en todas las versiones del modelo e inspeccione tanto el uso del artefacto como del token.",
+        "notes": "El creador comparó Gemini 3.6 Flash y 3.5 Flash en una tarea corta de Canvas y observó un uso de tokens sustancialmente menor que el de 3.6 Flash."
+      },
+      "4": {
+        "title": "Comparativa del agente del navegador",
+        "takeaway": "Compare el éxito y el costo del agente de navegador en conjunto en lugar de optimizar cualquiera de las métricas por separado.",
+        "notes": "El uso del navegador registró un 68 % en su BU Benchmark para Gemini 3.6 Flash, en comparación con un 67 % para GPT-5.6 Sol, un 62 % para Sonnet 4.6 y un 74 % para Opus 4.8."
+      },
+      "5": {
+        "title": "Eficiencia de recuperación de hechos de cola larga",
+        "takeaway": "Utilice tareas difíciles de recuperación de hechos para comparar los pasos de razonamiento y los tokens de pensamiento.",
+        "notes": "El creador ejecutó Gemini 3.5 y 3.6 Flash cara a cara en una compleja tarea de recuperación de hechos de cola larga e informó la mitad de pasos y un 75 % menos de tokens de pensamiento para 3.6 Flash."
+      },
+      "6": {
+        "title": "Procesamiento de documentos empresariales",
+        "takeaway": "Evalúe el esfuerzo de razonamiento en patentes largas y análisis de documentos antes de establecer un valor predeterminado de producción.",
+        "notes": "Databricks informó una mayor precisión en la clasificación de documentos que 3.5 Flash, resultados sólidos en patentes largas y aproximadamente un 32% menos de tokens totales con esfuerzo medio que con esfuerzo alto para el análisis de documentos."
+      },
+      "7": {
+        "title": "Evaluación de tareas de ingeniería en JetBrains",
+        "takeaway": "Cree una tarea de ingeniería objetiva y compare generaciones de modelos dentro del mismo flujo de trabajo IDE.",
+        "notes": "JetBrains presentó una evaluación objetiva de tareas de ingeniería para Gemini 3.6 Flash en comparación con la generación Flash anterior en AI Assistant y Junie."
+      },
+      "8": {
+        "title": "Migración de código multiagente",
+        "takeaway": "Pruebe la migración de código con el mismo plan de orquestación y compare la latencia, las ediciones y la calidad final.",
+        "notes": "La demostración muestra a Gemini 3.6 Flash ejecutando una migración de código a través de una orquestación de múltiples agentes en Antigravity e informa una latencia más baja y una calidad superior que 3.5 Flash."
+      },
+      "9": {
+        "title": "Afinador de guitarra Android",
+        "takeaway": "Cree un prototipo de una utilidad móvil enfocada que combine herramientas de audio convencionales con afinaciones alternativas asistidas por IA.",
+        "notes": "El creador utilizó Gemini 3.6 Flash para crear una aplicación de afinador de guitarra para Android con soporte de afinación alternativa impulsada por IA."
+      },
+      "10": {
+        "title": "Simulación de semáforo",
+        "takeaway": "Solicite al modelo una visualización ejecutable para inspeccionar si el código generado captura el tiempo y el comportamiento del tráfico aleatorio.",
+        "notes": "El mensaje público solicita código Python que visualiza un semáforo de sentido único con automóviles que llegan a velocidades aleatorias, y la publicación incluye la demostración resultante."
+      },
+      "11": {
+        "title": "Aplicación Teclado Piano",
+        "takeaway": "Convierta un concepto de interacción simple en una aplicación web jugable controlada por teclado.",
+        "notes": "El creador creó una aplicación de piano con Gemini 3.6 Flash que se puede tocar desde el teclado de una computadora y la planteó como una aplicación que los niños podían explorar."
+      },
+      "12": {
+        "title": "Asistente de voz del robot de escritorio",
+        "takeaway": "Integre Flash y Flash-Lite en una aplicación de voz y compare el comportamiento de primera respuesta.",
+        "notes": "El creador agregó Gemini 3.6 Flash y Gemini 3.5 Flash-Lite a una aplicación de diálogo de voz para un robot de escritorio y notó que la respuesta inicial parecía un poco lenta pero utilizable."
+      },
+      "13": {
+        "title": "Fallo HTML del puente Golden Gate",
+        "takeaway": "Utilice una tarea estricta de entrega de archivos para probar el seguimiento de instrucciones antes de confiar en las experiencias web 3D generadas.",
+        "notes": "El evaluador necesitó tres indicaciones, vio que el modelo intentaba una simulación en la aplicación y respuestas de imágenes web en lugar del archivo HTML solicitado, y consideró que la salida final del puente 3D era materialmente más débil que Gemini 3.1 Pro."
+      },
+      "14": {
+        "title": "Prueba visual inmediata pública",
+        "takeaway": "Abra el hilo de origen cuando necesite el mensaje completo del creador en lugar de reconstruirlo a partir de la salida.",
+        "notes": "MotionViz publicó una prueba visual de Gemini 3.6 Flash con medios e indicó que el mensaje completo está disponible en el hilo fuente; este repositorio no reconstruye el texto del mensaje que no está presente en el paquete fuente."
+      },
+      "15": {
+        "title": "Juego de lienzo de un solo mensaje",
+        "takeaway": "Utilice un mensaje en Canvas para probar qué tan rápido el modelo puede convertir un concepto de juego compacto en un resultado interactivo.",
+        "notes": "El creador probó Gemini 3.6 Flash en acceso temprano y utilizó un único mensaje de Canvas para producir una demostración del juego jugable."
+      },
+      "16": {
+        "title": "Comparación de versiones de la página de destino",
+        "takeaway": "Mantenga el aviso fijo en todas las generaciones de modelos para aislar los cambios en la ejecución de la página de destino y el juicio visual.",
+        "notes": "El creador agregó Gemini 3.6 Flash a un archivo de página de inicio con el mismo mensaje y consideró que el resultado más reciente era peor que las salidas de Gemini 3 y 3.5."
+      },
+      "17": {
+        "title": "Prototipo 3D de Subway Surfers",
+        "takeaway": "Habilite el pensamiento extendido para experimentos de codificación e inspeccione tanto la calidad de la interacción como la fidelidad visual.",
+        "notes": "El creador utilizó Gemini 3.6 Flash para construir una réplica 3D sencilla al estilo de Subway Surfers y recomendó un pensamiento más amplio para las tareas de codificación."
+      },
+      "18": {
+        "title": "Comparación de sitios web de una página",
+        "takeaway": "Mantenga constante el nivel de mensaje y razonamiento del sitio web, luego compare el costo del token, la velocidad y la preferencia de diseño.",
+        "notes": "En el mismo mensaje del sitio web de una página, el creador informó alrededor de 6.100 tokens para Gemini 3.6 Flash frente a alrededor de 9.300 para 3.5 Flash, aunque personalmente prefiere el aspecto del modelo anterior."
+      },
+      "19": {
+        "title": "Fracaso del juego del salvaje oeste",
+        "takeaway": "Trate los resultados fallidos de la generación de juegos como evidencia para decidir cuándo cambiar de modelo o revisar la tarea.",
+        "notes": "El evaluador utilizó un mensaje de generación de juegos del Lejano Oeste y juzgó a Gemini 3.6 Flash materialmente detrás de GPT-5.6, Kimi K3 y Fable 5 en el resultado observado."
+      },
+      "20": {
+        "title": "Fallo del material del juego antigravedad",
+        "takeaway": "Verifique tanto los materiales visuales como el comportamiento de interacción real antes de aceptar un prototipo de juego generado por IA.",
+        "notes": "En una segunda prueba del juego Antigravity, el creador encontró texturas de madera más débiles y un elemento de mármol que parecía similar pero no funcionaba."
+      },
+      "21": {
+        "title": "Comparación de Rolls-Royce SVG",
+        "takeaway": "Utilice un tema SVG fijo para comparar cómo dos generaciones de Flash manejan la forma, los detalles y la composición.",
+        "notes": "La publicación coloca las salidas Gemini 3.6 Flash y 3.5 Flash una al lado de la otra para la misma tarea Rolls-Royce SVG."
+      },
+      "22": {
+        "title": "Prueba de acuario realista",
+        "takeaway": "Utilice una escena 3D delimitada para comparar el realismo y la calidad de la implementación entre las versiones del modelo.",
+        "notes": "El creador pidió a Gemini 3.6 Flash que construyera un acuario realista y lo consideró sólo marginalmente mejor que 3.5 Flash."
+      },
+      "23": {
+        "title": "Géminis versus Grok en Max Reasoning",
+        "takeaway": "Utilice la misma configuración de razonamiento máximo y rápido para comparar la velocidad, el costo y la producción en lugar de depender de la reputación del modelo.",
+        "notes": "El creador ejecutó Gemini 3.6 Flash y Grok 4.5 con la misma configuración de mensaje y razonamiento máximo, y observó que ambos eran rápidos mientras que Grok era un poco más rápido y más barato."
+      },
+      "24": {
+        "title": "Géminis versus Soneto en la configuración máxima",
+        "takeaway": "Compare modelos con indicaciones idénticas y sus configuraciones más fuertes, luego inspeccione el artefacto generado real.",
+        "notes": "El creador probó Gemini 3.6 Flash y Sonnet 5 con las mismas indicaciones en la configuración máxima y prefirió la salida de Gemini en la tarea mostrada."
+      },
+      "25": {
+        "title": "Prueba de comprensión visual",
+        "takeaway": "Utilice una tarea de imagen concreta para inspeccionar la calidad de la respuesta y el estilo de interacción antes de adoptar el modelo para los flujos de trabajo de visión.",
+        "notes": "El creador presentó una prueba de visión que pasó Gemini 3.6 Flash y destacó la personalidad de respuesta como parte de la experiencia observada."
+      },
+      "26": {
+        "title": "Punto de referencia del juego Rocket League",
+        "takeaway": "Ejecute una prueba comparativa repetida de generación de juegos y registre tanto el tiempo de construcción como una clasificación subjetiva consistente.",
+        "notes": "El creador probó Gemini 3.6 Flash en una tarea estilo Rocket League, lo clasificó en tercer lugar en una clasificación personal e informó que la completó en menos de dos minutos."
+      },
+      "27": {
+        "title": "Comparación visual de EyeBench",
+        "takeaway": "Utilice un punto de referencia visual estable para separar las ganancias incrementales de eficiencia de la calidad absoluta.",
+        "notes": "En EyeBench, el creador juzgó a Gemini 3.6 Flash marginalmente mejor que 3.5 Flash pero aún peor que Gemini 3.1 Pro Preview, aunque notó una eficiencia mejorada del token."
+      },
+      "28": {
+        "title": "Comparación de animaciones cortadas en papel",
+        "takeaway": "Compare la velocidad de respuesta y la animación final por separado al evaluar la generación creativa.",
+        "notes": "El creador comparó Gemini 3.6 Flash con Fable 5 en una tarea de animación cortada en papel, elogiando la respuesta casi inmediata de Gemini pero expresando reservas sobre el resultado."
+      },
+      "29": {
+        "title": "Punto de referencia de generación de AI Arena",
+        "takeaway": "Utilice la misma tarea de campo para comparar el tiempo de construcción, el precio y la calidad de los artefactos en múltiples modelos de codificación.",
+        "notes": "El creador probó Grok 4.5, Gemini 3.6 Flash y GPT-5.6 Luna en una tarea de AI Arena y consideró que el resultado de Gemini fue el más débil en esa ejecución."
+      },
+      "30": {
+        "title": "Costo de construcción del juego entre modelos",
+        "takeaway": "Realice un seguimiento del recuento de iteraciones, la experiencia del desarrollador, las características y el costo al elegir un modelo para la creación de prototipos de juegos.",
+        "notes": "Utilizando el mismo flujo de trabajo de diseño, el creador informó que necesitaba de seis a siete iteraciones para corregir un error de salto y caída generado por Gemini y enumeró un costo de ejecución de $0,15 junto con puntuaciones comparativas."
+      },
+      "31": {
+        "title": "Punto de referencia de rechazo de ciberseguridad",
+        "takeaway": "Incluya comportamientos de rechazo en las evaluaciones de herramientas de seguridad porque la revisión defensiva del código puede bloquearse con solicitudes ofensivas.",
+        "notes": "Se rechazó una evaluación comparativa de ciberseguridad, lo que llevó al evaluador a informar que la política probada bloqueó el comportamiento de búsqueda de vulnerabilidades para código defensivo y uso malicioso."
+      },
+      "32": {
+        "title": "Fracaso de la frescura del conocimiento",
+        "takeaway": "Verifique los hechos actuales con recuperación en lugar de confiar en un supuesto límite de conocimiento.",
+        "notes": "El evaluador preguntó por los modelos emblemáticos actuales y recibió nombres más antiguos, luego informó que el modelo reconoció que el conocimiento estaba actualizado solo hasta principios de 2025 a pesar de afirmar un límite de marzo de 2026."
+      },
+      "33": {
+        "title": "Prueba del equipo rojo de jailbreak",
+        "takeaway": "Trate los reclamos de jailbreak como señales del equipo rojo que requieren reproducción controlada y revisión de seguridad, no como instrucciones reutilizables.",
+        "notes": "La publicación afirma un jailbreak en la aplicación y API Gemini y enumera las categorías de contenido dañino probadas; este repositorio registra la señal de seguridad sin reproducir instrucciones de explotación."
+      }
+    }
+  },
+  "pt": {
+    "locale": "pt",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "Guia Flash impressionante do Gemini 3.6 e casos de uso",
+      "introduction": "Introdução",
+      "intro": "Bem-vindo a um guia baseado em fontes para o Gemini 3.6 Flash na prática",
+      "mission": "Este repositório coleta fluxos de trabalho concretos do Gemini 3.6 Flash, compilações, avaliações, comparações e limites de evidências públicas de criadores",
+      "boundary": "Cada case incluído vem do pacote fonte revisado. Os títulos direcionam para postagens originais, os autores vinculam-se aos perfis dos criadores e os prompts aparecem apenas quando o texto fonte realmente os contém",
+      "overview": "Visão geral",
+      "overview_cases": "33 casos de alta confiança selecionados de 33 postagens originais revisadas",
+      "overview_coverage": "A cobertura inclui agentes, codificação, sites, jogos, 3D, comparações de estilo de benchmark e limites práticos de segurança",
+      "overview_media": "Todos os 24 casos de vídeo fornecem um pôster visível e um MP4 reproduzível hospedado em R2; casos de imagem preservam todas as imagens de origem revisadas",
+      "overview_model": "EvoLink lista o ID do modelo de produção como `gemini-3.6-flash`; este repositório está vinculado ao modelo atual e às superfícies da API Gemini Native",
+      "note": "Esta coleção favorece evidências observáveis em detrimento do exagero. Ele não reconstrói prompts ausentes, infere etapas de configuração não publicadas ou generaliza o resultado de um criador em um benchmark universal",
+      "start_here": "Comece aqui",
+      "explore": "explorar Gêmeos 3.6 Flash",
+      "get_key": "obter uma chave API",
+      "open_docs": "abra os documentos da API Gemini Native",
+      "menu": "Cardápio",
+      "section": "Seção",
+      "cases": "Casos",
+      "case": "Caso",
+      "category": "Categoria",
+      "what_it_shows": "O que isso mostra",
+      "type": "Tipo",
+      "by": "por",
+      "prompt": "Alerta",
+      "date": "Data",
+      "play_video": "Reproduzir vídeo de origem",
+      "related": "Repositórios Relacionados",
+      "related_org": "Mais guias de modelo e exemplos de API do EvoLink",
+      "related_note": "Nenhuma habilidade Flash Gemini 3.6 instalável dedicada foi verificada de forma independente durante esta publicação",
+      "quickstart": "Início rápido",
+      "quick_intro": "Use as superfícies públicas verificadas abaixo para começar com o ID do modelo `gemini-3.6-flash`",
+      "quick_model": "Abra a página do modelo Flash do Gemini 3.6",
+      "quick_key": "Crie ou gerencie uma chave API EvoLink",
+      "quick_docs": "Siga o início rápido da API Gemini Native",
+      "important": "A rota pública e o ID do modelo estão documentados, mas este repositório não reivindica uma primeira chamada que consome crédito até que o teste tenha sido executado ou explicitamente renunciado",
+      "acknowledge": "Reconhecer",
+      "ack_text": "Esta coleção existe porque criadores e profissionais compartilharam publicamente seu trabalho em Flash do Gemini 3.6",
+      "thanks": "Agradecimentos aos criadores de origem representados aqui",
+      "correction": "Não podemos garantir que cada postagem identifique o criador original mais antigo. Se a atribuição, tradução ou redação precisar de correção, abra um problema de correção com uma fonte pública",
+      "contribute": "Para propor outro caso apoiado pela fonte, abra um problema ou pull request e siga a lista de verificação de contribuição"
+    },
+    "categories": {
+      "efficiency-agents": "Eficiência e Agentes",
+      "coding-apps": "Codificação e aplicativos",
+      "web-games-3d": "Web, jogos e 3D",
+      "evaluations": "Avaliação e Comparações",
+      "safety-limits": "Segurança e Limites"
+    },
+    "cases": {
+      "1": {
+        "title": "Eficiência de token lado a lado",
+        "takeaway": "Compare o uso do token de saída no mesmo fluxo de trabalho antes de escolher um modelo Flash para cargas de trabalho em escala de agente.",
+        "notes": "Jeff Dean compartilhou uma demonstração lado a lado comparando Gemini 3.6 Flash com 3.5 Flash e destacou o menor uso de token no modelo mais recente."
+      },
+      "2": {
+        "title": "Modernizando o código legado em antigravidade",
+        "takeaway": "Use uma tarefa controlada de migração de código legado para comparar a latência do agente, a qualidade da edição e o comportamento de conclusão.",
+        "notes": "O Google Antigravity demonstrou ambas as gerações de Flash reconstruindo software legado e relatou uma conclusão mais rápida com latência e saída aprimoradas do Gemini 3.6 Flash."
+      },
+      "3": {
+        "title": "Teste de eficiência do token Canvas",
+        "takeaway": "Execute a mesma tarefa do Canvas em versões de modelo e inspecione o uso do artefato e do token.",
+        "notes": "O criador comparou o Gemini 3.6 Flash e o 3.5 Flash em uma tarefa curta do Canvas e observou um uso de token substancialmente menor do 3.6 Flash."
+      },
+      "4": {
+        "title": "Referência do agente do navegador",
+        "takeaway": "Compare o sucesso e o custo do agente de navegador em conjunto, em vez de otimizar apenas uma das métricas.",
+        "notes": "O uso do navegador relatou 68% em seu benchmark BU para Gemini 3.6 Flash, em comparação com 67% para GPT-5.6 Sol, 62% para Sonnet 4.6 e 74% para Opus 4.8."
+      },
+      "5": {
+        "title": "Eficiência na recuperação de fatos de cauda longa",
+        "takeaway": "Use tarefas difíceis de recuperação de fatos para comparar etapas de raciocínio e sobrecarga de tokens de pensamento.",
+        "notes": "O criador executou Gemini 3.5 e 3.6 Flash frente a frente em uma tarefa complexa de recuperação de fatos de cauda longa e relatou metade das etapas e 75% menos tokens de pensamento para o Flash 3.6."
+      },
+      "6": {
+        "title": "Processamento de Documentos Empresariais",
+        "takeaway": "Avalie o esforço de raciocínio em patentes longas e análise de documentos antes de definir um padrão de produção.",
+        "notes": "Databricks relatou maior precisão de classificação de documentos do que 3,5 Flash, bons resultados em patentes longas e cerca de 32% menos tokens totais com esforço médio do que com alto esforço para análise de documentos."
+      },
+      "7": {
+        "title": "Avaliação de tarefas de engenharia em JetBrains",
+        "takeaway": "Crie uma tarefa de engenharia objetiva e compare gerações de modelos dentro do mesmo fluxo de trabalho IDE.",
+        "notes": "A JetBrains apresentou uma avaliação objetiva de tarefas de engenharia para Gemini 3.6 Flash em comparação com a geração Flash anterior no AI Assistant e Junie."
+      },
+      "8": {
+        "title": "Migração de código multiagente",
+        "takeaway": "Teste a migração de código com o mesmo plano de orquestração e compare latência, edições e qualidade final.",
+        "notes": "A demonstração mostra o Gemini 3.6 Flash executando uma migração de código por meio de orquestração multiagente no Antigravity e relata menor latência e maior qualidade do que o 3.5 Flash."
+      },
+      "9": {
+        "title": "Afinador de guitarra Android",
+        "takeaway": "Protótipo de um utilitário móvel focado que combina ferramentas de áudio convencionais com ajustes alternativos assistidos por IA.",
+        "notes": "O criador usou o Gemini 3.6 Flash para construir um aplicativo de afinação de guitarra Android com suporte para afinação alternativa orientada por IA."
+      },
+      "10": {
+        "title": "Simulação de semáforo",
+        "takeaway": "Peça ao modelo uma visualização executável para inspecionar se o código gerado captura o tempo e o comportamento aleatório do tráfego.",
+        "notes": "O prompt público solicita o código Python que visualiza um semáforo de mão única com carros chegando em taxas aleatórias, e a postagem inclui a demonstração resultante."
+      },
+      "11": {
+        "title": "Aplicativo Piano Teclado",
+        "takeaway": "Transforme um conceito de interação simples em um aplicativo da web jogável controlado por teclado.",
+        "notes": "O criador construiu um aplicativo de piano com Gemini 3.6 Flash que pode ser tocado em um teclado de computador e o enquadrou como um aplicativo que as crianças poderiam explorar."
+      },
+      "12": {
+        "title": "Assistente de voz do robô de mesa",
+        "takeaway": "Integre Flash e Flash-Lite em um aplicativo de voz e compare o comportamento de primeira resposta.",
+        "notes": "O criador adicionou Gemini 3.6 Flash e Gemini 3.5 Flash-Lite a um aplicativo de diálogo de voz para um robô de desktop e observou que a resposta inicial parecia um pouco lenta, mas utilizável."
+      },
+      "13": {
+        "title": "Falha no HTML da Ponte Golden Gate",
+        "takeaway": "Use uma tarefa estrita de entrega de arquivos para testar o seguimento das instruções antes de confiar nas experiências web 3D geradas.",
+        "notes": "O testador precisou de três prompts, viu o modelo tentar uma simulação no aplicativo e respostas de imagem da web em vez do arquivo HTML solicitado e julgou a saída final da ponte 3D materialmente mais fraca do que o Gemini 3.1 Pro."
+      },
+      "14": {
+        "title": "Teste visual de prompt público",
+        "takeaway": "Abra o thread de origem quando precisar do prompt completo do criador, em vez de reconstruí-lo a partir da saída.",
+        "notes": "MotionViz publicou um teste visual do Gemini 3.6 Flash com mídia e indicou que o prompt completo está disponível no thread de origem; este repositório não reconstrói texto de prompt não presente no pacote fonte."
+      },
+      "15": {
+        "title": "Jogo de tela de prompt único",
+        "takeaway": "Use um prompt no Canvas para testar a rapidez com que o modelo pode transformar um conceito de jogo compacto em um resultado interativo.",
+        "notes": "O criador testou o Gemini 3.6 Flash no acesso antecipado e usou um único prompt do Canvas para produzir uma demonstração do jogo jogável."
+      },
+      "16": {
+        "title": "Comparação de versões da página de destino",
+        "takeaway": "Mantenha o prompt fixo entre gerações de modelos para isolar alterações na execução da página de destino e no julgamento visual.",
+        "notes": "O criador adicionou o Gemini 3.6 Flash a um arquivo da página de destino do mesmo prompt e julgou o resultado mais recente pior do que as saídas do Gemini 3 e 3.5."
+      },
+      "17": {
+        "title": "Protótipo 3D de Subway Surfers",
+        "takeaway": "Habilite o pensamento estendido para experimentos de codificação e inspecione a qualidade da interação e a fidelidade visual.",
+        "notes": "O criador usou o Gemini 3.6 Flash para construir uma réplica 3D simples no estilo Subway Surfers e recomendou um pensamento estendido para tarefas de codificação."
+      },
+      "18": {
+        "title": "Comparação de sites de uma página",
+        "takeaway": "Mantenha o prompt do site e o nível de raciocínio constantes e compare o custo do token, a velocidade e a preferência de design.",
+        "notes": "No mesmo prompt do site de uma página, o criador relatou cerca de 6.100 tokens para Gemini 3.6 Flash contra cerca de 9.300 para 3.5 Flash, embora pessoalmente preferisse a aparência do modelo mais antigo."
+      },
+      "19": {
+        "title": "Falha no jogo do Velho Oeste",
+        "takeaway": "Trate os resultados fracassados da geração de jogos como evidência para decidir quando mudar de modelo ou revisar a tarefa.",
+        "notes": "O testador usou um prompt de geração de jogo do Velho Oeste e julgou Gemini 3.6 Flash materialmente atrás de GPT-5.6, Kimi K3 e Fable 5 no resultado observado."
+      },
+      "20": {
+        "title": "Falha no material do jogo antigravidade",
+        "takeaway": "Verifique os materiais visuais e o comportamento real de interação antes de aceitar um protótipo de jogo gerado por IA.",
+        "notes": "Em um segundo teste do jogo Antigravity, o criador encontrou texturas de madeira mais fracas e um elemento de mármore que parecia semelhante, mas permaneceu não funcional."
+      },
+      "21": {
+        "title": "Comparação Rolls-Royce SVG",
+        "takeaway": "Use um assunto SVG fixo para comparar como duas gerações do Flash lidam com forma, detalhes e composição.",
+        "notes": "A postagem coloca as saídas Gemini 3.6 Flash e 3.5 Flash lado a lado para a mesma tarefa Rolls-Royce SVG."
+      },
+      "22": {
+        "title": "Teste de aquário realista",
+        "takeaway": "Use uma cena 3D limitada para comparar o realismo e a qualidade da implementação nas versões do modelo.",
+        "notes": "O criador pediu ao Gemini 3.6 Flash para construir um aquário realista e julgou-o apenas ligeiramente melhor que o 3.5 Flash."
+      },
+      "23": {
+        "title": "Gêmeos versus Grok no Max Reasoning",
+        "takeaway": "Use as mesmas configurações de raciocínio rápido e máximo para comparar velocidade, custo e resultados, em vez de confiar na reputação do modelo.",
+        "notes": "O criador executou Gemini 3.6 Flash e Grok 4.5 sob as mesmas configurações de prompt e raciocínio máximo, observando que ambos eram rápidos enquanto Grok era um pouco mais rápido e barato."
+      },
+      "24": {
+        "title": "Gêmeos versus Soneto em configurações máximas",
+        "takeaway": "Compare modelos em prompts idênticos e suas configurações mais fortes e, em seguida, inspecione o artefato real gerado.",
+        "notes": "O criador testou o Gemini 3.6 Flash e o Sonnet 5 com os mesmos prompts nas configurações máximas e preferiu a saída do Gemini na tarefa mostrada."
+      },
+      "25": {
+        "title": "Teste de compreensão visual",
+        "takeaway": "Use uma tarefa de imagem concreta para inspecionar a qualidade da resposta e o estilo de interação antes de adotar o modelo para fluxos de trabalho de visão.",
+        "notes": "O criador apresentou um teste de visão no qual o Gemini 3.6 Flash passou e destacou a personalidade da resposta como parte da experiência observada."
+      },
+      "26": {
+        "title": "Referência de jogos da Rocket League",
+        "takeaway": "Execute um benchmark repetido de geração de jogos e registre o tempo de construção e uma classificação subjetiva consistente.",
+        "notes": "O criador testou o Gemini 3.6 Flash em uma tarefa no estilo Rocket League, classificou-o em terceiro lugar em uma tabela de classificação pessoal e relatou a conclusão em menos de dois minutos."
+      },
+      "27": {
+        "title": "Comparação visual do EyeBench",
+        "takeaway": "Use uma referência visual estável para separar os ganhos incrementais de eficiência da qualidade absoluta.",
+        "notes": "No EyeBench, o criador julgou o Gemini 3.6 Flash um pouco melhor que o 3,5 Flash, mas ainda pior que o Gemini 3.1 Pro Preview, ao mesmo tempo em que observou uma melhor eficiência do token."
+      },
+      "28": {
+        "title": "Comparação de animação de corte de papel",
+        "takeaway": "Compare a velocidade de resposta e a animação final separadamente ao avaliar a geração de criativos.",
+        "notes": "O criador comparou o Gemini 3.6 Flash com o Fable 5 em uma tarefa de animação recortada em papel, elogiando a resposta quase imediata do Gemini, mas expressando reservas sobre o resultado."
+      },
+      "29": {
+        "title": "Referência de geração de AI Arena",
+        "takeaway": "Use a mesma tarefa de arena para comparar o tempo de construção, o preço e a qualidade do artefato em vários modelos de codificação.",
+        "notes": "O criador testou Grok 4.5, Gemini 3.6 Flash e GPT-5.6 Luna em uma tarefa da AI Arena e julgou o resultado do Gemini o mais fraco nessa corrida."
+      },
+      "30": {
+        "title": "Custo de construção de jogo entre modelos",
+        "takeaway": "Acompanhe a contagem de iterações, a experiência do desenvolvedor, os recursos e o custo ao escolher um modelo para prototipagem de jogos.",
+        "notes": "Usando o mesmo fluxo de trabalho de design, o criador relatou a necessidade de seis a sete iterações para corrigir um bug de salto e queda gerado pelo Gemini e listou um custo de execução de US$ 0,15 junto com pontuações comparativas."
+      },
+      "31": {
+        "title": "Referência de recusa de segurança cibernética",
+        "takeaway": "Inclua comportamento de recusa nas avaliações de ferramentas de segurança porque a revisão defensiva do código pode ser bloqueada com solicitações ofensivas.",
+        "notes": "Uma execução de benchmark de segurança cibernética foi recusada, levando o avaliador a relatar que a política testada bloqueava o comportamento de descoberta de vulnerabilidades para código defensivo, bem como para uso malicioso."
+      },
+      "32": {
+        "title": "Falha na atualização do conhecimento",
+        "takeaway": "Verifique os fatos atuais com recuperação em vez de confiar em um limite de conhecimento alegado.",
+        "notes": "O testador solicitou os modelos principais atuais e recebeu nomes mais antigos, depois relatou que o modelo reconhecia o conhecimento atual apenas até o início de 2025, apesar de reivindicar um limite de março de 2026."
+      },
+      "33": {
+        "title": "Teste da equipe vermelha de Jailbreak",
+        "takeaway": "Trate as reivindicações de jailbreak como sinais de equipe vermelha que exigem reprodução controlada e revisão de segurança, não como instruções reutilizáveis.",
+        "notes": "A postagem afirma um jailbreak no aplicativo e API Gemini e lista as categorias de conteúdo prejudicial testadas; este repositório registra o sinal de segurança sem reproduzir instruções de exploração."
+      }
+    }
+  },
+  "ja": {
+    "locale": "ja",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "素晴らしい Gemini 3.6 フラッシュ ガイドと使用例",
+      "introduction": "はじめに",
+      "intro": "Gemini 3.6 Flash を実際に使用するためのソースに裏付けられたガイドへようこそ",
+      "mission": "このリポジトリは、作成者の公開証拠から具体的な Gemini 3.6 Flash ワークフロー、ビルド、評価、比較、および制限を収集します。",
+      "boundary": "付属のケースはすべて、レビューされたソース パッケージからのものです。タイトルは元の投稿にリンクし、作成者は作成者のプロフィールにリンクし、ソース テキストに実際にそれらが含まれている場合にのみプロンプトが表示されます。",
+      "overview": "概要",
+      "overview_cases": "レビューされた 33 のソース投稿から選択された 33 の高信頼ケース",
+      "overview_coverage": "対象範囲には、エージェント、コーディング、Web サイト、ゲーム、3D、ベンチマーク スタイルの比較、実際の安全制限が含まれます",
+      "overview_media": "24 のビデオ ケースすべてに、表示可能なポスターと再生可能な R2 ホスト MP4 が提供されます。画像ケースはレビューされたすべてのソース画像を保存します",
+      "overview_model": "EvoLink は、製品モデル ID を「gemini-3.6-flash」としてリストします。このリポジトリは、現在のモデルと Gemini ネイティブ API サーフェスにリンクします。",
+      "note": "このコレクションは誇大宣伝よりも目に見える証拠を優先します。欠落しているプロンプトを再構築したり、未公開のセットアップ手順を推測したり、1 人の作成者の結果を普遍的なベンチマークに一般化したりすることはありません。",
+      "start_here": "ここから始めましょう",
+      "explore": "Gemini 3.6 フラッシュを探索する",
+      "get_key": "APIキーを取得する",
+      "open_docs": "Gemini ネイティブ API ドキュメントを開く",
+      "menu": "メニュー",
+      "section": "セクション",
+      "cases": "事例",
+      "case": "ケース",
+      "category": "カテゴリ",
+      "what_it_shows": "それが示すもの",
+      "type": "種類",
+      "by": "によって",
+      "prompt": "プロンプト",
+      "date": "日付",
+      "play_video": "ソースビデオを再生する",
+      "related": "関連リポジトリ",
+      "related_org": "EvoLink のその他のモデル ガイドと API サンプル",
+      "related_note": "この公開中に、専用のインストール可能な Gemini 3.6 Flash スキルは個別に検証されていません",
+      "quickstart": "クイックスタート",
+      "quick_intro": "以下の検証済みパブリック サーフェスを使用して、モデル ID `gemini-3.6-flash` から始めます。",
+      "quick_model": "Gemini 3.6 Flash モデル ページを開く",
+      "quick_key": "EvoLink API キーを作成または管理する",
+      "quick_docs": "Gemini ネイティブ API クイック スタートに従ってください",
+      "important": "パブリック ルートとモデル ID は文書化されていますが、このリポジトリは、テストが実行されるか明示的に放棄されるまで、クレジットを消費する最初の呼び出しを要求しません。",
+      "acknowledge": "了承する",
+      "ack_text": "このコレクションは、作成者と実践者が Gemini 3.6 Flash の作品を公的に共有したために存在します。",
+      "thanks": "ここに代表されるソース作成者に感謝します",
+      "correction": "すべての投稿が最も古いオリジナルの作成者であることを保証することはできません。帰属、翻訳、または表現を修正する必要がある場合は、公開情報源に修正の問題を提起してください",
+      "contribute": "ソースに裏付けられた別のケースを提案するには、問題またはプルリクエストを開いて、貢献チェックリストに従ってください。"
+    },
+    "categories": {
+      "efficiency-agents": "効率とエージェント",
+      "coding-apps": "コーディングとアプリ",
+      "web-games-3d": "ウェブ、ゲーム、3D",
+      "evaluations": "評価と比較",
+      "safety-limits": "安全性と制限"
+    },
+    "cases": {
+      "1": {
+        "title": "トークン効率の並列化",
+        "takeaway": "エージェント規模のワークロードに Flash モデルを選択する前に、同じワークフローでの出力トークンの使用状況を比較してください。",
+        "notes": "Jeff Dean 氏は、Gemini 3.6 フラッシュと 3.5 フラッシュを比較する比較デモを共有し、新しいモデルではトークンの使用量が少ないことを強調しました。"
+      },
+      "2": {
+        "title": "反重力におけるレガシーコードの最新化",
+        "takeaway": "制御されたレガシー コード移行タスクを使用して、エージェントの待ち時間、編集品質、完了動作を比較します。",
+        "notes": "Google Antigravity は、レガシー ソフトウェアを再構築する両方の Flash 世代をデモンストレーションし、Gemini 3.6 Flash からのレイテンシと出力の改善により完了が速くなったと報告しました。"
+      },
+      "3": {
+        "title": "キャンバストークンの効率テスト",
+        "takeaway": "モデルのバージョン間で同じ Canvas タスクを実行し、アーティファクトとトークンの使用状況の両方を検査します。",
+        "notes": "作成者は、短い Canvas タスクで Gemini 3.6 Flash と 3.5 Flash を比較し、3.6 Flash の方がトークンの使用量が大幅に少ないことを観察しました。"
+      },
+      "4": {
+        "title": "ブラウザエージェントベンチマーク",
+        "takeaway": "どちらかの指標を単独で最適化するのではなく、ブラウザーとエージェントの成功とコストを合わせてベンチマークします。",
+        "notes": "ブラウザ使用率では、Gemini 3.6 Flash の BU ベンチマークが 68% であるのに対し、GPT-5.6 Sol は 67%、Sonnet 4.6 は 62%、Opus 4.8 は 74% でした。"
+      },
+      "5": {
+        "title": "ロングテールファクト検索の効率",
+        "takeaway": "難しい事実検索タスクを使用して、推論ステップと思考トークンのオーバーヘッドを比較します。",
+        "notes": "作成者は、複雑なロングテール ファクト検索タスクで Gemini 3.5 と 3.6 Flash を直接実行し、3.6 Flash のステップ数が半分、思考トークンが 75% 少ないと報告しました。"
+      },
+      "6": {
+        "title": "エンタープライズ文書処理",
+        "takeaway": "本番環境のデフォルトを設定する前に、長い特許と文書の解析に対する推論の労力を評価します。",
+        "notes": "Databricks は、3.5 Flash よりも文書分類の精度が高く、長い特許で優れた結果が得られ、文書解析では高労力よりも中労力の方が総トークン数が約 32% 少ないと報告しました。"
+      },
+      "7": {
+        "title": "JetBrains でのエンジニアリング タスクの評価",
+        "takeaway": "客観的なエンジニアリング タスクを構築し、同じ IDE ワークフロー内でモデルの世代を比較します。",
+        "notes": "JetBrains は、AI Assistant および Junie における Gemini 3.6 フラッシュと前世代のフラッシュに対する客観的なエンジニアリング タスクの評価を発表しました。"
+      },
+      "8": {
+        "title": "マルチエージェントコードの移行",
+        "takeaway": "同じオーケストレーション プランでコードの移行をテストし、遅延、編集、最終的な品質を比較します。",
+        "notes": "このデモでは、Gemini 3.6 Flash が Antigravity のマルチエージェント オーケストレーションを通じてコード移行を実行する様子が示されており、3.5 Flash よりも遅延が短く、品質が高いことが報告されています。"
+      },
+      "9": {
+        "title": "Android ギターチューナー",
+        "takeaway": "従来のオーディオ ツールと AI 支援の代替チューニングを組み合わせた、焦点を絞ったモバイル ユーティリティのプロトタイプを作成します。",
+        "notes": "作成者は Gemini 3.6 Flash を使用して、AI 主導の代替チューニング サポートを備えた Android ギター チューナー アプリケーションを構築しました。"
+      },
+      "10": {
+        "title": "信号機シミュレーション",
+        "takeaway": "生成されたコードがタイミングとランダムなトラフィック動作をキャプチャするかどうかを検査するために、実行可能視覚化のモデルを要求します。",
+        "notes": "公開プロンプトは、ランダムな速度で車が到着する一方通行の信号機を視覚化する Python コードを要求し、投稿には結果のデモンストレーションが含まれています。"
+      },
+      "11": {
+        "title": "キーボードピアノアプリ",
+        "takeaway": "シンプルなインタラクションの概念を、再生可能なキーボード制御の Web アプリケーションに変えます。",
+        "notes": "作成者は、コンピュータのキーボードから演奏できるピアノ アプリケーションを Gemini 3.6 Flash で構築し、子供たちが探索できるアプリとして組み立てました。"
+      },
+      "12": {
+        "title": "デスクトップロボット音声アシスタント",
+        "takeaway": "Flash と Flash-Lite の両方を音声アプリケーションに統合し、最初の応答動作を比較します。",
+        "notes": "作成者は、デスクトップ ロボット用の音声ダイアログ アプリケーションに Gemini 3.6 Flash と Gemini 3.5 Flash-Lite を追加し、初期応答が少し遅いように感じられるものの、使用できると指摘しました。"
+      },
+      "13": {
+        "title": "ゴールデン ゲート ブリッジの HTML エラー",
+        "takeaway": "生成された 3D Web エクスペリエンスを信頼する前に、厳格なファイル配信タスクを使用して、従う指示をテストします。",
+        "notes": "テスターは 3 つのプロンプトを必要とし、モデルが要求された HTML ファイルの代わりにアプリ内シミュレーションと Web 画像応答を試行するのを確認し、最終的な 3D ブリッジ出力が Gemini 3.1 Pro よりも大幅に弱いと判断しました。"
+      },
+      "14": {
+        "title": "パブリック プロンプトのビジュアル テスト",
+        "takeaway": "作成者の完全なプロンプトが必要な場合は、出力からプロンプトを再構築するのではなく、ソース スレッドを開きます。",
+        "notes": "MotionViz は、メディア付きの Gemini 3.6 Flash ビジュアル テストを公開し、完全なプロンプトがソース スレッドで利用できることを示しました。このリポジトリは、ソース パッケージに存在しないプロンプト テキストを再構築しません。"
+      },
+      "15": {
+        "title": "シングルプロンプトキャンバスゲーム",
+        "takeaway": "Canvas で 1 つのプロンプトを使用して、モデルがコンパクトなゲームのコンセプトをインタラクティブな結果にどれだけ早く変換できるかをテストします。",
+        "notes": "作成者は Gemini 3.6 Flash を早期アクセスでテストし、単一の Canvas プロンプトを使用してプレイ可能なゲームのデモを作成しました。"
+      },
+      "16": {
+        "title": "ランディング ページのバージョン比較",
+        "takeaway": "ランディング ページの実行と視覚的な判断の変更を分離するために、モデルの世代にわたってプロンプトを固定したままにします。",
+        "notes": "作成者は、Gemini 3.6 Flash を同じプロンプトのランディング ページ アーカイブに追加し、新しい結果が Gemini 3 および 3.5 の出力よりも悪いと判断しました。"
+      },
+      "17": {
+        "title": "サブウェイ サーファーズ 3D プロトタイプ",
+        "takeaway": "コーディング実験の拡張思考を有効にし、インタラクションの品質と視覚的な忠実性の両方を検査します。",
+        "notes": "作成者は Gemini 3.6 Flash を使用してシンプルな 3D Subway Surfers スタイルのレプリカを構築し、コーディング タスクに拡張思考を推奨しました。"
+      },
+      "18": {
+        "title": "1 ページの Web サイト比較",
+        "takeaway": "Web サイトのプロンプトと推論レベルを一定に保ち、トークンのコスト、速度、デザインの好みを比較します。",
+        "notes": "同じ 1 ページの Web サイトのプロンプトで、作成者は、Gemini 3.6 Flash のトークンが約 6,100 であるのに対し、3.5 Flash のトークンは約 9,300 であると報告しましたが、個人的には古いモデルの外観を好みました。"
+      },
+      "19": {
+        "title": "ワイルドウェストゲームの失敗",
+        "takeaway": "失敗したゲーム生成の出力は、いつモデルを切り替えるか、タスクを修正するかを決定するための証拠として扱います。",
+        "notes": "テスターは Wild West ゲーム生成プロンプトを使用し、観察された結果に基づいて Gemini 3.6 Flash が GPT-5.6、Kimi K3、および Fable 5 より大幅に劣っていると判断しました。"
+      },
+      "20": {
+        "title": "反重力ゲームのマテリアルの失敗",
+        "takeaway": "AI によって生成されたゲーム プロトタイプを受け入れる前に、ビジュアル マテリアルと実際のインタラクション動作の両方を確認してください。",
+        "notes": "2 回目の反重力ゲーム テストで、作成者は木のテクスチャが弱く、見た目は似ているものの機能しないままの大理石の要素を発見しました。"
+      },
+      "21": {
+        "title": "ロールス・ロイス SVG の比較",
+        "takeaway": "固定の SVG 主題を使用して、2 つの Flash 世代が形状、詳細、構成をどのように処理するかを比較します。",
+        "notes": "この投稿では、同じロールスロイス SVG タスクに対して Gemini 3.6 フラッシュ出力と 3.5 フラッシュ出力を並べて配置しています。"
+      },
+      "22": {
+        "title": "リアルな水族館テスト",
+        "takeaway": "境界付き 3D シーンを使用して、モデルのバージョン間でリアリズムと実装の品質を比較します。",
+        "notes": "作成者は、Gemini 3.6 Flash にリアルな水族館を構築するよう依頼しましたが、3.5 Flash よりもわずかに優れているだけだと判断しました。"
+      },
+      "23": {
+        "title": "マックス推理でのジェミニ対グロク",
+        "takeaway": "モデルの評判に依存するのではなく、同じプロンプト設定と最大推論設定を使用して、速度、コスト、出力を比較します。",
+        "notes": "作成者は、Gemini 3.6 Flash と Grok 4.5 を同じプロンプトと最大推論設定で実行し、どちらも高速であり、Grok の方がわずかに高速で安価であることを観察しました。"
+      },
+      "24": {
+        "title": "最大設定でのジェミニ対ソネット",
+        "takeaway": "同一のプロンプトとその最も強力な設定でモデルを比較し、実際に生成されたアーティファクトを検査します。",
+        "notes": "作成者は、最大設定で同じプロンプトを使用して Gemini 3.6 Flash と Sonnet 5 をテストし、示されているタスクでは Gemini の出力を優先しました。"
+      },
+      "25": {
+        "title": "視覚理解テスト",
+        "takeaway": "ビジョン ワークフローにモデルを採用する前に、具体的なイメージ タスクを使用して応答品質と対話スタイルを検査します。",
+        "notes": "作成者は、Gemini 3.6 Flash が合格した視力テストを提示し、観察された体験の一部としての反応の性格を強調しました。"
+      },
+      "26": {
+        "title": "ロケットリーグ ゲームのベンチマーク",
+        "takeaway": "ゲーム生成ベンチマークを繰り返し実行し、ビルド時間と一貫した主観的なランキングの両方を記録します。",
+        "notes": "作成者は、ロケット リーグ スタイルのタスクで Gemini 3.6 Flash をテストし、個人的なリーダーボードで 3 位にランク付けし、2 分以内に完了したと報告しました。"
+      },
+      "27": {
+        "title": "EyeBench の視覚的な比較",
+        "takeaway": "安定した視覚的なベンチマークを使用して、増分的な効率の向上と絶対的な品質を区別します。",
+        "notes": "EyeBench では、作成者は Gemini 3.6 Flash が 3.5 Flash よりわずかに優れているものの、Gemini 3.1 Pro Preview よりはまだ悪いと判断しましたが、トークン効率の向上についても言及しました。"
+      },
+      "28": {
+        "title": "切り絵アニメーションの比較",
+        "takeaway": "クリエイティブ生成を評価する場合は、応答速度と最終的なアニメーションを個別に比較します。",
+        "notes": "作成者は、紙切りアニメーションのタスクに関して Gemini 3.6 Flash と Fable 5 を比較し、Gemini のほぼ即時の反応を賞賛しましたが、結果については懸念を表明しました。"
+      },
+      "29": {
+        "title": "AI アリーナ生成ベンチマーク",
+        "takeaway": "同じアリーナ タスクを使用して、複数のコーディング モデル間でビルド時間、価格、アーティファクトの品質を比較します。",
+        "notes": "作成者は、Grok 4.5、Gemini 3.6 Flash、および GPT-5.6 Luna を 1 つの AI Arena タスクでテストし、その実行では Gemini の結果が最も弱いと判断しました。"
+      },
+      "30": {
+        "title": "クロスモデル ゲームのビルド コスト",
+        "takeaway": "ゲームのプロトタイピング用のモデルを選択する際は、イテレーション数、開発者のエクスペリエンス、機能、コストを合わせて追跡します。",
+        "notes": "同じ設計ワークフローを使用して、作成者は、Gemini が生成したジャンプ アンド フォールのバグを修正するには 6 ～ 7 回の反復が必要であると報告し、比較スコアとともに 0.15 ドルの実行コストをリストしました。"
+      },
+      "31": {
+        "title": "サイバーセキュリティ拒否ベンチマーク",
+        "takeaway": "攻撃的なリクエストによって防御的なコードレビューがブロックされる可能性があるため、セキュリティツールの評価に拒否動作を含めます。",
+        "notes": "サイバーセキュリティ ベンチマークの実行が拒否されたため、評価者は、テストされたポリシーが防御コードの脆弱性発見動作と悪意のある使用をブロックしたと報告しました。"
+      },
+      "32": {
+        "title": "知識の鮮度の低下",
+        "takeaway": "主張されている知識の遮断を信頼するのではなく、検索によって現在の事実を確認します。",
+        "notes": "テスターは現在の主力モデルを要求し、古い名前を受け取りましたが、その後、このモデルは 2026 年 3 月の生産終了を主張しているにもかかわらず、2025 年初頭までの知識しか認めていないと報告しました。"
+      },
+      "33": {
+        "title": "脱獄レッドチームテスト",
+        "takeaway": "ジェイルブレイクの主張は、再利用可能な指示としてではなく、管理された再現と安全性のレビューを必要とするレッドチームの信号として扱います。",
+        "notes": "この投稿では、Gemini アプリと API 全体でジェイルブレイクを行ったと主張し、テストされた有害なコンテンツのカテゴリをリストしています。このリポジトリは、エクスプロイト命令を再現することなく安全信号を記録します。"
+      }
+    }
+  },
+  "ko": {
+    "locale": "ko",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "멋진 Gemini 3.6 플래시 가이드 및 사용 사례",
+      "introduction": "소개",
+      "intro": "실제로 Gemini 3.6 Flash에 대한 소스 기반 가이드에 오신 것을 환영합니다.",
+      "mission": "이 저장소는 공개 제작자 증거로부터 구체적인 Gemini 3.6 Flash 워크플로우, 빌드, 평가, 비교 및 한계를 수집합니다.",
+      "boundary": "포함된 모든 사례는 검토된 소스 패키지에서 나옵니다. 제목은 원본 게시물에 연결되고 작성자는 작성자 프로필에 연결되며 프롬프트는 원본 텍스트에 실제로 포함된 경우에만 나타납니다.",
+      "overview": "개요",
+      "overview_cases": "검토된 33개의 원본 게시물 중에서 신뢰도가 높은 사례 33개 선택",
+      "overview_coverage": "적용 범위에는 에이전트, 코딩, 웹사이트, 게임, 3D, 벤치마크 스타일 비교 및 실질적인 안전 제한이 포함됩니다.",
+      "overview_media": "24개의 비디오 케이스 모두 눈에 보이는 포스터와 재생 가능한 R2 호스팅 MP4를 제공합니다. 이미지 케이스는 검토된 모든 소스 이미지를 보존합니다.",
+      "overview_model": "EvoLink는 생산 모델 ID를 `gemini-3.6-flash`로 나열합니다. 이 저장소는 현재 모델 및 Gemini Native API 표면에 연결됩니다.",
+      "note": "이 컬렉션은 과대 광고보다 관찰 가능한 증거를 선호합니다. 누락된 프롬프트를 재구성하거나, 게시되지 않은 설정 단계를 추론하거나, 한 제작자의 결과를 범용 벤치마크로 일반화하지 않습니다.",
+      "start_here": "여기서 시작하세요",
+      "explore": "Gemini 3.6 플래시 살펴보기",
+      "get_key": "API 키 받기",
+      "open_docs": "Gemini 네이티브 API 문서를 엽니다",
+      "menu": "메뉴",
+      "section": "섹션",
+      "cases": "사례",
+      "case": "케이스",
+      "category": "카테고리",
+      "what_it_shows": "그것이 보여주는 것",
+      "type": "유형",
+      "by": "에 의해",
+      "prompt": "프롬프트",
+      "date": "날짜",
+      "play_video": "소스 영상 재생",
+      "related": "관련 저장소",
+      "related_org": "EvoLink의 추가 모델 가이드 및 API 예제",
+      "related_note": "이 발행물에서는 설치 가능한 전용 Gemini 3.6 Flash 기술이 독립적으로 검증되지 않았습니다.",
+      "quickstart": "빠른 시작",
+      "quick_intro": "모델 ID `gemini-3.6-flash`로 시작하려면 아래의 검증된 공개 표면을 사용하세요.",
+      "quick_model": "Gemini 3.6 플래시 모델 페이지 열기",
+      "quick_key": "EvoLink API 키 생성 또는 관리",
+      "quick_docs": "Gemini 네이티브 API 빠른 시작을 따르세요.",
+      "important": "공개 경로와 모델 ID는 문서화되어 있지만 이 저장소는 해당 테스트가 실행되거나 명시적으로 면제될 때까지 크레딧을 소모하는 첫 번째 호출을 요구하지 않습니다.",
+      "acknowledge": "승인",
+      "ack_text": "이 컬렉션은 제작자와 실무자가 Gemini 3.6 Flash 작업을 공개적으로 공유했기 때문에 존재합니다.",
+      "thanks": "여기에 표시된 소스 제작자에게 감사드립니다.",
+      "correction": "모든 게시물이 최초의 원본 작성자를 식별한다고 보장할 수는 없습니다. 저작자 표시, 번역 또는 문구 수정이 필요한 경우 공개 소스에 수정 문제를 개설하세요.",
+      "contribute": "다른 소스 지원 사례를 제안하려면 이슈를 개설하거나 끌어오기 요청을 하고 기여 체크리스트를 따르세요."
+    },
+    "categories": {
+      "efficiency-agents": "효율성 및 에이전트",
+      "coding-apps": "코딩 및 앱",
+      "web-games-3d": "웹, 게임, 3D",
+      "evaluations": "평가 및 비교",
+      "safety-limits": "안전 및 한계"
+    },
+    "cases": {
+      "1": {
+        "title": "토큰 효율성 나란히",
+        "takeaway": "에이전트 규모 워크로드를 위한 플래시 모델을 선택하기 전에 동일한 워크플로에서 출력 토큰 사용을 비교하세요.",
+        "notes": "Jeff Dean은 Gemini 3.6 Flash와 3.5 Flash를 나란히 비교하는 데모를 공유하고 최신 모델에서 더 낮은 토큰 사용을 강조했습니다."
+      },
+      "2": {
+        "title": "반중력으로 레거시 코드 현대화",
+        "takeaway": "제어된 레거시 코드 마이그레이션 작업을 사용하여 에이전트 대기 시간, 편집 품질 및 완료 동작을 비교합니다.",
+        "notes": "Google Antigravity는 레거시 소프트웨어를 재구축하는 두 Flash 세대를 모두 시연했으며 Gemini 3.6 Flash의 지연 시간 및 출력이 향상되어 더 빠른 완료를 보고했습니다."
+      },
+      "3": {
+        "title": "캔버스 토큰 효율성 테스트",
+        "takeaway": "모델 버전 전반에 걸쳐 동일한 Canvas 작업을 실행하고 아티팩트와 토큰 사용량을 모두 검사합니다.",
+        "notes": "제작자는 짧은 Canvas 작업에서 Gemini 3.6 Flash와 3.5 Flash를 비교한 결과 3.6 Flash에서 토큰 사용량이 상당히 낮아지는 것을 관찰했습니다."
+      },
+      "4": {
+        "title": "브라우저 에이전트 벤치마크",
+        "takeaway": "두 측정항목 중 하나만 최적화하는 대신 브라우저 에이전트 성공과 비용을 함께 벤치마크하세요.",
+        "notes": "Browser Use는 Gemini 3.6 Flash의 BU 벤치마크에서 68%를 보고한 반면 GPT-5.6 Sol은 67%, Sonnet 4.6은 62%, Opus 4.8은 74%를 기록했습니다."
+      },
+      "5": {
+        "title": "롱테일 사실 검색 효율성",
+        "takeaway": "어려운 사실 검색 작업을 사용하여 추론 단계와 생각 토큰 오버헤드를 비교하세요.",
+        "notes": "제작자는 복잡한 롱테일 사실 검색 작업에서 Gemini 3.5 및 3.6 Flash를 정면으로 실행했으며 3.6 Flash에 대해 절반의 단계와 75% 적은 사고 토큰을 보고했습니다."
+      },
+      "6": {
+        "title": "기업 문서 처리",
+        "takeaway": "생산 기본값을 설정하기 전에 긴 특허 및 문서 구문 분석에 대한 추론 노력을 평가하십시오.",
+        "notes": "Databricks는 3.5 Flash보다 문서 분류 정확도가 더 높고, 긴 특허에 대한 강력한 결과를 보고했으며, 문서 구문 분석에 대한 높은 노력보다 중간 노력에서 총 토큰이 약 32% 적다고 보고했습니다."
+      },
+      "7": {
+        "title": "JetBrains의 엔지니어링 작업 평가",
+        "takeaway": "객관적인 엔지니어링 작업을 구축하고 동일한 IDE 워크플로우 내에서 모델 세대를 비교하세요.",
+        "notes": "JetBrains는 AI Assistant 및 Junie의 이전 Flash 세대와 비교하여 Gemini 3.6 Flash에 대한 객관적인 엔지니어링 작업 평가를 제시했습니다."
+      },
+      "8": {
+        "title": "다중 에이전트 코드 마이그레이션",
+        "takeaway": "동일한 오케스트레이션 계획으로 코드 마이그레이션을 테스트하고 대기 시간, 편집 및 최종 품질을 비교하세요.",
+        "notes": "데모에서는 Antigravity의 다중 에이전트 오케스트레이션을 통해 코드 마이그레이션을 실행하는 Gemini 3.6 Flash를 보여 주며 3.5 Flash보다 지연 시간이 짧고 품질이 더 높다고 보고합니다."
+      },
+      "9": {
+        "title": "안드로이드 기타 튜너",
+        "takeaway": "기존 오디오 도구와 AI 지원 대체 튜닝을 결합한 집중형 모바일 유틸리티의 프로토타입을 제작하세요.",
+        "notes": "제작자는 Gemini 3.6 Flash를 사용하여 AI 기반 대체 튜닝을 지원하는 Android 기타 튜너 애플리케이션을 구축했습니다."
+      },
+      "10": {
+        "title": "신호등 시뮬레이션",
+        "takeaway": "생성된 코드가 타이밍과 무작위 트래픽 동작을 캡처하는지 여부를 검사하기 위해 실행 가능한 시각화를 모델에 요청하세요.",
+        "notes": "공개 프롬프트에서는 무작위 속도로 도착하는 자동차가 있는 일방 통행 신호등을 시각화하는 Python 코드를 요청하고 게시물에는 결과 데모가 포함됩니다."
+      },
+      "11": {
+        "title": "키보드 피아노 앱",
+        "takeaway": "간단한 상호 작용 개념을 키보드로 제어되는 재생 가능한 웹 애플리케이션으로 바꿔보세요.",
+        "notes": "제작자는 컴퓨터 키보드에서 연주할 수 있는 Gemini 3.6 Flash를 사용하여 피아노 애플리케이션을 구축하고 이를 아이들이 탐색할 수 있는 앱으로 구성했습니다."
+      },
+      "12": {
+        "title": "데스크탑 로봇 음성 도우미",
+        "takeaway": "Flash와 Flash-Lite를 모두 음성 애플리케이션에 통합하고 첫 번째 응답 동작을 비교합니다.",
+        "notes": "제작자는 데스크톱 로봇용 음성 대화 응용 프로그램에 Gemini 3.6 Flash 및 Gemini 3.5 Flash-Lite를 추가했으며 초기 응답이 약간 느리지만 사용할 수 있다고 언급했습니다."
+      },
+      "13": {
+        "title": "Golden Gate Bridge HTML 실패",
+        "takeaway": "생성된 3D 웹 경험을 신뢰하기 전에 엄격한 파일 전달 작업을 사용하여 지침을 테스트하십시오.",
+        "notes": "테스터는 세 가지 프롬프트가 필요했고 모델이 요청한 HTML 파일 대신 인앱 시뮬레이션 및 웹 이미지 응답을 시도하는 것을 확인했으며 최종 3D 브리지 출력이 Gemini 3.1 Pro보다 실질적으로 약하다고 판단했습니다."
+      },
+      "14": {
+        "title": "공개 프롬프트 시각적 테스트",
+        "takeaway": "출력에서 재구성하는 대신 작성자의 전체 프롬프트가 필요할 때 소스 스레드를 엽니다.",
+        "notes": "MotionViz는 미디어를 통해 Gemini 3.6 Flash 시각적 테스트를 게시했으며 소스 스레드에서 전체 프롬프트를 사용할 수 있음을 표시했습니다. 이 저장소는 소스 패키지에 없는 프롬프트 텍스트를 재구성하지 않습니다."
+      },
+      "15": {
+        "title": "단일 프롬프트 캔버스 게임",
+        "takeaway": "Canvas에서 하나의 프롬프트를 사용하여 모델이 컴팩트 게임 컨셉을 대화형 결과로 얼마나 빨리 변환할 수 있는지 테스트하세요.",
+        "notes": "제작자는 초기 액세스에서 Gemini 3.6 Flash를 테스트하고 단일 Canvas 프롬프트를 사용하여 플레이 가능한 게임 데모를 제작했습니다."
+      },
+      "16": {
+        "title": "랜딩 페이지 버전 비교",
+        "takeaway": "랜딩 페이지 실행 및 시각적 판단의 변화를 격리하기 위해 모델 세대 전반에 걸쳐 프롬프트를 고정된 상태로 유지합니다.",
+        "notes": "제작자는 동일한 프롬프트 랜딩 페이지 아카이브에 Gemini 3.6 Flash를 추가하고 새로운 결과가 Gemini 3 및 3.5 출력보다 나쁘다고 판단했습니다."
+      },
+      "17": {
+        "title": "지하철 서퍼스 3D 프로토타입",
+        "takeaway": "코딩 실험에 대한 확장된 사고를 활성화하고 상호 작용 품질과 시각적 충실도를 모두 검사합니다.",
+        "notes": "제작자는 Gemini 3.6 Flash를 사용하여 간단한 3D Subway Surfers 스타일 복제본을 만들고 코딩 작업에 대한 확장된 사고를 권장했습니다."
+      },
+      "18": {
+        "title": "한 페이지 웹사이트 비교",
+        "takeaway": "웹 사이트 프롬프트와 추론 수준을 일정하게 유지한 다음 토큰 비용, 속도 및 디자인 선호도를 비교하십시오.",
+        "notes": "동일한 한 페이지짜리 웹사이트 프롬프트에서 제작자는 Gemini 3.6 Flash의 경우 약 6,100개, 3.5 Flash의 경우 약 9,300개의 토큰을 보고했으며 개인적으로 이전 모델의 모양을 선호했습니다."
+      },
+      "19": {
+        "title": "와일드 웨스트 게임 실패",
+        "takeaway": "실패한 게임 생성 출력을 모델 전환 시기나 작업 수정 시기를 결정하기 위한 증거로 간주합니다.",
+        "notes": "테스터는 Wild West 게임 생성 프롬프트를 사용하고 관찰된 결과에서 Gemini 3.6 Flash가 GPT-5.6, Kimi K3 및 Fable 5보다 훨씬 뒤처져 있다고 판단했습니다."
+      },
+      "20": {
+        "title": "반중력 게임 재료 실패",
+        "takeaway": "AI로 생성된 게임 프로토타입을 수락하기 전에 시각적 자료와 실제 상호 작용 동작을 모두 확인하세요.",
+        "notes": "두 번째 반중력 게임 테스트에서 제작자는 나무 질감이 약하고 유사해 보이지만 기능하지 않는 대리석 요소를 발견했습니다."
+      },
+      "21": {
+        "title": "롤스로이스 SVG 비교",
+        "takeaway": "고정된 SVG 주제를 사용하여 두 세대의 Flash가 모양, 세부 사항 및 구성을 처리하는 방법을 비교하십시오.",
+        "notes": "이 게시물은 동일한 Rolls-Royce SVG 작업에 대해 Gemini 3.6 Flash와 3.5 Flash 출력을 나란히 배치합니다."
+      },
+      "22": {
+        "title": "현실적인 수족관 테스트",
+        "takeaway": "제한된 3D 장면을 사용하여 모델 버전 전반에 걸쳐 사실성과 구현 품질을 비교합니다.",
+        "notes": "제작자는 Gemini 3.6 Flash에 현실적인 수족관을 구축해 달라고 요청했고 3.5 Flash보다 약간 더 낫다고 판단했습니다."
+      },
+      "23": {
+        "title": "Max Reasoning의 Gemini 대 Grok",
+        "takeaway": "모델 평판에 의존하지 않고 동일한 프롬프트 및 최대 추론 설정을 사용하여 속도, 비용 및 출력을 비교합니다.",
+        "notes": "제작자는 동일한 프롬프트 및 최대 추론 설정에서 Gemini 3.6 Flash 및 Grok 4.5를 실행하여 둘 다 빠르며 Grok은 약간 더 빠르고 저렴하다는 것을 관찰했습니다."
+      },
+      "24": {
+        "title": "Max 설정의 Gemini 대 Sonnet",
+        "takeaway": "동일한 프롬프트와 가장 강력한 설정으로 모델을 비교한 다음 실제 생성된 아티팩트를 검사합니다.",
+        "notes": "작성자는 최대 설정에서 동일한 프롬프트로 Gemini 3.6 Flash 및 Sonnet 5를 테스트했으며 표시된 작업에서 Gemini 출력을 선호했습니다."
+      },
+      "25": {
+        "title": "시각적 이해 테스트",
+        "takeaway": "비전 워크플로용 모델을 채택하기 전에 구체적인 이미지 작업을 사용하여 응답 품질과 상호 작용 스타일을 검사합니다.",
+        "notes": "제작자는 Gemini 3.6 Flash가 통과한 시력 테스트를 제시하고 관찰된 경험의 일부로 반응 성격을 강조했습니다."
+      },
+      "26": {
+        "title": "로켓리그 게임 벤치마크",
+        "takeaway": "반복적인 게임 생성 벤치마크를 실행하고 빌드 시간과 일관된 주관적 순위를 모두 기록합니다.",
+        "notes": "제작자는 Rocket League 스타일 작업에서 Gemini 3.6 Flash를 테스트하고 개인 순위표에서 3위를 차지했으며 2분 이내에 완료되었다고 보고했습니다."
+      },
+      "27": {
+        "title": "EyeBench 시각적 비교",
+        "takeaway": "안정적인 시각적 벤치마크를 사용하여 절대적인 품질로부터 점진적인 효율성 향상을 분리합니다.",
+        "notes": "EyeBench에서 제작자는 Gemini 3.6 Flash가 3.5 Flash보다 약간 우수하지만 Gemini 3.1 Pro Preview보다는 여전히 나쁘다고 판단했으며 향상된 토큰 효율성에 주목했습니다."
+      },
+      "28": {
+        "title": "종이 컷 애니메이션 비교",
+        "takeaway": "크리에이티브 생성을 평가할 때 응답 속도와 최종 애니메이션을 별도로 비교하십시오.",
+        "notes": "제작자는 종이 컷 애니메이션 작업에서 Gemini 3.6 Flash를 Fable 5와 비교하여 Gemini의 거의 즉각적인 반응을 칭찬했지만 결과에 대한 의구심을 표시했습니다."
+      },
+      "29": {
+        "title": "AI 아레나 생성 벤치마크",
+        "takeaway": "동일한 경기장 작업을 사용하여 여러 코딩 모델에서 빌드 시간, 가격 및 아티팩트 품질을 비교합니다.",
+        "notes": "제작자는 하나의 AI Arena 작업에서 Grok 4.5, Gemini 3.6 Flash 및 GPT-5.6 Luna를 테스트했으며 해당 실행에서 Gemini 결과가 가장 약한 것으로 판단했습니다."
+      },
+      "30": {
+        "title": "모델 간 게임 빌드 비용",
+        "takeaway": "게임 프로토타입 제작을 위한 모델을 선택할 때 반복 횟수, 개발자 경험, 기능 및 비용을 함께 추적하세요.",
+        "notes": "동일한 디자인 작업 흐름을 사용하여 제작자는 Gemini에서 생성된 점프 및 추락 버그를 수정하기 위해 6~7번의 반복이 필요하다고 보고했으며 비교 점수와 함께 실행 비용 0.15달러를 나열했습니다."
+      },
+      "31": {
+        "title": "사이버 보안 거부 벤치마크",
+        "takeaway": "공격적인 요청으로 인해 방어 코드 검토가 차단될 수 있으므로 보안 도구 평가에 거부 동작을 포함합니다.",
+        "notes": "사이버 보안 벤치마크 실행이 거부되어 평가자는 테스트된 정책이 악의적인 사용뿐만 아니라 방어 코드에 대한 취약성 찾기 동작을 차단했다고 보고했습니다."
+      },
+      "32": {
+        "title": "지식 신선도 실패",
+        "takeaway": "주장된 지식 컷오프를 신뢰하는 대신 검색을 통해 현재 사실을 확인하세요.",
+        "notes": "테스터는 현재 플래그십 모델을 요청하고 이전 이름을 받은 후 2026년 3월 컷오프를 주장했음에도 불구하고 해당 모델이 2025년 초까지만 최신 지식을 인정했다고 보고했습니다."
+      },
+      "33": {
+        "title": "탈옥 레드팀 테스트",
+        "takeaway": "탈옥 요청을 재사용 가능한 지침이 아닌 제어된 재생산 및 안전 검토가 필요한 레드팀 신호로 취급하십시오.",
+        "notes": "이 게시물은 Gemini 앱과 API 전반에 걸쳐 탈옥했다고 주장하며 테스트된 유해 콘텐츠 카테고리를 나열합니다. 이 저장소는 악용 지침을 재생산하지 않고 안전 신호를 기록합니다."
+      }
+    }
+  },
+  "de": {
+    "locale": "de",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "Fantastischer Gemini 3.6 Flash-Leitfaden und Anwendungsfälle",
+      "introduction": "Einführung",
+      "intro": "Willkommen zu einem quellengestützten Leitfaden für Gemini 3.6 Flash in der Praxis",
+      "mission": "Dieses Repository sammelt konkrete Gemini 3.6 Flash-Workflows, Builds, Bewertungen, Vergleiche und Grenzwerte aus öffentlichen Erstellernachweisen",
+      "boundary": "Jeder enthaltene Koffer stammt aus dem überprüften Quellpaket. Titel verweisen auf Originalbeiträge, Autoren auf Erstellerprofile und Eingabeaufforderungen werden nur angezeigt, wenn sie tatsächlich im Quelltext enthalten sind",
+      "overview": "Übersicht",
+      "overview_cases": "33 Fälle mit hoher Zuverlässigkeit, ausgewählt aus 33 überprüften Quellenbeiträgen",
+      "overview_coverage": "Die Abdeckung umfasst Agenten, Codierung, Websites, Spiele, 3D, Vergleiche im Benchmark-Stil und praktische Sicherheitsgrenzen",
+      "overview_media": "Alle 24 Videohüllen bieten ein sichtbares Poster und eine abspielbare, von R2 gehostete MP4; Bildfälle bewahren jedes überprüfte Quellbild",
+      "overview_model": "EvoLink listet die Produktionsmodell-ID als „gemini-3.6-flash“ auf; Dieses Repository ist mit dem aktuellen Modell und den Gemini Native API-Oberflächen verknüpft",
+      "note": "Diese Sammlung bevorzugt beobachtbare Beweise gegenüber Hype. Es rekonstruiert keine fehlenden Eingabeaufforderungen, leitet keine unveröffentlichten Einrichtungsschritte ab und verallgemeinert das Ergebnis eines Erstellers nicht in einem universellen Benchmark",
+      "start_here": "Beginnen Sie hier",
+      "explore": "Entdecken Sie Gemini 3.6 Flash",
+      "get_key": "Holen Sie sich einen API-Schlüssel",
+      "open_docs": "Öffnen Sie die Gemini Native API-Dokumente",
+      "menu": "Menü",
+      "section": "Abschnitt",
+      "cases": "Fälle",
+      "case": "Fall",
+      "category": "Kategorie",
+      "what_it_shows": "Was es zeigt",
+      "type": "Typ",
+      "by": "von",
+      "prompt": "Prompt",
+      "date": "Datum",
+      "play_video": "Quellvideo abspielen",
+      "related": "Verwandte Repositories",
+      "related_org": "Weitere Modellhandbücher und API-Beispiele von EvoLink",
+      "related_note": "Während dieser Veröffentlichung wurde kein dedizierter installierbarer Gemini 3.6 Flash-Fähigkeit unabhängig überprüft",
+      "quickstart": "Schnellstart",
+      "quick_intro": "Verwenden Sie die unten aufgeführten verifizierten öffentlichen Oberflächen, um mit der Modell-ID „gemini-3.6-flash“ zu beginnen",
+      "quick_model": "Öffnen Sie die Gemini 3.6 Flash-Modellseite",
+      "quick_key": "Erstellen oder verwalten Sie einen EvoLink-API-Schlüssel",
+      "quick_docs": "Befolgen Sie den Schnellstart für die Gemini Native API",
+      "important": "Die öffentliche Route und die Modell-ID sind dokumentiert, aber dieses Repository erhebt keinen Anspruch auf einen kreditintensiven ersten Aufruf, bis dieser Test ausgeführt oder ausdrücklich darauf verzichtet wurde",
+      "acknowledge": "Bestätigen",
+      "ack_text": "Diese Sammlung existiert, weil Schöpfer und Praktiker ihre Gemini 3.6 Flash-Arbeit öffentlich geteilt haben",
+      "thanks": "Vielen Dank an die hier vertretenen Quellersteller",
+      "correction": "Wir können nicht garantieren, dass jeder Beitrag den frühesten ursprünglichen Ersteller identifiziert. Wenn Namensnennung, Übersetzung oder Wortlaut korrigiert werden müssen, öffnen Sie ein Korrekturproblem bei einer öffentlichen Quelle",
+      "contribute": "Um einen weiteren quellengestützten Fall vorzuschlagen, öffnen Sie ein Problem oder eine Pull-Anfrage und folgen Sie der Beitrags-Checkliste"
+    },
+    "categories": {
+      "efficiency-agents": "Effizienz & Agenten",
+      "coding-apps": "Codierung und Apps",
+      "web-games-3d": "Web, Spiele und 3D",
+      "evaluations": "Bewertung & Vergleiche",
+      "safety-limits": "Sicherheit und Grenzen"
+    },
+    "cases": {
+      "1": {
+        "title": "Token-Effizienz nebeneinander",
+        "takeaway": "Vergleichen Sie die Verwendung von Ausgabetokens im selben Workflow, bevor Sie ein Flash-Modell für Workloads auf Agentenebene auswählen.",
+        "notes": "Jeff Dean teilte eine Paralleldemonstration, in der er Gemini 3.6 Flash mit 3.5 Flash verglich, und hob die geringere Token-Nutzung im neueren Modell hervor."
+      },
+      "2": {
+        "title": "Modernisierung des Legacy-Codes in der Antigravitation",
+        "takeaway": "Verwenden Sie eine kontrollierte Migrationsaufgabe für Legacy-Code, um die Agentenlatenz, die Bearbeitungsqualität und das Abschlussverhalten zu vergleichen.",
+        "notes": "Google Antigravity demonstrierte die Wiederherstellung älterer Software durch beide Flash-Generationen und berichtete von einer schnelleren Fertigstellung mit verbesserter Latenz und Ausgabe von Gemini 3.6 Flash."
+      },
+      "3": {
+        "title": "Canvas-Token-Effizienztest",
+        "takeaway": "Führen Sie dieselbe Canvas-Aufgabe über alle Modellversionen hinweg aus und überprüfen Sie sowohl das Artefakt als auch die Token-Nutzung.",
+        "notes": "Der Ersteller verglich Gemini 3.6 Flash und 3.5 Flash bei einer kurzen Canvas-Aufgabe und beobachtete eine wesentlich geringere Token-Nutzung gegenüber 3.6 Flash."
+      },
+      "4": {
+        "title": "Browser-Agent-Benchmark",
+        "takeaway": "Vergleichen Sie den Erfolg und die Kosten von Browser-Agenten gemeinsam, anstatt nur eine der beiden Kennzahlen zu optimieren.",
+        "notes": "Browser Use meldete in seinem BU-Benchmark 68 % für Gemini 3.6 Flash, verglichen mit 67 % für GPT-5.6 Sol, 62 % für Sonnet 4.6 und 74 % für Opus 4.8."
+      },
+      "5": {
+        "title": "Effizienz beim Abrufen von Long-Tail-Fakten",
+        "takeaway": "Verwenden Sie schwierige Aufgaben zum Abrufen von Fakten, um Argumentationsschritte und den Aufwand für Gedankentokens zu vergleichen.",
+        "notes": "Der Ersteller führte Gemini 3.5 und 3.6 Flash direkt bei einer komplexen Long-Tail-Faktenabrufaufgabe aus und meldete halb so viele Schritte und 75 % weniger Gedankentokens für 3.6 Flash."
+      },
+      "6": {
+        "title": "Unternehmensdokumentenverarbeitung",
+        "takeaway": "Bewerten Sie den Argumentationsaufwand für lange Patente und das Parsen von Dokumenten, bevor Sie einen Produktionsstandard festlegen.",
+        "notes": "Databricks meldete eine höhere Genauigkeit bei der Dokumentenklassifizierung als 3.5 Flash, starke Ergebnisse bei langen Patenten und etwa 32 % weniger Gesamttokens bei mittlerem Aufwand als bei hohem Aufwand für die Dokumentenanalyse."
+      },
+      "7": {
+        "title": "Evaluierung technischer Aufgaben in JetBrains",
+        "takeaway": "Erstellen Sie eine objektive Engineering-Aufgabe und vergleichen Sie Modellgenerationen innerhalb desselben IDE-Workflows.",
+        "notes": "JetBrains präsentierte eine objektive Bewertung der technischen Aufgaben für Gemini 3.6 Flash im Vergleich zur vorherigen Flash-Generation in AI Assistant und Junie."
+      },
+      "8": {
+        "title": "Migration von Multi-Agent-Code",
+        "takeaway": "Testen Sie die Codemigration mit demselben Orchestrierungsplan und vergleichen Sie Latenz, Bearbeitungen und Endqualität.",
+        "notes": "Die Demonstration zeigt, wie Gemini 3.6 Flash eine Codemigration durch Multi-Agent-Orchestrierung in Antigravity durchführt und eine geringere Latenz und eine höhere Qualität als 3.5 Flash meldet."
+      },
+      "9": {
+        "title": "Android-Gitarren-Tuner",
+        "takeaway": "Entwickeln Sie einen Prototyp eines fokussierten mobilen Dienstprogramms, das herkömmliche Audiotools mit KI-gestützten alternativen Abstimmungen kombiniert.",
+        "notes": "Der Ersteller nutzte Gemini 3.6 Flash, um eine Android-Gitarren-Tuner-Anwendung mit KI-gesteuerter alternativer Stimmunterstützung zu erstellen."
+      },
+      "10": {
+        "title": "Ampelsimulation",
+        "takeaway": "Bitten Sie das Modell um eine ausführbare Visualisierung, um zu überprüfen, ob der generierte Code das Timing und das zufällige Verkehrsverhalten erfasst.",
+        "notes": "Die öffentliche Eingabeaufforderung fordert Python-Code an, der eine Einbahnstraßenampel mit zufällig ankommenden Autos visualisiert, und der Beitrag enthält die resultierende Demonstration."
+      },
+      "11": {
+        "title": "Keyboard-Klavier-App",
+        "takeaway": "Verwandeln Sie ein einfaches Interaktionskonzept in eine spielbare, tastaturgesteuerte Webanwendung.",
+        "notes": "Der Ersteller hat mit Gemini 3.6 Flash eine Klavieranwendung erstellt, die über eine Computertastatur gespielt werden kann, und hat sie als App gestaltet, die Kinder erkunden können."
+      },
+      "12": {
+        "title": "Sprachassistent für Desktop-Roboter",
+        "takeaway": "Integrieren Sie sowohl Flash als auch Flash-Lite in eine Sprachanwendung und vergleichen Sie das Erstreaktionsverhalten.",
+        "notes": "Der Ersteller fügte Gemini 3.6 Flash und Gemini 3.5 Flash-Lite zu einer Sprachdialoganwendung für einen Desktop-Roboter hinzu und stellte fest, dass sich die erste Reaktion etwas langsam, aber brauchbar anfühlte."
+      },
+      "13": {
+        "title": "HTML-Fehler der Golden Gate Bridge",
+        "takeaway": "Verwenden Sie eine strikte Dateizustellungsaufgabe, um die Befolgung der Anweisungen zu testen, bevor Sie generierten 3D-Weberlebnissen vertrauen.",
+        "notes": "Der Tester benötigte drei Eingabeaufforderungen, sah, wie das Modell eine In-App-Simulation und Webbildantworten anstelle der angeforderten HTML-Datei versuchte, und beurteilte die endgültige 3D-Bridge-Ausgabe als wesentlich schwächer als Gemini 3.1 Pro."
+      },
+      "14": {
+        "title": "Öffentlicher visueller Prompt-Test",
+        "takeaway": "Öffnen Sie den Quellthread, wenn Sie die vollständige Eingabeaufforderung des Erstellers benötigen, anstatt sie aus der Ausgabe zu rekonstruieren.",
+        "notes": "MotionViz hat einen visuellen Gemini 3.6 Flash-Test mit Medien veröffentlicht und angegeben, dass die vollständige Eingabeaufforderung im Quellthread verfügbar ist; Dieses Repository rekonstruiert keinen Eingabeaufforderungstext, der nicht im Quellpaket vorhanden ist."
+      },
+      "15": {
+        "title": "Single-Prompt-Canvas-Spiel",
+        "takeaway": "Verwenden Sie eine Eingabeaufforderung in Canvas, um zu testen, wie schnell das Modell ein kompaktes Spielkonzept in ein interaktives Ergebnis umwandeln kann.",
+        "notes": "Der Entwickler testete Gemini 3.6 Flash im Early Access und nutzte eine einzige Canvas-Eingabeaufforderung, um eine spielbare Spieldemonstration zu erstellen."
+      },
+      "16": {
+        "title": "Vergleich der Landingpage-Versionen",
+        "takeaway": "Halten Sie die Eingabeaufforderung über alle Modellgenerationen hinweg unverändert, um Änderungen bei der Ausführung der Zielseite und der visuellen Beurteilung zu isolieren.",
+        "notes": "Der Ersteller fügte Gemini 3.6 Flash zu einem Landingpage-Archiv mit derselben Eingabeaufforderung hinzu und beurteilte das neuere Ergebnis als schlechter als die Ausgaben von Gemini 3 und 3.5."
+      },
+      "17": {
+        "title": "Subway Surfers 3D-Prototyp",
+        "takeaway": "Ermöglichen Sie erweitertes Denken für Coding-Experimente und überprüfen Sie sowohl die Interaktionsqualität als auch die visuelle Wiedergabetreue.",
+        "notes": "Der Ersteller verwendete Gemini 3.6 Flash, um eine einfache 3D-Nachbildung im Subway Surfers-Stil zu erstellen, und empfahl erweitertes Denken für Codierungsaufgaben."
+      },
+      "18": {
+        "title": "One-Page-Website-Vergleich",
+        "takeaway": "Halten Sie die Eingabeaufforderung und die Argumentationsebene der Website konstant und vergleichen Sie dann die Token-Kosten, die Geschwindigkeit und die Designpräferenz.",
+        "notes": "Auf derselben einseitigen Website-Eingabeaufforderung berichtete der Ersteller über etwa 6.100 Token für Gemini 3.6 Flash gegenüber etwa 9.300 für 3.5 Flash, wobei er persönlich das Aussehen des älteren Modells bevorzugte."
+      },
+      "19": {
+        "title": "Wild-West-Spielfehler",
+        "takeaway": "Behandeln Sie fehlgeschlagene Spielegenerierungsausgaben als Beweis für die Entscheidung, wann das Modell gewechselt oder die Aufgabe überarbeitet werden sollte.",
+        "notes": "Der Tester nutzte eine Wild-West-Spielgenerierungsaufforderung und beurteilte Gemini 3.6 Flash aufgrund des beobachteten Ergebnisses deutlich hinter GPT-5.6, Kimi K3 und Fable 5."
+      },
+      "20": {
+        "title": "Materialversagen des Antigravitationsspiels",
+        "takeaway": "Überprüfen Sie sowohl visuelle Materialien als auch das tatsächliche Interaktionsverhalten, bevor Sie einen KI-generierten Spielprototyp akzeptieren.",
+        "notes": "In einem zweiten Antigravity-Spieltest entdeckte der Entwickler schwächere Holztexturen und ein Marmorelement, das ähnlich aussah, aber nicht funktionsfähig blieb."
+      },
+      "21": {
+        "title": "Rolls-Royce SVG-Vergleich",
+        "takeaway": "Verwenden Sie ein festes SVG-Subjekt, um zu vergleichen, wie zwei Flash-Generationen mit Form, Details und Komposition umgehen.",
+        "notes": "Der Beitrag platziert Gemini 3.6 Flash- und 3.5 Flash-Ausgaben nebeneinander für die gleiche Rolls-Royce SVG-Aufgabe."
+      },
+      "22": {
+        "title": "Realistischer Aquariumtest",
+        "takeaway": "Verwenden Sie eine begrenzte 3D-Szene, um Realismus und Implementierungsqualität verschiedener Modellversionen zu vergleichen.",
+        "notes": "Der Entwickler bat Gemini 3.6 Flash um den Bau eines realistischen Aquariums und beurteilte es als nur unwesentlich besser als 3.5 Flash."
+      },
+      "23": {
+        "title": "Zwillinge gegen Grok bei Max Reasoning",
+        "takeaway": "Verwenden Sie dieselben Eingabeaufforderungs- und maximalen Argumentationseinstellungen, um Geschwindigkeit, Kosten und Ausgabe zu vergleichen, anstatt sich auf die Reputation des Modells zu verlassen.",
+        "notes": "Der Ersteller führte Gemini 3.6 Flash und Grok 4.5 mit den gleichen Eingabeaufforderungs- und maximalen Argumentationseinstellungen aus und stellte fest, dass beide schnell waren, während Grok etwas schneller und billiger war."
+      },
+      "24": {
+        "title": "Gemini versus Sonnet bei maximalen Einstellungen",
+        "takeaway": "Vergleichen Sie Modelle mit identischen Eingabeaufforderungen und ihren stärksten Einstellungen und überprüfen Sie dann das tatsächlich generierte Artefakt.",
+        "notes": "Der Ersteller hat Gemini 3.6 Flash und Sonnet 5 mit den gleichen Eingabeaufforderungen bei maximalen Einstellungen getestet und bevorzugte in der gezeigten Aufgabe die Gemini-Ausgabe."
+      },
+      "25": {
+        "title": "Visueller Verständnistest",
+        "takeaway": "Verwenden Sie eine konkrete Bildaufgabe, um die Antwortqualität und den Interaktionsstil zu überprüfen, bevor Sie das Modell für Vision-Workflows übernehmen.",
+        "notes": "Der Ersteller stellte einen Sehtest vor, den Gemini 3.6 Flash bestanden hatte, und hob die Reaktionspersönlichkeit als Teil der beobachteten Erfahrung hervor."
+      },
+      "26": {
+        "title": "Rocket League-Spiele-Benchmark",
+        "takeaway": "Führen Sie einen wiederholten Spielegenerations-Benchmark durch und zeichnen Sie sowohl die Erstellungszeit als auch ein konsistentes subjektives Ranking auf.",
+        "notes": "Der Ersteller testete Gemini 3.6 Flash bei einer Aufgabe im Rocket-League-Stil, belegte auf einer persönlichen Bestenliste den dritten Platz und meldete die Fertigstellung in weniger als zwei Minuten."
+      },
+      "27": {
+        "title": "Visueller EyeBench-Vergleich",
+        "takeaway": "Verwenden Sie einen stabilen visuellen Benchmark, um inkrementelle Effizienzgewinne von absoluter Qualität zu trennen.",
+        "notes": "Auf EyeBench beurteilte der Ersteller Gemini 3.6 Flash geringfügig besser als 3.5 Flash, aber immer noch schlechter als Gemini 3.1 Pro Preview und stellte gleichzeitig eine verbesserte Token-Effizienz fest."
+      },
+      "28": {
+        "title": "Vergleich von Papierschnitt-Animationen",
+        "takeaway": "Vergleichen Sie die Reaktionsgeschwindigkeit und die endgültige Animation separat, wenn Sie die kreative Generierung bewerten.",
+        "notes": "Der Ersteller verglich Gemini 3.6 Flash mit Fable 5 bei einer Papierschnitt-Animationsaufgabe und lobte Geminis nahezu sofortige Reaktion, äußerte jedoch Vorbehalte gegenüber dem Ergebnis."
+      },
+      "29": {
+        "title": "Benchmark zur KI-Arena-Generierung",
+        "takeaway": "Verwenden Sie dieselbe Arena-Aufgabe, um Erstellungszeit, Preis und Artefaktqualität über mehrere Codierungsmodelle hinweg zu vergleichen.",
+        "notes": "Der Ersteller testete Grok 4.5, Gemini 3.6 Flash und GPT-5.6 Luna bei einer AI Arena-Aufgabe und beurteilte das Gemini-Ergebnis in diesem Lauf als das schwächste."
+      },
+      "30": {
+        "title": "Kosten für die modellübergreifende Spieleerstellung",
+        "takeaway": "Verfolgen Sie die Anzahl der Iterationen, die Erfahrung des Entwicklers, die Funktionen und die Kosten gemeinsam, wenn Sie ein Modell für die Prototypenerstellung von Spielen auswählen.",
+        "notes": "Unter Verwendung desselben Design-Workflows gab der Ersteller an, dass sechs bis sieben Iterationen erforderlich seien, um einen von Gemini verursachten Jump-and-Fall-Fehler zu beheben, und führte neben den Vergleichsergebnissen auch Betriebskosten von 0,15 US-Dollar an."
+      },
+      "31": {
+        "title": "Benchmark für Cybersicherheitsverweigerung",
+        "takeaway": "Beziehen Sie Ablehnungsverhalten in die Bewertung von Sicherheitstools ein, da die defensive Codeüberprüfung möglicherweise durch anstößige Anfragen blockiert wird.",
+        "notes": "Ein Cybersicherheits-Benchmark-Durchlauf wurde abgelehnt, was den Gutachter zu der Feststellung veranlasste, dass die getestete Richtlinie das Verhalten bei der Suche nach Schwachstellen für defensiven Code sowie böswillige Nutzung blockierte."
+      },
+      "32": {
+        "title": "Mangel an Wissensaktualität",
+        "takeaway": "Überprüfen Sie aktuelle Fakten mit Retrieval, anstatt einem behaupteten Wissensstand zu vertrauen.",
+        "notes": "Der Tester fragte nach aktuellen Flaggschiff-Modellen und erhielt ältere Namen. Anschließend berichtete er, dass das Modell nur bis Anfang 2025 aktuelle Erkenntnisse anerkenne, obwohl ein Stichtag im März 2026 angegeben wurde."
+      },
+      "33": {
+        "title": "Jailbreak Red-Team-Test",
+        "takeaway": "Behandeln Sie Jailbreak-Ansprüche als Red-Team-Signale, die eine kontrollierte Reproduktion und Sicherheitsüberprüfung erfordern, und nicht als wiederverwendbare Anweisungen.",
+        "notes": "Der Beitrag behauptet einen Jailbreak in der Gemini-App und -API und listet getestete Kategorien schädlicher Inhalte auf; Dieses Repository zeichnet das Sicherheitssignal auf, ohne Exploit-Anweisungen zu reproduzieren."
+      }
+    }
+  },
+  "fr": {
+    "locale": "fr",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "Guide Flash génial de Gemini 3.6 et cas d'utilisation",
+      "introduction": "Introduction",
+      "intro": "Bienvenue dans un guide basé sur des sources sur Gemini 3.6 Flash en pratique",
+      "mission": "Ce référentiel rassemble des flux de travail, des builds, des évaluations, des comparaisons et des limites concrets de Gemini 3.6 Flash à partir de preuves publiques de créateurs.",
+      "boundary": "Chaque cas inclus provient du package source examiné. Les titres renvoient aux publications originales, les auteurs renvoient aux profils de créateurs et les invites n'apparaissent que lorsque le texte source les contient réellement.",
+      "overview": "Aperçu",
+      "overview_cases": "33 cas de haut niveau de confiance sélectionnés parmi 33 publications sources examinées",
+      "overview_coverage": "La couverture comprend les agents, le codage, les sites Web, les jeux, la 3D, les comparaisons de type benchmark et les limites de sécurité pratiques.",
+      "overview_media": "Les 24 boîtiers vidéo fournissent une affiche visible et un MP4 lisible hébergé sur R2 ; les cas d'images préservent chaque image source examinée",
+      "overview_model": "EvoLink répertorie l'ID du modèle de production comme « gemini-3.6-flash » ; ce référentiel est lié au modèle actuel et aux surfaces de l'API Gemini Native",
+      "note": "Cette collection privilégie les preuves observables plutôt que le battage médiatique. Il ne reconstruit pas les invites manquantes, ne déduit pas les étapes de configuration non publiées et ne généralise pas le résultat d'un créateur dans une référence universelle.",
+      "start_here": "Commencez ici",
+      "explore": "explorer Gemini 3.6 Flash",
+      "get_key": "obtenir une clé API",
+      "open_docs": "ouvrez la documentation de l'API native Gemini",
+      "menu": "Menus",
+      "section": "Section",
+      "cases": "Cas",
+      "case": "Cas",
+      "category": "Catégorie",
+      "what_it_shows": "Ce que ça montre",
+      "type": "Tapez",
+      "by": "par",
+      "prompt": "Invite",
+      "date": "Date",
+      "play_video": "Lire la vidéo source",
+      "related": "Dépôts associés",
+      "related_org": "Plus de guides de modèles et d'exemples d'API d'EvoLink",
+      "related_note": "Aucune compétence Flash Gemini 3.6 installable dédiée n'a été vérifiée de manière indépendante lors de cette publication",
+      "quickstart": "Démarrage rapide",
+      "quick_intro": "Utilisez les surfaces publiques vérifiées ci-dessous pour commencer avec l'ID de modèle `gemini-3.6-flash`",
+      "quick_model": "Ouvrez la page du modèle Gemini 3.6 Flash",
+      "quick_key": "Créer ou gérer une clé API EvoLink",
+      "quick_docs": "Suivez le démarrage rapide de l'API native Gemini",
+      "important": "L'itinéraire public et l'ID de modèle sont documentés, mais ce référentiel ne réclame pas de premier appel consommateur de crédits tant que ce test n'a pas été exécuté ou explicitement abandonné.",
+      "acknowledge": "Reconnaître",
+      "ack_text": "Cette collection existe parce que les créateurs et les praticiens ont partagé publiquement leur travail Gemini 3.6 Flash.",
+      "thanks": "Merci aux créateurs de sources représentés ici",
+      "correction": "Nous ne pouvons pas garantir que chaque publication identifie le premier créateur original. Si l'attribution, la traduction ou la formulation doivent être corrigées, ouvrez un problème de correction auprès d'une source publique",
+      "contribute": "Pour proposer un autre cas adossé à une source, ouvrez un problème ou une pull request et suivez la liste de contrôle de contribution"
+    },
+    "categories": {
+      "efficiency-agents": "Efficacité et agents",
+      "coding-apps": "Codage et applications",
+      "web-games-3d": "Web, jeux et 3D",
+      "evaluations": "Évaluation et comparaisons",
+      "safety-limits": "Sécurité et limites"
+    },
+    "cases": {
+      "1": {
+        "title": "Efficacité des jetons côte à côte",
+        "takeaway": "Comparez l'utilisation des jetons de sortie sur le même workflow avant de choisir un modèle Flash pour les charges de travail à l'échelle de l'agent.",
+        "notes": "Jeff Dean a partagé une démonstration côte à côte comparant Gemini 3.6 Flash avec 3.5 Flash et a souligné une utilisation moindre des jetons dans le modèle le plus récent."
+      },
+      "2": {
+        "title": "Moderniser le code hérité en antigravité",
+        "takeaway": "Utilisez une tâche de migration contrôlée du code hérité pour comparer la latence de l'agent, la qualité des modifications et le comportement d'achèvement.",
+        "notes": "Google Antigravity a démontré que les deux générations de Flash reconstruisaient des logiciels existants et ont signalé une réalisation plus rapide avec une latence et une sortie améliorées de Gemini 3.6 Flash."
+      },
+      "3": {
+        "title": "Test d'efficacité des jetons Canvas",
+        "takeaway": "Exécutez la même tâche Canvas sur toutes les versions du modèle et inspectez l’utilisation des artefacts et des jetons.",
+        "notes": "Le créateur a comparé Gemini 3.6 Flash et 3.5 Flash sur une courte tâche Canvas et a observé une utilisation des jetons considérablement inférieure à celle de 3.6 Flash."
+      },
+      "4": {
+        "title": "Benchmark des agents de navigateur",
+        "takeaway": "Comparez ensemble le succès et les coûts de l'agent de navigateur au lieu d'optimiser l'une ou l'autre mesure seule.",
+        "notes": "L'utilisation du navigateur a rapporté 68 % sur son BU Benchmark pour Gemini 3.6 Flash, contre 67 % pour GPT-5.6 Sol, 62 % pour Sonnet 4.6 et 74 % pour Opus 4.8."
+      },
+      "5": {
+        "title": "Efficacité de la récupération des faits à longue traîne",
+        "takeaway": "Utilisez des tâches difficiles de recherche de faits pour comparer les étapes de raisonnement et la surcharge de réflexion.",
+        "notes": "Le créateur a exécuté Gemini 3.5 et 3.6 Flash face à face sur une tâche complexe de récupération de faits à longue traîne et a signalé deux fois moins d'étapes et 75 % de jetons de réflexion en moins pour 3.6 Flash."
+      },
+      "6": {
+        "title": "Traitement des documents d'entreprise",
+        "takeaway": "Évaluez l’effort de raisonnement sur les brevets longs et l’analyse de documents avant de définir une valeur par défaut de production.",
+        "notes": "Databricks a signalé une précision de classification des documents supérieure à 3,5 Flash, des résultats solides sur les brevets longs et environ 32 % de jetons en moins avec un effort moyen qu'un effort élevé pour l'analyse de documents."
+      },
+      "7": {
+        "title": "Évaluation des tâches d'ingénierie dans JetBrains",
+        "takeaway": "Créez une tâche d'ingénierie objective et comparez les générations de modèles au sein du même flux de travail IDE.",
+        "notes": "JetBrains a présenté une évaluation objective des tâches d'ingénierie pour Gemini 3.6 Flash par rapport à la génération Flash précédente dans AI Assistant et Junie."
+      },
+      "8": {
+        "title": "Migration de code multi-agents",
+        "takeaway": "Testez la migration du code avec le même plan d'orchestration et comparez la latence, les modifications et la qualité finale.",
+        "notes": "La démonstration montre Gemini 3.6 Flash exécutant une migration de code via une orchestration multi-agents dans Antigravity et signale une latence inférieure et une qualité supérieure à celle de 3.5 Flash."
+      },
+      "9": {
+        "title": "Accordeur de guitare Android",
+        "takeaway": "Prototypez un utilitaire mobile ciblé qui combine des outils audio conventionnels avec des réglages alternatifs assistés par l'IA.",
+        "notes": "Le créateur a utilisé Gemini 3.6 Flash pour créer une application d'accordeur de guitare Android avec prise en charge d'accordage alternatif pilotée par l'IA."
+      },
+      "10": {
+        "title": "Simulation de feux de circulation",
+        "takeaway": "Demandez au modèle une visualisation exécutable pour vérifier si le code généré capture le timing et le comportement aléatoire du trafic.",
+        "notes": "L'invite publique demande du code Python qui visualise un feu de circulation à sens unique avec des voitures arrivant à des rythmes aléatoires, et la publication inclut la démonstration qui en résulte."
+      },
+      "11": {
+        "title": "Application Clavier Piano",
+        "takeaway": "Transformez un concept d'interaction simple en une application Web jouable et contrôlée par clavier.",
+        "notes": "Le créateur a créé une application pour piano avec Gemini 3.6 Flash qui peut être jouée à partir d'un clavier d'ordinateur et l'a conçue comme une application que les enfants pourraient explorer."
+      },
+      "12": {
+        "title": "Assistant vocal de robot de bureau",
+        "takeaway": "Intégrez Flash et Flash-Lite dans une application vocale et comparez le comportement de première réponse.",
+        "notes": "Le créateur a ajouté Gemini 3.6 Flash et Gemini 3.5 Flash-Lite à une application de dialogue vocal pour un robot de bureau et a noté que la réponse initiale semblait légèrement lente mais utilisable."
+      },
+      "13": {
+        "title": "Échec HTML du Golden Gate Bridge",
+        "takeaway": "Utilisez une tâche de livraison de fichiers stricte pour tester le suivi des instructions avant de faire confiance aux expériences Web 3D générées.",
+        "notes": "Le testeur avait besoin de trois invites, a vu le modèle tenter une simulation dans l'application et des réponses d'image Web au lieu du fichier HTML demandé, et a jugé la sortie finale du pont 3D sensiblement plus faible que celle de Gemini 3.1 Pro."
+      },
+      "14": {
+        "title": "Test visuel d'invite publique",
+        "takeaway": "Ouvrez le thread source lorsque vous avez besoin de l'invite complète du créateur au lieu de le reconstruire à partir de la sortie.",
+        "notes": "MotionViz a publié un test visuel Flash Gemini 3.6 avec des médias et a indiqué que l'invite complète est disponible dans le fil source ; ce référentiel ne reconstruit pas le texte d'invite non présent dans le package source."
+      },
+      "15": {
+        "title": "Jeu de toile à invite unique",
+        "takeaway": "Utilisez une invite dans Canvas pour tester la rapidité avec laquelle le modèle peut transformer un concept de jeu compact en un résultat interactif.",
+        "notes": "Le créateur a testé Gemini 3.6 Flash en accès anticipé et a utilisé une seule invite Canvas pour produire une démonstration de jeu jouable."
+      },
+      "16": {
+        "title": "Comparaison des versions de page de destination",
+        "takeaway": "Gardez l'invite fixe sur toutes les générations de modèles pour isoler les changements dans l'exécution de la page de destination et le jugement visuel.",
+        "notes": "Le créateur a ajouté Gemini 3.6 Flash à une archive de page de destination avec la même invite et a jugé le résultat le plus récent pire que les sorties Gemini 3 et 3.5."
+      },
+      "17": {
+        "title": "Prototype 3D des surfeurs du métro",
+        "takeaway": "Permettez une réflexion approfondie pour les expériences de codage et inspectez à la fois la qualité des interactions et la fidélité visuelle.",
+        "notes": "Le créateur a utilisé Gemini 3.6 Flash pour créer une simple réplique 3D de style Subway Surfers et a recommandé une réflexion approfondie pour les tâches de codage."
+      },
+      "18": {
+        "title": "Comparaison de sites Web d'une page",
+        "takeaway": "Maintenez l'invite du site Web et le niveau de raisonnement constants, puis comparez le coût, la vitesse et les préférences de conception du jeton.",
+        "notes": "Sur la même invite de site Web d'une page, le créateur a signalé environ 6 100 jetons pour Gemini 3.6 Flash contre environ 9 300 pour 3.5 Flash, tout en préférant personnellement le look de l'ancien modèle."
+      },
+      "19": {
+        "title": "Échec du jeu du Far West",
+        "takeaway": "Traitez les résultats de la génération de jeu ayant échoué comme une preuve pour décider quand changer de modèle ou réviser la tâche.",
+        "notes": "Le testeur a utilisé une invite de génération de jeu Wild West et a jugé Gemini 3.6 Flash sensiblement derrière GPT-5.6, Kimi K3 et Fable 5 sur le résultat observé."
+      },
+      "20": {
+        "title": "Défaillance matérielle du jeu antigravité",
+        "takeaway": "Vérifiez à la fois le matériel visuel et le comportement d'interaction réel avant d'accepter un prototype de jeu généré par l'IA.",
+        "notes": "Dans un deuxième test du jeu Antigravity, le créateur a trouvé des textures de bois plus faibles et un élément en marbre qui semblait similaire mais restait non fonctionnel."
+      },
+      "21": {
+        "title": "Comparaison Rolls-Royce SVG",
+        "takeaway": "Utilisez un sujet SVG fixe pour comparer la façon dont deux générations Flash gèrent la forme, les détails et la composition.",
+        "notes": "La publication place les sorties Gemini 3.6 Flash et 3.5 Flash côte à côte pour la même tâche Rolls-Royce SVG."
+      },
+      "22": {
+        "title": "Test d'aquarium réaliste",
+        "takeaway": "Utilisez une scène 3D délimitée pour comparer le réalisme et la qualité de mise en œuvre entre les versions du modèle.",
+        "notes": "Le créateur a demandé à Gemini 3.6 Flash de construire un aquarium réaliste et l'a jugé à peine meilleur que 3.5 Flash."
+      },
+      "23": {
+        "title": "Gémeaux contre Grok chez Max Reasoning",
+        "takeaway": "Utilisez les mêmes paramètres d'invite et de raisonnement maximum pour comparer la vitesse, le coût et le rendement plutôt que de vous fier à la réputation du modèle.",
+        "notes": "Le créateur a exécuté Gemini 3.6 Flash et Grok 4.5 avec les mêmes paramètres d'invite et de raisonnement maximum, observant que les deux étaient rapides tandis que Grok était légèrement plus rapide et moins cher."
+      },
+      "24": {
+        "title": "Gemini contre Sonnet aux paramètres maximum",
+        "takeaway": "Comparez les modèles sur des invites identiques et leurs paramètres les plus forts, puis inspectez l'artefact réellement généré.",
+        "notes": "Le créateur a testé Gemini 3.6 Flash et Sonnet 5 avec les mêmes invites avec les paramètres maximum et a préféré la sortie Gemini dans la tâche affichée."
+      },
+      "25": {
+        "title": "Test de compréhension visuelle",
+        "takeaway": "Utilisez une tâche d'image concrète pour inspecter la qualité des réponses et le style d'interaction avant d'adopter le modèle pour les flux de travail de vision.",
+        "notes": "Le créateur a présenté un test de vision réussi par Gemini 3.6 Flash et a mis en évidence la personnalité de réponse dans le cadre de l'expérience observée."
+      },
+      "26": {
+        "title": "Benchmark du jeu Rocket League",
+        "takeaway": "Exécutez un benchmark répété de génération de jeu et enregistrez à la fois le temps de construction et un classement subjectif cohérent.",
+        "notes": "Le créateur a testé Gemini 3.6 Flash sur une tâche de style Rocket League, l'a classé troisième dans un classement personnel et a signalé son achèvement en moins de deux minutes."
+      },
+      "27": {
+        "title": "Comparaison visuelle d'EyeBench",
+        "takeaway": "Utilisez une référence visuelle stable pour séparer les gains d’efficacité supplémentaires de la qualité absolue.",
+        "notes": "Sur EyeBench, le créateur a jugé Gemini 3.6 Flash légèrement meilleur que 3.5 Flash mais toujours pire que Gemini 3.1 Pro Preview, tout en notant une efficacité améliorée des jetons."
+      },
+      "28": {
+        "title": "Comparaison des animations découpées en papier",
+        "takeaway": "Comparez séparément la vitesse de réponse et l’animation finale lors de l’évaluation de la génération de création.",
+        "notes": "Le créateur a comparé Gemini 3.6 Flash avec Fable 5 sur une tâche d'animation découpée en papier, louant la réponse quasi immédiate de Gemini mais exprimant des réserves sur le résultat."
+      },
+      "29": {
+        "title": "Benchmark de génération d’arène IA",
+        "takeaway": "Utilisez la même tâche d’arène pour comparer le temps de construction, le prix et la qualité des artefacts sur plusieurs modèles de codage.",
+        "notes": "Le créateur a testé Grok 4.5, Gemini 3.6 Flash et GPT-5.6 Luna sur une tâche AI Arena et a jugé le résultat Gemini le plus faible dans cette exécution."
+      },
+      "30": {
+        "title": "Coût de création de jeu multi-modèles",
+        "takeaway": "Suivez le nombre d'itérations, l'expérience des développeurs, les fonctionnalités et les coûts lors du choix d'un modèle pour le prototypage de jeux.",
+        "notes": "En utilisant le même flux de travail de conception, le créateur a signalé avoir besoin de six à sept itérations pour corriger un bug de saut et de chute généré par Gemini et a indiqué un coût d'exécution de 0,15 $ aux côtés des scores comparatifs."
+      },
+      "31": {
+        "title": "Benchmark de refus en matière de cybersécurité",
+        "takeaway": "Incluez le comportement de refus dans les évaluations des outils de sécurité, car la révision défensive du code peut être bloquée par des demandes offensantes.",
+        "notes": "Une analyse comparative de cybersécurité a été refusée, ce qui a conduit l'évaluateur à signaler que la politique testée bloquait le comportement de recherche de vulnérabilités pour le code défensif ainsi que l'utilisation malveillante."
+      },
+      "32": {
+        "title": "Échec de la fraîcheur des connaissances",
+        "takeaway": "Vérifiez les faits actuels avec la récupération au lieu de vous fier à un seuil de connaissances revendiqué.",
+        "notes": "Le testeur a demandé les modèles phares actuels et a reçu des noms plus anciens, puis a signalé que le modèle ne reconnaissait les connaissances actuelles qu'au début de 2025, malgré l'affirmation d'une date limite de mars 2026."
+      },
+      "33": {
+        "title": "Test de jailbreak de l'équipe rouge",
+        "takeaway": "Traitez les réclamations de jailbreak comme des signaux de l'équipe rouge qui nécessitent une reproduction contrôlée et un examen de sécurité, et non comme des instructions réutilisables.",
+        "notes": "Le message revendique un jailbreak dans l'application et l'API Gemini et répertorie les catégories de contenu nuisible testées ; ce référentiel enregistre le signal de sécurité sans reproduire les instructions d'exploit."
+      }
+    }
+  },
+  "tr": {
+    "locale": "tr",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "Awesome Gemini 3.6 Flash Kılavuzu ve Kullanım Durumları",
+      "introduction": "Giriş",
+      "intro": "Gemini 3.6 Flash'ın uygulamalı kullanımına ilişkin kaynak destekli kılavuza hoş geldiniz",
+      "mission": "Bu depo, herkese açık içerik oluşturucu kanıtlarından somut Gemini 3.6 Flash iş akışlarını, derlemelerini, değerlendirmelerini, karşılaştırmalarını ve sınırlarını toplar",
+      "boundary": "Dahil edilen her vaka, incelenen kaynak paketinden gelir. Başlıklar orijinal gönderilere, yazarlar yaratıcı profillerine bağlantı verir ve istemler yalnızca kaynak metin bunları gerçekten içerdiğinde görünür",
+      "overview": "Genel Bakış",
+      "overview_cases": "İncelenen 33 kaynak gönderiden seçilmiş 33 yüksek güvenirlik vakası",
+      "overview_coverage": "Kapsam, aracıları, kodlamayı, web sitelerini, oyunları, 3D'yi, kıyaslama tarzı karşılaştırmaları ve pratik güvenlik sınırlarını içerir",
+      "overview_media": "24 video kutusunun tamamında görünür bir poster ve oynatılabilir bir R2 barındırılan MP4 bulunur; görüntü vakaları incelenen her kaynak görüntüyü korur",
+      "overview_model": "EvoLink, üretim modeli kimliğini \"gemini-3.6-flash\" olarak listeliyor; bu depo mevcut modele ve Gemini Native API yüzeylerine bağlanır",
+      "note": "Bu koleksiyon abartı yerine gözlemlenebilir kanıtları tercih ediyor. Eksik istemleri yeniden yapılandırmaz, yayınlanmamış kurulum adımlarına ilişkin çıkarımlarda bulunmaz veya bir yaratıcının sonucunu evrensel bir kıyaslama halinde genelleştirmez",
+      "start_here": "Buradan başlayın",
+      "explore": "Gemini 3.6 Flash'ı keşfedin",
+      "get_key": "API anahtarı edinin",
+      "open_docs": "Gemini Yerel API belgelerini açın",
+      "menu": "Menü",
+      "section": "Bölüm",
+      "cases": "Vakalar",
+      "case": "Vaka",
+      "category": "Kategori",
+      "what_it_shows": "Ne gösteriyor?",
+      "type": "Tür",
+      "by": "tarafından",
+      "prompt": "İstemi",
+      "date": "Tarih",
+      "play_video": "Kaynak videoyu oynat",
+      "related": "İlgili Depolar",
+      "related_org": "EvoLink'ten daha fazla model kılavuzu ve API örneği",
+      "related_note": "Bu yayın sırasında kurulabilir özel bir Gemini 3.6 Flash becerisi bağımsız olarak doğrulanmadı",
+      "quickstart": "Hızlı Başlangıç",
+      "quick_intro": "\"Gemini-3.6-flash\" model kimliğiyle başlamak için aşağıdaki doğrulanmış genel yüzeyleri kullanın",
+      "quick_model": "Gemini 3.6 Flash modeli sayfasını açın",
+      "quick_key": "EvoLink API anahtarı oluşturun veya yönetin",
+      "quick_docs": "Gemini Yerel API Hızlı Başlangıç'ı izleyin",
+      "important": "Genel rota ve model kimliği belgelenmiştir, ancak bu depo, test çalıştırılana veya açıkça feragat edilene kadar kredi tüketen ilk çağrıyı talep etmez",
+      "acknowledge": "onayla",
+      "ack_text": "Bu koleksiyon, yaratıcıların ve uygulayıcıların Gemini 3.6 Flash çalışmalarını herkese açık olarak paylaşmaları nedeniyle mevcuttur.",
+      "thanks": "Burada temsil edilen kaynak yaratıcıları sayesinde",
+      "correction": "Her gönderinin en eski orijinal yaratıcıyı tanımladığını garanti edemeyiz. Atıf, çeviri veya ifadelerin düzeltilmesi gerekiyorsa herkese açık bir kaynakla düzeltme konusu açın",
+      "contribute": "Başka bir kaynak destekli vaka önermek için bir konu açın veya talebi çekin ve katkı kontrol listesini takip edin"
+    },
+    "categories": {
+      "efficiency-agents": "Verimlilik ve Temsilciler",
+      "coding-apps": "Kodlama ve Uygulamalar",
+      "web-games-3d": "Web, Oyunlar ve 3D",
+      "evaluations": "Değerlendirme ve Karşılaştırmalar",
+      "safety-limits": "Güvenlik ve Sınırlar"
+    },
+    "cases": {
+      "1": {
+        "title": "Token Verimliliği Yanyana",
+        "takeaway": "Aracı ölçekli iş yükleri için bir Flash modeli seçmeden önce, aynı iş akışında çıktı belirteci kullanımını karşılaştırın.",
+        "notes": "Jeff Dean, Gemini 3.6 Flash ile 3.5 Flash'ı karşılaştıran yan yana bir gösteri paylaştı ve yeni modelde daha düşük token kullanımının altını çizdi."
+      },
+      "2": {
+        "title": "Yerçekimine Karşı Korumada Eski Kodun Modernleştirilmesi",
+        "takeaway": "Aracı gecikmesini, düzenleme kalitesini ve tamamlanma davranışını karşılaştırmak için kontrollü bir eski kod geçiş görevi kullanın.",
+        "notes": "Google Antigravity, hem Flash nesillerinin eski yazılımları yeniden oluşturduğunu gösterdi hem de Gemini 3.6 Flash'tan gelen gelişmiş gecikme ve çıktı ile daha hızlı tamamlandığını bildirdi."
+      },
+      "3": {
+        "title": "Canvas Token Verimlilik Testi",
+        "takeaway": "Aynı Canvas görevini model sürümleri arasında çalıştırın ve hem yapıyı hem de belirteç kullanımını inceleyin.",
+        "notes": "İçerik oluşturucu, Gemini 3.6 Flash ve 3.5 Flash'ı kısa bir Canvas görevinde karşılaştırdı ve 3.6 Flash'a göre önemli ölçüde daha düşük token kullanımı gözlemledi."
+      },
+      "4": {
+        "title": "Tarayıcı Aracısı Karşılaştırması",
+        "takeaway": "Her iki ölçümü de tek başına optimize etmek yerine, tarayıcı aracısı başarısını ve maliyetini birlikte karşılaştırın.",
+        "notes": "Tarayıcı Kullanımı BU Benchmark'ta Gemini 3.6 Flash için %68 rapor ederken, GPT-5.6 Sol için %67, Sonnet 4.6 için %62 ve Opus 4.8 için %74 rapor verdi."
+      },
+      "5": {
+        "title": "Uzun Kuyruklu Bilgi Alma Verimliliği",
+        "takeaway": "Akıl yürütme adımlarını ve düşünce belirteci yükünü karşılaştırmak için zor gerçekleri elde etme görevlerini kullanın.",
+        "notes": "Yaratıcı, Gemini 3.5 ve 3.6 Flash'ı karmaşık, uzun kuyruklu bir bilgi alma görevi üzerinde kafa kafaya çalıştırdı ve 3.6 Flash için yarısı kadar adım ve %75 daha az düşünce belirteci bildirdi."
+      },
+      "6": {
+        "title": "Kurumsal Belge İşleme",
+        "takeaway": "Üretim temerrüdünü belirlemeden önce uzun patentler ve belge ayrıştırma konusundaki akıl yürütme çabasını değerlendirin.",
+        "notes": "Databricks, 3.5 Flash'tan daha yüksek belge sınıflandırma doğruluğu, uzun patentlerde güçlü sonuçlar ve belge ayrıştırma için yüksek çabaya kıyasla orta çabayla yaklaşık %32 daha az toplam token bildirdi."
+      },
+      "7": {
+        "title": "JetBrains'te Mühendislik Görev Değerlendirmesi",
+        "takeaway": "Nesnel bir mühendislik görevi oluşturun ve aynı IDE iş akışındaki model nesillerini karşılaştırın.",
+        "notes": "JetBrains, Gemini 3.6 Flash için AI Assistant ve Junie'deki önceki Flash nesline kıyasla objektif bir mühendislik görevi değerlendirmesi sundu."
+      },
+      "8": {
+        "title": "Çok Aracılı Kod Geçişi",
+        "takeaway": "Kod geçişini aynı düzenleme planıyla test edin ve gecikmeyi, düzenlemeleri ve son kaliteyi karşılaştırın.",
+        "notes": "Gösteri Gemini 3.6 Flash'ın Antigravity'de çoklu aracı orkestrasyonu yoluyla bir kod geçişi yürüttüğünü gösteriyor ve 3.5 Flash'a göre daha düşük gecikme süresi ve daha yüksek kalite rapor ediyor."
+      },
+      "9": {
+        "title": "Android Gitar Akort Aleti",
+        "takeaway": "Geleneksel ses araçlarını yapay zeka destekli alternatif ayarlarla birleştiren odaklanmış bir mobil yardımcı programın prototipini yapın.",
+        "notes": "Yaratıcı, Yapay Zeka destekli alternatif akort desteğine sahip bir Android gitar tuner uygulaması oluşturmak için Gemini 3.6 Flash'ı kullandı."
+      },
+      "10": {
+        "title": "Trafik Işığı Simülasyonu",
+        "takeaway": "Oluşturulan kodun zamanlamayı ve rastgele trafik davranışını yakalayıp yakalamadığını denetlemek için modelden yürütülebilir bir görselleştirme isteyin.",
+        "notes": "Genel istem, arabaların rastgele hızlarla geldiği tek yönlü bir sokak trafik ışığını görselleştiren Python kodunu talep ediyor ve gönderi, bunun sonucunda ortaya çıkan gösterimi içeriyor."
+      },
+      "11": {
+        "title": "Klavye Piyano Uygulaması",
+        "takeaway": "Basit bir etkileşim konseptini oynanabilir, klavye kontrollü bir web uygulamasına dönüştürün.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash ile bilgisayar klavyesinden çalınabilen bir piyano uygulaması geliştirdi ve bunu çocukların keşfedebileceği bir uygulama olarak çerçeveledi."
+      },
+      "12": {
+        "title": "Masaüstü Robot Sesli Asistan",
+        "takeaway": "Hem Flash'ı hem de Flash-Lite'ı bir ses uygulamasına entegre edin ve ilk müdahale davranışını karşılaştırın.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash ve Gemini 3.5 Flash-Lite'ı bir masaüstü robot için sesli diyalog uygulamasına ekledi ve ilk tepkinin biraz yavaş ama kullanışlı olduğunu belirtti."
+      },
+      "13": {
+        "title": "Golden Gate Köprüsü HTML Hatası",
+        "takeaway": "Oluşturulan 3D web deneyimlerine güvenmeden önce talimatların izlenmesini test etmek için katı bir dosya teslim görevi kullanın.",
+        "notes": "Testi yapan kişinin üç uyarıya ihtiyacı vardı, modelin istenen HTML dosyası yerine uygulama içi simülasyon ve web görüntüsü yanıtlarını denediğini gördü ve son 3D köprü çıktısının Gemini 3.1 Pro'dan maddi olarak daha zayıf olduğuna karar verdi."
+      },
+      "14": {
+        "title": "Genel Uyarı Görsel Testi",
+        "takeaway": "Oluşturucunun tam istemine ihtiyaç duyduğunuzda, onu çıktıdan yeniden oluşturmak yerine kaynak iş parçacığını açın.",
+        "notes": "MotionViz, medyayla birlikte bir Gemini 3.6 Flash görsel testi yayınladı ve tüm istemin kaynak iş parçacığında mevcut olduğunu belirtti; bu depo, kaynak pakette bulunmayan bilgi istemi metnini yeniden yapılandırmaz."
+      },
+      "15": {
+        "title": "Tek İstemli Kanvas Oyunu",
+        "takeaway": "Modelin kompakt bir oyun konseptini ne kadar hızlı bir şekilde etkileşimli bir sonuca dönüştürebildiğini test etmek için Canvas'taki bir istemi kullanın.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash'ı erken erişimde test etti ve oynanabilir bir oyun gösterimi oluşturmak için tek bir Canvas istemi kullandı."
+      },
+      "16": {
+        "title": "Açılış Sayfası Sürüm Karşılaştırması",
+        "takeaway": "Açılış sayfası yürütme ve görsel değerlendirmedeki değişiklikleri izole etmek için istemi model nesilleri boyunca sabit tutun.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash'ı aynı istemli açılış sayfası arşivine ekledi ve yeni sonucun Gemini 3 ve 3.5 çıktılarından daha kötü olduğuna karar verdi."
+      },
+      "17": {
+        "title": "Subway Surfers 3D Prototipi",
+        "takeaway": "Kodlama deneyleri için genişletilmiş düşünmeyi etkinleştirin ve hem etkileşim kalitesini hem de görsel doğruluğu denetleyin.",
+        "notes": "Yaratıcı, basit bir 3D Subway Surfers tarzı kopya oluşturmak için Gemini 3.6 Flash'ı kullandı ve kodlama görevleri için daha kapsamlı düşünmeyi önerdi."
+      },
+      "18": {
+        "title": "Tek Sayfalık Web Sitesi Karşılaştırması",
+        "takeaway": "Web sitesinin istemini ve muhakeme düzeyini sabit tutun, ardından belirteç maliyetini, hızını ve tasarım tercihini karşılaştırın.",
+        "notes": "Aynı tek sayfalık web sitesinde yaratıcı, Gemini 3.6 Flash için yaklaşık 6.100 token, 3.5 Flash için ise yaklaşık 9.300 token bildirdi ve kişisel olarak eski modelin görünümünü tercih etti."
+      },
+      "19": {
+        "title": "Vahşi Batı Oyunu Başarısızlığı",
+        "takeaway": "Başarısız olan oyun oluşturma çıktılarını, modelleri ne zaman değiştireceğinize veya görevi ne zaman gözden geçireceğinize karar vermek için kanıt olarak değerlendirin.",
+        "notes": "Testi yapan kişi, Wild West oyun nesli istemini kullandı ve gözlemlenen sonuca göre Gemini 3.6 Flash'ın GPT-5.6, Kimi K3 ve Fable 5'in önemli ölçüde gerisinde olduğuna karar verdi."
+      },
+      "20": {
+        "title": "Anti Yerçekimi Oyunu Malzeme Arızası",
+        "takeaway": "Yapay zeka tarafından oluşturulan bir oyun prototipini kabul etmeden önce hem görsel malzemeleri hem de gerçek etkileşim davranışını kontrol edin.",
+        "notes": "İkinci bir Antigravity oyun testinde yaratıcı, daha zayıf ahşap dokular ve benzer görünen ancak işlevsel olmayan bir mermer öğe buldu."
+      },
+      "21": {
+        "title": "Rolls-Royce SVG Karşılaştırması",
+        "takeaway": "İki Flash neslinin şekil, ayrıntı ve kompozisyonu nasıl ele aldığını karşılaştırmak için sabit bir SVG konusu kullanın.",
+        "notes": "Gönderi, aynı Rolls-Royce SVG görevi için Gemini 3.6 Flash ve 3.5 Flash çıkışlarını yan yana yerleştiriyor."
+      },
+      "22": {
+        "title": "Gerçekçi Akvaryum Testi",
+        "takeaway": "Model sürümleri arasında gerçekçilik ve uygulama kalitesini karşılaştırmak için sınırlı bir 3B sahne kullanın.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash'tan gerçekçi bir akvaryum yapmasını istedi ve bunun 3.5 Flash'tan çok az daha iyi olduğuna karar verdi."
+      },
+      "23": {
+        "title": "Max Reasoning'de İkizler Grok'a Karşı",
+        "takeaway": "Hızı, maliyeti ve çıktıyı karşılaştırmak için model itibarına güvenmek yerine aynı istemi ve maksimum akıl yürütme ayarlarını kullanın.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash ve Grok 4.5'i aynı istem ve maksimum mantık ayarları altında çalıştırdı ve her ikisinin de hızlı olduğunu, Grok'un ise biraz daha hızlı ve daha ucuz olduğunu gözlemledi."
+      },
+      "24": {
+        "title": "Maksimum Ayarlarda Gemini Versus Sonnet",
+        "takeaway": "Modelleri aynı istemlerle ve bunların en güçlü ayarlarıyla karşılaştırın, ardından oluşturulan gerçek yapıyı inceleyin.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash ve Sonnet 5'i aynı istemlerle maksimum ayarlarda test etti ve gösterilen görevde Gemini çıkışını tercih etti."
+      },
+      "25": {
+        "title": "Görsel Anlama Testi",
+        "takeaway": "Modeli görsel iş akışları için benimsemeden önce yanıt kalitesini ve etkileşim stilini incelemek için somut bir görüntü görevi kullanın.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash'ın geçtiği bir görme testi sundu ve gözlemlenen deneyimin bir parçası olarak tepki kişiliğini vurguladı."
+      },
+      "26": {
+        "title": "Rocket League Oyun Karşılaştırması",
+        "takeaway": "Tekrarlanan bir oyun oluşturma karşılaştırması çalıştırın ve hem yapım süresini hem de tutarlı bir öznel sıralamayı kaydedin.",
+        "notes": "Yaratıcı, Gemini 3.6 Flash'ı Rocket League tarzı bir görevde test etti, kişisel skor tablosunda üçüncü sıraya koydu ve iki dakikadan kısa sürede tamamlandığını bildirdi."
+      },
+      "27": {
+        "title": "EyeBench Görsel Karşılaştırma",
+        "takeaway": "Artan verimlilik kazanımlarını mutlak kaliteden ayırmak için istikrarlı bir görsel kıyaslama kullanın.",
+        "notes": "Yaratıcı, EyeBench'te Gemini 3.6 Flash'ın 3.5 Flash'tan marjinal olarak daha iyi, ancak yine de Gemini 3.1 Pro Preview'dan daha kötü olduğunu değerlendirdi ve token verimliliğinin arttığına dikkat çekti."
+      },
+      "28": {
+        "title": "Kağıt Kesim Animasyon Karşılaştırması",
+        "takeaway": "Yaratıcı nesli değerlendirirken yanıt hızını ve son animasyonu ayrı ayrı karşılaştırın.",
+        "notes": "Yaratıcı, kağıttan kesilmiş bir animasyon görevinde Gemini 3.6 Flash'ı Fable 5 ile karşılaştırdı ve Gemini'nin neredeyse anında tepkisini övdü, ancak sonuçla ilgili çekincelerini dile getirdi."
+      },
+      "29": {
+        "title": "AI Arena Nesil Karşılaştırması",
+        "takeaway": "Birden fazla kodlama modelinde derleme süresini, fiyatı ve yapıt kalitesini karşılaştırmak için aynı arena görevini kullanın.",
+        "notes": "Yaratıcı, Grok 4.5, Gemini 3.6 Flash ve GPT-5.6 Luna'yı bir AI Arena görevinde test etti ve Gemini sonucunun bu çalıştırmada en zayıf olduğuna karar verdi."
+      },
+      "30": {
+        "title": "Çapraz Modelli Oyun Oluşturma Maliyeti",
+        "takeaway": "Oyun prototipi oluşturmak için bir model seçerken yineleme sayısını, geliştirici deneyimini, özellikleri ve maliyeti birlikte izleyin.",
+        "notes": "Yaratıcı, aynı tasarım iş akışını kullanarak, Gemini'nin oluşturduğu bir atlama ve düşme hatasını düzeltmek için altı ila yedi yinelemeye ihtiyaç duyulduğunu bildirdi ve karşılaştırmalı puanların yanı sıra 0,15 ABD doları tutarında bir çalıştırma maliyeti listeledi."
+      },
+      "31": {
+        "title": "Siber Güvenlik Reddi Karşılaştırması",
+        "takeaway": "Savunma amaçlı kod incelemesi saldırgan isteklerle engellenebileceğinden, güvenlik aracı değerlendirmelerine reddetme davranışını dahil edin.",
+        "notes": "Bir siber güvenlik kıyaslama çalışmasının reddedilmesi, değerlendiricinin, test edilen politikanın, savunma kodu ve kötü niyetli kullanıma yönelik güvenlik açığı bulma davranışını engellediğini rapor etmesine yol açtı."
+      },
+      "32": {
+        "title": "Bilgi Tazeliği Arızası",
+        "takeaway": "İddia edilen bir bilgi kesintisine güvenmek yerine, mevcut gerçekleri erişim yoluyla doğrulayın.",
+        "notes": "Testi yapan kişi mevcut amiral gemisi modellerini istedi ve daha eski isimler aldı, ardından modelin Mart 2026'da bir kesinti olduğunu iddia etmesine rağmen yalnızca 2025'in başlarına kadar geçerli olan bilgileri kabul ettiğini bildirdi."
+      },
+      "33": {
+        "title": "Jailbreak Kırmızı Takım Testi",
+        "takeaway": "Jailbreak taleplerini yeniden kullanılabilir talimatlar olarak değil, kontrollü çoğaltma ve güvenlik incelemesi gerektiren kırmızı takım sinyalleri olarak değerlendirin.",
+        "notes": "Gönderi, Gemini Uygulaması ve API genelinde jailbreak yapıldığını iddia ediyor ve test edilen zararlı içerik kategorilerini listeliyor; bu depo, yararlanma talimatlarını çoğaltmadan güvenlik sinyalini kaydeder."
+      }
+    }
+  },
+  "zh-TW": {
+    "locale": "zh-TW",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "很棒的 Gemini 3.6 Flash 指南和用例",
+      "introduction": "簡介",
+      "intro": "歡迎閱讀 Gemini 3.6 Flash 實踐的源代碼支援指南",
+      "mission": "該儲存庫從公共創建者證據中收集具體的 Gemini 3.6 Flash 工作流程、建置、評估、比較和限制",
+      "boundary": "每個包含的案例都來自經過審查的來源包標題連結到原始帖子，作者連結到創建者個人資料，只有當來源文字實際包含它們時才會出現提示",
+      "overview": "概述",
+      "overview_cases": "從 33 個經過審查的來源貼文中選出 33 個高可信度案例",
+      "overview_coverage": "涵蓋範圍包括代理、編碼、網站、遊戲、3D、基準式比較和實際安全限制",
+      "overview_media": "所有 24 個影片案例均提供可見的海報和可播放的 R2 託管 MP4；圖像案例保留每個經過審查的來源圖像",
+      "overview_model": "EvoLink 將生產型號 ID 列為「gemini-3.6-flash」；此儲存庫連結到目前模型和 Gemini Native API 介面",
+      "note": "該系列更注重可觀察的證據，而不是炒作它不會重建缺少的提示、推斷未發布的設定步驟或將一個創建者的結果概括為通用基準",
+      "start_here": "從這裡開始",
+      "explore": "探索Gemini 3.6 Flash",
+      "get_key": "取得 API 金鑰",
+      "open_docs": "開啟 Gemini Native API 文檔",
+      "menu": "選單",
+      "section": "部分",
+      "cases": "案例",
+      "case": "案例",
+      "category": "類別",
+      "what_it_shows": "它顯示了什麼",
+      "type": "類型",
+      "by": "透過",
+      "prompt": "提示",
+      "date": "日期",
+      "play_video": "播放來源影片",
+      "related": "相關儲存庫",
+      "related_org": "來自 EvoLink 的更多模型指南和 API 範例",
+      "related_note": "在本出版品中，沒有獨立驗證專用的可安裝 Gemini 3.6 Flash 技能",
+      "quickstart": "快速入門",
+      "quick_intro": "使用下面經過驗證的公共表面以模型 ID“gemini-3.6-flash”開始",
+      "quick_model": "開啟Gemini 3.6 Flash模型頁面",
+      "quick_key": "建立或管理 EvoLink API 金鑰",
+      "quick_docs": "遵循 Gemini Native API 快速入門",
+      "important": "公共路由和模型 ID 已記錄，但在運行該測試或明確放棄該測試之前，此儲存庫不會聲明消耗信用的首次調用",
+      "acknowledge": "確認",
+      "ack_text": "該合集的存在是因為創作者和實踐者公開分享了他們的 Gemini 3.6 Flash 作品",
+      "thanks": "感謝這裡代表的源創作者",
+      "correction": "我們不能保證每個貼文都能辨識出最早的原創者如果出處、翻譯或措詞需要更正，請向公共來源提出更正問題",
+      "contribute": "若要提出另一個由來源支援的案例，請開啟問題或拉取請求並遵循貢獻清單"
+    },
+    "categories": {
+      "efficiency-agents": "效率與代理",
+      "coding-apps": "編碼和應用程式",
+      "web-games-3d": "網頁、遊戲和 3D",
+      "evaluations": "評估與比較",
+      "safety-limits": "安全與限制"
+    },
+    "cases": {
+      "1": {
+        "title": "代幣效率並存",
+        "takeaway": "在為代理程式規模工作負載選擇 Flash 模型之前，請先比較相同工作流程上的輸出令牌使用情況",
+        "notes": "Jeff Dean 分享了一個並排演示，比較了 Gemini 3.6 Flash 和 3.5 Flash，並強調了新型號中較低的代幣使用量"
+      },
+      "2": {
+        "title": "反重力遺留程式碼的現代化",
+        "takeaway": "使用受控的遺留程式碼遷移任務來比較代理延遲、編輯品質和完成行為",
+        "notes": "Google Antigravity 展示了兩代 Flash 重建遺留軟體的能力，並報告指出 Gemini 3.6 Flash 的延遲和輸出得到改善，完成速度更快"
+      },
+      "3": {
+        "title": "Canvas 代幣效率測試",
+        "takeaway": "跨模型版本執行相同的 Canvas 任務並檢查工件和令牌的使用情況",
+        "notes": "創作者在一個簡短的 Canvas 任務上對 Gemini 3.6 Flash 和 3.5 Flash 進行了比較，發現 3.6 Flash 的代幣使用率明顯較低"
+      },
+      "4": {
+        "title": "瀏覽器代理基準",
+        "takeaway": "對瀏覽器代理程式的成功和成本進行基準測試，而不是單獨優化任一指標",
+        "notes": "根據其 BU 基準測試，Gemini 3.6 Flash 的瀏覽器使用率為 68%，而 GPT-5.6 Sol 為 67%，Sonnet 4.6 為 62%，Opus 4.8 為 74%"
+      },
+      "5": {
+        "title": "長尾事實檢索效率",
+        "takeaway": "使用困難的事實檢索任務來比較推理步驟和思想標記開銷",
+        "notes": "創建者在一項複雜的長尾事實檢索任務上執行 Gemini 3.5 和 3.6 Flash，並報告 3.6 Flash 的步驟數量減半，思想標記減少了 75%"
+      },
+      "6": {
+        "title": "企業文件處理",
+        "takeaway": "在設定生產預設值之前評估長專利和文件解析的推理工作",
+        "notes": "Databricks 報告稱，文件分類準確度高於 3.5 Flash，在長專利上取得了出色的結果，且中等工作量的文件解析總標記比高工作量的文件解析少約 32%"
+      },
+      "7": {
+        "title": "JetBrains 中的工程任務評估",
+        "takeaway": "建立客觀的工程任務並在同一 IDE 工作流程中比較模型產生",
+        "notes": "JetBrains 在 AI Assistant 和 Junie 中對 Gemini 3.6 Flash 與上一代 Flash 進行了客觀的工程任務評估"
+      },
+      "8": {
+        "title": "多代理程式碼遷移",
+        "takeaway": "使用相同的編排計劃測試程式碼遷移，並比較延遲、編輯和最終品質",
+        "notes": "該演示顯示 Gemini 3.6 Flash 透過 Antigravity 中的多代理程式編排執行程式碼遷移，並報告比 3.5 Flash 更低的延遲和更高的品質"
+      },
+      "9": {
+        "title": "Android 吉他調音器",
+        "takeaway": "建立一個專注的行動實用程式原型，將傳統音訊工具與人工智慧輔助的替代調音相結合",
+        "notes": "創建者使用 Gemini 3.6 Flash 構建了一個 Android 吉他調音器應用程序，並提供 AI 驅動的替代調音支援"
+      },
+      "10": {
+        "title": "交通燈模擬",
+        "takeaway": "要求模型提供可執行的視覺化，以檢查產生的程式碼是否捕捉定時和隨機流量行為",
+        "notes": "公共提示要求使用 Python 程式碼來視覺化單向街道交通號誌燈，其中汽車以隨機速率到達，該貼文包含了最終的演示"
+      },
+      "11": {
+        "title": "鍵盤鋼琴應用程式",
+        "takeaway": "將簡單的互動概念轉變為可玩的鍵盤控制的 Web 應用程式",
+        "notes": "創作者使用 Gemini 3.6 Flash 建立了一個可以透過電腦鍵盤彈奏的鋼琴應用程序，並將其設計為兒童可以探索的應用程式"
+      },
+      "12": {
+        "title": "桌上機器人語音助手",
+        "takeaway": "將 Flash 和 Flash-Lite 整合到語音應用程式中並比較第一個回應行為",
+        "notes": "創作者將 Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite 添加到桌面機器人的語音對話應用程式中，並指出最初的回應感覺稍慢但可用"
+      },
+      "13": {
+        "title": "金門大橋 HTML 故障",
+        "takeaway": "在信任產生的 3D Web 體驗之前，使用嚴格的文件傳遞任務來測試指令遵循",
+        "notes": "測試人員需要三個提示，看到模型嘗試應用內模擬和網絡圖像響應而不是請求的 HTML 文件，並判斷最終的 3D 橋接器輸出明顯弱於 Gemini 3.1 Pro"
+      },
+      "14": {
+        "title": "公共提示視覺測試",
+        "takeaway": "當您需要創建者的完整提示而不是從輸出重建它時，請打開來源執行緒",
+        "notes": "MotionViz 發布了 Gemini 3.6 Flash 媒體視覺測試，並表示完整的提示在來源執行緒中可用；此儲存庫不會重建來源套件中不存在的提示文字"
+      },
+      "15": {
+        "title": "單提示畫布遊戲",
+        "takeaway": "使用 Canvas 中的一個提示來測試模型將緊湊的遊戲概念轉變為互動式結果的速度",
+        "notes": "創作者在早期訪問中測試了 Gemini 3.6 Flash，並使用單一 Canvas 提示來製作可玩的遊戲演示"
+      },
+      "16": {
+        "title": "登陸頁版本比較",
+        "takeaway": "保持模型各世代之間的提示固定，以隔離登陸頁面執行和視覺判斷中的變化",
+        "notes": "創作者將 Gemini 3.6 Flash 新增至相同提示的登陸頁面檔案中，並判斷新結果比 Gemini 3 和 3.5 輸出更差"
+      },
+      "17": {
+        "title": "地鐵跑酷 3D 原型",
+        "takeaway": "為編碼實驗提供擴展思維，並檢查互動品質和視覺保真度",
+        "notes": "創作者使用 Gemini 3.6 Flash 構建了一個簡單的 3D 地鐵跑酷風格的複製品，並建議對編碼任務進行擴展思維"
+      },
+      "18": {
+        "title": "一頁網站比較",
+        "takeaway": "保持網站提示和推理水準不變，然後比較令牌成本、速度和設計偏好",
+        "notes": "在同一個一頁的網站提示中，創建者報告了 Gemini 3.6 Flash 的代幣約為 6,100 個，而 3.5 Flash 的代幣約為 9,300 個，而個人更喜歡舊型號的外觀"
+      },
+      "19": {
+        "title": "狂野西部遊戲失敗",
+        "takeaway": "將失敗的遊戲生成輸出視為決定何時切換模型或修改任務的證據",
+        "notes": "測試者使用 Wild West 遊戲產生提示，根據觀察結果判斷 Gemini 3.6 Flash 明顯落後於 GPT-5.6、Kimi K3 和 Fable 5"
+      },
+      "20": {
+        "title": "反重力遊戲素材失效",
+        "takeaway": "在接受人工智慧生成的遊戲原型之前，請檢查視覺材料和實際互動行為",
+        "notes": "在第二次反重力遊戲測試中，創作者發現較弱的木質紋理和看起來相似但仍然不起作用的大理石元素"
+      },
+      "21": {
+        "title": "勞斯萊斯 SVG 比較",
+        "takeaway": "使用固定的 SVG 主題來比較兩代 Flash 如何處理形狀、細節和構圖",
+        "notes": "該貼文將 Gemini 3.6 Flash 和 3.5 Flash 輸出並排放置，以執行相同的勞斯萊斯 SVG 任務"
+      },
+      "22": {
+        "title": "現實水族館測試",
+        "takeaway": "使用有界 3D 場景來比較模型版本之間的真實感和實現品質",
+        "notes": "創作者要求 Gemini 3.6 Flash 建造一個逼真的水族館，並認為它只比 3.5 Flash 好一點"
+      },
+      "23": {
+        "title": "Max Reasoning 中的 Gemini 與 Grok",
+        "takeaway": "使用相同的提示和最大推理設定來比較速度、成本和輸出，而不是依賴模型聲譽",
+        "notes": "創作者在相同的提示和最大推理設定下運行 Gemini 3.6 Flash 和 Grok 4.5，觀察到兩者都很快，而 Grok 稍快且更便宜"
+      },
+      "24": {
+        "title": "雙子座與十四行詩在最大設置",
+        "takeaway": "比較相同提示及其最強設定的模型，然後檢查實際產生的工件",
+        "notes": "創建者在最大設定下使用相同的提示測試了 Gemini 3.6 Flash 和 Sonnet 5，並在所示任務中首選 Gemini 輸出"
+      },
+      "25": {
+        "title": "視覺理解測試",
+        "takeaway": "在採用視覺工作流程模型之前，使用具體的影像任務來檢查回應品質和互動風格",
+        "notes": "創作者展示了 Gemini 3.6 Flash 通過的視力測試，並強調了回應個性作為觀察體驗的一部分"
+      },
+      "26": {
+        "title": "火箭聯盟遊戲基準",
+        "takeaway": "運行重複的遊戲產生基準並記錄建立時間和一致的主觀排名",
+        "notes": "創作者在火箭聯盟式的任務中測試了 Gemini 3.6 Flash，在個人排行榜上排名第三，並報告在不到兩分鐘的時間內完成了任務"
+      },
+      "27": {
+        "title": "EyeBench 視覺比較",
+        "takeaway": "使用穩定的視覺基準將增量效率增益與絕對品質分開",
+        "notes": "在 EyeBench 上，創作者認為 Gemini 3.6 Flash 略好於 3.5 Flash，但仍差於 Gemini 3.1 Pro Preview，同時注意到代幣效率有所提高"
+      },
+      "28": {
+        "title": "剪紙動畫對比",
+        "takeaway": "在評估創意生成時，分別比較反應速度和最終動畫",
+        "notes": "作者在剪紙動畫任務中將 Gemini 3.6 Flash 與《神鬼寓言 5》進行了比較，稱讚 Gemini 近乎即時的回應，但對結果表示保留"
+      },
+      "29": {
+        "title": "AI Arena 產生基準",
+        "takeaway": "使用相同的 arena 任務來比較多個編碼模型的建造時間、價格和工件品質",
+        "notes": "創作者在一項 AI Arena 任務中測試了 Grok 4.5、Gemini 3.6 Flash 和 GPT-5.6 Luna，並判斷 Gemini 在該運行中的結果最弱"
+      },
+      "30": {
+        "title": "跨模型遊戲建構成本",
+        "takeaway": "在選擇遊戲原型設計模型時，一起追蹤迭代次數、開發人員經驗、功能和成本",
+        "notes": "使用相同的設計工作流程，創建者報告需要六到七次迭代來修復 Gemini 產生的跳躍和墜落錯誤，並列出了 0.15 美元的運行成本以及比較分數"
+      },
+      "31": {
+        "title": "網路安全拒絕基準",
+        "takeaway": "在安全工具評估中包含拒絕行為，因為防禦性程式碼審查可能會被攻擊性請求阻止",
+        "notes": "網路安全基準測試被拒絕，導致評估人員報告稱，經過測試的策略阻止了防禦性程式碼的漏洞查找行為以及惡意使用"
+      },
+      "32": {
+        "title": "知識新鮮度失敗",
+        "takeaway": "透過檢索來驗證當前事實，而不是相信聲稱的知識截止點",
+        "notes": "測試人員詢問當前的旗艦型號並收到較舊的名稱，然後報告說該型號承認僅到 2025 年初的知識，儘管聲稱截止日期為 2026 年 3 月"
+      },
+      "33": {
+        "title": "越獄紅隊測試",
+        "takeaway": "將越獄聲明視為需要受控複製和安全審查的紅隊訊號，而不是可重複使用的指示",
+        "notes": "該貼文聲稱 Gemini 應用程式和 API 已越獄，並列出了經過測試的有害內容類別；該儲存庫記錄安全訊號，而不複製漏洞利用指令"
+      }
+    }
+  },
+  "zh-CN": {
+    "locale": "zh-CN",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "很棒的 Gemini 3.6 Flash 指南和用例",
+      "introduction": "简介",
+      "intro": "欢迎阅读 Gemini 3.6 Flash 实践的源代码支持指南",
+      "mission": "该存储库从公共创建者证据中收集具体的 Gemini 3.6 Flash 工作流程、构建、评估、比较和限制",
+      "boundary": "每个包含的案例都来自经过审查的源包标题链接到原始帖子，作者链接到创建者个人资料，只有当源文本实际包含它们时才会出现提示",
+      "overview": "概述",
+      "overview_cases": "从 33 个经过审查的来源帖子中选出 33 个高可信度案例",
+      "overview_coverage": "覆盖范围包括代理、编码、网站、游戏、3D、基准式比较和实际安全限制",
+      "overview_media": "所有 24 个视频案例均提供可见的海报和可播放的 R2 托管 MP4；图像案例保留每一个经过审查的源图像",
+      "overview_model": "EvoLink 将生产型号 ID 列为“gemini-3.6-flash”；该存储库链接到当前模型和 Gemini Native API 界面",
+      "note": "该系列更注重可观察的证据，而不是炒作它不会重建缺失的提示、推断未发布的设置步骤或将一个创建者的结果概括为通用基准",
+      "start_here": "从这里开始",
+      "explore": "探索Gemini 3.6 Flash",
+      "get_key": "获取 API 密钥",
+      "open_docs": "打开 Gemini Native API 文档",
+      "menu": "菜单",
+      "section": "部分",
+      "cases": "案例",
+      "case": "案例",
+      "category": "类别",
+      "what_it_shows": "它显示了什么",
+      "type": "类型",
+      "by": "通过",
+      "prompt": "提示",
+      "date": "日期",
+      "play_video": "播放源视频",
+      "related": "相关存储库",
+      "related_org": "来自 EvoLink 的更多模型指南和 API 示例",
+      "related_note": "在本出版物中，没有独立验证专用的可安装 Gemini 3.6 Flash 技能",
+      "quickstart": "快速入门",
+      "quick_intro": "使用下面经过验证的公共表面以模型 ID“gemini-3.6-flash”开始",
+      "quick_model": "打开Gemini 3.6 Flash模型页面",
+      "quick_key": "创建或管理 EvoLink API 密钥",
+      "quick_docs": "遵循 Gemini Native API 快速入门",
+      "important": "公共路由和模型 ID 已记录，但在运行该测试或明确放弃该测试之前，此存储库不会声明消耗信用的首次调用",
+      "acknowledge": "确认",
+      "ack_text": "该合集的存在是因为创作者和实践者公开分享了他们的 Gemini 3.6 Flash 作品",
+      "thanks": "感谢这里代表的源创作者",
+      "correction": "我们不能保证每个帖子都能识别出最早的原创者如果出处、翻译或措辞需要更正，请向公共来源提出更正问题",
+      "contribute": "要提出另一个由源支持的案例，请打开问题或拉取请求并遵循贡献清单"
+    },
+    "categories": {
+      "efficiency-agents": "效率与代理",
+      "coding-apps": "编码和应用程序",
+      "web-games-3d": "网页、游戏和 3D",
+      "evaluations": "评估与比较",
+      "safety-limits": "安全与限制"
+    },
+    "cases": {
+      "1": {
+        "title": "代币效率并存",
+        "takeaway": "在为代理规模工作负载选择 Flash 模型之前，请比较同一工作流程上的输出令牌使用情况",
+        "notes": "Jeff Dean 分享了一个并排演示，比较了 Gemini 3.6 Flash 和 3.5 Flash，并强调了新型号中较低的代币使用量"
+      },
+      "2": {
+        "title": "反重力遗留代码的现代化",
+        "takeaway": "使用受控的遗留代码迁移任务来比较代理延迟、编辑质量和完成行为",
+        "notes": "Google Antigravity 展示了两代 Flash 重建遗留软件的能力，并报告称 Gemini 3.6 Flash 的延迟和输出得到改善，完成速度更快"
+      },
+      "3": {
+        "title": "Canvas 代币效率测试",
+        "takeaway": "跨模型版本运行相同的 Canvas 任务并检查工件和令牌的使用情况",
+        "notes": "创建者在一个简短的 Canvas 任务上对 Gemini 3.6 Flash 和 3.5 Flash 进行了比较，发现 3.6 Flash 的代币使用率明显较低"
+      },
+      "4": {
+        "title": "浏览器代理基准",
+        "takeaway": "对浏览器代理的成功和成本进行基准测试，而不是单独优化任一指标",
+        "notes": "根据其 BU 基准测试，Gemini 3.6 Flash 的浏览器使用率为 68%，而 GPT-5.6 Sol 为 67%，Sonnet 4.6 为 62%，Opus 4.8 为 74%"
+      },
+      "5": {
+        "title": "长尾事实检索效率",
+        "takeaway": "使用困难的事实检索任务来比较推理步骤和思想标记开销",
+        "notes": "创建者在一项复杂的长尾事实检索任务上运行 Gemini 3.5 和 3.6 Flash，并报告说 3.6 Flash 的步骤数量减半，思想标记减少了 75%"
+      },
+      "6": {
+        "title": "企业文档处理",
+        "takeaway": "在设置生产默认值之前评估长专利和文档解析的推理工作",
+        "notes": "Databricks 报告称，文档分类准确度高于 3.5 Flash，在长专利上取得了出色的结果，并且中等工作量的文档解析总标记比高工作量的文档解析少约 32%"
+      },
+      "7": {
+        "title": "JetBrains 中的工程任务评估",
+        "takeaway": "构建客观的工程任务并在同一 IDE 工作流程中比较模型生成",
+        "notes": "JetBrains 在 AI Assistant 和 Junie 中对 Gemini 3.6 Flash 与上一代 Flash 进行了客观的工程任务评估"
+      },
+      "8": {
+        "title": "多代理代码迁移",
+        "takeaway": "使用相同的编排计划测试代码迁移，并比较延迟、编辑和最终质量",
+        "notes": "该演示显示 Gemini 3.6 Flash 通过 Antigravity 中的多代理编排执行代码迁移，并报告比 3.5 Flash 更低的延迟和更高的质量"
+      },
+      "9": {
+        "title": "Android 吉他调音器",
+        "takeaway": "构建一个专注的移动实用程序原型，将传统音频工具与人工智能辅助的替代调音相结合",
+        "notes": "创建者使用 Gemini 3.6 Flash 构建了一个 Android 吉他调音器应用程序，并提供 AI 驱动的替代调音支持"
+      },
+      "10": {
+        "title": "交通灯模拟",
+        "takeaway": "要求模型提供可执行的可视化，以检查生成的代码是否捕获定时和随机流量行为",
+        "notes": "公共提示要求使用 Python 代码来可视化单向街道交通信号灯，其中汽车以随机速率到达，该帖子包含了最终的演示"
+      },
+      "11": {
+        "title": "键盘钢琴应用程序",
+        "takeaway": "将简单的交互概念转变为可玩的键盘控制的 Web 应用程序",
+        "notes": "创建者使用 Gemini 3.6 Flash 构建了一个可以通过计算机键盘弹奏的钢琴应用程序，并将其设计为儿童可以探索的应用程序"
+      },
+      "12": {
+        "title": "桌面机器人语音助手",
+        "takeaway": "将 Flash 和 Flash-Lite 集成到语音应用程序中并比较第一响应行为",
+        "notes": "创建者将 Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite 添加到桌面机器人的语音对话应用程序中，并指出最初的响应感觉稍慢但可用"
+      },
+      "13": {
+        "title": "金门大桥 HTML 故障",
+        "takeaway": "在信任生成的 3D Web 体验之前，使用严格的文件传递任务来测试指令遵循情况",
+        "notes": "测试人员需要三个提示，看到模型尝试应用内模拟和网络图像响应而不是请求的 HTML 文件，并判断最终的 3D 桥输出明显弱于 Gemini 3.1 Pro"
+      },
+      "14": {
+        "title": "公共提示视觉测试",
+        "takeaway": "当您需要创建者的完整提示而不是从输出中重建它时，请打开源线程",
+        "notes": "MotionViz 发布了 Gemini 3.6 Flash 媒体视觉测试，并表示完整的提示在源线程中可用；此存储库不会重建源包中不存在的提示文本"
+      },
+      "15": {
+        "title": "单提示画布游戏",
+        "takeaway": "使用 Canvas 中的一个提示来测试模型将紧凑的游戏概念转变为交互式结果的速度",
+        "notes": "创建者在早期访问中测试了 Gemini 3.6 Flash，并使用单个 Canvas 提示来制作可玩的游戏演示"
+      },
+      "16": {
+        "title": "登陆页面版本比较",
+        "takeaway": "保持模型各代之间的提示固定，以隔离登陆页面执行和视觉判断中的变化",
+        "notes": "创建者将 Gemini 3.6 Flash 添加到相同提示的登陆页面存档中，并判断新结果比 Gemini 3 和 3.5 输出更差"
+      },
+      "17": {
+        "title": "地铁跑酷 3D 原型",
+        "takeaway": "为编码实验提供扩展思维，并检查交互质量和视觉保真度",
+        "notes": "创建者使用 Gemini 3.6 Flash 构建了一个简单的 3D 地铁跑酷风格的复制品，并建议对编码任务进行扩展思维"
+      },
+      "18": {
+        "title": "一页网站比较",
+        "takeaway": "保持网站提示和推理水平不变，然后比较令牌成本、速度和设计偏好",
+        "notes": "在同一个一页的网站提示中，创建者报告了 Gemini 3.6 Flash 的代币约为 6,100 个，而 3.5 Flash 的代币约为 9,300 个，而个人更喜欢旧型号的外观"
+      },
+      "19": {
+        "title": "狂野西部游戏失败",
+        "takeaway": "将失败的游戏生成输出视为决定何时切换模型或修改任务的证据",
+        "notes": "测试人员使用 Wild West 游戏生成提示，根据观察结果判断 Gemini 3.6 Flash 明显落后于 GPT-5.6、Kimi K3 和 Fable 5"
+      },
+      "20": {
+        "title": "反重力游戏材料失效",
+        "takeaway": "在接受人工智能生成的游戏原型之前，请检查视觉材料和实际交互行为",
+        "notes": "在第二次反重力游戏测试中，创作者发现较弱的木质纹理和看起来相似但仍然不起作用的大理石元素"
+      },
+      "21": {
+        "title": "劳斯莱斯 SVG 比较",
+        "takeaway": "使用固定的 SVG 主题来比较两代 Flash 如何处理形状、细节和构图",
+        "notes": "该帖子将 Gemini 3.6 Flash 和 3.5 Flash 输出并排放置，以执行相同的劳斯莱斯 SVG 任务"
+      },
+      "22": {
+        "title": "现实水族馆测试",
+        "takeaway": "使用有界 3D 场景来比较模型版本之间的真实感和实现质量",
+        "notes": "创作者要求 Gemini 3.6 Flash 建造一个逼真的水族馆，并认为它只比 3.5 Flash 好一点点"
+      },
+      "23": {
+        "title": "Max Reasoning 中的 Gemini 与 Grok",
+        "takeaway": "使用相同的提示和最大推理设置来比较速度、成本和输出，而不是依赖模型声誉",
+        "notes": "创建者在相同的提示和最大推理设置下运行 Gemini 3.6 Flash 和 Grok 4.5，观察到两者都很快，而 Grok 稍快一些且更便宜"
+      },
+      "24": {
+        "title": "双子座与十四行诗在最大设置",
+        "takeaway": "比较相同提示及其最强设置的模型，然后检查实际生成的工件",
+        "notes": "创建者在最大设置下使用相同的提示测试了 Gemini 3.6 Flash 和 Sonnet 5，并在所示任务中首选 Gemini 输出"
+      },
+      "25": {
+        "title": "视觉理解测试",
+        "takeaway": "在采用视觉工作流程模型之前，使用具体的图像任务来检查响应质量和交互风格",
+        "notes": "创建者展示了 Gemini 3.6 Flash 通过的视力测试，并强调了响应个性作为观察体验的一部分"
+      },
+      "26": {
+        "title": "火箭联盟游戏基准",
+        "takeaway": "运行重复的游戏生成基准并记录构建时间和一致的主观排名",
+        "notes": "创建者在火箭联盟式的任务中测试了 Gemini 3.6 Flash，在个人排行榜上排名第三，并报告在不到两分钟的时间内完成了任务"
+      },
+      "27": {
+        "title": "EyeBench 视觉比较",
+        "takeaway": "使用稳定的视觉基准将增量效率增益与绝对质量分开",
+        "notes": "在 EyeBench 上，创建者认为 Gemini 3.6 Flash 略好于 3.5 Flash，但仍差于 Gemini 3.1 Pro Preview，同时注意到代币效率有所提高"
+      },
+      "28": {
+        "title": "剪纸动画对比",
+        "takeaway": "在评估创意生成时，分别比较响应速度和最终动画",
+        "notes": "作者在剪纸动画任务中将 Gemini 3.6 Flash 与《神鬼寓言 5》进行了比较，称赞 Gemini 近乎即时的响应，但对结果表示保留"
+      },
+      "29": {
+        "title": "AI Arena 生成基准",
+        "takeaway": "使用相同的 arena 任务来比较多个编码模型的构建时间、价格和工件质量",
+        "notes": "创建者在一项 AI Arena 任务中测试了 Grok 4.5、Gemini 3.6 Flash 和 GPT-5.6 Luna，并判断 Gemini 在该运行中的结果最弱"
+      },
+      "30": {
+        "title": "跨模型游戏构建成本",
+        "takeaway": "在选择游戏原型设计模型时，一起跟踪迭代次数、开发人员经验、功能和成本",
+        "notes": "使用相同的设计工作流程，创建者报告需要六到七次迭代来修复 Gemini 生成的跳跃和坠落错误，并列出了 0.15 美元的运行成本以及比较分数"
+      },
+      "31": {
+        "title": "网络安全拒绝基准",
+        "takeaway": "在安全工具评估中包括拒绝行为，因为防御性代码审查可能会被攻击性请求阻止",
+        "notes": "网络安全基准测试被拒绝，导致评估人员报告称，经过测试的策略阻止了防御性代码的漏洞查找行为以及恶意使用"
+      },
+      "32": {
+        "title": "知识新鲜度失败",
+        "takeaway": "通过检索来验证当前事实，而不是相信声称的知识截止点",
+        "notes": "测试人员询问当前的旗舰型号并收到较旧的名称，然后报告说该型号承认仅到 2025 年初的知识，尽管声称截止日期为 2026 年 3 月"
+      },
+      "33": {
+        "title": "越狱红队测试",
+        "takeaway": "将越狱声明视为需要受控复制和安全审查的红队信号，而不是可重复使用的指令",
+        "notes": "该帖子声称 Gemini 应用程序和 API 已越狱，并列出了经过测试的有害内容类别；该存储库记录安全信号，而不复制漏洞利用指令"
+      }
+    }
+  },
+  "ru": {
+    "locale": "ru",
+    "translation_method": "machine-assisted first pass with source-locked fields",
+    "strings": {
+      "title": "Потрясающее руководство по Gemini 3.6 Flash и примеры использования",
+      "introduction": "Введение",
+      "intro": "Добро пожаловать в руководство по использованию Gemini 3.6 Flash на практике, подкрепленное исходными кодами.",
+      "mission": "В этом репозитории собраны конкретные рабочие процессы Gemini 3.6 Flash, сборки, оценки, сравнения и ограничения из общедоступных свидетельств создателей.",
+      "boundary": "Каждый включенный случай взят из проверенного исходного пакета. Заголовки ссылаются на оригинальные публикации, авторы ссылаются на профили создателей, а подсказки появляются только тогда, когда исходный текст действительно их содержит.",
+      "overview": "Обзор",
+      "overview_cases": "33 случая с высокой степенью достоверности выбраны из 33 проверенных исходных сообщений.",
+      "overview_coverage": "Охват включает агентов, кодирование, веб-сайты, игры, 3D, сравнения в стиле эталонных тестов и практические ограничения безопасности.",
+      "overview_media": "Все 24 видеокейса содержат видимый постер и воспроизводимый MP4, размещенный на R2; В случаях с изображениями сохраняются все проверенные исходные изображения.",
+      "overview_model": "EvoLink указывает идентификатор серийной модели как «gemini-3.6-flash»; этот репозиторий ссылается на текущую модель и поверхности Gemini Native API.",
+      "note": "Этот сборник отдает предпочтение очевидным доказательствам, а не шумихе. Он не реконструирует отсутствующие подсказки, не делает вывод о неопубликованных шагах настройки и не обобщает результат одного создателя в универсальный эталон.",
+      "start_here": "Начните здесь",
+      "explore": "изучить Близнецы 3.6 Flash",
+      "get_key": "получить ключ API",
+      "open_docs": "откройте документацию Gemini Native API",
+      "menu": "Меню",
+      "section": "Раздел",
+      "cases": "Кейсы",
+      "case": "Дело",
+      "category": "Категория",
+      "what_it_shows": "Что это показывает",
+      "type": "Тип",
+      "by": "по",
+      "prompt": "Подскажите",
+      "date": "Дата",
+      "play_video": "Воспроизвести исходное видео",
+      "related": "Связанные репозитории",
+      "related_org": "Дополнительные руководства по моделям и примеры API от EvoLink",
+      "related_note": "Во время этой публикации не было независимо проверено ни одного специального устанавливаемого навыка работы с Gemini 3.6 Flash.",
+      "quickstart": "Быстрый старт",
+      "quick_intro": "Используйте проверенные общедоступные ресурсы ниже, чтобы начать с идентификатора модели «gemini-3.6-flash».",
+      "quick_model": "Откройте страницу модели Flash Gemini 3.6.",
+      "quick_key": "Создайте ключ API EvoLink или управляйте им.",
+      "quick_docs": "Следуйте инструкциям по быстрому запуску Gemini Native API.",
+      "important": "Публичный маршрут и идентификатор модели документированы, но этот репозиторий не требует первого вызова, требующего кредитов, до тех пор, пока этот тест не будет запущен или явно не отменен.",
+      "acknowledge": "Признать",
+      "ack_text": "Эта коллекция существует потому, что ее создатели и специалисты публично поделились своей работой над Gemini 3.6 Flash.",
+      "thanks": "Спасибо создателям исходников, представленным здесь",
+      "correction": "Мы не можем гарантировать, что в каждом сообщении указан первый автор. Если атрибуция, перевод или формулировка требуют исправления, откройте вопрос об исправлении в общедоступном источнике.",
+      "contribute": "Чтобы предложить другое дело, поддержанное источником, откройте проблему или запрос на включение и следуйте контрольному списку вклада."
+    },
+    "categories": {
+      "efficiency-agents": "Эффективность и агенты",
+      "coding-apps": "Кодирование и приложения",
+      "web-games-3d": "Интернет, игры и 3D",
+      "evaluations": "Оценка и сравнение",
+      "safety-limits": "Безопасность и ограничения"
+    },
+    "cases": {
+      "1": {
+        "title": "Эффективность токенов бок о бок",
+        "takeaway": "Сравните использование выходных токенов в одном и том же рабочем процессе, прежде чем выбирать модель Flash для рабочих нагрузок в масштабе агента.",
+        "notes": "Джефф Дин поделился параллельной демонстрацией сравнения Gemini 3.6 Flash и 3.5 Flash и подчеркнул меньшее использование токенов в новой модели."
+      },
+      "2": {
+        "title": "Модернизация устаревшего кода в Антигравитации",
+        "takeaway": "Используйте задачу контролируемой миграции устаревшего кода, чтобы сравнить задержку агента, качество редактирования и поведение при завершении.",
+        "notes": "Google Antigradity продемонстрировала оба поколения Flash, восстанавливающих устаревшее программное обеспечение, и сообщила о более быстром завершении с уменьшенной задержкой и производительностью Gemini 3.6 Flash."
+      },
+      "3": {
+        "title": "Тест эффективности токена Canvas",
+        "takeaway": "Запустите одну и ту же задачу Canvas для всех версий модели и проверьте использование артефактов и токенов.",
+        "notes": "Создатель сравнил Gemini 3.6 Flash и 3.5 Flash в коротком задании Canvas и заметил существенно меньшее использование токенов по сравнению с 3.6 Flash."
+      },
+      "4": {
+        "title": "Тестирование агента браузера",
+        "takeaway": "Сравните успех и стоимость браузерного агента вместе, а не оптимизируйте какой-либо показатель по отдельности.",
+        "notes": "Использование браузера показало 68% в тесте BU Benchmark для Gemini 3.6 Flash, по сравнению с 67% для GPT-5.6 Sol, 62% для Sonnet 4.6 и 74% для Opus 4.8."
+      },
+      "5": {
+        "title": "Эффективность извлечения фактов с длинным хвостом",
+        "takeaway": "Используйте сложные задачи по поиску фактов, чтобы сравнить этапы рассуждения и накладные расходы на мыслительные жетоны.",
+        "notes": "Создатель одновременно запустил Gemini 3.5 и 3.6 Flash для выполнения сложной задачи по извлечению фактов с длинным хвостом и сообщил в два раза меньше шагов и на 75% меньше токенов мысли для 3.6 Flash."
+      },
+      "6": {
+        "title": "Обработка корпоративных документов",
+        "takeaway": "Оцените усилия по обоснованию длинных патентов и анализу документов, прежде чем устанавливать производственную настройку по умолчанию.",
+        "notes": "Databricks сообщила о более высокой точности классификации документов, чем 3,5 Flash, хороших результатах по длинным патентам и примерно на 32 % меньшее общее количество токенов при средних усилиях, чем при больших усилиях для анализа документов."
+      },
+      "7": {
+        "title": "Оценка инженерных задач в JetBrains",
+        "takeaway": "Создайте объективную инженерную задачу и сравните поколения моделей в рамках одного рабочего процесса IDE.",
+        "notes": "JetBrains представила объективную оценку инженерных задач для Gemini 3.6 Flash по сравнению с предыдущим поколением Flash в AI Assistant и Junie."
+      },
+      "8": {
+        "title": "Мультиагентная миграция кода",
+        "takeaway": "Протестируйте миграцию кода с тем же планом оркестрации и сравните задержку, изменения и окончательное качество.",
+        "notes": "Демонстрация показывает, как Gemini 3.6 Flash выполняет миграцию кода посредством многоагентной оркестровки в Antigravity и сообщает о меньшей задержке и более высоком качестве, чем 3.5 Flash."
+      },
+      "9": {
+        "title": "Гитарный тюнер для Android",
+        "takeaway": "Создайте прототип специализированной мобильной утилиты, которая сочетает в себе традиционные аудиоинструменты с альтернативными настройками с помощью искусственного интеллекта.",
+        "notes": "Создатель использовал Gemini 3.6 Flash для создания приложения для настройки гитары для Android с поддержкой альтернативной настройки на основе искусственного интеллекта."
+      },
+      "10": {
+        "title": "Моделирование светофора",
+        "takeaway": "Запросите у модели исполняемую визуализацию, чтобы проверить, фиксирует ли сгенерированный код синхронизацию и случайное поведение трафика.",
+        "notes": "Публичное приглашение запрашивает код Python, который визуализирует светофор с односторонним движением и автомобилями, приезжающими со случайной скоростью, и сообщение включает полученную демонстрацию."
+      },
+      "11": {
+        "title": "Приложение «Клавиатура фортепиано»",
+        "takeaway": "Превратите простую концепцию взаимодействия в управляемое с клавиатуры веб-приложение.",
+        "notes": "Создатель создал приложение для фортепиано с помощью Gemini 3.6 Flash, в которое можно играть с клавиатуры компьютера, и создал его как приложение, которое могут изучать дети."
+      },
+      "12": {
+        "title": "Голосовой помощник настольного робота",
+        "takeaway": "Интегрируйте Flash и Flash-Lite в голосовое приложение и сравните поведение при первом реагировании.",
+        "notes": "Создатель добавил Gemini 3.6 Flash и Gemini 3.5 Flash-Lite в приложение голосового диалога для настольного робота и отметил, что первоначальный ответ казался немного медленным, но пригодным для использования."
+      },
+      "13": {
+        "title": "HTML-сбой моста Золотые Ворота",
+        "takeaway": "Используйте строгую задачу доставки файлов, чтобы проверить выполнение инструкций, прежде чем доверять созданному трехмерному веб-интерфейсу.",
+        "notes": "Тестировщику потребовалось три запроса, он увидел, как модель пытается выполнить симуляцию в приложении и ответила веб-изображением вместо запрошенного HTML-файла, и счел окончательный результат 3D-моста существенно более слабым, чем Gemini 3.1 Pro."
+      },
+      "14": {
+        "title": "Публичный визуальный тест",
+        "takeaway": "Откройте исходный поток, когда вам нужно полное приглашение создателя, а не восстанавливать его на основе выходных данных.",
+        "notes": "MotionViz опубликовала визуальный тест Gemini 3.6 Flash с мультимедиа и указала, что полная подсказка доступна в исходной теме; этот репозиторий не восстанавливает текст подсказки, отсутствующий в исходном пакете."
+      },
+      "15": {
+        "title": "Игра на холсте с одной подсказкой",
+        "takeaway": "Используйте одну подсказку в Canvas, чтобы проверить, насколько быстро модель может превратить компактную концепцию игры в интерактивный результат.",
+        "notes": "Создатель протестировал Gemini 3.6 Flash в раннем доступе и использовал одно приглашение Canvas для демонстрации игровой игры."
+      },
+      "16": {
+        "title": "Сравнение версий целевой страницы",
+        "takeaway": "Сохраняйте подсказку фиксированной для всех поколений модели, чтобы изолировать изменения в исполнении целевой страницы и визуальном суждении.",
+        "notes": "Создатель добавил Gemini 3.6 Flash в архив целевой страницы с тем же запросом и счел новый результат хуже, чем результаты Gemini 3 и 3.5."
+      },
+      "17": {
+        "title": "3D-прототип Subway Surfers",
+        "takeaway": "Включите расширенное мышление для экспериментов по кодированию и проверяйте качество взаимодействия и визуальную точность.",
+        "notes": "Создатель использовал Gemini 3.6 Flash для создания простой 3D-копии в стиле Subway Surfers и рекомендовал расширенное мышление для задач кодирования."
+      },
+      "18": {
+        "title": "Сравнение одностраничных веб-сайтов",
+        "takeaway": "Держите подсказку и уровень аргументации на веб-сайте постоянными, а затем сравните стоимость токена, скорость и предпочтения в дизайне.",
+        "notes": "В той же подсказке на одностраничном веб-сайте создатель сообщил о 6100 токенах для Gemini 3.6 Flash против примерно 9300 для 3.5 Flash, хотя лично предпочитал внешний вид старшей модели."
+      },
+      "19": {
+        "title": "Провал игры на Диком Западе",
+        "takeaway": "Рассматривайте результаты неудачной генерации игры как свидетельство для принятия решения о том, когда следует переключать модели или пересматривать задачу.",
+        "notes": "Тестировщик использовал подсказку, генерирующую игру Дикого Запада, и по наблюдаемому результату оценил Gemini 3.6 Flash существенно ниже GPT-5.6, Kimi K3 и Fable 5."
+      },
+      "20": {
+        "title": "Неисправность материала антигравитационной игры",
+        "takeaway": "Прежде чем принять прототип игры, созданный ИИ, проверьте как визуальные материалы, так и фактическое поведение взаимодействия.",
+        "notes": "Во втором тесте игры «Антигравитация» автор обнаружил более слабые текстуры дерева и мраморный элемент, который выглядел похоже, но оставался нефункциональным."
+      },
+      "21": {
+        "title": "Сравнение Rolls-Royce SVG",
+        "takeaway": "Используйте фиксированный объект SVG, чтобы сравнить, как два поколения Flash обрабатывают форму, детализацию и композицию.",
+        "notes": "В этом сообщении выходные данные Gemini 3.6 Flash и 3.5 Flash размещаются рядом для одной и той же задачи Rolls-Royce SVG."
+      },
+      "22": {
+        "title": "Реалистичный тест аквариума",
+        "takeaway": "Используйте ограниченную 3D-сцену, чтобы сравнить реалистичность и качество реализации разных версий модели.",
+        "notes": "Создатель попросил Gemini 3.6 Flash построить реалистичный аквариум и оценил его лишь незначительно лучше, чем 3.5 Flash."
+      },
+      "23": {
+        "title": "Близнецы против Грока в Max Reasoning",
+        "takeaway": "Используйте одни и те же настройки подсказок и максимальных аргументов для сравнения скорости, стоимости и производительности, а не полагайтесь на репутацию модели.",
+        "notes": "Создатель запустил Gemini 3.6 Flash и Grok 4.5 с одинаковыми настройками быстрого и максимального рассуждения, отметив, что оба были быстрыми, а Grok был немного быстрее и дешевле."
+      },
+      "24": {
+        "title": "Близнецы против Сонета на максимальных настройках",
+        "takeaway": "Сравните модели с одинаковыми запросами и их наиболее сильными настройками, а затем проверьте фактически сгенерированный артефакт.",
+        "notes": "Создатель протестировал Gemini 3.6 Flash и Sonnet 5 с одинаковыми подсказками на максимальных настройках и в показанной задаче отдал предпочтение выводу Gemini."
+      },
+      "25": {
+        "title": "Тест на визуальное понимание",
+        "takeaway": "Используйте конкретную задачу по изображению, чтобы проверить качество ответа и стиль взаимодействия, прежде чем применять модель для рабочих процессов машинного зрения.",
+        "notes": "Создатель представил тест на зрение, который прошел Gemini 3.6 Flash, и выделил реакцию личности как часть наблюдаемого опыта."
+      },
+      "26": {
+        "title": "Тест игры Rocket League",
+        "takeaway": "Запустите повторный тест создания игры и запишите как время сборки, так и последовательный субъективный рейтинг.",
+        "notes": "Создатель протестировал Gemini 3.6 Flash на задаче в стиле Rocket League, поставил ее на третье место в личном списке лидеров и сообщил о выполнении менее чем за две минуты."
+      },
+      "27": {
+        "title": "Визуальное сравнение EyeBench",
+        "takeaway": "Используйте стабильный визуальный эталон, чтобы отделить дополнительный прирост эффективности от абсолютного качества.",
+        "notes": "На EyeBench создатель оценил Gemini 3.6 Flash немного лучше, чем 3.5 Flash, но все же хуже, чем Gemini 3.1 Pro Preview, отметив при этом повышенную эффективность токена."
+      },
+      "28": {
+        "title": "Сравнение анимации, вырезанной из бумаги",
+        "takeaway": "При оценке создания креатива сравнивайте скорость ответа и конечную анимацию отдельно.",
+        "notes": "Создатель сравнил Gemini 3.6 Flash с Fable 5 в задаче по анимации, вырезанной из бумаги, похвалив почти немедленную реакцию Gemini, но выразив сомнения по поводу результата."
+      },
+      "29": {
+        "title": "Тест создания ИИ-арены",
+        "takeaway": "Используйте одну и ту же задачу, чтобы сравнить время сборки, цену и качество артефактов для нескольких моделей кодирования.",
+        "notes": "Создатель протестировал Grok 4.5, Gemini 3.6 Flash и GPT-5.6 Luna на одном задании AI Arena и счел результат Gemini самым слабым в этом запуске."
+      },
+      "30": {
+        "title": "Стоимость сборки межмодельной игры",
+        "takeaway": "Учитывайте количество итераций, опыт разработчиков, функции и стоимость вместе при выборе модели для прототипирования игры.",
+        "notes": "Используя тот же рабочий процесс проектирования, создатель сообщил, что для исправления ошибки прыжка и падения, сгенерированной Gemini, потребуется шесть-семь итераций, и указал стоимость запуска в размере 0,15 доллара США вместе со сравнительными оценками."
+      },
+      "31": {
+        "title": "Тест отказа от кибербезопасности",
+        "takeaway": "Включите поведение отказа в оценку инструментов безопасности, поскольку защитная проверка кода может быть заблокирована оскорбительными запросами.",
+        "notes": "В тестировании кибербезопасности было отказано, в результате чего оценщик сообщил, что протестированная политика блокирует поведение по поиску уязвимостей для защитного кода, а также злонамеренное использование."
+      },
+      "32": {
+        "title": "Недостаток свежести знаний",
+        "takeaway": "Проверяйте текущие факты с помощью поиска, вместо того, чтобы доверять заявленному ограничению знаний.",
+        "notes": "Тестировщик запросил текущие флагманские модели и получил старые названия, а затем сообщил, что модель подтвердила, что данные актуальны только до начала 2025 года, несмотря на заявленное прекращение в марте 2026 года."
+      },
+      "33": {
+        "title": "Тест Red-Team на побег из тюрьмы",
+        "takeaway": "Относитесь к заявлениям о джейлбрейке как к сигналам красной команды, требующим контролируемого воспроизведения и проверки безопасности, а не как к многократно используемым инструкциям.",
+        "notes": "В сообщении говорится о джейлбрейке приложения и API Gemini, а также перечисляются протестированные категории вредоносного контента; этот репозиторий записывает сигнал безопасности, не воспроизводя инструкции по использованию эксплойта."
+      }
+    }
+  }
+}

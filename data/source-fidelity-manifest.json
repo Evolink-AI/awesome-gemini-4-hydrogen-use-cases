@@ -1,0 +1,424 @@
+{
+  "schema_version": 1,
+  "source_artifact": "/Users/cheercheung/X-info/热词搜索/gemini-3-6-flash/use-case-media-posts.json",
+  "source_manifest_sha256": "f94185fa582d6532d8802d40f895c72c36a7456586d30821a37fb27962ef4d19",
+  "selected_case_count": 33,
+  "cases_with_source_media": 33,
+  "expected_public_visual_count": 42,
+  "media_policy": "all-source-media",
+  "owner_presentation": {
+    "menu_layout": "centralized-single-table",
+    "acknowledge_layout": "inline-comma",
+    "quick_start_position": "penultimate-section",
+    "media_policy": "all-source-media",
+    "video_playback_policy": "r2-playable",
+    "localization_fallback": "block"
+  },
+  "cases": [
+    {
+      "public_number": 1,
+      "source_url": "https://x.com/JeffDean/status/2079591562145870043",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079591478926745600/vid/avc1/1280x720/RtOxpZWLiS0yt6Pg.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01.mp4"
+    },
+    {
+      "public_number": 2,
+      "source_url": "https://x.com/antigravity/status/2079663375991046351",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079663337156055040/vid/avc1/1280x720/1nWTgOb5vajEJRnn.mp4?tag=14"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02.mp4"
+    },
+    {
+      "public_number": 3,
+      "source_url": "https://x.com/stevibe/status/2079599477216956437",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079599129467215872/vid/avc1/1116x720/wIvdGrImGBjG3q0a.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03.mp4"
+    },
+    {
+      "public_number": 4,
+      "source_url": "https://x.com/browser_use/status/2079602472516264010",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNw7RZ1bsAE74Kw.jpg"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-04-01.jpg"
+      ]
+    },
+    {
+      "public_number": 5,
+      "source_url": "https://x.com/__apf__/status/2079603658141184134",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079603634695024644/vid/avc1/1280x720/-SrsYkddcuDCtSMZ.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05.mp4"
+    },
+    {
+      "public_number": 6,
+      "source_url": "https://x.com/databricks/status/2079598684455551326",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNw391VXYAAxMCK.png"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-06-01.png"
+      ]
+    },
+    {
+      "public_number": 7,
+      "source_url": "https://x.com/jetbrains/status/2079618218587574636",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079617687844519936/vid/avc1/720x1280/Lt0CxAxtU2mgUd8b.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07.mp4"
+    },
+    {
+      "public_number": 8,
+      "source_url": "https://x.com/CodeByPoonam/status/2079607995861021073",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079607963250307076/vid/avc1/1280x720/ITig8q6D2bUdL_2L.mp4?tag=14"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08.mp4"
+    },
+    {
+      "public_number": 9,
+      "source_url": "https://x.com/bijanbowen/status/2079675781794443640",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079674956623814656/vid/avc1/1280x720/ri11OOhyV-m2bfEa.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09.mp4"
+    },
+    {
+      "public_number": 10,
+      "source_url": "https://x.com/diegocabezas01/status/2079588206513631483",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079587440604442624/vid/avc1/1000x720/AoFQ1PnmKwpUW4c7.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10.mp4"
+    },
+    {
+      "public_number": 11,
+      "source_url": "https://x.com/Majin_AppSheet/status/2079734240540041230",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079733824905465856/vid/avc1/1264x720/K0VbA_JESRUcnDkV.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11.mp4"
+    },
+    {
+      "public_number": 12,
+      "source_url": "https://x.com/AILogDev/status/2079716688745132044",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079716656004374528/vid/avc1/720x1280/20XvIUdrUPvBtyxC.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12.mp4"
+    },
+    {
+      "public_number": 13,
+      "source_url": "https://x.com/LuminaXspace/status/2079597030922465407",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079596873115901952/vid/avc1/1280x720/QlyXKMba8g6E1csg.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13.mp4"
+    },
+    {
+      "public_number": 14,
+      "source_url": "https://x.com/Motion_Viz/status/2079592671530938537",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079592646746738688/vid/avc1/1266x720/MIJ2XFqzcQjaMjKl.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14.mp4"
+    },
+    {
+      "public_number": 15,
+      "source_url": "https://x.com/ozansihay/status/2079599565565468672",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079599236568473600/vid/avc1/1080x1114/L9oVscInrualI-EI.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15.mp4"
+    },
+    {
+      "public_number": 16,
+      "source_url": "https://x.com/nemumusitocha/status/2079596099854307650",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNw1KGLbsAAFEIx.jpg",
+        "https://pbs.twimg.com/media/HNw1O8lbYAAFsLb.jpg",
+        "https://pbs.twimg.com/media/HNw1THxbYAAmaVq.jpg"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"
+      ]
+    },
+    {
+      "public_number": 17,
+      "source_url": "https://x.com/itsPaulAi/status/2079597536155668890",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079595879170744320/vid/avc1/1148x720/c-XE5SZOkOiVkDnA.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17.mp4"
+    },
+    {
+      "public_number": 18,
+      "source_url": "https://x.com/SaiNemani1/status/2079606113306325496",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079605359254380544/vid/avc1/694x360/S65v6aXVXgPbojmi.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18.mp4"
+    },
+    {
+      "public_number": 19,
+      "source_url": "https://x.com/Mr_Salio/status/2079635008424169901",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079633369424359425/vid/avc1/1280x720/fvnjpDv6M7En3Iez.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19.mp4"
+    },
+    {
+      "public_number": 20,
+      "source_url": "https://x.com/Conor_D_Dart/status/2079592731211399460",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079592621333221376/vid/avc1/1008x720/DK0-8_KI2xcT76gj.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20.mp4"
+    },
+    {
+      "public_number": 21,
+      "source_url": "https://x.com/ggg78g89/status/2079610251444437335",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNxCSPYbQAAHuFu.png",
+        "https://pbs.twimg.com/media/HNxCc07awAAwjoh.png"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"
+      ]
+    },
+    {
+      "public_number": 22,
+      "source_url": "https://x.com/intheworldofai/status/2079681107516170431",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079680565427470336/vid/avc1/1280x720/5uE2zmiw9-WAi7fN.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22.mp4"
+    },
+    {
+      "public_number": 23,
+      "source_url": "https://x.com/notjazii/status/2079609162431181193",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079608993304260610/vid/avc1/840x360/nhYhaeCgArHRo-Cw.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23.mp4"
+    },
+    {
+      "public_number": 24,
+      "source_url": "https://x.com/notjazii/status/2079617706693902416",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079617607930650624/vid/avc1/840x360/ccrTdvbnWtjuBQEc.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24.mp4"
+    },
+    {
+      "public_number": 25,
+      "source_url": "https://x.com/HarshithLucky3/status/2079607042403381313",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNw_anRbsAQe6Em.jpg"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-25-01.jpg"
+      ]
+    },
+    {
+      "public_number": 26,
+      "source_url": "https://x.com/LLMJunky/status/2079712480683790743",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079712137786621952/vid/avc1/1208x720/mwyHbRzHHghlpbPL.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26.mp4"
+    },
+    {
+      "public_number": 27,
+      "source_url": "https://x.com/adonis_singh/status/2079631807817933222",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNxUot7WIAAhe7L.jpg"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-27-01.jpg"
+      ]
+    },
+    {
+      "public_number": 28,
+      "source_url": "https://x.com/OriSilver/status/2079603778441957776",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079603528473993217/vid/avc1/1280x720/mcdZxRd0jQtm3YhD.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28.mp4"
+    },
+    {
+      "public_number": 29,
+      "source_url": "https://x.com/OmedVibeCodes/status/2079663080049660220",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079662825014743040/vid/avc1/1280x720/-gN-giUFX7ukBC0r.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29.mp4"
+    },
+    {
+      "public_number": 30,
+      "source_url": "https://x.com/naymur_dev/status/2079710299918401907",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2079704378949386240/vid/avc1/1280x720/ihkIliMEV8ecf61N.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30-poster.jpg"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30.mp4"
+    },
+    {
+      "public_number": 31,
+      "source_url": "https://x.com/pilvar222/status/2079602157779566836",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNw6AODX0AAWPho.jpg"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-31-01.jpg"
+      ]
+    },
+    {
+      "public_number": 32,
+      "source_url": "https://x.com/ggg78g89/status/2079587359851737339",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNws0XcbEAAIbOr.jpg",
+        "https://pbs.twimg.com/media/HNws46obcAAlkW-.jpg",
+        "https://pbs.twimg.com/media/HNws90waQAAwUlL.jpg",
+        "https://pbs.twimg.com/media/HNwtCd0a0AAQbdP.png"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"
+      ]
+    },
+    {
+      "public_number": 33,
+      "source_url": "https://x.com/Ubannoblesse/status/2079711268899086484",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HNyeSUzbwAA9dw7.jpg",
+        "https://pbs.twimg.com/media/HNyeSUobMAA5c9n.jpg",
+        "https://pbs.twimg.com/media/HNyeSU0bwAErRxO.jpg",
+        "https://pbs.twimg.com/media/HNyeSUzbMAAFFDE.jpg"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"
+      ]
+    }
+  ]
+}

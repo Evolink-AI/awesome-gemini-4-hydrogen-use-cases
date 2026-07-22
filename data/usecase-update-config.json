@@ -1,0 +1,10 @@
+{
+  "schema_version": 1,
+  "repository": "Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases",
+  "model_id": "gemini-3.6-flash",
+  "canonical_data": "data/use-cases.json",
+  "source_fidelity_manifest": "data/source-fidelity-manifest.json",
+  "languages": ["en", "es", "pt", "ja", "ko", "de", "fr", "tr", "zh-TW", "zh-CN", "ru"],
+  "media_policy": "all-source-media",
+  "video_policy": "r2-playable"
+}

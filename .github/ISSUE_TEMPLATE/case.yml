@@ -1,0 +1,38 @@
+name: Propose a source-backed case
+description: Suggest a concrete Gemini 3.6 Flash workflow, build, evaluation, or limit
+title: "[Case]: "
+labels: ["case-proposal"]
+body:
+  - type: input
+    id: source
+    attributes:
+      label: Public source URL
+      placeholder: https://x.com/creator/status/...
+    validations:
+      required: true
+  - type: input
+    id: creator
+    attributes:
+      label: Creator handle
+      placeholder: "@creator"
+    validations:
+      required: true
+  - type: textarea
+    id: evidence
+    attributes:
+      label: What does the source demonstrate
+      description: Describe only what can be observed or directly attributed
+    validations:
+      required: true
+  - type: textarea
+    id: prompt
+    attributes:
+      label: Verbatim public prompt, if present
+      description: Leave blank when the prompt is not included in the source
+  - type: checkboxes
+    id: confirmation
+    attributes:
+      label: Source boundary
+      options:
+        - label: I have not reconstructed a missing prompt or private setup
+          required: true
