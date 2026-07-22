@@ -3,8 +3,8 @@
 <a href="https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=banner&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/images/banner.png" alt="Awesome Gemini 3.6 Flash guide and use cases banner" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_badge)
-[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_badge)
+[![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=top_badge)
+[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
