@@ -76,6 +76,20 @@ def main() -> int:
     if ingested.get("ids") != [str(item["id"]) for item in items]:
         errors.append("ingested tweet IDs differ from the canonical case order")
 
+    for locale in LOCALES[1:]:
+        localized = json.loads((ROOT / f"data/localizations/{locale}.json").read_text(encoding="utf-8"))
+        if sorted(int(key) for key in localized.get("cases", {})) != expected_numbers:
+            errors.append(f"data/localizations/{locale}.json: case keys differ from 1..{expected_count}")
+            continue
+        for item in items:
+            case = localized["cases"][str(item["public_number"])]
+            if not all(str(case.get(field, "")).strip() for field in ("title", "takeaway", "notes")):
+                errors.append(f'{locale} case {item["public_number"]}: empty localized field')
+            if case["title"].strip() == item["title"].strip():
+                errors.append(f'{locale} case {item["public_number"]}: title is unchanged from English')
+            if case["takeaway"].strip() == item["takeaway"].strip():
+                errors.append(f'{locale} case {item["public_number"]}: takeaway is unchanged from English')
+
     english_titles: list[str] = []
     canonical_handles = list(dict.fromkeys(item["author_handle"] for item in items))
     creator_line = ", ".join(f'[{handle}](https://x.com/{handle[1:]})' for handle in canonical_handles)
@@ -118,7 +132,7 @@ def main() -> int:
             english_titles = titles
         else:
             changed = sum(a != b for a, b in zip(titles, english_titles, strict=False))
-            if changed < 20:
+            if changed != expected_count:
                 errors.append(f"{filename}: only {changed} of {expected_count} titles are localized")
 
     for filename in ("README_zh-CN.md", "README_zh-TW.md"):

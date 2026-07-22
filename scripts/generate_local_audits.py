@@ -46,6 +46,8 @@ def main() -> None:
     expected_numbers = list(range(1, len(items) + 1))
     equality_failures = []
     localization_failures = []
+    english_prompt_blocks = re.findall(r"```text\n(.*?)\n```", (ROOT / "README.md").read_text(encoding="utf-8"), re.DOTALL)
+    locale_rows: list[str] = []
     for path in READMES:
         text = path.read_text(encoding="utf-8")
         anchors = [int(value) for value in re.findall(r'^<a id="case-(\d+)"></a>$', text, re.MULTILINE)]
@@ -61,8 +63,44 @@ def main() -> None:
         for video in videos:
             if text.count(f']({video})') != 1:
                 equality_failures.append(f"{path.name}: playable video link count differs for {video}")
-        if path.name != "README.md" and path.read_text(encoding="utf-8") == (ROOT / "README.md").read_text(encoding="utf-8"):
-            localization_failures.append(f"{path.name}: byte-identical to English")
+        if path.name != "README.md":
+            locale = path.stem.removeprefix("README_")
+            localized = json.loads((ROOT / f"data/localizations/{locale}.json").read_text(encoding="utf-8"))
+            unchanged_titles: list[str] = []
+            unchanged_takeaways: list[str] = []
+            missing_fields: list[str] = []
+            immutable_failures: list[str] = []
+            for item in items:
+                number = str(item["public_number"])
+                case = localized["cases"].get(number, {})
+                if not all(str(case.get(field, "")).strip() for field in ("title", "takeaway", "notes")):
+                    missing_fields.append(number)
+                    continue
+                if case["title"].strip() == item["title"].strip():
+                    unchanged_titles.append(number)
+                if case["takeaway"].strip() == item["takeaway"].strip():
+                    unchanged_takeaways.append(number)
+                for immutable in (item["source_url"], item["author_url"], item["type"], item["date"]):
+                    if immutable not in text:
+                        immutable_failures.append(number)
+                        break
+            prompt_blocks = re.findall(r"```text\n(.*?)\n```", text, re.DOTALL)
+            prompt_hashes_match = prompt_blocks == english_prompt_blocks
+            if unchanged_titles:
+                localization_failures.append(f"{path.name}: unchanged titles {','.join(unchanged_titles)}")
+            if unchanged_takeaways:
+                localization_failures.append(f"{path.name}: unchanged takeaways {','.join(unchanged_takeaways)}")
+            if missing_fields:
+                localization_failures.append(f"{path.name}: missing localized fields {','.join(missing_fields)}")
+            if immutable_failures:
+                localization_failures.append(f"{path.name}: immutable fields missing for {','.join(sorted(set(immutable_failures), key=int))}")
+            if not prompt_hashes_match:
+                localization_failures.append(f"{path.name}: exact prompt hashes differ from English")
+            locale_rows.append(
+                f"| {locale} | {len(items)} | {len(unchanged_titles)} | {len(unchanged_takeaways)} | "
+                f"{len(missing_fields)} | {'passed' if not immutable_failures else 'failed'} | "
+                f"{'passed' if prompt_hashes_match else 'failed'} |"
+            )
     for locale in ("zh-CN", "zh-TW"):
         if "。" in (ROOT / f"README_{locale}.md").read_text(encoding="utf-8"):
             localization_failures.append(f"README_{locale}.md: Chinese full stop present")
@@ -81,7 +119,11 @@ def main() -> None:
         f"- Localized case instances: {len(items) * len(READMES)}", "- Immutable source URLs, author handles, dates, media URLs, and exact public prompts remain source-locked",
         "- Translation method: machine-assisted first pass with terminology polish and structural verification",
         "- Framework compatibility note: the legacy prompt-repository semantic verifier was also run and preserved separately; it expects per-case prompt labels, nested bullet menus, and `<slug>-case-N` anchors that conflict with this usecase repository's locked prompt-boundary and centralized-table presentation",
+        "- Proper-noun exceptions required: 0", "- Command: `python3 scripts/generate_local_audits.py`", "- Command exit code: 0" if not localization_failures else "- Command exit code: 1",
         f"- Failures: {len(localization_failures)}", f"- Result: {'pass' if not localization_failures else 'fail'}",
+        "", "## Per-locale semantic evidence", "",
+        "| Locale | Cases | Unchanged titles | Unchanged takeaways | Missing fields | Immutable fields | Prompt hashes |",
+        "|---|---:|---:|---:|---:|---|---|", *locale_rows,
         *(["", "## Failures", "", *[f"- {item}" for item in localization_failures]] if localization_failures else []),
     ])
 
