@@ -49,7 +49,7 @@
 
 先从 EvoLink 开始，需要将 Hydrogen 集成到应用时，再使用 Gemini 原生 API
 
-1. [在浏览器中查看 Gemini 4 Hydrogen](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
+1. [在浏览器中查看 Gemini 4 Hydrogen（Browser）](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
 2. [创建或管理 EvoLink API 密钥](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)
 
 最简原生 API 请求

@@ -2108,7 +2108,7 @@
       "related_org": "Gemini 4 Carbon 示例与对比",
       "quickstart": "快速入门",
       "quick_intro": "先从 EvoLink 开始，需要将 Hydrogen 集成到应用时，再使用 Gemini 原生 API",
-      "quick_model": "在浏览器中查看 Gemini 4 Hydrogen",
+      "quick_model": "在浏览器中查看 Gemini 4 Hydrogen（Browser）",
       "quick_key": "创建或管理 EvoLink API 密钥",
       "quick_docs": "阅读 Gemini 原生 API 快速入门",
       "quick_run": "最简原生 API 请求",
