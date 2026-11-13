@@ -1,7 +1,6 @@
 {
   "schema_version": 1,
   "repository": "Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases",
-  "model_id": "gemini-4-hydrogen",
   "canonical_data": "data/use-cases.json",
   "source_fidelity_manifest": "data/source-fidelity-manifest.json",
   "languages": [
