@@ -15,7 +15,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 R2 = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/"
-CAMPAIGN = "awesome-gemini-3-6-flash-guide-and-use-cases"
+CAMPAIGN = "awesome-gemini-4-hydrogen-guide-and-use-cases"
 URL_RE = re.compile(r'https://[^\s)>"`]+')
 MARKDOWN_LINK_RE = re.compile(r'(!?)\[([^\]]*)\]\(([^)]+)\)')
 MARKDOWN_DESTINATION_RE = re.compile(r'\]\(([^)]+)\)')
@@ -23,12 +23,12 @@ HTML_LINK_RE = re.compile(r'<(?:a|img)\b[^>]*(?:href|src)="([^"]+)"', re.IGNOREC
 EXPLICIT_ANCHOR_RE = re.compile(r'<a\s+id="([^"]+)"', re.IGNORECASE)
 HEADING_RE = re.compile(r'^#{1,6}\s+(.+?)\s*$', re.MULTILINE)
 CONVERSION_PREFIXES = (
-    "https://evolink.ai/gemini-3-6-flash",
+    "https://evolink.ai/gemini-4-hydrogen",
     "https://evolink.ai/dashboard/keys",
     "https://evolink.ai/docs/",
 )
 METHOD_BOUND_ENDPOINTS = {
-    "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent",
+    "https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent",
 }
 
 
@@ -62,8 +62,8 @@ def check_external(url: str) -> tuple[str, int | str, str, bool]:
     if is_status:
         checked_url = "https://publish.twitter.com/oembed?omit_script=1&url=" + urllib.parse.quote(url, safe="")
     command = [
-        "curl", "-L", "-sS", "--retry", "3", "--retry-all-errors", "--connect-timeout", "10",
-        "--max-time", "35", "--user-agent", "Mozilla/5.0 awesome-gemini-3.6-flash-guide-link-audit/2.0",
+        "curl", "-L", "-sS", "--connect-timeout", "10",
+        "--max-time", "35", "--user-agent", "Mozilla/5.0 awesome-gemini-4-hydrogen-guide-link-audit/2.0",
     ]
     if url.startswith(R2):
         command.extend(["--range", "0-0"])
@@ -75,9 +75,29 @@ def check_external(url: str) -> tuple[str, int | str, str, bool]:
     return url, int(parts[0]), parts[1] if len(parts) > 1 else checked_url, is_status
 
 
+def expected_method_endpoint_reuse(relative_path: str, url: str, count: int, text: str) -> bool:
+    """Only the required POST reference plus its runnable request may duplicate."""
+    if Path(relative_path).parent != Path(".") or not Path(relative_path).name.startswith("README") or url not in METHOD_BOUND_ENDPOINTS or count != 2:
+        return False
+    blocks = re.findall(r"```bash\n(.*?)```", text, re.DOTALL)
+    runnable = [block for block in blocks if f'--url "{url}"' in block and "--request POST" in block]
+    outside = re.sub(r"```bash\n.*?```", "", text, flags=re.DOTALL)
+    return len(runnable) == 1 and outside.count(f"POST {url}") == 1
+
+
+def host_is_skipped(url: str, skipped_hosts: list[str]) -> bool:
+    host = (urllib.parse.urlparse(url).hostname or "").lower().rstrip(".")
+    return any(host == denied.lower().rstrip(".") or host.endswith("." + denied.lower().rstrip(".")) for denied in skipped_hosts)
+
+
+def external_status_verified(status: int | str) -> bool:
+    return isinstance(status, int) and 200 <= status < 400
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--report", type=Path, required=True)
+    parser.add_argument("--skip-host", action="append", default=[], metavar="HOST", help="Do not request a denied host; report its URLs BLOCKED and fail the audit. Repeatable.")
     args = parser.parse_args()
     paths = public_files()
     external_urls: set[str] = set()
@@ -156,20 +176,25 @@ def main() -> int:
         parsed = urllib.parse.urlparse(url)
         expected_creator_reuse = parsed.hostname == "x.com" and "/status/" not in parsed.path
         expected_video_reuse = url.startswith(R2) and parsed.path.endswith(".mp4")
-        expected_image_reuse = url.startswith(R2) and "/media/source-cases/" in parsed.path and parsed.path.endswith((".jpg", ".jpeg", ".png", ".webp"))
-        if expected_creator_reuse or expected_video_reuse or expected_image_reuse:
+        expected_image_reuse = url.startswith(R2) and "/hydrogen-20261113/media/" in parsed.path and parsed.path.endswith((".jpg", ".jpeg", ".png", ".webp"))
+        expected_endpoint_reuse = expected_method_endpoint_reuse(relative_path, url, count, (ROOT / relative_path).read_text(encoding="utf-8"))
+        if expected_creator_reuse or expected_video_reuse or expected_image_reuse or expected_endpoint_reuse:
             if expected_creator_reuse:
                 reason = "case attribution + Acknowledge"
             elif expected_video_reuse:
                 reason = "clickable poster + text playback"
-            else:
+            elif expected_image_reuse:
                 reason = "clickable image + rendered image"
+            else:
+                reason = "POST method reference + runnable request"
             accepted_duplicate_groups.append(f"{relative_path}: {count}× {url} ({reason})")
         else:
             duplicate_failures.append(f"{relative_path}: unclassified exact duplicate {count}× {url}")
 
+    blocked_urls = {url for url in external_urls if host_is_skipped(url, args.skip_host)}
     with ThreadPoolExecutor(max_workers=10) as pool:
-        results = sorted(pool.map(check_external, external_urls))
+        results = sorted(pool.map(check_external, external_urls - blocked_urls))
+    results.extend((url, "BLOCKED", "", False) for url in sorted(blocked_urls))
 
     p0: list[str] = []
     p1: list[str] = [*relative_failures, *fragment_failures, *utm_failures, *copy_failures, *duplicate_failures]
@@ -177,28 +202,25 @@ def main() -> int:
     redirects: list[str] = []
     rows: list[str] = []
     checked_count = 0
-    manual_count = 0
     for url, status, final_url, used_oembed in results:
-        accepted_x_profile = url.startswith("https://x.com/") and "/status/" not in url and status in {401, 403}
-        ok = isinstance(status, int) and (200 <= status < 400 or accepted_x_profile)
-        checked_count += 1
-        if accepted_x_profile:
-            manual_count += 1
-            p2.append(f"manual bot-protection acceptance {status} {url}")
+        ok = external_status_verified(status)
+        if status != "BLOCKED":
+            checked_count += 1
         if ok and final_url and not used_oembed and final_url.rstrip("/") != url.rstrip("/"):
             redirects.append(f"{url} -> {final_url}")
         if not ok:
-            failure = f"status={status} url={url}"
+            failure = f"status={status} url={url}" + (" (unverified; access denied or deliberately skipped)" if status in {401, 403, "BLOCKED"} else "")
             if url.startswith(CONVERSION_PREFIXES):
                 p0.append(failure)
             else:
                 p1.append(failure)
-        rows.append(f"{'PASS' if ok else 'FAIL'} {status} {url}" + (f" -> {final_url}" if final_url and not used_oembed and final_url != url else ""))
+        rows.append(f"{'PASS' if ok else 'BLOCKED' if status in {401, 403, 'BLOCKED'} else 'FAIL'} {status} {url}" + (f" -> {final_url}" if final_url and not used_oembed and final_url != url else ""))
 
+    blocked_count = sum(status in {401, 403, "BLOCKED"} for _, status, _, _ in results)
     passed = not p0 and not p1
     cross_file_duplicate_urls = sum(1 for locations in external_occurrences.values() if len({value.rsplit(":", 1)[0] for value in locations}) > 1)
     lines = [
-        "# Public Surface Link Audit v2", "", f"- Status: `{'passed' if passed else 'failed'}`",
+        "# Public Surface Link Audit v2", "", f"- Status: `{'passed' if passed else 'blocked' if blocked_count else 'failed'}`",
         f"- Target commit: `{current_head()}`",
         f"- Checked at: `{datetime.now(timezone.utc).isoformat()}`",
         "- Method: Markdown link/image, HTML href/src, raw URL, relative file, explicit/heading fragment, exact-duplicate classification, external curl readback, and README EvoLink UTM extraction",
@@ -206,7 +228,7 @@ def main() -> int:
         f"- Total extracted references: {total_references}", f"- Unique external URLs: {len(external_urls)}",
         f"- External URLs checked: {checked_count}", f"- Relative file links checked: {relative_checked}",
         f"- Fragment links checked: {fragment_checked}", f"- README EvoLink URLs checked for UTM: {utm_checked}",
-        f"- Recorded non-README UTM exemptions: {utm_exemptions}", f"- Manual bot-protection acceptances: {manual_count}",
+        f"- Recorded non-README UTM exemptions: {utm_exemptions}", f"- Blocked URLs not requested: {len(blocked_urls)}",
         f"- Method-bound API endpoint exemptions: {len(method_bound_exemptions)}",
         f"- Redirects: {len(redirects)}", f"- Relative file failures: {len(relative_failures)}",
         f"- Fragment failures: {len(fragment_failures)}", f"- UTM failures: {len(utm_failures)}",

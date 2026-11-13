@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=banner&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/images/banner.png" alt="Awesome Gemini 3.6 Flash guide and use cases banner" width="760"></a>
+<a href="https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=banner&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/images/banner.png" alt="Awesome Gemini 4 Hydrogen guide and use cases banner" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=top_badge)
-[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/es/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
+[![View Hydrogen in your browser](https://img.shields.io/badge/View_Hydrogen-Browser-4285f4)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_try)
+[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/es/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=docs_link)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -20,694 +20,755 @@
 
 </div>
 
-# Impresionante guía flash y casos de uso de Gemini 3.6
+# Guía y casos de uso destacados de Gemini 4 Hydrogen
 
 ## 🍌 Introducción
 
-Bienvenido a una guía respaldada por fuentes sobre Gemini 3.6 Flash en la práctica
+Explora Gemini 4 Hydrogen mediante aplicaciones con fuentes, flujos de programación y comparaciones prácticas.
 
-**Este repositorio recopila flujos de trabajo, compilaciones, evaluaciones, comparaciones y límites concretos de Gemini 3.6 Flash a partir de evidencia pública de creadores.**
+**40 ejemplos seleccionados muestran qué crearon sus autores, cómo trabajaron y dónde los resultados no cumplieron las expectativas.**
 
-Cada caso incluido proviene del paquete fuente revisado. Los títulos enlazan con publicaciones originales, los autores enlazan con perfiles de creadores y los mensajes aparecen solo cuando el texto fuente realmente los contiene.
+Cada caso enlaza su fuente y reconoce a su autor. Las notas identifican demostraciones, ejemplos del proveedor y comparaciones de creadores; no se reconstruyen las instrucciones que faltan.
 
-## 📊 Descripción general
+## 📊 Resumen
 
-- 33 casos de alta confianza seleccionados de 33 publicaciones fuente revisadas
-- La cobertura incluye agentes, codificación, sitios web, juegos, 3D, comparaciones de estilo de referencia y límites de seguridad prácticos.
-- Los 24 casos de vídeo proporcionan un póster visible y un MP4 reproducible alojado en R2; Los casos de imágenes conservan cada imagen fuente revisada.
-- EvoLink enumera el ID del modelo de producción como "gemini-3.6-flash"; este repositorio enlaza con el modelo actual y las superficies API nativas de Gemini
+- 40 casos seleccionados entre 75 publicaciones de demostraciones revisadas en una colección de X limitada a 500 publicaciones, recopilada el 13 de noviembre de 2026.
+- Cinco categorías abarcan agentes, aprendizaje y aplicaciones, hojas de cálculo y Search, 3D interactivo, y comparaciones y limitaciones.
+- Se conservan los 41 recursos visuales seleccionados: 38 vídeos reproducibles con imágenes de portada y 3 imágenes.
+- Gemini 4 Hydrogen se anunció el 12 de noviembre de 2026. Explora el modelo y sus opciones actuales de acceso en EvoLink.
 
 > [!NOTE]
-> Esta colección favorece la evidencia observable sobre las exageraciones. No reconstruye indicaciones faltantes, no infiere pasos de configuración no publicados ni generaliza el resultado de un creador en un punto de referencia universal.
+> La atribución del modelo, los costes, los tiempos y los resultados son afirmaciones de las fuentes salvo indicación contraria. Los vídeos se revisaron mediante fotogramas muestreados, no mediante pruebas funcionales completas. Las grabaciones de aplicaciones programadas no demuestran generación nativa de vídeo. Las diferencias de entornos de ejecución, niveles de razonamiento o número de iteraciones impiden considerar controladas las comparaciones.
 
-**Fuentes oficiales: [Anuncio de lanzamiento de Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) · [Ficha del modelo de Google DeepMind](https://deepmind.google/models/model-cards/gemini-3-6-flash/)**
+**Referencias oficiales: [Anuncio de Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Ficha del modelo de Google DeepMind](https://deepmind.google/models/model-cards/gemini-4-hydrogen/)**
 
-**Empieza aquí: [explorar Géminis 3.6 Flash](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [obtener una clave API](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [abra los documentos de la API nativa de Gemini](https://evolink.ai/docs/es/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)**
-
-## 📑 Menú
-
-| Sección | Casos |
-|---|---|
-| [⚡ Eficiencia y agentes](#efficiency-agents) | 8 |
-| [💻 Codificación y aplicaciones](#coding-apps) | 4 |
-| [🎮 Web, juegos y 3D](#web-games-3d) | 10 |
-| [🧪 Evaluación y comparaciones](#evaluations) | 8 |
-| [🛡️ Seguridad y límites](#safety-limits) | 3 |
-| [Repositorios relacionados](#related-repositories) | Repositorios relacionados |
-| [Inicio rápido](#quick-start) | Inicio rápido |
-| [Reconocer](#acknowledge) | Reconocer |
-
-| Caso | Categoría | lo que muestra | Tipo |
-|---|---|---|---|
-| [Eficiencia de tokens lado a lado](#case-1) | Eficiencia y agentes | Compare el uso del token de salida en el mismo flujo de trabajo antes de elegir un modelo Flash para cargas de trabajo a escala de agente. | Evaluation |
-| [Modernización del código heredado en antigravedad](#case-2) | Eficiencia y agentes | Utilice una tarea controlada de migración de código heredado para comparar la latencia del agente, la calidad de la edición y el comportamiento de finalización. | Evaluation |
-| [Prueba de eficiencia del token de Canvas](#case-3) | Eficiencia y agentes | Ejecute la misma tarea de Canvas en todas las versiones del modelo e inspeccione tanto el uso del artefacto como del token. | Evaluation |
-| [Comparativa del agente del navegador](#case-4) | Eficiencia y agentes | Compare el éxito y el costo del agente de navegador en conjunto en lugar de optimizar cualquiera de las métricas por separado. | Benchmark |
-| [Eficiencia de recuperación de hechos de cola larga](#case-5) | Eficiencia y agentes | Utilice tareas difíciles de recuperación de hechos para comparar los pasos de razonamiento y los tokens de pensamiento. | Evaluation |
-| [Procesamiento de documentos empresariales](#case-6) | Eficiencia y agentes | Evalúe el esfuerzo de razonamiento en patentes largas y análisis de documentos antes de establecer un valor predeterminado de producción. | Benchmark |
-| [Evaluación de tareas de ingeniería en JetBrains](#case-7) | Eficiencia y agentes | Cree una tarea de ingeniería objetiva y compare generaciones de modelos dentro del mismo flujo de trabajo IDE. | Evaluation |
-| [Migración de código multiagente](#case-8) | Eficiencia y agentes | Pruebe la migración de código con el mismo plan de orquestación y compare la latencia, las ediciones y la calidad final. | Demo |
-| [Afinador de guitarra Android](#case-9) | Codificación y aplicaciones | Cree un prototipo de una utilidad móvil enfocada que combine herramientas de audio convencionales con afinaciones alternativas asistidas por IA. | Demo |
-| [Simulación de semáforo](#case-10) | Codificación y aplicaciones | Solicite al modelo una visualización ejecutable para inspeccionar si el código generado captura el tiempo y el comportamiento del tráfico aleatorio. | Demo |
-| [Aplicación Teclado Piano](#case-11) | Codificación y aplicaciones | Convierta un concepto de interacción simple en una aplicación web jugable controlada por teclado. | Demo |
-| [Asistente de voz del robot de escritorio](#case-12) | Codificación y aplicaciones | Integre Flash y Flash-Lite en una aplicación de voz y compare el comportamiento de primera respuesta. | Integration |
-| [Fallo HTML del puente Golden Gate](#case-13) | Web, juegos y 3D | Utilice una tarea estricta de entrega de archivos para probar el seguimiento de instrucciones antes de confiar en las experiencias web 3D generadas. | Limit |
-| [Prueba visual inmediata pública](#case-14) | Web, juegos y 3D | Abra el hilo de origen cuando necesite el mensaje completo del creador en lugar de reconstruirlo a partir de la salida. | Demo |
-| [Juego de lienzo de un solo mensaje](#case-15) | Web, juegos y 3D | Utilice un mensaje en Canvas para probar qué tan rápido el modelo puede convertir un concepto de juego compacto en un resultado interactivo. | Demo |
-| [Comparación de versiones de la página de destino](#case-16) | Web, juegos y 3D | Mantenga el aviso fijo en todas las generaciones de modelos para aislar los cambios en la ejecución de la página de destino y el juicio visual. | Evaluation |
-| [Prototipo 3D de Subway Surfers](#case-17) | Web, juegos y 3D | Habilite el pensamiento extendido para experimentos de codificación e inspeccione tanto la calidad de la interacción como la fidelidad visual. | Demo |
-| [Comparación de sitios web de una página](#case-18) | Web, juegos y 3D | Mantenga constante el nivel de mensaje y razonamiento del sitio web, luego compare el costo del token, la velocidad y la preferencia de diseño. | Evaluation |
-| [Fracaso del juego del salvaje oeste](#case-19) | Web, juegos y 3D | Trate los resultados fallidos de la generación de juegos como evidencia para decidir cuándo cambiar de modelo o revisar la tarea. | Limit |
-| [Fallo del material del juego antigravedad](#case-20) | Web, juegos y 3D | Verifique tanto los materiales visuales como el comportamiento de interacción real antes de aceptar un prototipo de juego generado por IA. | Limit |
-| [Comparación de Rolls-Royce SVG](#case-21) | Web, juegos y 3D | Utilice un tema SVG fijo para comparar cómo dos generaciones de Flash manejan la forma, los detalles y la composición. | Evaluation |
-| [Prueba de acuario realista](#case-22) | Web, juegos y 3D | Utilice una escena 3D delimitada para comparar el realismo y la calidad de la implementación entre las versiones del modelo. | Evaluation |
-| [Géminis versus Grok en Max Reasoning](#case-23) | Evaluación y comparaciones | Utilice la misma configuración de razonamiento máximo y rápido para comparar la velocidad, el costo y la producción en lugar de depender de la reputación del modelo. | Evaluation |
-| [Géminis versus Soneto en la configuración máxima](#case-24) | Evaluación y comparaciones | Compare modelos con indicaciones idénticas y sus configuraciones más fuertes, luego inspeccione el artefacto generado real. | Evaluation |
-| [Prueba de comprensión visual](#case-25) | Evaluación y comparaciones | Utilice una tarea de imagen concreta para inspeccionar la calidad de la respuesta y el estilo de interacción antes de adoptar el modelo para los flujos de trabajo de visión. | Demo |
-| [Punto de referencia del juego Rocket League](#case-26) | Evaluación y comparaciones | Ejecute una prueba comparativa repetida de generación de juegos y registre tanto el tiempo de construcción como una clasificación subjetiva consistente. | Benchmark |
-| [Comparación visual de EyeBench](#case-27) | Evaluación y comparaciones | Utilice un punto de referencia visual estable para separar las ganancias incrementales de eficiencia de la calidad absoluta. | Benchmark |
-| [Comparación de animaciones cortadas en papel](#case-28) | Evaluación y comparaciones | Compare la velocidad de respuesta y la animación final por separado al evaluar la generación creativa. | Evaluation |
-| [Punto de referencia de generación de AI Arena](#case-29) | Evaluación y comparaciones | Utilice la misma tarea de campo para comparar el tiempo de construcción, el precio y la calidad de los artefactos en múltiples modelos de codificación. | Benchmark |
-| [Costo de construcción del juego entre modelos](#case-30) | Evaluación y comparaciones | Realice un seguimiento del recuento de iteraciones, la experiencia del desarrollador, las características y el costo al elegir un modelo para la creación de prototipos de juegos. | Benchmark |
-| [Punto de referencia de rechazo de ciberseguridad](#case-31) | Seguridad y límites | Incluya comportamientos de rechazo en las evaluaciones de herramientas de seguridad porque la revisión defensiva del código puede bloquearse con solicitudes ofensivas. | Limit |
-| [Fracaso de la frescura del conocimiento](#case-32) | Seguridad y límites | Verifique los hechos actuales con recuperación en lugar de confiar en un supuesto límite de conocimiento. | Limit |
-| [Prueba del equipo rojo de jailbreak](#case-33) | Seguridad y límites | Trate los reclamos de jailbreak como señales del equipo rojo que requieren reproducción controlada y revisión de seguridad, no como instrucciones reutilizables. | Limit |
-
-<a id="efficiency-agents"></a>
-## ⚡ Eficiencia y agentes
-
-<a id="case-1"></a>
-### Caso 1: [Eficiencia de tokens lado a lado](https://x.com/JeffDean/status/2079591562145870043) (por [@JeffDean](https://x.com/JeffDean))
-
-**Compare el uso del token de salida en el mismo flujo de trabajo antes de elegir un modelo Flash para cargas de trabajo a escala de agente.**
-
-Jeff Dean compartió una demostración en paralelo comparando Gemini 3.6 Flash con 3.5 Flash y destacó un menor uso de tokens en el modelo más nuevo.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01-poster.jpg" alt="Case 1 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-2"></a>
-### Caso 2: [Modernización del código heredado en antigravedad](https://x.com/antigravity/status/2079663375991046351) (por [@antigravity](https://x.com/antigravity))
-
-**Utilice una tarea controlada de migración de código heredado para comparar la latencia del agente, la calidad de la edición y el comportamiento de finalización.**
-
-Google Antigravity demostró ambas generaciones de Flash reconstruyendo software heredado e informó una finalización más rápida con latencia y resultados mejorados desde Gemini 3.6 Flash.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02-poster.jpg" alt="Case 2 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-3"></a>
-### Caso 3: [Prueba de eficiencia del token de Canvas](https://x.com/stevibe/status/2079599477216956437) (por [@stevibe](https://x.com/stevibe))
-
-**Ejecute la misma tarea de Canvas en todas las versiones del modelo e inspeccione tanto el uso del artefacto como del token.**
-
-El creador comparó Gemini 3.6 Flash y 3.5 Flash en una tarea corta de Canvas y observó un uso de tokens sustancialmente menor que el de 3.6 Flash.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03-poster.jpg" alt="Case 3 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-4"></a>
-### Caso 4: [Comparativa del agente del navegador](https://x.com/browser_use/status/2079602472516264010) (por [@browser_use](https://x.com/browser_use))
-
-**Compare el éxito y el costo del agente de navegador en conjunto en lugar de optimizar cualquiera de las métricas por separado.**
-
-El uso del navegador registró un 68 % en su BU Benchmark para Gemini 3.6 Flash, en comparación con un 67 % para GPT-5.6 Sol, un 62 % para Sonnet 4.6 y un 74 % para Opus 4.8.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-04-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-04-01.jpg" alt="Case 4 source image 1" height="360"></a>
-
-Tipo: Benchmark | Fecha: 2026-07-21
-
----
-
-<a id="case-5"></a>
-### Caso 5: [Eficiencia de recuperación de hechos de cola larga](https://x.com/__apf__/status/2079603658141184134) (por [@__apf__](https://x.com/__apf__))
-
-**Utilice tareas difíciles de recuperación de hechos para comparar los pasos de razonamiento y los tokens de pensamiento.**
-
-El creador ejecutó Gemini 3.5 y 3.6 Flash cara a cara en una compleja tarea de recuperación de hechos de cola larga e informó la mitad de pasos y un 75 % menos de tokens de pensamiento para 3.6 Flash.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05-poster.jpg" alt="Case 5 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-6"></a>
-### Caso 6: [Procesamiento de documentos empresariales](https://x.com/databricks/status/2079598684455551326) (por [@databricks](https://x.com/databricks))
-
-**Evalúe el esfuerzo de razonamiento en patentes largas y análisis de documentos antes de establecer un valor predeterminado de producción.**
-
-Databricks informó una mayor precisión en la clasificación de documentos que 3.5 Flash, resultados sólidos en patentes largas y aproximadamente un 32% menos de tokens totales con esfuerzo medio que con esfuerzo alto para el análisis de documentos.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-06-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-06-01.png" alt="Case 6 source image 1" height="360"></a>
-
-Tipo: Benchmark | Fecha: 2026-07-21
-
----
-
-<a id="case-7"></a>
-### Caso 7: [Evaluación de tareas de ingeniería en JetBrains](https://x.com/jetbrains/status/2079618218587574636) (por [@jetbrains](https://x.com/jetbrains))
-
-**Cree una tarea de ingeniería objetiva y compare generaciones de modelos dentro del mismo flujo de trabajo IDE.**
-
-JetBrains presentó una evaluación objetiva de tareas de ingeniería para Gemini 3.6 Flash en comparación con la generación Flash anterior en AI Assistant y Junie.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07-poster.jpg" alt="Case 7 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-8"></a>
-### Caso 8: [Migración de código multiagente](https://x.com/CodeByPoonam/status/2079607995861021073) (por [@CodeByPoonam](https://x.com/CodeByPoonam))
-
-**Pruebe la migración de código con el mismo plan de orquestación y compare la latencia, las ediciones y la calidad final.**
-
-La demostración muestra a Gemini 3.6 Flash ejecutando una migración de código a través de una orquestación de múltiples agentes en Antigravity e informa una latencia más baja y una calidad superior que 3.5 Flash.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08-poster.jpg" alt="Case 8 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08.mp4)
-
-Tipo: Demo | Fecha: 2026-07-21
-
----
-
-
-<a id="coding-apps"></a>
-## 💻 Codificación y aplicaciones
-
-<a id="case-9"></a>
-### Caso 9: [Afinador de guitarra Android](https://x.com/bijanbowen/status/2079675781794443640) (por [@bijanbowen](https://x.com/bijanbowen))
-
-**Cree un prototipo de una utilidad móvil enfocada que combine herramientas de audio convencionales con afinaciones alternativas asistidas por IA.**
-
-El creador utilizó Gemini 3.6 Flash para crear una aplicación de afinador de guitarra para Android con soporte de afinación alternativa impulsada por IA.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09-poster.jpg" alt="Case 9 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09.mp4)
-
-Tipo: Demo | Fecha: 2026-07-21
-
----
-
-<a id="case-10"></a>
-### Caso 10: [Simulación de semáforo](https://x.com/diegocabezas01/status/2079588206513631483) (por [@diegocabezas01](https://x.com/diegocabezas01))
-
-**Solicite al modelo una visualización ejecutable para inspeccionar si el código generado captura el tiempo y el comportamiento del tráfico aleatorio.**
-
-El mensaje público solicita código Python que visualiza un semáforo de sentido único con automóviles que llegan a velocidades aleatorias, y la publicación incluye la demostración resultante.
-
-**rápido:**
-
-```text
-write a python code that visualizes how a traffic light works in a one way street with cars entering at random rate.
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10-poster.jpg" alt="Case 10 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10.mp4)
-
-Tipo: Demo | Fecha: 2026-07-21
-
----
-
-<a id="case-11"></a>
-### Caso 11: [Aplicación Teclado Piano](https://x.com/Majin_AppSheet/status/2079734240540041230) (por [@Majin_AppSheet](https://x.com/Majin_AppSheet))
-
-**Convierta un concepto de interacción simple en una aplicación web jugable controlada por teclado.**
-
-El creador creó una aplicación de piano con Gemini 3.6 Flash que se puede tocar desde el teclado de una computadora y la planteó como una aplicación que los niños podían explorar.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11-poster.jpg" alt="Case 11 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11.mp4)
-
-Tipo: Demo | Fecha: 2026-07-22
-
----
-
-<a id="case-12"></a>
-### Caso 12: [Asistente de voz del robot de escritorio](https://x.com/AILogDev/status/2079716688745132044) (por [@AILogDev](https://x.com/AILogDev))
-
-**Integre Flash y Flash-Lite en una aplicación de voz y compare el comportamiento de primera respuesta.**
-
-El creador agregó Gemini 3.6 Flash y Gemini 3.5 Flash-Lite a una aplicación de diálogo de voz para un robot de escritorio y notó que la respuesta inicial parecía un poco lenta pero utilizable.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12-poster.jpg" alt="Case 12 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12.mp4)
-
-Tipo: Integration | Fecha: 2026-07-21
-
----
-
-
-<a id="web-games-3d"></a>
-## 🎮 Web, juegos y 3D
-
-<a id="case-13"></a>
-### Caso 13: [Fallo HTML del puente Golden Gate](https://x.com/LuminaXspace/status/2079597030922465407) (por [@LuminaXspace](https://x.com/LuminaXspace))
-
-**Utilice una tarea estricta de entrega de archivos para probar el seguimiento de instrucciones antes de confiar en las experiencias web 3D generadas.**
-
-El evaluador necesitó tres indicaciones, vio que el modelo intentaba una simulación en la aplicación y respuestas de imágenes web en lugar del archivo HTML solicitado, y consideró que la salida final del puente 3D era materialmente más débil que Gemini 3.1 Pro.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13-poster.jpg" alt="Case 13 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13.mp4)
-
-Tipo: Limit | Fecha: 2026-07-21
-
----
-
-<a id="case-14"></a>
-### Caso 14: [Prueba visual inmediata pública](https://x.com/Motion_Viz/status/2079592671530938537) (por [@Motion_Viz](https://x.com/Motion_Viz))
-
-**Abra el hilo de origen cuando necesite el mensaje completo del creador en lugar de reconstruirlo a partir de la salida.**
-
-MotionViz publicó una prueba visual de Gemini 3.6 Flash con medios e indicó que el mensaje completo está disponible en el hilo fuente; este repositorio no reconstruye el texto del mensaje que no está presente en el paquete fuente.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14-poster.jpg" alt="Case 14 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14.mp4)
-
-Tipo: Demo | Fecha: 2026-07-21
-
----
-
-<a id="case-15"></a>
-### Caso 15: [Juego de lienzo de un solo mensaje](https://x.com/ozansihay/status/2079599565565468672) (por [@ozansihay](https://x.com/ozansihay))
-
-**Utilice un mensaje en Canvas para probar qué tan rápido el modelo puede convertir un concepto de juego compacto en un resultado interactivo.**
-
-El creador probó Gemini 3.6 Flash en acceso temprano y utilizó un único mensaje de Canvas para producir una demostración del juego jugable.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15-poster.jpg" alt="Case 15 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15.mp4)
-
-Tipo: Demo | Fecha: 2026-07-21
-
----
-
-<a id="case-16"></a>
-### Caso 16: [Comparación de versiones de la página de destino](https://x.com/nemumusitocha/status/2079596099854307650) (por [@nemumusitocha](https://x.com/nemumusitocha))
-
-**Mantenga el aviso fijo en todas las generaciones de modelos para aislar los cambios en la ejecución de la página de destino y el juicio visual.**
-
-El creador agregó Gemini 3.6 Flash a un archivo de página de inicio con el mismo mensaje y consideró que el resultado más reciente era peor que las salidas de Gemini 3 y 3.5.
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg" alt="Case 16 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg" alt="Case 16 source image 2" width="100%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg" alt="Case 16 source image 3" width="100%"></a>
-</td>
-<td width="50%" valign="top"></td>
-</tr>
-</table>
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-17"></a>
-### Caso 17: [Prototipo 3D de Subway Surfers](https://x.com/itsPaulAi/status/2079597536155668890) (por [@itsPaulAi](https://x.com/itsPaulAi))
-
-**Habilite el pensamiento extendido para experimentos de codificación e inspeccione tanto la calidad de la interacción como la fidelidad visual.**
-
-El creador utilizó Gemini 3.6 Flash para construir una réplica 3D sencilla al estilo de Subway Surfers y recomendó un pensamiento más amplio para las tareas de codificación.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17-poster.jpg" alt="Case 17 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17.mp4)
-
-Tipo: Demo | Fecha: 2026-07-21
-
----
-
-<a id="case-18"></a>
-### Caso 18: [Comparación de sitios web de una página](https://x.com/SaiNemani1/status/2079606113306325496) (por [@SaiNemani1](https://x.com/SaiNemani1))
-
-**Mantenga constante el nivel de mensaje y razonamiento del sitio web, luego compare el costo del token, la velocidad y la preferencia de diseño.**
-
-En el mismo mensaje del sitio web de una página, el creador informó alrededor de 6.100 tokens para Gemini 3.6 Flash frente a alrededor de 9.300 para 3.5 Flash, aunque personalmente prefiere el aspecto del modelo anterior.
-
-**rápido:**
-
-```text
-create a modern website! Should look amazing! One-code page
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18-poster.jpg" alt="Case 18 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-19"></a>
-### Caso 19: [Fracaso del juego del salvaje oeste](https://x.com/Mr_Salio/status/2079635008424169901) (por [@Mr_Salio](https://x.com/Mr_Salio))
-
-**Trate los resultados fallidos de la generación de juegos como evidencia para decidir cuándo cambiar de modelo o revisar la tarea.**
-
-El evaluador utilizó un mensaje de generación de juegos del Lejano Oeste y juzgó a Gemini 3.6 Flash materialmente detrás de GPT-5.6, Kimi K3 y Fable 5 en el resultado observado.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19-poster.jpg" alt="Case 19 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19.mp4)
-
-Tipo: Limit | Fecha: 2026-07-21
-
----
-
-<a id="case-20"></a>
-### Caso 20: [Fallo del material del juego antigravedad](https://x.com/Conor_D_Dart/status/2079592731211399460) (por [@Conor_D_Dart](https://x.com/Conor_D_Dart))
-
-**Verifique tanto los materiales visuales como el comportamiento de interacción real antes de aceptar un prototipo de juego generado por IA.**
-
-En una segunda prueba del juego Antigravity, el creador encontró texturas de madera más débiles y un elemento de mármol que parecía similar pero no funcionaba.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20-poster.jpg" alt="Case 20 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20.mp4)
-
-Tipo: Limit | Fecha: 2026-07-21
-
----
-
-<a id="case-21"></a>
-### Caso 21: [Comparación de Rolls-Royce SVG](https://x.com/ggg78g89/status/2079610251444437335) (por [@ggg78g89](https://x.com/ggg78g89))
-
-**Utilice un tema SVG fijo para comparar cómo dos generaciones de Flash manejan la forma, los detalles y la composición.**
-
-La publicación coloca las salidas Gemini 3.6 Flash y 3.5 Flash una al lado de la otra para la misma tarea Rolls-Royce SVG.
-
-**rápido:**
-
-```text
-SVG of a Rolls Royce
-```
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png" alt="Case 21 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png" alt="Case 21 source image 2" width="100%"></a>
-</td>
-</tr>
-</table>
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-22"></a>
-### Caso 22: [Prueba de acuario realista](https://x.com/intheworldofai/status/2079681107516170431) (por [@intheworldofai](https://x.com/intheworldofai))
-
-**Utilice una escena 3D delimitada para comparar el realismo y la calidad de la implementación entre las versiones del modelo.**
-
-El creador pidió a Gemini 3.6 Flash que construyera un acuario realista y lo consideró sólo marginalmente mejor que 3.5 Flash.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22-poster.jpg" alt="Case 22 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-
-<a id="evaluations"></a>
-## 🧪 Evaluación y comparaciones
-
-<a id="case-23"></a>
-### Caso 23: [Géminis versus Grok en Max Reasoning](https://x.com/notjazii/status/2079609162431181193) (por [@notjazii](https://x.com/notjazii))
-
-**Utilice la misma configuración de razonamiento máximo y rápido para comparar la velocidad, el costo y la producción en lugar de depender de la reputación del modelo.**
-
-El creador ejecutó Gemini 3.6 Flash y Grok 4.5 con la misma configuración de mensaje y razonamiento máximo, y observó que ambos eran rápidos mientras que Grok era un poco más rápido y más barato.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23-poster.jpg" alt="Case 23 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-24"></a>
-### Caso 24: [Géminis versus Soneto en la configuración máxima](https://x.com/notjazii/status/2079617706693902416) (por [@notjazii](https://x.com/notjazii))
-
-**Compare modelos con indicaciones idénticas y sus configuraciones más fuertes, luego inspeccione el artefacto generado real.**
-
-El creador probó Gemini 3.6 Flash y Sonnet 5 con las mismas indicaciones en la configuración máxima y prefirió la salida de Gemini en la tarea mostrada.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24-poster.jpg" alt="Case 24 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-25"></a>
-### Caso 25: [Prueba de comprensión visual](https://x.com/HarshithLucky3/status/2079607042403381313) (por [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Utilice una tarea de imagen concreta para inspeccionar la calidad de la respuesta y el estilo de interacción antes de adoptar el modelo para los flujos de trabajo de visión.**
-
-El creador presentó una prueba de visión que pasó Gemini 3.6 Flash y destacó la personalidad de respuesta como parte de la experiencia observada.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-25-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-25-01.jpg" alt="Case 25 source image 1" height="360"></a>
-
-Tipo: Demo | Fecha: 2026-07-21
-
----
-
-<a id="case-26"></a>
-### Caso 26: [Punto de referencia del juego Rocket League](https://x.com/LLMJunky/status/2079712480683790743) (por [@LLMJunky](https://x.com/LLMJunky))
-
-**Ejecute una prueba comparativa repetida de generación de juegos y registre tanto el tiempo de construcción como una clasificación subjetiva consistente.**
-
-El creador probó Gemini 3.6 Flash en una tarea estilo Rocket League, lo clasificó en tercer lugar en una clasificación personal e informó que la completó en menos de dos minutos.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26-poster.jpg" alt="Case 26 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26.mp4)
-
-Tipo: Benchmark | Fecha: 2026-07-21
-
----
-
-<a id="case-27"></a>
-### Caso 27: [Comparación visual de EyeBench](https://x.com/adonis_singh/status/2079631807817933222) (por [@adonis_singh](https://x.com/adonis_singh))
-
-**Utilice un punto de referencia visual estable para separar las ganancias incrementales de eficiencia de la calidad absoluta.**
-
-En EyeBench, el creador juzgó a Gemini 3.6 Flash marginalmente mejor que 3.5 Flash pero aún peor que Gemini 3.1 Pro Preview, aunque notó una eficiencia mejorada del token.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-27-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-27-01.jpg" alt="Case 27 source image 1" height="360"></a>
-
-Tipo: Benchmark | Fecha: 2026-07-21
-
----
-
-<a id="case-28"></a>
-### Caso 28: [Comparación de animaciones cortadas en papel](https://x.com/OriSilver/status/2079603778441957776) (por [@OriSilver](https://x.com/OriSilver))
-
-**Compare la velocidad de respuesta y la animación final por separado al evaluar la generación creativa.**
-
-El creador comparó Gemini 3.6 Flash con Fable 5 en una tarea de animación cortada en papel, elogiando la respuesta casi inmediata de Gemini pero expresando reservas sobre el resultado.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28-poster.jpg" alt="Case 28 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28.mp4)
-
-Tipo: Evaluation | Fecha: 2026-07-21
-
----
-
-<a id="case-29"></a>
-### Caso 29: [Punto de referencia de generación de AI Arena](https://x.com/OmedVibeCodes/status/2079663080049660220) (por [@OmedVibeCodes](https://x.com/OmedVibeCodes))
-
-**Utilice la misma tarea de campo para comparar el tiempo de construcción, el precio y la calidad de los artefactos en múltiples modelos de codificación.**
-
-El creador probó Grok 4.5, Gemini 3.6 Flash y GPT-5.6 Luna en una tarea de AI Arena y consideró que el resultado de Gemini fue el más débil en esa ejecución.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29-poster.jpg" alt="Case 29 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29.mp4)
-
-Tipo: Benchmark | Fecha: 2026-07-21
-
----
-
-<a id="case-30"></a>
-### Caso 30: [Costo de construcción del juego entre modelos](https://x.com/naymur_dev/status/2079710299918401907) (por [@naymur_dev](https://x.com/naymur_dev))
-
-**Realice un seguimiento del recuento de iteraciones, la experiencia del desarrollador, las características y el costo al elegir un modelo para la creación de prototipos de juegos.**
-
-Utilizando el mismo flujo de trabajo de diseño, el creador informó que necesitaba de seis a siete iteraciones para corregir un error de salto y caída generado por Gemini y enumeró un costo de ejecución de $0,15 junto con puntuaciones comparativas.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30-poster.jpg" alt="Case 30 source video poster" height="360"></a>
-
-[Reproducir vídeo fuente](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30.mp4)
-
-Tipo: Benchmark | Fecha: 2026-07-21
-
----
-
-
-<a id="safety-limits"></a>
-## 🛡️ Seguridad y límites
-
-<a id="case-31"></a>
-### Caso 31: [Punto de referencia de rechazo de ciberseguridad](https://x.com/pilvar222/status/2079602157779566836) (por [@pilvar222](https://x.com/pilvar222))
-
-**Incluya comportamientos de rechazo en las evaluaciones de herramientas de seguridad porque la revisión defensiva del código puede bloquearse con solicitudes ofensivas.**
-
-Se rechazó una evaluación comparativa de ciberseguridad, lo que llevó al evaluador a informar que la política probada bloqueó el comportamiento de búsqueda de vulnerabilidades para código defensivo y uso malicioso.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-31-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-31-01.jpg" alt="Case 31 source image 1" height="360"></a>
-
-Tipo: Limit | Fecha: 2026-07-21
-
----
-
-<a id="case-32"></a>
-### Caso 32: [Fracaso de la frescura del conocimiento](https://x.com/ggg78g89/status/2079587359851737339) (por [@ggg78g89](https://x.com/ggg78g89))
-
-**Verifique los hechos actuales con recuperación en lugar de confiar en un supuesto límite de conocimiento.**
-
-El evaluador preguntó por los modelos emblemáticos actuales y recibió nombres más antiguos, luego informó que el modelo reconoció que el conocimiento estaba actualizado solo hasta principios de 2025 a pesar de afirmar un límite de marzo de 2026.
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg" alt="Case 32 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg" alt="Case 32 source image 2" width="100%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg" alt="Case 32 source image 3" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png" alt="Case 32 source image 4" width="100%"></a>
-</td>
-</tr>
-</table>
-
-Tipo: Limit | Fecha: 2026-07-21
-
----
-
-<a id="case-33"></a>
-### Caso 33: [Prueba del equipo rojo de jailbreak](https://x.com/Ubannoblesse/status/2079711268899086484) (por [@Ubannoblesse](https://x.com/Ubannoblesse))
-
-**Trate los reclamos de jailbreak como señales del equipo rojo que requieren reproducción controlada y revisión de seguridad, no como instrucciones reutilizables.**
-
-La publicación afirma un jailbreak en la aplicación y API Gemini y enumera las categorías de contenido dañino probadas; este repositorio registra la señal de seguridad sin reproducir instrucciones de explotación.
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg" alt="Case 33 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg" alt="Case 33 source image 2" width="100%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg" alt="Case 33 source image 3" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg" alt="Case 33 source image 4" width="100%"></a>
-</td>
-</tr>
-</table>
-
-Tipo: Limit | Fecha: 2026-07-21
-
----
-
-<a id="related-repositories"></a>
-## Repositorios relacionados
-
-- [Gemini Omni Flash API Skill](https://github.com/Evolink-AI/gemini-omni-flash-api-skill) — Inicio rápido verificado de la API de la familia Gemini y skill instalable para agentes
-- Durante esta publicación no se verificó de forma independiente ninguna habilidad Flash Gemini 3.6 instalable dedicada
+**Empieza aquí: [Explora Hydrogen en EvoLink](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [Obtén una clave de API](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)**
 
 <a id="quick-start"></a>
 ## ⚡ Inicio rápido
 
-Utilice las superficies públicas verificadas a continuación para comenzar con el ID de modelo `gemini-3.6-flash`
+Empieza en EvoLink y utiliza después la API nativa de Gemini cuando quieras integrar Hydrogen en una aplicación.
 
-1. [Abra la página del modelo Flash Gemini 3.6](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link)
-2. [Crear o administrar una clave API de EvoLink](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key)
-3. [Siga el inicio rápido de la API nativa de Gemini](https://evolink.ai/docs/es/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
+1. [Ver Gemini 4 Hydrogen en el navegador](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
+2. [Crea o administra una clave de API de EvoLink](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)
 
-Ejecute esta solicitud mínima verificada
+Solicitud mínima a la API nativa
 
 ```bash
 export EVOLINK_API_KEY="your_api_key_here"
 
 curl --fail-with-body --silent --show-error \
   --request POST \
-  --url "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent" \
+  --url "https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent" \
   --header "Authorization: Bearer $EVOLINK_API_KEY" \
   --header "Content-Type: application/json" \
-  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":128,"temperature":0}}'
+  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":2048,"temperature":0,"thinkingConfig":{"thinkingLevel":"low"}}}'
 ```
 
+`POST https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent`
+
+[Lee la guía de inicio rápido de la API nativa de Gemini](https://evolink.ai/docs/es/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=first_run)
+
 > [!TIP]
-> Resultado esperado: una respuesta JSON cuyo texto visible es `OK`
+> Lee el texto generado en los campos candidates[].content.parts[].text de la respuesta.
 
 > [!IMPORTANT]
-> Esta solicitud exacta se verificó en el endpoint activo con HTTP 200 y el resultado visible `OK`; mantenga la clave en el entorno y nunca la incluya en un commit
+> Guarda tu clave de API en una variable de entorno y nunca la incluyas en un commit. Consulta la documentación de la API para conocer las opciones de transmisión, razonamiento y otras solicitudes.
+
+## 📑 Menú
+
+| Sección | Casos |
+|---|---|
+| [⚡ Agentes y flujos de programación](#agents) | 5 |
+| [💻 Aplicaciones y aprendizaje](#apps-learning) | 5 |
+| [📊 Hojas de cálculo y Search](#data-search) | 4 |
+| [🎮 3D interactivo e interfaces](#interactive-3d) | 9 |
+| [🧪 Comparaciones y limitaciones](#comparisons-limits) | 17 |
+| [Repositorios relacionados](#related-repositories) |  |
+| [Inicio rápido](#quick-start) |  |
+| [Agradecimientos](#acknowledge) |  |
+
+| Caso | Categoría | Qué probar | Tipo |
+|---|---|---|---|
+| [Mantenimiento de código en Antigravity](#case-1) | Agentes y flujos de programación | Usa una tarea de mantenimiento acotada para evaluar conjuntamente modificaciones, uso de herramientas y verificación. | Demo |
+| [Dieciséis aplicaciones canvas en paralelo](#case-2) | Agentes y flujos de programación | Divide el desarrollo en módulos independientes y define explícitamente las funciones de planificación, implementación y control de calidad. | Demo |
+| [Polilla carmesí con un enjambre de varios modelos](#case-3) | Agentes y flujos de programación | Separa la orquestación de la implementación en un proyecto interactivo de programación creativa. | Demo |
+| [Inspección y reparación con 3D Medic](#case-4) | Agentes y flujos de programación | Explora un agente que inspecciona un archivo 3D, detecta errores y propone reparaciones antes de exportarlo. | Demo |
+| [Una escena de velero creada en Devin](#case-5) | Agentes y flujos de programación | Evalúa un modelo en el entorno de agente de programación que realmente piensas utilizar. | Demo |
+| [Práctica de idiomas en Lingo City](#case-6) | Aplicaciones y aprendizaje | Combina tarjetas didácticas con una escena callejera interactiva para practicar idiomas en contexto. | Demo |
+| [Romeo y Julieta como teatro de papel en 3D](#case-7) | Aplicaciones y aprendizaje | Convierte una lección concreta en una escena interactiva con un objetivo de aprendizaje claro. | Demo |
+| [De una imagen de diseño a una web de lectura](#case-8) | Aplicaciones y aprendizaje | Usa un diseño de referencia para evaluar la comprensión visual y una implementación funcional de la interfaz. | Demo |
+| [Un jardín de carpas koi construido en veinte módulos](#case-9) | Aplicaciones y aprendizaje | Construye una escena más grande con módulos pequeños en lugar de esperar un resultado completo de una sola instrucción. | Demo |
+| [Un juego educativo sobre fusión de protones](#case-10) | Aplicaciones y aprendizaje | Crea un prototipo de explicación interactiva de un proceso científico y comprueba después su base científica. | Demo |
+| [Un paisaje animado en Google Sheets](#case-11) | Hojas de cálculo y Search | Usa una animación poco convencional en una hoja de cálculo para inspeccionar el código generado y las actualizaciones de celdas. | Demo |
+| [Web de datos interactivos Folio](#case-12) | Hojas de cálculo y Search | Combina el diseño de una página de presentación con visualizaciones de datos interactivas en un pequeño prototipo web. | Demo |
+| [Respuestas visuales a búsquedas con varias partes](#case-13) | Hojas de cálculo y Search | Compara la disposición de la respuesta y los enlaces citados al probar una búsqueda matizada con varias restricciones. | Demo |
+| [Previsiones financieras interactivas en Sheets](#case-14) | Hojas de cálculo y Search | Crea un prototipo de modelo financiero con supuestos visibles e inspecciona las fórmulas y gráficos generados. | Demo |
+| [Un comedor interactivo](#case-15) | 3D interactivo e interfaces | Comprueba las interacciones de objetos, la iluminación y los cambios de estado en lugar de juzgar una escena por una imagen fija. | Demo |
+| [Un control de volumen con un mundo en miniatura](#case-16) | 3D interactivo e interfaces | Usa un control conocido para probar tanto el diseño de interacción como el detalle de la escena animada. | Demo |
+| [Una casa japonesa en Three.js](#case-17) | 3D interactivo e interfaces | Separa la generación de código del tiempo de renderizado al evaluar un recorrido 3D detallado. | Demo |
+| [Un pelícano en bicicleta en 3D](#case-18) | 3D interactivo e interfaces | Usa un personaje en movimiento para inspeccionar coordinación, movimiento y coherencia de la escena. | Demo |
+| [Un simulador planetario que empieza por el plan](#case-19) | 3D interactivo e interfaces | Da al modelo de programación un plan concreto antes de pedirle que edite una escena compleja. | Demo |
+| [Una isla portuaria con Antigravity Swarm](#case-20) | 3D interactivo e interfaces | Usa un pequeño entorno navegable para inspeccionar cómo varios agentes construyen escenas. | Demo |
+| [Una isla flotante con la torre Eiffel](#case-21) | 3D interactivo e interfaces | Evalúa composición, movimiento de cámara y código generado en una escena compacta de un monumento. | Demo |
+| [Una ciudad futurista que se puede sobrevolar](#case-22) | 3D interactivo e interfaces | Prueba modificaciones posteriores en un mundo procedural en lugar de asumir que el primer resultado es definitivo. | Demo |
+| [Un hidroavión del amanecer a la noche](#case-23) | 3D interactivo e interfaces | Inspecciona controles ambientales y transiciones de iluminación en una escena 3D interactiva. | Demo |
+| [Animación de figuras de neón: Hydrogen y Opus](#case-24) | Comparaciones y limitaciones | Compara la animación terminada junto con el tiempo y coste declarados sin asumir entornos idénticos. | Evaluation |
+| [Tareas robóticas y errores reconocidos](#case-25) | Comparaciones y limitaciones | Incluye la finalización de tareas y el reconocimiento de pequeños errores en una evaluación de robótica. | Evaluation |
+| [Una célula de trabajo de laboratorio en lenguaje natural](#case-26) | Comparaciones y limitaciones | Evalúa la ejecución de herramientas y la gestión de fallos por separado de las puntuaciones principales de las pruebas. | Evaluation |
+| [Iceberg y remolcador: Hydrogen y Carbon](#case-27) | Comparaciones y limitaciones | Registra el nivel de razonamiento y las restricciones del entorno al comparar un desarrollo 3D largo. | Evaluation |
+| [Un estanque de koi gelatinoso: Hydrogen y Sonnet](#case-28) | Comparaciones y limitaciones | Inspecciona una escena concreta antes de convertir una clasificación de pruebas en una elección de modelo. | Evaluation |
+| [Una colección de programación creativa con instrucciones compartidas](#case-29) | Comparaciones y limitaciones | Usa tareas visuales variadas para evitar generalizar a partir de un único resultado atractivo. | Evaluation |
+| [Vóxeles de Megamind: un contraejemplo de coste y calidad](#case-30) | Comparaciones y limitaciones | Conserva los casos fallidos al evaluar si un modelo es sistemáticamente más barato o visualmente mejor. | Limit |
+| [Un león malabarista en las cuatro estaciones](#case-31) | Comparaciones y limitaciones | Comprueba el movimiento solicitado, no solo el acabado visual de la interfaz que lo rodea. | Limit |
+| [Pelea de figuras con tres modelos: un resultado más lento y caro](#case-32) | Comparaciones y limitaciones | Conserva contraejemplos al comparar la eficiencia anunciada de un modelo con informes de tareas reales. | Limit |
+| [Una escena de bicicleta en una granja: Hydrogen y Flash](#case-33) | Comparaciones y limitaciones | Compara el movimiento y la calidad de la escena junto con el tiempo de finalización declarado por el creador. | Evaluation |
+| [Una chica y un gato en bicicletas tándem](#case-34) | Comparaciones y limitaciones | Compara la fidelidad a la instrucción y los detalles adicionales dejando claras las diferencias de entornos de programación. | Evaluation |
+| [Cuatro modelos construyen un juego de Mario en Three.js](#case-35) | Comparaciones y limitaciones | Registra las diferencias de razonamiento antes de interpretar una comparación de juegos con la misma instrucción. | Evaluation |
+| [Tres modelos Gemini dibujan un mando](#case-36) | Comparaciones y limitaciones | Busca retrocesos y mejoras específicos de la tarea en lugar de asumir una jerarquía de la familia. | Evaluation |
+| [Respuestas visuales distintas entre la aplicación y Studio](#case-37) | Comparaciones y limitaciones | Prueba la misma imagen en el producto que vas a utilizar antes de confiar en un resultado visual. | Limit |
+| [Una escena de lanzamiento de cohete: Hydrogen y Flash](#case-38) | Comparaciones y limitaciones | Compara la animación real del lanzamiento además de la duración de construcción declarada. | Evaluation |
+| [Cuatro tareas de animación SVG](#case-39) | Comparaciones y limitaciones | Usa varios motivos de interacción y animación para inspeccionar la coherencia entre tareas. | Evaluation |
+| [Tres modelos animan un caballo en la sabana](#case-40) | Comparaciones y limitaciones | Inspecciona directamente el movimiento y el detalle visual antes de aceptar afirmaciones generales de coste o calidad. | Evaluation |
+
+<a id="agents"></a>
+## ⚡ Agentes y flujos de programación
+
+<a id="case-1"></a>
+### Caso 1: [Mantenimiento de código en Antigravity](https://x.com/antigravity/status/2120944334023389476) (por [@antigravity](https://x.com/antigravity))
+
+**Usa una tarea de mantenimiento acotada para evaluar conjuntamente modificaciones, uso de herramientas y verificación.**
+
+La demostración de lanzamiento de Antigravity muestra a Hydrogen manteniendo una base de código. Es un ejemplo producido por la plataforma, no una prueba de ingeniería reproducida de forma independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042-poster.jpg" alt="Case 1 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-2"></a>
+### Caso 2: [Dieciséis aplicaciones canvas en paralelo](https://x.com/shengzheyao/status/2120944141559550409) (por [@shengzheyao](https://x.com/shengzheyao))
+
+**Divide el desarrollo en módulos independientes y define explícitamente las funciones de planificación, implementación y control de calidad.**
+
+Un creador de Antigravity CLI en Google DeepMind describe cómo Carbon coordina, verifica e integra mientras Hydrogen construye 16 miniaplicaciones canvas sin dependencias. El flujo combina modelos, por lo que su resultado no debe atribuirse únicamente a Hydrogen.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044-poster.jpg" alt="Case 2 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-3"></a>
+### Caso 3: [Polilla carmesí con un enjambre de varios modelos](https://x.com/thtbee_/status/2120958666480513310) (por [@thtbee_](https://x.com/thtbee_))
+
+**Separa la orquestación de la implementación en un proyecto interactivo de programación creativa.**
+
+El creador afirma que Carbon orquestó un enjambre de Antigravity mientras trabajadores Hydrogen construían la obra de la polilla carmesí. Los 45 minutos declarados incluyen ese flujo multimodelo y no se cronometraron de forma independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024-poster.jpg" alt="Case 3 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-4"></a>
+### Caso 4: [Inspección y reparación con 3D Medic](https://x.com/GoogleAI/status/2120940683233984862) (por [@GoogleAI](https://x.com/GoogleAI))
+
+**Explora un agente que inspecciona un archivo 3D, detecta errores y propone reparaciones antes de exportarlo.**
+
+La demostración 3D Medic de Google AI utiliza una aplicación Managed Agent creada en AI Studio. Muestra un flujo de reparación de archivos, no pruebas de que cualquier recurso 3D vaya a repararse correctamente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053-poster.jpg" alt="Case 4 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-5"></a>
+### Caso 5: [Una escena de velero creada en Devin](https://x.com/Da7_Tech/status/2120967690722677144) (por [@Da7_Tech](https://x.com/Da7_Tech))
+
+**Evalúa un modelo en el entorno de agente de programación que realmente piensas utilizar.**
+
+La fuente presenta una escena de velero atribuida a Hydrogen ejecutado en Devin. La breve publicación no revela la instrucción completa, el historial de iteraciones ni una configuración reproducible.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018-poster.jpg" alt="Case 5 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+
+<a id="apps-learning"></a>
+## 💻 Aplicaciones y aprendizaje
+
+<a id="case-6"></a>
+### Caso 6: [Práctica de idiomas en Lingo City](https://x.com/tulseedoshi/status/2121095754844713427) (por [@tulseedoshi](https://x.com/tulseedoshi))
+
+**Combina tarjetas didácticas con una escena callejera interactiva para practicar idiomas en contexto.**
+
+Tulsee Doshi comparte un ejemplo de Google que transmite tarjetas personalizadas en 2D y 3D y permite practicar conversaciones con comerciantes en una ciudad virtual. Es una demostración del proveedor, no un estudio independiente de resultados de aprendizaje.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001-poster.jpg" alt="Case 6 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001.mp4)
+
+Tipo: Demo | Fecha: 2026-11-13
+
+---
+
+<a id="case-7"></a>
+### Caso 7: [Romeo y Julieta como teatro de papel en 3D](https://x.com/techartist_/status/2120957446202253803) (por [@techartist_](https://x.com/techartist_))
+
+**Convierte una lección concreta en una escena interactiva con un objetivo de aprendizaje claro.**
+
+El creador construyó una lección de teatro de papel en 3D sobre la escena del balcón de Romeo y Julieta para Literatura Inglesa de GCSE. La fuente demuestra la interfaz, pero no mide resultados de aprendizaje.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026-poster.jpg" alt="Case 7 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-8"></a>
+### Caso 8: [De una imagen de diseño a una web de lectura](https://x.com/thebuggeddev/status/2120952661046689992) (por [@thebuggeddev](https://x.com/thebuggeddev))
+
+**Usa un diseño de referencia para evaluar la comprensión visual y una implementación funcional de la interfaz.**
+
+El creador afirma que Hydrogen convirtió una imagen de diseño en una web funcional de gestión de lecturas en 5 minutos y 27 segundos. La duración y la integridad son afirmaciones de la fuente; esta colección no incluye una prueba funcional independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030-poster.jpg" alt="Case 8 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-9"></a>
+### Caso 9: [Un jardín de carpas koi construido en veinte módulos](https://x.com/IamEmily2050/status/2120951069874532806) (por [@IamEmily2050](https://x.com/IamEmily2050))
+
+**Construye una escena más grande con módulos pequeños en lugar de esperar un resultado completo de una sola instrucción.**
+
+El creador informa de 20 instrucciones para 20 módulos en la aplicación Gemini, cada uno de 90–270 segundos. El autor declaró acceso anticipado y el ejemplo es explícitamente iterativo, no un resultado de un solo intento.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032-poster.jpg" alt="Case 9 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-10"></a>
+### Caso 10: [Un juego educativo sobre fusión de protones](https://x.com/SidraMiconi/status/2120948703095820743) (por [@SidraMiconi](https://x.com/SidraMiconi))
+
+**Crea un prototipo de explicación interactiva de un proceso científico y comprueba después su base científica.**
+
+El juego del creador recorre la cadena protón–protón dentro de una estrella joven. La única instrucción, los 78 segundos de ejecución y el coste aproximado de $0.19 son afirmaciones de la fuente, no resultados reproducidos de forma independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034-poster.jpg" alt="Case 10 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+
+<a id="data-search"></a>
+## 📊 Hojas de cálculo y Search
+
+<a id="case-11"></a>
+### Caso 11: [Un paisaje animado en Google Sheets](https://x.com/Google/status/2121004369617485896) (por [@Google](https://x.com/Google))
+
+**Usa una animación poco convencional en una hoja de cálculo para inspeccionar el código generado y las actualizaciones de celdas.**
+
+Google muestra trenes costeros, nubes y hojas otoñales dibujados en las celdas mediante código escrito en Antigravity. Es una demostración creativa oficial, no una prueba de rendimiento de hojas de cálculo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006-poster.jpg" alt="Case 11 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-12"></a>
+### Caso 12: [Web de datos interactivos Folio](https://x.com/vamsibatchuk/status/2120996342923436188) (por [@vamsibatchuk](https://x.com/vamsibatchuk))
+
+**Combina el diseño de una página de presentación con visualizaciones de datos interactivas en un pequeño prototipo web.**
+
+Un empleado de Google DeepMind presenta una web de estilo Folio y una animación interactiva creadas con Google AI Studio. La publicación no aporta la instrucción de generación completa ni una prueba funcional independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007-poster.jpg" alt="Case 12 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-13"></a>
+### Caso 13: [Respuestas visuales a búsquedas con varias partes](https://x.com/Google/status/2120960715011883148) (por [@Google](https://x.com/Google))
+
+**Compara la disposición de la respuesta y los enlaces citados al probar una búsqueda matizada con varias restricciones.**
+
+El ejemplo de Search de Google combina comprensión de la intención, diseños visuales, tablas comparativas y expansión de consultas. Son comportamientos del producto descritos por el proveedor; la demostración no establece efectos sobre el posicionamiento o el tráfico de los editores.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021-poster.jpg" alt="Case 13 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-14"></a>
+### Caso 14: [Previsiones financieras interactivas en Sheets](https://x.com/ChanduThota/status/2120942270627414079) (por [@ChanduThota](https://x.com/ChanduThota))
+
+**Crea un prototipo de modelo financiero con supuestos visibles e inspecciona las fórmulas y gráficos generados.**
+
+Chandu Thota presenta una demostración de previsiones en Google Sheets. La afirmación de la fuente de una generación de canvas más de un 30% más rápida procede del proveedor, no de una medición controlada realizada para este repositorio.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047-poster.jpg" alt="Case 14 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+
+<a id="interactive-3d"></a>
+## 🎮 3D interactivo e interfaces
+
+<a id="case-15"></a>
+### Caso 15: [Un comedor interactivo](https://x.com/notjazii/status/2120979811569222137) (por [@notjazii](https://x.com/notjazii))
+
+**Comprueba las interacciones de objetos, la iluminación y los cambios de estado en lugar de juzgar una escena por una imagen fija.**
+
+El creador muestra un comedor con luces, lámparas, un frigorífico y objetos interiores interactivos. Los 30 minutos de construcción declarados no se han verificado de forma independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014-poster.jpg" alt="Case 15 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-16"></a>
+### Caso 16: [Un control de volumen con un mundo en miniatura](https://x.com/vib3coded/status/2120973294090555890) (por [@vib3coded](https://x.com/vib3coded))
+
+**Usa un control conocido para probar tanto el diseño de interacción como el detalle de la escena animada.**
+
+La fuente muestra un control de volumen que anima un pequeño mundo de estilo japonés. El creador declara un coste de $0.19, pero no aporta una factura ni el flujo completo de generación.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016-poster.jpg" alt="Case 16 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-17"></a>
+### Caso 17: [Una casa japonesa en Three.js](https://x.com/SPAC89/status/2120972954146140409) (por [@SPAC89](https://x.com/SPAC89))
+
+**Separa la generación de código del tiempo de renderizado al evaluar un recorrido 3D detallado.**
+
+El creador atribuye esta casa y jardín a Hydrogen en Three.js sin agentes. Las afirmaciones sobre consumo de la suscripción y duración inferior a dos horas corresponden a su configuración y no son garantías generales de precio o latencia.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017-poster.jpg" alt="Case 17 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-18"></a>
+### Caso 18: [Un pelícano en bicicleta en 3D](https://x.com/nehstrr3/status/2120953932692537722) (por [@nehstrr3](https://x.com/nehstrr3))
+
+**Usa un personaje en movimiento para inspeccionar coordinación, movimiento y coherencia de la escena.**
+
+El creador presenta un pelícano animado en 3D montando en bicicleta e identifica el modelo como Hydrogen con XHigh. La publicación demuestra un resultado, no una instrucción completa reproducible ni una validación física.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029-poster.jpg" alt="Case 18 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-19"></a>
+### Caso 19: [Un simulador planetario que empieza por el plan](https://x.com/The_Alex/status/2120950301318582643) (por [@The_Alex](https://x.com/The_Alex))
+
+**Da al modelo de programación un plan concreto antes de pedirle que edite una escena compleja.**
+
+El creador con acceso anticipado muestra un simulador planetario e informa de mejores resultados de edición tras proporcionar planes más detallados. La fuente reconoce a ForwardEditor como autor de la idea y describe un flujo iterativo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033-poster.jpg" alt="Case 19 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-20"></a>
+### Caso 20: [Una isla portuaria con Antigravity Swarm](https://x.com/ai_for_success/status/2120942147780464660) (por [@ai_for_success](https://x.com/ai_for_success))
+
+**Usa un pequeño entorno navegable para inspeccionar cómo varios agentes construyen escenas.**
+
+El creador declaró acceso anticipado y muestra una isla portuaria construida con Hydrogen mediante la función Swarm de Antigravity. La publicación no especifica toda la orquestación ni el historial de instrucciones.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048-poster.jpg" alt="Case 20 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-21"></a>
+### Caso 21: [Una isla flotante con la torre Eiffel](https://x.com/RezAIT00/status/2120940988780736973) (por [@RezAIT00](https://x.com/RezAIT00))
+
+**Evalúa composición, movimiento de cámara y código generado en una escena compacta de un monumento.**
+
+La fuente muestra una isla en miniatura con la torre Eiffel y la atribuye a Hydrogen XHigh. Los seis minutos de construcción y grabación son un dato del autor, no una prueba de tiempo independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051-poster.jpg" alt="Case 21 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-22"></a>
+### Caso 22: [Una ciudad futurista que se puede sobrevolar](https://x.com/kimmonismus/status/2120940617169826037) (por [@kimmonismus](https://x.com/kimmonismus))
+
+**Prueba modificaciones posteriores en un mundo procedural en lugar de asumir que el primer resultado es definitivo.**
+
+El creador con acceso anticipado utilizó Hydrogen High en Antigravity e informa de una instrucción posterior para producir una ciudad Three.js con torres procedurales, lluvia y tráfico aéreo. La grabación muestra código generado en ejecución, no generación nativa de vídeo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054-poster.jpg" alt="Case 22 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+<a id="case-23"></a>
+### Caso 23: [Un hidroavión del amanecer a la noche](https://x.com/LuminaBench/status/2120939312564842663) (por [@LuminaBench](https://x.com/LuminaBench))
+
+**Inspecciona controles ambientales y transiciones de iluminación en una escena 3D interactiva.**
+
+La demostración original de LuminaBench muestra un hidroavión y cambios de hora del día; Google la compartió después. La publicación es anterior al límite de lanzamiento público registrado; no se verificaron de forma independiente la vía de acceso ni la invocación del modelo.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056-poster.jpg" alt="Case 23 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056.mp4)
+
+Tipo: Demo | Fecha: 2026-11-12
+
+---
+
+
+<a id="comparisons-limits"></a>
+## 🧪 Comparaciones y limitaciones
+
+<a id="case-24"></a>
+### Caso 24: [Animación de figuras de neón: Hydrogen y Opus](https://x.com/rubenssoto_ai/status/2121068028435791947) (por [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+
+**Compara la animación terminada junto con el tiempo y coste declarados sin asumir entornos idénticos.**
+
+El autor presenta resultados de Hydrogen y Opus 5.5 e informa de $1.02 frente a $7.43 y 10m 22s frente a 34m. Esta colección no ha verificado facturación, instrucciones, número de iteraciones ni configuraciones de ejecución comparables.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002-poster.jpg" alt="Case 24 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-13
+
+---
+
+<a id="case-25"></a>
+### Caso 25: [Tareas robóticas y errores reconocidos](https://x.com/ArtificialAnlys/status/2120995180891508833) (por [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Incluye la finalización de tareas y el reconocimiento de pequeños errores en una evaluación de robótica.**
+
+Artificial Analysis muestra tareas de vertido y ordenación de bloques y afirma que Hydrogen detectó un pequeño derrame y una tapa sin cerrar. El vídeo y la clasificación AA-Robotics v0.1 proceden del evaluador; aquí no se reproducen de forma independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008-poster.jpg" alt="Case 25 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-26"></a>
+### Caso 26: [Una célula de trabajo de laboratorio en lenguaje natural](https://x.com/danielmckinn0n/status/2120990834246173125) (por [@danielmckinn0n](https://x.com/danielmckinn0n))
+
+**Evalúa la ejecución de herramientas y la gestión de fallos por separado de las puntuaciones principales de las pruebas.**
+
+La fuente muestra una célula de trabajo de laboratorio controlada mediante una petición en lenguaje natural e informa de resultados en cuatro pruebas de laboratorio. La puntuación declarada de Hydrogen en RareBench es inferior a la de Opus 5.5 y las otras tres son superiores; es una demostración del propietario de las pruebas, no una validación médica.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009-poster.jpg" alt="Case 26 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-27"></a>
+### Caso 27: [Iceberg y remolcador: Hydrogen y Carbon](https://x.com/EnvolDev/status/2120989670582677930) (por [@EnvolDev](https://x.com/EnvolDev))
+
+**Registra el nivel de razonamiento y las restricciones del entorno al comparar un desarrollo 3D largo.**
+
+El creador informa de ambos modelos en High mediante OpenRouter: Hydrogen con $4.27 y 1h 23m 40s frente a Carbon con $8.83 y 2h 39m 10s. Son resultados no controlados declarados por la fuente, no relaciones universales de precio o velocidad.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010-poster.jpg" alt="Case 27 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-28"></a>
+### Caso 28: [Un estanque de koi gelatinoso: Hydrogen y Sonnet](https://x.com/Haleeeemahh/status/2120987701352739314) (por [@Haleeeemahh](https://x.com/Haleeeemahh))
+
+**Inspecciona una escena concreta antes de convertir una clasificación de pruebas en una elección de modelo.**
+
+El autor compara Hydrogen y Sonnet 5.5 en una tarea de estanque koi en 3D. La fuente pide al público que juzgue los resultados, pero no establece configuraciones equivalentes ni una puntuación de calidad objetiva.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011-poster.jpg" alt="Case 28 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-29"></a>
+### Caso 29: [Una colección de programación creativa con instrucciones compartidas](https://x.com/kickingkeys/status/2120985358317875222) (por [@kickingkeys](https://x.com/kickingkeys))
+
+**Usa tareas visuales variadas para evitar generalizar a partir de un único resultado atractivo.**
+
+El creador informa de haber dado las mismas instrucciones a Hydrogen, Carbon y Argon y coloca las comparaciones en las respuestas. Los medios de la publicación principal muestran animales de pocos polígonos, una calle de neón y un contenedor de estilo acuarela; no constituyen una prueba controlada completa.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012-poster.jpg" alt="Case 29 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-30"></a>
+### Caso 30: [Vóxeles de Megamind: un contraejemplo de coste y calidad](https://x.com/thehypedotnews/status/2120980737012670720) (por [@thehypedotnews](https://x.com/thehypedotnews))
+
+**Conserva los casos fallidos al evaluar si un modelo es sistemáticamente más barato o visualmente mejor.**
+
+La fuente afirma que Hydrogen produjo una figura de Titan menos coherente con un coste de $36.07, frente a $8.64 de Sonnet 5.5. La publicación incluye promoción comercial y los costes y el juicio de calidad son afirmaciones de su autor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013-poster.jpg" alt="Case 30 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013.mp4)
+
+Tipo: Limit | Fecha: 2026-11-12
+
+---
+
+<a id="case-31"></a>
+### Caso 31: [Un león malabarista en las cuatro estaciones](https://x.com/SahilPanhotra/status/2120978349967458704) (por [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Comprueba el movimiento solicitado, no solo el acabado visual de la interfaz que lo rodea.**
+
+El autor afirma que Carbon resolvió los arcos cruzados de los malabares mientras Hydrogen dejó las pelotas flotando, pese a transiciones estacionales y recortes más limpios. Esta comparación SVG de la misma tarea muestra un fallo concreto de movimiento, no una clasificación general de modelos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015-poster.jpg" alt="Case 31 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015.mp4)
+
+Tipo: Limit | Fecha: 2026-11-12
+
+---
+
+<a id="case-32"></a>
+### Caso 32: [Pelea de figuras con tres modelos: un resultado más lento y caro](https://x.com/DanielZambrini/status/2120963180461769183) (por [@DanielZambrini](https://x.com/DanielZambrini))
+
+**Conserva contraejemplos al comparar la eficiencia anunciada de un modelo con informes de tareas reales.**
+
+El creador compara Hydrogen, Carbon y Argon e informa de que Hydrogen tardó más y costó más que Carbon en esta prueba. No se han verificado de forma independiente los ajustes, la facturación ni el número de iteraciones.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019-poster.jpg" alt="Case 32 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019.mp4)
+
+Tipo: Limit | Fecha: 2026-11-12
+
+---
+
+<a id="case-33"></a>
+### Caso 33: [Una escena de bicicleta en una granja: Hydrogen y Flash](https://x.com/Bhavani_00007/status/2120959112934834412) (por [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**Compara el movimiento y la calidad de la escena junto con el tiempo de finalización declarado por el creador.**
+
+La fuente compara Hydrogen con Gemini 3.8 Flash en una escena de bicicleta en una granja e informa de 56 segundos frente a más de seis minutos. Es una prueba de un solo creador, no una referencia general de velocidad.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023-poster.jpg" alt="Case 33 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-34"></a>
+### Caso 34: [Una chica y un gato en bicicletas tándem](https://x.com/marcthecreatorr/status/2120956699951628637) (por [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Compara la fidelidad a la instrucción y los detalles adicionales dejando claras las diferencias de entornos de programación.**
+
+El creador utilizó la misma tarea SVG declarada, pero ejecutó Opus 5.5 en Claude Code y Hydrogen en Cursor. Los tiempos y costes declarados difieren considerablemente, pero los entornos distintos y las iteraciones no reveladas impiden una comparación controlada exclusiva de los modelos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027-poster.jpg" alt="Case 34 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-35"></a>
+### Caso 35: [Cuatro modelos construyen un juego de Mario en Three.js](https://x.com/StatsWire/status/2120955723396071548) (por [@StatsWire](https://x.com/StatsWire))
+
+**Registra las diferencias de razonamiento antes de interpretar una comparación de juegos con la misma instrucción.**
+
+La fuente compara Gemini 3.8 Flash, Argon y Carbon en High con Hydrogen en XHigh usando solo Three.js, sin modelos ni texturas 3D externos. Muestra cuatro resultados, no una prueba con razonamiento equivalente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028-poster.jpg" alt="Case 35 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-36"></a>
+### Caso 36: [Tres modelos Gemini dibujan un mando](https://x.com/notjazii/status/2120952314873987271) (por [@notjazii](https://x.com/notjazii))
+
+**Busca retrocesos y mejoras específicos de la tarea en lugar de asumir una jerarquía de la familia.**
+
+El creador compara mandos SVG de Carbon, Argon y Hydrogen e informa de haber repetido la prueba. Las duraciones y costes declarados son afirmaciones de la fuente y no establecen un orden general de calidad de los modelos.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U031-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U031-01.jpg" alt="Case 36 source image 1" height="360"></a>
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-37"></a>
+### Caso 37: [Respuestas visuales distintas entre la aplicación y Studio](https://x.com/thegenioo/status/2120946497802174688) (por [@thegenioo](https://x.com/thegenioo))
+
+**Prueba la misma imagen en el producto que vas a utilizar antes de confiar en un resultado visual.**
+
+La fuente muestra respuestas contradictorias de identificación de alimentos atribuidas a Hydrogen en la aplicación Gemini y AI Studio. La comparación no verifica de forma independiente que el enrutamiento, los ajustes o el contexto completo de la conversación sean idénticos.
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-01.jpg" alt="Case 37 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-02.jpg" alt="Case 37 source image 2" width="100%"></a>
+</td>
+</tr>
+</table>
+
+Tipo: Limit | Fecha: 2026-11-12
+
+---
+
+<a id="case-38"></a>
+### Caso 38: [Una escena de lanzamiento de cohete: Hydrogen y Flash](https://x.com/Bhavani_00007/status/2120945380850569395) (por [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**Compara la animación real del lanzamiento además de la duración de construcción declarada.**
+
+El creador presenta resultados de Hydrogen y Gemini 3.8 Flash e informa de menos de un minuto frente a unos tres minutos. La comparación visual corresponde a una tarea sin configuración de ejecución controlada de forma independiente.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040-poster.jpg" alt="Case 38 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-39"></a>
+### Caso 39: [Cuatro tareas de animación SVG](https://x.com/Angaisb_/status/2120944947193127061) (por [@Angaisb_](https://x.com/Angaisb_))
+
+**Usa varios motivos de interacción y animación para inspeccionar la coherencia entre tareas.**
+
+La fuente empareja resultados de Hydrogen y Carbon para transferencias, cambios de día y noche, desembalaje y un camaleón. Su breve texto principal no revela instrucciones completas, pruebas de tiempo ni un método objetivo de puntuación.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041-poster.jpg" alt="Case 39 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="case-40"></a>
+### Caso 40: [Tres modelos animan un caballo en la sabana](https://x.com/AI_Screening/status/2120944276586823689) (por [@AI_Screening](https://x.com/AI_Screening))
+
+**Inspecciona directamente el movimiento y el detalle visual antes de aceptar afirmaciones generales de coste o calidad.**
+
+El creador presenta Hydrogen, Carbon y Argon en una escena de caballo en la sabana. Las afirmaciones de mayor velocidad, menor coste y alta calidad siguen siendo la valoración de la fuente, no una comparación controlada reproducida aquí.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043-poster.jpg" alt="Case 40 source video poster" height="360"></a>
+
+[Reproducir vídeo original](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043.mp4)
+
+Tipo: Evaluation | Fecha: 2026-11-12
+
+---
+
+<a id="related-repositories"></a>
+## Repositorios relacionados
+
+- [Gemini 4 Carbon Guide and Use Cases](https://github.com/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases): Ejemplos y comparaciones de Gemini 4 Carbon
 
 <a id="acknowledge"></a>
-## 🙏 Reconocer
+## 🙏 Agradecimientos
 
-Esta colección existe porque los creadores y profesionales compartieron públicamente su trabajo en Gemini 3.6 Flash.
+Gracias a los creadores, desarrolladores y evaluadores que compartieron públicamente su trabajo con Hydrogen.
 
-**Gracias a los creadores de fuentes representados aquí.:**
+**Creadores de las fuentes:**
 
-[@JeffDean](https://x.com/JeffDean), [@antigravity](https://x.com/antigravity), [@stevibe](https://x.com/stevibe), [@browser_use](https://x.com/browser_use), [@__apf__](https://x.com/__apf__), [@databricks](https://x.com/databricks), [@jetbrains](https://x.com/jetbrains), [@CodeByPoonam](https://x.com/CodeByPoonam), [@bijanbowen](https://x.com/bijanbowen), [@diegocabezas01](https://x.com/diegocabezas01), [@Majin_AppSheet](https://x.com/Majin_AppSheet), [@AILogDev](https://x.com/AILogDev), [@LuminaXspace](https://x.com/LuminaXspace), [@Motion_Viz](https://x.com/Motion_Viz), [@ozansihay](https://x.com/ozansihay), [@nemumusitocha](https://x.com/nemumusitocha), [@itsPaulAi](https://x.com/itsPaulAi), [@SaiNemani1](https://x.com/SaiNemani1), [@Mr_Salio](https://x.com/Mr_Salio), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ggg78g89](https://x.com/ggg78g89), [@intheworldofai](https://x.com/intheworldofai), [@notjazii](https://x.com/notjazii), [@HarshithLucky3](https://x.com/HarshithLucky3), [@LLMJunky](https://x.com/LLMJunky), [@adonis_singh](https://x.com/adonis_singh), [@OriSilver](https://x.com/OriSilver), [@OmedVibeCodes](https://x.com/OmedVibeCodes), [@naymur_dev](https://x.com/naymur_dev), [@pilvar222](https://x.com/pilvar222), [@Ubannoblesse](https://x.com/Ubannoblesse)
+[@antigravity](https://x.com/antigravity), [@shengzheyao](https://x.com/shengzheyao), [@thtbee_](https://x.com/thtbee_), [@GoogleAI](https://x.com/GoogleAI), [@Da7_Tech](https://x.com/Da7_Tech), [@tulseedoshi](https://x.com/tulseedoshi), [@techartist_](https://x.com/techartist_), [@thebuggeddev](https://x.com/thebuggeddev), [@IamEmily2050](https://x.com/IamEmily2050), [@SidraMiconi](https://x.com/SidraMiconi), [@Google](https://x.com/Google), [@vamsibatchuk](https://x.com/vamsibatchuk), [@ChanduThota](https://x.com/ChanduThota), [@notjazii](https://x.com/notjazii), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@nehstrr3](https://x.com/nehstrr3), [@The_Alex](https://x.com/The_Alex), [@ai_for_success](https://x.com/ai_for_success), [@RezAIT00](https://x.com/RezAIT00), [@kimmonismus](https://x.com/kimmonismus), [@LuminaBench](https://x.com/LuminaBench), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@danielmckinn0n](https://x.com/danielmckinn0n), [@EnvolDev](https://x.com/EnvolDev), [@Haleeeemahh](https://x.com/Haleeeemahh), [@kickingkeys](https://x.com/kickingkeys), [@thehypedotnews](https://x.com/thehypedotnews), [@SahilPanhotra](https://x.com/SahilPanhotra), [@DanielZambrini](https://x.com/DanielZambrini), [@Bhavani_00007](https://x.com/Bhavani_00007), [@marcthecreatorr](https://x.com/marcthecreatorr), [@StatsWire](https://x.com/StatsWire), [@thegenioo](https://x.com/thegenioo), [@Angaisb_](https://x.com/Angaisb_), [@AI_Screening](https://x.com/AI_Screening)
 
-*No podemos garantizar que cada publicación identifique al creador original más antiguo. Si es necesario corregir la atribución, la traducción o la redacción, abra una edición de corrección con una fuente pública.*
+*La atribución sigue las fuentes públicas citadas y puede no identificar al creador original. Para solicitar correcciones o retiradas, abre una incidencia con una fuente pública.*
 
-Para proponer otro caso respaldado por fuentes, abra una incidencia o una solicitud de extracción y siga la lista de verificación de contribuciones
+Propón un ejemplo respaldado por fuentes mediante una incidencia o una solicitud de incorporación de cambios, siguiendo la lista de contribución.

@@ -1,225 +1,259 @@
 {
   "locale": "zh-CN",
-  "translation_method": "machine-assisted first pass with source-locked fields",
+  "translation_method": "Direct human-quality translation by the assistant from the English editorial source; no paid translation API.",
   "strings": {
-    "title": "Awesome Gemini 3.6 Flash 指南与用例",
+    "title": "Gemini 4 Hydrogen 精选指南与应用案例",
     "introduction": "简介",
-    "intro": "欢迎阅读这份有公开来源证据支撑的 Gemini 3.6 Flash 实践指南",
-    "mission": "本仓库收集公开创作者证据中的 Gemini 3.6 Flash 工作流、构建成果、评估对比与实际限制",
-    "boundary": "每个案例都来自经过审查的来源包，标题链接到原始帖子，作者链接到创作者主页，只有来源文本确实包含 prompt 时才会收录",
-    "overview": "概述",
-    "overview_cases": "从 33 个经过审查的来源帖子中选出 33 个高可信度案例",
-    "overview_coverage": "覆盖范围包括代理、编码、网站、游戏、3D、基准式比较和实际安全限制",
-    "overview_media": "所有 24 个视频案例均提供可见的海报和可播放的 R2 托管 MP4；图像案例保留每一个经过审查的源图像",
-    "overview_model": "EvoLink 标注的正式 model ID 是 `gemini-3.6-flash`，本仓库链接到当前模型页与 Gemini Native API 接入文档",
-    "note": "本合集优先保留可观察证据，不重建缺失的 prompt，不推断未公开的设置步骤，也不把单个创作者的结果泛化为通用 benchmark",
-    "official_sources": "官方资料",
+    "intro": "通过有来源依据的应用、编程工作流和实用对比，探索 Gemini 4 Hydrogen",
+    "mission": "40 个精选示例展示人们构建了什么、如何操作，以及结果有哪些不足",
+    "boundary": "每个案例均链接至来源并注明作者；演示、服务商示例和创作者对比均在说明中标注；未公开的提示词不会被补写",
+    "overview": "概览",
+    "overview_cases": "从最多收集 500 条 X 帖子的资料中审阅了 75 条演示帖子，精选 40 个案例，资料采集于 2026 年 11 月 13 日",
+    "overview_coverage": "五个类别涵盖智能体、学习与应用、电子表格与搜索、交互式 3D，以及对比与局限",
+    "overview_media": "完整保留全部 41 项选定来源视觉素材：38 段带封面的可播放视频和 3 张图片",
+    "overview_model": "Gemini 4 Hydrogen 于 2026 年 11 月 12 日发布；可在 EvoLink 探索该模型及当前访问方式",
+    "note": "除非另有说明，模型归属、费用、耗时和结果均为来源方的说法；视频审阅采用抽样帧，未进行完整功能测试；代码应用的运行录像不能证明模型具备原生视频生成能力；不同运行框架、推理级别或迭代次数会使对比缺乏受控条件",
+    "official_sources": "官方参考资料",
     "official_launch": "Google 发布公告",
     "official_model_card": "Google DeepMind 模型卡",
     "start_here": "从这里开始",
-    "explore": "探索 Gemini 3.6 Flash",
+    "explore": "在 EvoLink 探索 Hydrogen",
     "get_key": "获取 API 密钥",
-    "open_docs": "打开 Gemini Native API 文档",
-    "menu": "菜单",
-    "section": "部分",
+    "open_docs": "Gemini 原生 API 文档",
+    "menu": "目录",
+    "section": "章节",
     "cases": "案例",
     "case": "案例",
     "category": "类别",
-    "what_it_shows": "它显示了什么",
+    "what_it_shows": "可以尝试什么",
     "type": "类型",
     "by": "作者",
     "prompt": "提示词",
     "date": "日期",
-    "play_video": "播放源视频",
-    "related": "相关存储库",
-    "related_org": "经过验证的 Gemini 系列 API 快速入门与可安装 agent skill",
-    "related_note": "在本出版物中，没有独立验证专用的可安装 Gemini 3.6 Flash 技能",
+    "play_video": "播放来源视频",
+    "related": "相关仓库",
+    "related_org": "Gemini 4 Carbon 示例与对比",
     "quickstart": "快速入门",
-    "quick_intro": "通过下方经过验证的公开入口开始使用 model ID `gemini-3.6-flash`",
-    "quick_model": "打开 Gemini 3.6 Flash 模型页面",
+    "quick_intro": "先从 EvoLink 开始，需要将 Hydrogen 集成到应用时，再使用 Gemini 原生 API",
+    "quick_model": "在浏览器中查看 Gemini 4 Hydrogen",
     "quick_key": "创建或管理 EvoLink API 密钥",
-    "quick_docs": "遵循 Gemini Native API 快速入门",
-    "quick_run": "运行这个已验证的最小请求",
-    "quick_success": "预期结果：可见文本为 `OK` 的 JSON 响应",
-    "important": "该请求已在实时 endpoint 验证为 HTTP 200，且可见输出为 `OK`；请将密钥保存在环境变量中，切勿提交到版本库",
+    "quick_docs": "阅读 Gemini 原生 API 快速入门",
+    "quick_run": "最简原生 API 请求",
+    "quick_success": "从响应的 candidates[].content.parts[].text 字段读取生成的文本",
+    "important": "请将 API 密钥保存在环境变量中，切勿提交到仓库；流式输出、推理及其他请求选项请参阅 API 文档",
     "acknowledge": "致谢",
-    "ack_text": "该合集的存在是因为创作者和实践者公开分享了他们的 Gemini 3.6 Flash 作品",
-    "thanks": "感谢这里代表的来来源创作者",
-    "correction": "我们无法保证每条帖子都指向最早的原创者，如归属、翻译或措辞需要修正，请提交带公开来源的 correction issue",
-    "contribute": "要提出另一个由源支持的案例，请打开问题或拉取请求并遵循贡献清单"
+    "ack_text": "感谢公开分享 Hydrogen 作品的创作者、开发者和评测者",
+    "thanks": "来源创作者",
+    "correction": "署名依据所引用的公开来源，未必能够识别最早的创作者；如需更正或请求移除，请提交附有公开来源的 issue",
+    "contribute": "请按照贡献检查清单，通过 issue 或 pull request 推荐有来源依据的示例"
   },
   "categories": {
-    "efficiency-agents": "效率与代理",
-    "coding-apps": "编码和应用程序",
-    "web-games-3d": "网页、游戏和 3D",
-    "evaluations": "评估与比较",
-    "safety-limits": "安全与限制"
+    "agents": "智能体与编程工作流",
+    "apps-learning": "应用与学习",
+    "data-search": "电子表格与搜索",
+    "interactive-3d": "交互式 3D 与用户界面",
+    "comparisons-limits": "对比与局限"
   },
   "cases": {
     "1": {
-      "title": "token效率并存",
-      "takeaway": "在为代理规模工作负载选择 Flash 模型之前，请比较同一工作流程上的输出令牌使用情况",
-      "notes": "Jeff Dean 分享了一个并排演示，比较了 Gemini 3.6 Flash 和 3.5 Flash，并强调了新模型中较低的token使用量"
+      "title": "在 Antigravity 中维护代码库",
+      "takeaway": "使用范围明确的维护任务，同时评估编辑、工具使用和验证能力",
+      "notes": "Antigravity 的发布演示展示 Hydrogen 维护代码库；这是平台制作的示例，并非独立复现的工程基准测试"
     },
     "2": {
-      "title": "Antigravity遗留代码的现代化",
-      "takeaway": "使用受控的遗留代码迁移任务来比较代理延迟、编辑质量和完成行为",
-      "notes": "Google Antigravity 展示了两代 Flash 重建遗留软件的能力，并报告称 Gemini 3.6 Flash 的延迟和输出得到改善，完成速度更快"
+      "title": "并行构建十六个 Canvas 应用",
+      "takeaway": "将构建工作拆分为独立模块，明确规划、实现和质量检查的角色",
+      "notes": "Google DeepMind 的一位 Antigravity CLI 创作者介绍了由 Carbon 协调、验证和集成，由 Hydrogen 构建 16 个零依赖 canvas 小应用的流程；这是混合模型工作流，不能将结果仅归功于 Hydrogen"
     },
     "3": {
-      "title": "Canvas token效率测试",
-      "takeaway": "跨模型版本运行相同的 Canvas 任务并检查工件和令牌的使用情况",
-      "notes": "创建者在一个简短的 Canvas 任务上对 Gemini 3.6 Flash 和 3.5 Flash 进行了比较，发现 3.6 Flash 的token使用率明显较低"
+      "title": "混合模型智能体群构建绯红飞蛾",
+      "takeaway": "为交互式创意编程项目分配独立的编排与实现角色",
+      "notes": "创作者称 Carbon 编排 Antigravity 智能体群，Hydrogen 工作智能体构建绯红飞蛾作品；所述 45 分钟包含整个多模型工作流，未经独立计时"
     },
     "4": {
-      "title": "浏览器代理基准",
-      "takeaway": "对浏览器代理的成功和成本进行基准测试，而不是单独优化任一指标",
-      "notes": "根据其 BU 基准测试，Gemini 3.6 Flash 的浏览器使用率为 68%，而 GPT-5.6 Sol 为 67%，Sonnet 4.6 为 62%，Opus 4.8 为 74%"
+      "title": "3D Medic 检查与修复",
+      "takeaway": "探索能够检查 3D 文件、发现错误并在导出前提出修复方案的智能体",
+      "notes": "Google AI 的 3D Medic 演示使用在 AI Studio 中构建的 Managed Agent 应用；它展示的是文件修复流程，不能证明任意 3D 资产都能被正确修复"
     },
     "5": {
-      "title": "长尾事实检索效率",
-      "takeaway": "使用困难的事实检索任务来比较推理步骤和思考 token开销",
-      "notes": "创建者在一项复杂的长尾事实检索任务上运行 Gemini 3.5 和 3.6 Flash，并报告说 3.6 Flash 的步骤数量减半，思考 token减少了 75%"
+      "title": "在 Devin 中构建帆船场景",
+      "takeaway": "在你实际计划使用的编程智能体环境中评估模型",
+      "notes": "来源展示了一个帆船场景，并称其由 Devin 中运行的 Hydrogen 构建；简短帖子没有公开完整提示词、迭代历史或可复现的配置"
     },
     "6": {
-      "title": "企业文档处理",
-      "takeaway": "在设置生产默认值之前评估长专利和文档解析的推理工作",
-      "notes": "Databricks 报告称，文档分类准确度高于 3.5 Flash，在长专利上取得了出色的结果，并且中等工作量的文档解析总标记比高工作量的文档解析少约 32%"
+      "title": "Lingo City 语言练习",
+      "takeaway": "结合记忆卡片与交互式街景，进行情境化语言练习",
+      "notes": "Tulsee Doshi 分享了 Google 的示例：流式生成定制 2D 和 3D 记忆卡片，并让学习者在虚拟城市中练习与店主对话；这是服务商演示，并非独立的学习效果研究"
     },
     "7": {
-      "title": "JetBrains 中的工程任务评估",
-      "takeaway": "构建客观的工程任务并在同一 IDE 工作流程中比较模型生成",
-      "notes": "JetBrains 在 AI Assistant 和 Junie 中对 Gemini 3.6 Flash 与上一代 Flash 进行了客观的工程任务评估"
+      "title": "《罗密欧与朱丽叶》3D 纸剧场",
+      "takeaway": "将具体课程转化为具有明确学习目标的交互场景",
+      "notes": "创作者为 GCSE 英语文学课程构建了关于《罗密欧与朱丽叶》阳台场景的 3D 纸剧场课程；来源展示了界面，但未衡量学习效果"
     },
     "8": {
-      "title": "多代理代码迁移",
-      "takeaway": "使用相同的编排计划测试代码迁移，并比较延迟、编辑和最终质量",
-      "notes": "该演示显示 Gemini 3.6 Flash 通过 Antigravity 中的多代理编排执行代码迁移，并报告比 3.5 Flash 更低的延迟和更高的质量"
+      "title": "从设计图到阅读网站",
+      "takeaway": "使用参考设计评估视觉理解和可运行前端的实现能力",
+      "notes": "创作者称 Hydrogen 用 5 分 27 秒将设计图转化为可运行的阅读管理网站；耗时与完整性均为来源方说法，本合集未进行独立功能测试"
     },
     "9": {
-      "title": "Android 吉他调音器",
-      "takeaway": "构建一个专注的移动实用程序原型，将传统音频工具与人工智能辅助的替代调音相结合",
-      "notes": "创建者使用 Gemini 3.6 Flash 构建了一个 Android 吉他调音器应用程序，并提供 AI 驱动的替代调音支持"
+      "title": "用二十个模块构建锦鲤庭院",
+      "takeaway": "用小模块构建较大场景，而非期待一次提示就得到完整结果",
+      "notes": "创作者称在 Gemini 应用中用 20 条提示词构建了 20 个模块，每个模块耗时 90–270 秒；作者披露获得了提前访问权限，这一示例明确采用迭代流程，而非一次生成"
     },
     "10": {
-      "title": "交通灯模拟",
-      "takeaway": "要求模型提供可执行的可视化，以检查生成的代码是否捕获定时和随机流量行为",
-      "notes": "公共提示要求使用 Python 代码来可视化单向街道交通信号灯，其中汽车以随机速率到达，该帖子包含了最终的演示"
+      "title": "质子聚变学习游戏",
+      "takeaway": "为科学过程制作交互式讲解原型，然后核查其中的科学内容",
+      "notes": "创作者的游戏演示年轻恒星内部的质子–质子链反应；所述单条提示词、78 秒运行时间以及约 $0.19 费用均为来源方说法，未经独立复现"
     },
     "11": {
-      "title": "键盘钢琴应用程序",
-      "takeaway": "将简单的交互概念转变为可玩的键盘控制的 Web 应用程序",
-      "notes": "创建者使用 Gemini 3.6 Flash 构建了一个可以通过计算机键盘弹奏的钢琴应用程序，并将其设计为儿童可以探索的应用程序"
+      "title": "Google Sheets 中的动态风景",
+      "takeaway": "通过非常规的电子表格动画，检查生成代码和单元格级更新",
+      "notes": "Google 展示了用 Antigravity 编写代码，将海岸列车、云朵与秋叶绘制在表格单元格中的效果；这是官方创意演示，并非电子表格性能基准测试"
     },
     "12": {
-      "title": "桌面机器人语音助手",
-      "takeaway": "将 Flash 和 Flash-Lite 集成到语音应用程序中并比较第一响应行为",
-      "notes": "创建者将 Gemini 3.6 Flash 和 Gemini 3.5 Flash-Lite 添加到桌面机器人的语音对话应用程序中，并指出最初的响应感觉稍慢但可用"
+      "title": "Folio 交互式数据网站",
+      "takeaway": "在小型网站原型中结合落地页布局与交互式数据可视化",
+      "notes": "一位 Google DeepMind 员工展示了使用 Google AI Studio 构建的 Folio 风格网站和交互动画；帖子未提供完整生成提示词或独立功能测试"
     },
     "13": {
-      "title": "金门大桥 HTML 故障",
-      "takeaway": "在信任生成的 3D Web 体验之前，使用严格的文件传递任务来测试指令遵循情况",
-      "notes": "测试人员需要三个提示，看到模型尝试应用内模拟和网络图像响应而不是请求的 HTML 文件，并判断最终的 3D 桥输出明显弱于 Gemini 3.1 Pro"
+      "title": "多部分搜索问题的可视化回答",
+      "takeaway": "测试细致且具有多项约束的搜索请求时，对比回答布局与引用链接",
+      "notes": "Google 的搜索示例结合了意图理解、视觉布局、对比表格和查询扩展；这些属于服务商描述的产品行为，演示并未证明对发布者排名或流量的影响"
     },
     "14": {
-      "title": "公共提示视觉测试",
-      "takeaway": "当您需要创建者的完整提示而不是从输出中重建它时，请打开源线程",
-      "notes": "MotionViz 发布了 Gemini 3.6 Flash 媒体视觉测试，并表示完整的提示在源线程中可用；此存储库不会重建源包中不存在的提示文本"
+      "title": "Sheets 中的交互式财务预测",
+      "takeaway": "构建假设清晰可见的财务模型原型，并检查生成的公式与图表",
+      "notes": "Chandu Thota 展示了 Google Sheets 预测演示；来源所称 canvas 生成速度提升超过 30% 属于服务商说法，并非本仓库进行的受控计时测量"
     },
     "15": {
-      "title": "单提示画布游戏",
-      "takeaway": "使用 Canvas 中的一个提示来测试模型将紧凑的游戏概念转变为交互式结果的速度",
-      "notes": "创建者在早期访问中测试了 Gemini 3.6 Flash，并使用单个 Canvas 提示来制作可玩的游戏演示"
+      "title": "交互式餐厅",
+      "takeaway": "检查物体交互、照明和状态变化，而不是仅凭静态图片评判场景",
+      "notes": "创作者展示了一间餐厅，其中的灯光、台灯、冰箱及内部物品均可交互；所述 30 分钟构建时间未经独立验证"
     },
     "16": {
-      "title": "登陆页面版本比较",
-      "takeaway": "保持模型各代之间的提示固定，以隔离登陆页面执行和视觉判断中的变化",
-      "notes": "创建者将 Gemini 3.6 Flash 添加到相同提示的登陆页面存档中，并判断新结果比 Gemini 3 和 3.5 输出更差"
+      "title": "带微缩世界的音量滑块",
+      "takeaway": "通过一个熟悉的控件，同时测试交互设计与动画场景细节",
+      "notes": "来源展示了一个能让微型日式世界动起来的音量滑块；创作者称费用为 $0.19，但未提供账单或完整生成流程"
     },
     "17": {
-      "title": "地铁跑酷 3D 原型",
-      "takeaway": "为编码实验提供扩展思维，并检查交互质量和视觉保真度",
-      "notes": "创建者使用 Gemini 3.6 Flash 构建了一个简单的 3D 地铁跑酷风格的复制品，并建议对编码任务进行扩展思维"
+      "title": "Three.js 日式住宅",
+      "takeaway": "评估细致的 3D 漫游时，将代码生成时间与渲染时间分开",
+      "notes": "创作者称该住宅和庭院由 Hydrogen 使用 Three.js 构建，未使用智能体；帖子关于订阅用量和不到两小时的说法仅适用于作者的配置，并非通用的价格或延迟保证"
     },
     "18": {
-      "title": "一页网站比较",
-      "takeaway": "保持网站提示和推理水平不变，然后比较令牌成本、速度和设计偏好",
-      "notes": "在同一个一页的网站提示中，创建者报告了 Gemini 3.6 Flash 的token约为 6,100 个，而 3.5 Flash 的token约为 9,300 个，而个人更喜欢旧型号的外观"
+      "title": "骑自行车的 3D 鹈鹕",
+      "takeaway": "使用运动角色检查协调性、动作和场景一致性",
+      "notes": "创作者展示了一只骑自行车的 3D 动画鹈鹕，并标注模型为 XHigh 级别的 Hydrogen；帖子展示的是输出成果，并未提供完整可复现提示词或物理验证"
     },
     "19": {
-      "title": "狂野西部游戏失败",
-      "takeaway": "将失败的游戏生成输出视为决定何时切换模型或修改任务的证据",
-      "notes": "测试人员使用 Wild West 游戏生成提示，根据观察结果判断 Gemini 3.6 Flash 明显落后于 GPT-5.6、Kimi K3 和 Fable 5"
+      "title": "规划优先的行星模拟器",
+      "takeaway": "让编程模型编辑复杂场景之前，先给出具体计划",
+      "notes": "获得提前访问权限的创作者展示了行星模拟器，并称提供更详细计划后编辑效果有所改善；来源注明创意来自 ForwardEditor，并描述了迭代工作流"
     },
     "20": {
-      "title": "Antigravity游戏材料失效",
-      "takeaway": "在接受人工智能生成的游戏原型之前，请检查视觉材料和实际交互行为",
-      "notes": "在第二次Antigravity游戏测试中，创作者发现较弱的木质纹理和看起来相似但仍然不起作用的大理石元素"
+      "title": "用 Antigravity Swarm 构建港湾岛屿",
+      "takeaway": "通过可导航的小型环境，检查多智能体构建场景的行为",
+      "notes": "创作者披露获得了提前访问权限，并展示了在 Antigravity 的 Swarm 功能中使用 Hydrogen 构建的港湾岛屿；公开帖子没有说明完整编排过程或提示词历史"
     },
     "21": {
-      "title": "劳斯莱斯 SVG 比较",
-      "takeaway": "使用固定的 SVG 主题来比较两代 Flash 如何处理形状、细节和构图",
-      "notes": "该帖子将 Gemini 3.6 Flash 和 3.5 Flash 输出并排放置，以执行相同的劳斯莱斯 SVG 任务"
+      "title": "埃菲尔铁塔浮空岛",
+      "takeaway": "通过紧凑的地标场景评估构图、镜头运动和模型生成的代码",
+      "notes": "来源展示了埃菲尔铁塔微缩岛屿，并称其由 Hydrogen XHigh 构建；构建加录制耗时六分钟是作者自述，并非独立计时测试"
     },
     "22": {
-      "title": "现实水族馆测试",
-      "takeaway": "使用有界 3D 场景来比较模型版本之间的真实感和实现质量",
-      "notes": "创作者要求 Gemini 3.6 Flash 建造一个逼真的水族馆，并认为它只比 3.5 Flash 好一点点"
+      "title": "可飞行的未来城市",
+      "takeaway": "测试对程序化世界的后续编辑，不要假定首次输出就是最终结果",
+      "notes": "获得提前访问权限的创作者在 Antigravity 中使用 Hydrogen High，并称经过一次后续提示，生成了包含程序化高楼、雨景和飞行交通的 Three.js 城市；录像展示的是生成代码的运行效果，而非原生视频生成"
     },
     "23": {
-      "title": "Max Reasoning 中的 Gemini 与 Grok",
-      "takeaway": "使用相同的提示和最大推理设置来比较速度、成本和输出，而不是依赖模型声誉",
-      "notes": "创建者在相同的提示和最大推理设置下运行 Gemini 3.6 Flash 和 Grok 4.5，观察到两者都很快，而 Grok 稍快一些且更便宜"
+      "title": "从日出到夜晚的水上飞机",
+      "takeaway": "检查交互式 3D 场景中的环境控制与光照过渡",
+      "notes": "LuminaBench 的原创演示展示了水上飞机与一天中时间的变化，之后被 Google 转发；帖子早于记录中的公开发布界限；其访问途径和模型调用未经独立验证"
     },
     "24": {
-      "title": "Gemini与Sonnet在最大设置",
-      "takeaway": "比较相同提示及其最强设置的模型，然后检查实际生成的工件",
-      "notes": "创建者在最大设置下使用相同的提示测试了 Gemini 3.6 Flash 和 Sonnet 5，并在所示任务中首选 Gemini 输出"
+      "title": "霓虹火柴人动画：Hydrogen 与 Opus",
+      "takeaway": "结合来源所述时间与费用对比最终动画，不要假定运行框架相同",
+      "notes": "作者展示了 Hydrogen 和 Opus 5.5 的输出，并报告费用分别为 $1.02 与 $7.43，耗时分别为 10 分 22 秒与 34 分钟；本合集未核验账单、提示词、迭代次数或运行设置的可比性"
     },
     "25": {
-      "title": "视觉理解测试",
-      "takeaway": "在采用视觉工作流程模型之前，使用具体的图像任务来检查响应质量和交互风格",
-      "notes": "创建者展示了 Gemini 3.6 Flash 通过的视力测试，并强调了响应个性作为观察体验的一部分"
+      "title": "机器人任务与自行识别失误",
+      "takeaway": "在机器人评估中纳入任务完成情况以及识别细小失误的能力",
+      "notes": "Artificial Analysis 展示了倒液体和整理积木的任务，并称 Hydrogen 注意到了少量洒漏和未关上的盖子；视频及 AA-Robotics v0.1 排名来自评测方，本合集未独立复现"
     },
     "26": {
-      "title": "火箭联盟游戏基准",
-      "takeaway": "运行重复的游戏生成基准并记录构建时间和一致的主观排名",
-      "notes": "创建者在火箭联盟式的任务中测试了 Gemini 3.6 Flash，在个人排行榜上排名第三，并报告在不到两分钟的时间内完成了任务"
+      "title": "自然语言驱动的实验室工作单元",
+      "takeaway": "将工具执行和失败处理的评估与基准榜单分数分开",
+      "notes": "来源展示了由自然语言请求驱动的实验室工作单元，并报告四项实验室相关基准的结果；所述 Hydrogen 的 RareBench 分数低于 Opus 5.5，另外三项更高；这是基准所有者的演示，并非医学验证"
     },
     "27": {
-      "title": "EyeBench 视觉比较",
-      "takeaway": "使用稳定的视觉基准将增量效率增益与绝对质量分开",
-      "notes": "在 EyeBench 上，创建者认为 Gemini 3.6 Flash 略好于 3.5 Flash，但仍差于 Gemini 3.1 Pro Preview，同时注意到token效率有所提高"
+      "title": "冰山与拖船：Hydrogen 与 Carbon",
+      "takeaway": "对比耗时较长的 3D 构建时，记录推理级别与运行框架限制",
+      "notes": "创作者称两个模型均通过 OpenRouter 以 High 级别运行，Hydrogen 费用 $4.27、耗时 1 小时 23 分 40 秒，Carbon 费用 $8.83、耗时 2 小时 39 分 10 秒；这些是来源自述的非受控结果，并非普适的价格或速度比例"
     },
     "28": {
-      "title": "剪纸动画对比",
-      "takeaway": "在评估创意生成时，分别比较响应速度和最终动画",
-      "notes": "作者在剪纸动画任务中将 Gemini 3.6 Flash 与《神鬼寓言 5》进行了比较，称赞 Gemini 近乎即时的响应，但对结果表示保留"
+      "title": "果冻锦鲤池：Hydrogen 与 Sonnet",
+      "takeaway": "在根据基准排名选择模型前，先检查具体场景",
+      "notes": "作者对比了 Hydrogen 和 Sonnet 5.5 在 3D 锦鲤池任务上的表现；来源邀请观众评判输出，但未确立匹配的设置或客观质量评分"
     },
     "29": {
-      "title": "AI Arena 生成基准",
-      "takeaway": "使用相同的 arena 任务来比较多个编码模型的构建时间、价格和工件质量",
-      "notes": "创建者在一项 AI Arena 任务中测试了 Grok 4.5、Gemini 3.6 Flash 和 GPT-5.6 Luna，并判断 Gemini 在该运行中的结果最弱"
+      "title": "使用相同提示词的创意编程合集",
+      "takeaway": "通过多样化的视觉任务，避免从单个漂亮输出过度概括",
+      "notes": "创作者称给 Hydrogen、Carbon 和 Argon 使用了相同提示词，并将对比放在回复中；主帖素材展示低多边形动物、霓虹街道和水彩风格容器；这不是完整的受控基准测试"
     },
     "30": {
-      "title": "跨模型游戏构建成本",
-      "takeaway": "在选择游戏原型设计模型时，一起跟踪迭代次数、开发人员经验、功能和成本",
-      "notes": "使用相同的设计工作流程，创建者报告需要六到七次迭代来修复 Gemini 生成的跳跃和坠落错误，并列出了 0.15 美元的运行成本以及比较分数"
+      "title": "Megamind 体素：成本与质量反例",
+      "takeaway": "评估模型是否始终更便宜或视觉效果更强时，保留失败案例",
+      "notes": "来源称 Hydrogen 生成的 Titan 角色整体更不协调，费用却为 $36.07，而 Sonnet 5.5 为 $8.64；帖子包含商业推广，费用与质量判断均为发布者说法"
     },
     "31": {
-      "title": "网络安全拒绝基准",
-      "takeaway": "在安全工具评估中包括拒绝行为，因为防御性代码审查可能会被攻击性请求阻止",
-      "notes": "网络安全基准测试被拒绝，导致评估人员报告称，经过测试的策略阻止了防御性代码的漏洞查找行为以及恶意使用"
+      "title": "穿越四季的杂耍狮子",
+      "takeaway": "检查要求的动作，而不只是周围界面的视觉精致程度",
+      "notes": "作者称 Carbon 处理了交叉的杂耍弧线，而 Hydrogen 让球悬浮在空中，尽管后者的季节过渡与裁切更干净；这一同任务 SVG 对比揭示的是特定动作失败，而非模型综合排名"
     },
     "32": {
-      "title": "知识新鲜度失败",
-      "takeaway": "通过检索来验证当前事实，而不是相信声称的知识截止点",
-      "notes": "测试人员询问当前的旗舰型号并收到较旧的名称，然后报告说该型号承认仅到 2025 年初的知识，尽管声称截止日期为 2026 年 3 月"
+      "title": "三模型火柴人格斗：更慢且更贵的结果",
+      "takeaway": "对比模型宣传的效率与实际任务报告时，保留反例",
+      "notes": "创作者对比 Hydrogen、Carbon 和 Argon，并称本次测试中 Hydrogen 比 Carbon 耗时更长、费用更高；设置、账单和迭代次数未经独立验证"
     },
     "33": {
-      "title": "越狱红队测试",
-      "takeaway": "将越狱声明视为需要受控复制和安全审查的红队信号，而不是可重复使用的指令",
-      "notes": "该帖子声称 Gemini 应用程序和 API 已越狱，并列出了经过测试的有害内容类别；该存储库记录安全信号，而不复制漏洞利用指令"
+      "title": "农场自行车场景：Hydrogen 与 Flash",
+      "takeaway": "结合创作者报告的完成时间，对比动作与场景质量",
+      "notes": "来源对比了 Hydrogen 与 Gemini 3.8 Flash 的农场自行车场景，称耗时分别为 56 秒与超过六分钟；这是单个创作者的测试，并非通用速度基准"
+    },
+    "34": {
+      "title": "女孩与猫的双人自行车",
+      "takeaway": "对比提示词遵循程度与附加细节，同时明确不同编程运行框架的差异",
+      "notes": "创作者使用所述相同 SVG 任务，但分别在 Claude Code 中运行 Opus 5.5、在 Cursor 中运行 Hydrogen；所述时间与费用差异很大，但不同运行框架及未披露的迭代使其不能成为仅针对模型的受控对比"
+    },
+    "35": {
+      "title": "四个模型构建 Three.js 马里奥游戏",
+      "takeaway": "解读相同提示词的游戏对比前，记录不一致的推理设置",
+      "notes": "来源对比了 High 级别的 Gemini 3.8 Flash、Argon、Carbon 与 XHigh 级别的 Hydrogen，均使用纯 Three.js，不使用外部 3D 模型或纹理；它展示了四个输出，并非推理设置匹配的基准测试"
+    },
+    "36": {
+      "title": "三个 Gemini 模型绘制游戏手柄",
+      "takeaway": "寻找具体任务中的退步与改进，不要假定模型家族存在固定层级",
+      "notes": "创作者对比了 Carbon、Argon 和 Hydrogen 的手柄 SVG 输出，并称重新运行过测试；所述耗时和费用均为来源方说法，不能确立模型质量的普遍排序"
+    },
+    "37": {
+      "title": "应用与 Studio 的视觉回答存在差异",
+      "takeaway": "依赖视觉结果之前，在计划使用的产品界面中测试相同图片",
+      "notes": "来源展示了据称由 Gemini 应用和 AI Studio 中的 Hydrogen 给出的相互冲突的食物识别回答；该对比未独立核验路由、设置或完整对话上下文是否相同"
+    },
+    "38": {
+      "title": "火箭发射场景：Hydrogen 与 Flash",
+      "takeaway": "既对比实际发射动画，也对比来源报告的构建耗时",
+      "notes": "创作者展示了 Hydrogen 与 Gemini 3.8 Flash 的输出，并称耗时分别不到一分钟与约三分钟；这一视觉对比仅涉及一个任务，没有独立受控的运行配置"
+    },
+    "39": {
+      "title": "四项 SVG 动画任务",
+      "takeaway": "通过多种交互与动画主题，检查跨任务的一致性",
+      "notes": "来源配对展示了 Hydrogen 与 Carbon 在传递、昼夜变化、开箱和变色龙任务中的输出；简短主帖未披露完整提示词、计时证据或客观评分方法"
+    },
+    "40": {
+      "title": "三个模型制作草原马匹动画",
+      "takeaway": "直接检查动作与视觉细节，再判断宽泛的费用或质量说法是否可信",
+      "notes": "创作者展示了 Hydrogen、Carbon 和 Argon 的草原马匹场景；关于更快速度、更低费用和高质量的说法仍是来源方评价，并非本合集复现的受控对比"
     }
   }
 }

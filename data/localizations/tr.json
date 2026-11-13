@@ -1,225 +1,259 @@
 {
   "locale": "tr",
-  "translation_method": "machine-assisted first pass with source-locked fields",
+  "translation_method": "İngilizce editoryal metinden doğrudan çeviri; atıflar ve kanıt sınırlamaları korunmuştur.",
   "strings": {
-    "title": "Awesome Gemini 3.6 Flash Kılavuzu ve Kullanım Durumları",
+    "title": "Seçilmiş Gemini 4 Hydrogen Rehberi ve Kullanım Örnekleri",
     "introduction": "Giriş",
-    "intro": "Gemini 3.6 Flash'ın uygulamalı kullanımına ilişkin kaynak destekli kılavuza hoş geldiniz",
-    "mission": "Bu depo, herkese açık içerik oluşturucu kanıtlarından somut Gemini 3.6 Flash iş akışlarını, derlemelerini, değerlendirmelerini, karşılaştırmalarını ve sınırlarını toplar",
-    "boundary": "Dahil edilen her vaka, incelenen kaynak paketinden gelir. Başlıklar orijinal gönderilere, yazarlar yaratıcı profillerine bağlantı verir ve istemler yalnızca kaynak metin bunları gerçekten içerdiğinde görünür",
-    "overview": "Genel Bakış",
-    "overview_cases": "İncelenen 33 kaynak gönderiden seçilmiş 33 yüksek güvenirlik vakası",
-    "overview_coverage": "Kapsam, aracıları, kodlamayı, web sitelerini, oyunları, 3D'yi, kıyaslama tarzı karşılaştırmaları ve pratik güvenlik sınırlarını içerir",
-    "overview_media": "24 video kutusunun tamamında görünür bir poster ve oynatılabilir bir R2 barındırılan MP4 bulunur; görüntü vakaları incelenen her kaynak görüntüyü korur",
-    "overview_model": "EvoLink, üretim modeli kimliğini \"gemini-3.6-flash\" olarak listeliyor; bu depo mevcut modele ve Gemini Native API yüzeylerine bağlanır",
-    "note": "Bu koleksiyon abartı yerine gözlemlenebilir kanıtları tercih ediyor. Eksik istemleri yeniden yapılandırmaz, yayınlanmamış kurulum adımlarına ilişkin çıkarımlarda bulunmaz veya bir yaratıcının sonucunu evrensel bir kıyaslama halinde genelleştirmez",
+    "intro": "Kaynaklarla desteklenen uygulamalar, kodlama iş akışları ve pratik karşılaştırmalar üzerinden Gemini 4 Hydrogen'ı keşfedin.",
+    "mission": "Seçilen 40 örnek, insanların ne geliştirdiğini, nasıl çalıştığını ve sonuçların nerede yetersiz kaldığını gösteriyor.",
+    "boundary": "Her örnek kaynağına bağlantı verir ve yazarını belirtir. Demolar, sağlayıcı örnekleri ve üretici karşılaştırmaları notlarda işaretlenir; eksik istemler yeniden oluşturulmaz.",
+    "overview": "Genel bakış",
+    "overview_cases": "13 Kasım 2026'da kaydedilen, en fazla 500 X gönderisi içeren bir derlemede incelenen 75 demo gönderisinden seçilmiş 40 örnek.",
+    "overview_coverage": "Beş kategori; ajanları, öğrenme ve uygulamaları, e-tablolar ve Search'ü, etkileşimli 3B'yi, karşılaştırma ve sınırlamaları kapsar.",
+    "overview_media": "Seçilen 41 kaynak görselinin tamamı korunmuştur: kapak görselleriyle birlikte 38 oynatılabilir video ve 3 görsel.",
+    "overview_model": "Gemini 4 Hydrogen, 12 Kasım 2026'da duyuruldu. Modeli ve mevcut erişim seçeneklerini EvoLink'te keşfedin.",
+    "note": "Aksi belirtilmedikçe model atıfları, maliyetler, süreler ve sonuçlar kaynakların iddialarıdır. Video incelemesinde tam işlevsel testler değil, örneklenmiş kareler kullanılmıştır. Kodlanmış uygulamaların kayıtları, yerel video üretiminin kanıtı değildir. Farklı çalıştırma ortamları, akıl yürütme seviyeleri veya yineleme sayıları nedeniyle karşılaştırmalar kontrollü değildir.",
+    "official_sources": "Resmî kaynaklar",
+    "official_launch": "Google duyurusu",
+    "official_model_card": "Google DeepMind model kartı",
     "start_here": "Buradan başlayın",
-    "explore": "Gemini 3.6 Flash'ı keşfedin",
-    "get_key": "API anahtarı edinin",
-    "open_docs": "İngilizce Gemini Native API belgelerini açın",
+    "explore": "Hydrogen'ı EvoLink'te keşfedin",
+    "get_key": "API anahtarı alın",
+    "open_docs": "Gemini Yerel API belgeleri (İngilizce)",
     "menu": "Menü",
     "section": "Bölüm",
-    "cases": "Vakalar",
-    "case": "Vaka",
+    "cases": "Örnekler",
+    "case": "Örnek",
     "category": "Kategori",
-    "what_it_shows": "Ne gösteriyor?",
+    "what_it_shows": "Denenecekler",
     "type": "Tür",
-    "by": "tarafından",
-    "prompt": "İstemi",
+    "by": "hazırlayan",
+    "prompt": "İstem",
     "date": "Tarih",
     "play_video": "Kaynak videoyu oynat",
-    "related": "İlgili Depolar",
-    "related_org": "Doğrulanmış Gemini ailesi API hızlı başlangıcı ve kurulabilir agent skill",
-    "related_note": "Bu yayın sırasında kurulabilir özel bir Gemini 3.6 Flash becerisi bağımsız olarak doğrulanmadı",
-    "quickstart": "Hızlı Başlangıç",
-    "quick_intro": "\"Gemini-3.6-flash\" model kimliğiyle başlamak için aşağıdaki doğrulanmış genel yüzeyleri kullanın",
-    "quick_model": "Gemini 3.6 Flash modeli sayfasını açın",
+    "related": "İlgili depolar",
+    "related_org": "Gemini 4 Carbon örnekleri ve karşılaştırmaları",
+    "quickstart": "Hızlı başlangıç",
+    "quick_intro": "EvoLink'te başlayın; Hydrogen'ı bir uygulamaya entegre etmek istediğinizde Gemini yerel API'sini kullanın.",
+    "quick_model": "Gemini 4 Hydrogen’ı tarayıcıda görüntüleyin",
     "quick_key": "EvoLink API anahtarı oluşturun veya yönetin",
-    "quick_docs": "İngilizce Gemini Native API Hızlı Başlangıç kılavuzunu izleyin",
-    "quick_run": "Doğrulanmış bu minimum isteği çalıştırın",
-    "quick_success": "Beklenen sonuç: görünür metni `OK` olan bir JSON yanıtı",
-    "important": "Bu istek canlı endpoint üzerinde HTTP 200 ve görünür `OK` çıktısıyla doğrulandı; anahtarı ortam değişkeninde tutun ve asla commit etmeyin",
-    "acknowledge": "onayla",
-    "ack_text": "Bu koleksiyon, yaratıcıların ve uygulayıcıların Gemini 3.6 Flash çalışmalarını herkese açık olarak paylaşmaları nedeniyle mevcuttur.",
-    "thanks": "Burada temsil edilen kaynak yaratıcıları sayesinde",
-    "correction": "Her gönderinin en eski orijinal yaratıcıyı tanımladığını garanti edemeyiz. Atıf, çeviri veya ifadelerin düzeltilmesi gerekiyorsa herkese açık bir kaynakla düzeltme konusu açın",
-    "contribute": "Başka bir kaynak destekli vaka önermek için bir konu açın veya talebi çekin ve katkı kontrol listesini takip edin",
-    "official_sources": "Resmî kaynaklar",
-    "official_launch": "Google lansman duyurusu",
-    "official_model_card": "Google DeepMind model kartı"
+    "quick_docs": "Gemini Yerel API hızlı başlangıç rehberini okuyun (İngilizce)",
+    "quick_run": "Asgari yerel API isteği",
+    "quick_success": "Üretilen metni yanıtın candidates[].content.parts[].text alanlarından okuyun.",
+    "important": "API anahtarınızı bir ortam değişkeninde tutun ve asla depoya işlemeyin. Akış, akıl yürütme ve diğer istek seçenekleri için API belgelerine bakın.",
+    "acknowledge": "Teşekkürler",
+    "ack_text": "Hydrogen çalışmalarını herkese açık olarak paylaşan üreticilere, geliştiricilere ve değerlendiricilere teşekkürler.",
+    "thanks": "Kaynak üreticileri",
+    "correction": "Atıflar belirtilen herkese açık kaynakları izler ve ilk üreticiyi belirlemeyebilir. Düzeltme veya kaldırma talepleri için herkese açık bir kaynak ekleyerek sorun kaydı açın.",
+    "contribute": "Katkı kontrol listesini izleyerek bir sorun kaydı veya değişiklik isteği üzerinden kaynaklarla desteklenen bir örnek önerin."
   },
   "categories": {
-    "efficiency-agents": "Verimlilik ve Temsilciler",
-    "coding-apps": "Kodlama ve Uygulamalar",
-    "web-games-3d": "Web, Oyunlar ve 3D",
-    "evaluations": "Değerlendirme ve Karşılaştırmalar",
-    "safety-limits": "Güvenlik ve Sınırlar"
+    "agents": "Ajanlar ve kodlama iş akışları",
+    "apps-learning": "Uygulamalar ve öğrenme",
+    "data-search": "E-tablolar ve Search",
+    "interactive-3d": "Etkileşimli 3B ve arayüzler",
+    "comparisons-limits": "Karşılaştırmalar ve sınırlamalar"
   },
   "cases": {
     "1": {
-      "title": "Token Verimliliği Yanyana",
-      "takeaway": "Aracı ölçekli iş yükleri için bir Flash modeli seçmeden önce, aynı iş akışında çıktı belirteci kullanımını karşılaştırın.",
-      "notes": "Jeff Dean, Gemini 3.6 Flash ile 3.5 Flash'ı karşılaştıran yan yana bir gösteri paylaştı ve yeni modelde daha düşük token kullanımının altını çizdi."
+      "title": "Antigravity'de kod tabanı bakımı",
+      "takeaway": "Düzenlemeleri, araç kullanımını ve doğrulamayı birlikte değerlendirmek için sınırları belirli bir bakım görevi kullanın.",
+      "notes": "Antigravity'nin tanıtım demosu, Hydrogen'ın bir kod tabanının bakımını yaptığını gösteriyor. Bu, platformun hazırladığı bir örnektir; bağımsız olarak tekrarlanmış bir mühendislik kıyaslaması değildir."
     },
     "2": {
-      "title": "Yerçekimine Karşı Korumada Eski Kodun Modernleştirilmesi",
-      "takeaway": "Aracı gecikmesini, düzenleme kalitesini ve tamamlanma davranışını karşılaştırmak için kontrollü bir eski kod geçiş görevi kullanın.",
-      "notes": "Google Antigravity, hem Flash nesillerinin eski yazılımları yeniden oluşturduğunu gösterdi hem de Gemini 3.6 Flash'tan gelen gelişmiş gecikme ve çıktı ile daha hızlı tamamlandığını bildirdi."
+      "title": "Paralel çalışan on altı canvas uygulaması",
+      "takeaway": "Geliştirmeyi bağımsız modüllere ayırın; planlama, uygulama ve kalite kontrol rollerini açıkça belirleyin.",
+      "notes": "Google DeepMind'daki bir Antigravity CLI geliştiricisi, Hydrogen bağımlılıksız 16 canvas mini uygulaması oluştururken Carbon'ın koordinasyon, doğrulama ve entegrasyon yaptığını anlatıyor. Bu, birden fazla model kullanan bir iş akışıdır; sonuç yalnızca Hydrogen'a atfedilmemelidir."
     },
     "3": {
-      "title": "Canvas Token Verimlilik Testi",
-      "takeaway": "Aynı Canvas görevini model sürümleri arasında çalıştırın ve hem yapıyı hem de belirteç kullanımını inceleyin.",
-      "notes": "İçerik oluşturucu, Gemini 3.6 Flash ve 3.5 Flash'ı kısa bir Canvas görevinde karşılaştırdı ve 3.6 Flash'a göre önemli ölçüde daha düşük token kullanımı gözlemledi."
+      "title": "Çok modelli bir sürüyle kızıl güve",
+      "takeaway": "Etkileşimli bir yaratıcı kodlama projesinde orkestrasyon ve uygulama rollerini ayırın.",
+      "notes": "Üretici, Hydrogen çalışanları kızıl güve eserini oluştururken Carbon'ın bir Antigravity sürüsünü yönettiğini söylüyor. Bildirilen 45 dakikalık süre bu çok modelli iş akışını kapsıyor ve bağımsız olarak ölçülmedi."
     },
     "4": {
-      "title": "Tarayıcı Aracısı Karşılaştırması",
-      "takeaway": "Her iki ölçümü de tek başına optimize etmek yerine, tarayıcı aracısı başarısını ve maliyetini birlikte karşılaştırın.",
-      "notes": "Tarayıcı Kullanımı BU Benchmark'ta Gemini 3.6 Flash için %68 rapor ederken, GPT-5.6 Sol için %67, Sonnet 4.6 için %62 ve Opus 4.8 için %74 rapor verdi."
+      "title": "3D Medic ile inceleme ve onarım",
+      "takeaway": "Bir 3B dosyayı inceleyen, hataları bulan ve dışa aktarmadan önce onarım öneren bir ajanı keşfedin.",
+      "notes": "Google AI'ın 3D Medic demosu, AI Studio'da oluşturulmuş bir Managed Agent uygulaması kullanıyor. Bu, bir dosya onarım iş akışını gösterir; herhangi bir 3B varlığın doğru onarılacağının kanıtı değildir."
     },
     "5": {
-      "title": "Uzun Kuyruklu Bilgi Alma Verimliliği",
-      "takeaway": "Akıl yürütme adımlarını ve düşünce belirteci yükünü karşılaştırmak için zor gerçekleri elde etme görevlerini kullanın.",
-      "notes": "Yaratıcı, Gemini 3.5 ve 3.6 Flash'ı karmaşık, uzun kuyruklu bir bilgi alma görevi üzerinde kafa kafaya çalıştırdı ve 3.6 Flash için yarısı kadar adım ve %75 daha az düşünce belirteci bildirdi."
+      "title": "Devin'de oluşturulmuş bir yelkenli sahnesi",
+      "takeaway": "Modeli gerçekten kullanmayı planladığınız kodlama ajanı ortamında değerlendirin.",
+      "notes": "Kaynak, Devin içinde çalışan Hydrogen'a atfedilen bir yelkenli sahnesi sunuyor. Kısa gönderi; tam istemi, yineleme geçmişini veya tekrarlanabilir bir kurulumu açıklamıyor."
     },
     "6": {
-      "title": "Kurumsal Belge İşleme",
-      "takeaway": "Üretim temerrüdünü belirlemeden önce uzun patentler ve belge ayrıştırma konusundaki akıl yürütme çabasını değerlendirin.",
-      "notes": "Databricks, 3.5 Flash'tan daha yüksek belge sınıflandırma doğruluğu, uzun patentlerde güçlü sonuçlar ve belge ayrıştırma için yüksek çabaya kıyasla orta çabayla yaklaşık %32 daha az toplam token bildirdi."
+      "title": "Lingo City'de dil pratiği",
+      "takeaway": "Bağlama dayalı dil pratiği için çalışma kartlarını etkileşimli bir sokak sahnesiyle birleştirin.",
+      "notes": "Tulsee Doshi, özelleştirilmiş 2B ve 3B çalışma kartlarını akışla sunan ve sanal bir şehirde esnafla konuşma pratiği sağlayan bir Google örneği paylaşıyor. Bu bir sağlayıcı demosudur, bağımsız bir öğrenme sonuçları araştırması değildir."
     },
     "7": {
-      "title": "JetBrains'te Mühendislik Görev Değerlendirmesi",
-      "takeaway": "Nesnel bir mühendislik görevi oluşturun ve aynı IDE iş akışındaki model nesillerini karşılaştırın.",
-      "notes": "JetBrains, Gemini 3.6 Flash için AI Assistant ve Junie'deki önceki Flash nesline kıyasla objektif bir mühendislik görevi değerlendirmesi sundu."
+      "title": "3B kâğıt tiyatrosu olarak Romeo ve Juliet",
+      "takeaway": "Belirli bir dersi, net bir öğrenme hedefi olan etkileşimli bir sahneye dönüştürün.",
+      "notes": "Üretici, GCSE İngiliz Edebiyatı için Romeo ve Juliet'in balkon sahnesini konu alan bir 3B kâğıt tiyatrosu dersi oluşturdu. Kaynak arayüzü gösteriyor ancak öğrenme sonuçlarını ölçmüyor."
     },
     "8": {
-      "title": "Çok Aracılı Kod Geçişi",
-      "takeaway": "Kod geçişini aynı düzenleme planıyla test edin ve gecikmeyi, düzenlemeleri ve son kaliteyi karşılaştırın.",
-      "notes": "Gösteri Gemini 3.6 Flash'ın Antigravity'de çoklu aracı orkestrasyonu yoluyla bir kod geçişi yürüttüğünü gösteriyor ve 3.5 Flash'a göre daha düşük gecikme süresi ve daha yüksek kalite rapor ediyor."
+      "title": "Tasarım görselinden okuma sitesine",
+      "takeaway": "Görsel anlayışı ve çalışan ön yüz uygulamasını değerlendirmek için bir referans tasarım kullanın.",
+      "notes": "Üretici, Hydrogen'ın bir tasarım görselini 5 dakika 27 saniyede çalışan bir okuma yönetimi sitesine dönüştürdüğünü söylüyor. Süre ve eksiksizlik, kaynağın iddialarıdır; bu derlemede bağımsız bir işlevsel test bulunmuyor."
     },
     "9": {
-      "title": "Android Gitar Akort Aleti",
-      "takeaway": "Geleneksel ses araçlarını yapay zeka destekli alternatif ayarlarla birleştiren odaklanmış bir mobil yardımcı programın prototipini yapın.",
-      "notes": "Yaratıcı, Yapay Zeka destekli alternatif akort desteğine sahip bir Android gitar tuner uygulaması oluşturmak için Gemini 3.6 Flash'ı kullandı."
+      "title": "Yirmi modülde oluşturulmuş koi bahçesi",
+      "takeaway": "Tek bir istemden eksiksiz sonuç beklemek yerine büyük bir sahneyi küçük modüllerle oluşturun.",
+      "notes": "Üretici, Gemini uygulamasında 20 modül için 20 istem kullandığını ve her birinin 90–270 saniye sürdüğünü bildiriyor. Yazar erken erişimi açıkladı; örnek tek seferlik bir sonuç değil, açıkça yinelemeli bir çalışmadır."
     },
     "10": {
-      "title": "Trafik Işığı Simülasyonu",
-      "takeaway": "Oluşturulan kodun zamanlamayı ve rastgele trafik davranışını yakalayıp yakalamadığını denetlemek için modelden yürütülebilir bir görselleştirme isteyin.",
-      "notes": "Genel istem, arabaların rastgele hızlarla geldiği tek yönlü bir sokak trafik ışığını görselleştiren Python kodunu talep ediyor ve gönderi, bunun sonucunda ortaya çıkan gösterimi içeriyor."
+      "title": "Proton füzyonunu öğreten bir oyun",
+      "takeaway": "Bilimsel bir sürecin etkileşimli açıklamasını prototipleyin, ardından temelindeki bilimi kontrol edin.",
+      "notes": "Üreticinin oyunu genç bir yıldız içindeki proton–proton zincirini izliyor. Bildirilen tek istem, 78 saniyelik çalışma süresi ve yaklaşık $0.19 maliyet, kaynağın iddialarıdır; bağımsız olarak tekrarlanmış sonuçlar değildir."
     },
     "11": {
-      "title": "Klavye Piyano Uygulaması",
-      "takeaway": "Basit bir etkileşim konseptini oynanabilir, klavye kontrollü bir web uygulamasına dönüştürün.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash ile bilgisayar klavyesinden çalınabilen bir piyano uygulaması geliştirdi ve bunu çocukların keşfedebileceği bir uygulama olarak çerçeveledi."
+      "title": "Google Sheets'te hareketli manzara",
+      "takeaway": "Üretilen kodu ve hücre düzeyindeki güncellemeleri incelemek için alışılmadık bir e-tablo animasyonu kullanın.",
+      "notes": "Google, Antigravity'de yazılan kodla e-tablo hücrelerine çizilmiş kıyı trenleri, bulutlar ve sonbahar yapraklarını gösteriyor. Bu resmî bir yaratıcı demodur, e-tablo performans kıyaslaması değildir."
     },
     "12": {
-      "title": "Masaüstü Robot Sesli Asistan",
-      "takeaway": "Hem Flash'ı hem de Flash-Lite'ı bir ses uygulamasına entegre edin ve ilk müdahale davranışını karşılaştırın.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash ve Gemini 3.5 Flash-Lite'ı bir masaüstü robot için sesli diyalog uygulamasına ekledi ve ilk tepkinin biraz yavaş ama kullanışlı olduğunu belirtti."
+      "title": "Folio etkileşimli veri sitesi",
+      "takeaway": "Küçük bir web prototipinde tanıtım sayfası düzenini etkileşimli veri görselleştirmeleriyle birleştirin.",
+      "notes": "Bir Google DeepMind çalışanı, Google AI Studio ile oluşturulmuş Folio tarzı bir siteyi ve etkileşimli animasyonu sunuyor. Gönderi, tam üretim istemini veya bağımsız bir işlevsel testi sağlamıyor."
     },
     "13": {
-      "title": "Golden Gate Köprüsü HTML Hatası",
-      "takeaway": "Oluşturulan 3D web deneyimlerine güvenmeden önce talimatların izlenmesini test etmek için katı bir dosya teslim görevi kullanın.",
-      "notes": "Testi yapan kişinin üç uyarıya ihtiyacı vardı, modelin istenen HTML dosyası yerine uygulama içi simülasyon ve web görüntüsü yanıtlarını denediğini gördü ve son 3D köprü çıktısının Gemini 3.1 Pro'dan maddi olarak daha zayıf olduğuna karar verdi."
+      "title": "Çok parçalı arama sorularına görsel yanıtlar",
+      "takeaway": "Çok sayıda koşul içeren ayrıntılı bir arama isteğini test ederken yanıt düzenini ve kaynak bağlantılarını karşılaştırın.",
+      "notes": "Google'ın Search örneği; niyet anlama, görsel düzenler, karşılaştırma tabloları ve sorgu dallandırmayı birleştiriyor. Bunlar sağlayıcının anlattığı ürün davranışlarıdır; demo, yayıncıların sıralamalarına veya trafiğine etkisini ortaya koymuyor."
     },
     "14": {
-      "title": "Genel Uyarı Görsel Testi",
-      "takeaway": "Oluşturucunun tam istemine ihtiyaç duyduğunuzda, onu çıktıdan yeniden oluşturmak yerine kaynak iş parçacığını açın.",
-      "notes": "MotionViz, medyayla birlikte bir Gemini 3.6 Flash görsel testi yayınladı ve tüm istemin kaynak iş parçacığında mevcut olduğunu belirtti; bu depo, kaynak pakette bulunmayan bilgi istemi metnini yeniden yapılandırmaz."
+      "title": "Sheets'te etkileşimli finansal tahmin",
+      "takeaway": "Varsayımları görünür bir finansal model prototipi oluşturun ve üretilen formülleri ve grafikleri inceleyin.",
+      "notes": "Chandu Thota, Google Sheets'te bir tahmin demosu sunuyor. Kaynaktaki %30'dan fazla hızlı canvas üretimi iddiası sağlayıcıya aittir; bu depo için yapılmış kontrollü bir süre ölçümü değildir."
     },
     "15": {
-      "title": "Tek İstemli Kanvas Oyunu",
-      "takeaway": "Modelin kompakt bir oyun konseptini ne kadar hızlı bir şekilde etkileşimli bir sonuca dönüştürebildiğini test etmek için Canvas'taki bir istemi kullanın.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash'ı erken erişimde test etti ve oynanabilir bir oyun gösterimi oluşturmak için tek bir Canvas istemi kullandı."
+      "title": "Etkileşimli bir yemek odası",
+      "takeaway": "Bir sahneyi sabit görselden değerlendirmek yerine nesne etkileşimlerini, aydınlatmayı ve durum değişikliklerini kontrol edin.",
+      "notes": "Üretici; ışıkları, lambaları, buzdolabı ve içindeki nesneleri etkileşimli olan bir yemek odası gösteriyor. Bildirilen 30 dakikalık geliştirme süresi bağımsız olarak doğrulanmadı."
     },
     "16": {
-      "title": "Açılış Sayfası Sürüm Karşılaştırması",
-      "takeaway": "Açılış sayfası yürütme ve görsel değerlendirmedeki değişiklikleri izole etmek için istemi model nesilleri boyunca sabit tutun.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash'ı aynı istemli açılış sayfası arşivine ekledi ve yeni sonucun Gemini 3 ve 3.5 çıktılarından daha kötü olduğuna karar verdi."
+      "title": "Minyatür dünyalı bir ses kaydırıcısı",
+      "takeaway": "Hem etkileşim tasarımını hem de hareketli sahnenin ayrıntılarını test etmek için tanıdık bir kontrol kullanın.",
+      "notes": "Kaynak, küçük bir Japon tarzı dünyayı hareketlendiren ses kaydırıcısını gösteriyor. Üretici $0.19 maliyet bildiriyor ancak fatura veya tam üretim iş akışı sunmuyor."
     },
     "17": {
-      "title": "Subway Surfers 3D Prototipi",
-      "takeaway": "Kodlama deneyleri için genişletilmiş düşünmeyi etkinleştirin ve hem etkileşim kalitesini hem de görsel doğruluğu denetleyin.",
-      "notes": "Yaratıcı, basit bir 3D Subway Surfers tarzı kopya oluşturmak için Gemini 3.6 Flash'ı kullandı ve kodlama görevleri için daha kapsamlı düşünmeyi önerdi."
+      "title": "Three.js ile bir Japon evi",
+      "takeaway": "Ayrıntılı bir 3B gezintiyi değerlendirirken kod üretimini görüntüleme süresinden ayırın.",
+      "notes": "Üretici, bu ev ve bahçeyi ajan kullanmadan Three.js ile çalışan Hydrogen'a atfediyor. Gönderideki abonelik kullanımı ve iki saatten kısa süre iddiaları yazarın kurulumuna özgüdür; genel fiyat veya gecikme garantileri değildir."
     },
     "18": {
-      "title": "Tek Sayfalık Web Sitesi Karşılaştırması",
-      "takeaway": "Web sitesinin istemini ve muhakeme düzeyini sabit tutun, ardından belirteç maliyetini, hızını ve tasarım tercihini karşılaştırın.",
-      "notes": "Aynı tek sayfalık web sitesinde yaratıcı, Gemini 3.6 Flash için yaklaşık 6.100 token, 3.5 Flash için ise yaklaşık 9.300 token bildirdi ve kişisel olarak eski modelin görünümünü tercih etti."
+      "title": "3B bisiklet süren pelikan",
+      "takeaway": "Koordinasyonu, hareketi ve sahne tutarlılığını incelemek için hareketli bir karakter kullanın.",
+      "notes": "Üretici, bisiklet süren bir 3B pelikan animasyonu sunuyor ve modeli Hydrogen XHigh olarak belirtiyor. Gönderi bir çıktı demosudur; tam, tekrarlanabilir bir istem veya fizik doğrulaması değildir."
     },
     "19": {
-      "title": "Vahşi Batı Oyunu Başarısızlığı",
-      "takeaway": "Başarısız olan oyun oluşturma çıktılarını, modelleri ne zaman değiştireceğinize veya görevi ne zaman gözden geçireceğinize karar vermek için kanıt olarak değerlendirin.",
-      "notes": "Testi yapan kişi, Wild West oyun nesli istemini kullandı ve gözlemlenen sonuca göre Gemini 3.6 Flash'ın GPT-5.6, Kimi K3 ve Fable 5'in önemli ölçüde gerisinde olduğuna karar verdi."
+      "title": "Önce planlanan bir gezegen simülatörü",
+      "takeaway": "Karmaşık bir sahneyi düzenlemesini istemeden önce kodlama modeline somut bir plan verin.",
+      "notes": "Erken erişimli üretici bir gezegen simülatörü gösteriyor ve daha ayrıntılı planlar verdikten sonra düzenleme sonuçlarının iyileştiğini bildiriyor. Kaynak, fikri ForwardEditor'a atfediyor ve yinelemeli bir iş akışı anlatıyor."
     },
     "20": {
-      "title": "Anti Yerçekimi Oyunu Malzeme Arızası",
-      "takeaway": "Yapay zeka tarafından oluşturulan bir oyun prototipini kabul etmeden önce hem görsel malzemeleri hem de gerçek etkileşim davranışını kontrol edin.",
-      "notes": "İkinci bir Antigravity oyun testinde yaratıcı, daha zayıf ahşap dokular ve benzer görünen ancak işlevsel olmayan bir mermer öğe buldu."
+      "title": "Antigravity Swarm ile liman adası",
+      "takeaway": "Çok ajanlı sahne oluşturma davranışını incelemek için gezilebilir küçük bir ortam kullanın.",
+      "notes": "Üretici erken erişimi açıkladı ve Antigravity'nin Swarm özelliği içinde Hydrogen ile oluşturulmuş bir liman adası gösteriyor. Herkese açık gönderi, tüm orkestrasyonu veya istem geçmişini belirtmiyor."
     },
     "21": {
-      "title": "Rolls-Royce SVG Karşılaştırması",
-      "takeaway": "İki Flash neslinin şekil, ayrıntı ve kompozisyonu nasıl ele aldığını karşılaştırmak için sabit bir SVG konusu kullanın.",
-      "notes": "Gönderi, aynı Rolls-Royce SVG görevi için Gemini 3.6 Flash ve 3.5 Flash çıkışlarını yan yana yerleştiriyor."
+      "title": "Eyfel Kuleli yüzen ada",
+      "takeaway": "Kompakt bir anıt sahnesinde kompozisyonu, kamera hareketini ve modelin ürettiği kodu değerlendirin.",
+      "notes": "Kaynak, Eyfel Kuleli minyatür bir ada gösteriyor ve bunu Hydrogen XHigh'a atfediyor. Altı dakikalık oluşturma ve kayıt süresi yazarın bildirimidir, bağımsız bir süre testi değildir."
     },
     "22": {
-      "title": "Gerçekçi Akvaryum Testi",
-      "takeaway": "Model sürümleri arasında gerçekçilik ve uygulama kalitesini karşılaştırmak için sınırlı bir 3B sahne kullanın.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash'tan gerçekçi bir akvaryum yapmasını istedi ve bunun 3.5 Flash'tan çok az daha iyi olduğuna karar verdi."
+      "title": "Uçarak gezilebilen fütüristik şehir",
+      "takeaway": "İlk çıktının nihai olduğunu varsaymak yerine prosedürel bir dünyada sonraki düzenlemeleri test edin.",
+      "notes": "Erken erişimli üretici Antigravity'de Hydrogen High kullandı; prosedürel kuleler, yağmur ve uçan trafik içeren Three.js şehrini bir ek istemle oluşturduğunu bildiriyor. Kayıt, üretilen kodun çalışmasını gösteriyor; yerel video üretimini değil."
     },
     "23": {
-      "title": "Max Reasoning'de İkizler Grok'a Karşı",
-      "takeaway": "Hızı, maliyeti ve çıktıyı karşılaştırmak için model itibarına güvenmek yerine aynı istemi ve maksimum akıl yürütme ayarlarını kullanın.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash ve Grok 4.5'i aynı istem ve maksimum mantık ayarları altında çalıştırdı ve her ikisinin de hızlı olduğunu, Grok'un ise biraz daha hızlı ve daha ucuz olduğunu gözlemledi."
+      "title": "Gün doğumundan geceye bir deniz uçağı",
+      "takeaway": "Etkileşimli bir 3B sahnede ortam kontrollerini ve ışık geçişlerini inceleyin.",
+      "notes": "LuminaBench'in daha sonra Google tarafından yeniden paylaşılan özgün demosu, bir deniz uçağını ve günün değişen saatlerini gösteriyor. Gönderi, kayıtlı herkese açık yayın sınırından önceye aittir; erişim yolu ve model çağrısı bağımsız olarak doğrulanmadı."
     },
     "24": {
-      "title": "Maksimum Ayarlarda Gemini Versus Sonnet",
-      "takeaway": "Modelleri aynı istemlerle ve bunların en güçlü ayarlarıyla karşılaştırın, ardından oluşturulan gerçek yapıyı inceleyin.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash ve Sonnet 5'i aynı istemlerle maksimum ayarlarda test etti ve gösterilen görevde Gemini çıkışını tercih etti."
+      "title": "Neon çöp adam animasyonu: Hydrogen ve Opus",
+      "takeaway": "Aynı çalıştırma ortamlarını varsaymadan tamamlanmış animasyonu bildirilen süre ve maliyetle birlikte karşılaştırın.",
+      "notes": "Yazar, Hydrogen ve Opus 5.5 çıktılarını sunuyor; $1.02 karşısında $7.43 ve 10m 22s karşısında 34m bildiriyor. Bu derleme; faturalamayı, istemleri, yineleme sayılarını veya karşılaştırılabilir çalıştırma ayarlarını doğrulamadı."
     },
     "25": {
-      "title": "Görsel Anlama Testi",
-      "takeaway": "Modeli görsel iş akışları için benimsemeden önce yanıt kalitesini ve etkileşim stilini incelemek için somut bir görüntü görevi kullanın.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash'ın geçtiği bir görme testi sundu ve gözlemlenen deneyimin bir parçası olarak tepki kişiliğini vurguladı."
+      "title": "Robotik görevler ve fark edilen hatalar",
+      "takeaway": "Robotik değerlendirmeye görev tamamlamayı ve küçük hataları fark etmeyi dahil edin.",
+      "notes": "Artificial Analysis, sıvı dökme ve blok toplama görevleri gösteriyor; Hydrogen'ın küçük bir dökülmeyi ve kapatılmamış bir kapağı fark ettiğini söylüyor. Video ve AA-Robotics v0.1 sıralaması değerlendiriciden geliyor; burada bağımsız tekrar yapılmadı."
     },
     "26": {
-      "title": "Rocket League Oyun Karşılaştırması",
-      "takeaway": "Tekrarlanan bir oyun oluşturma karşılaştırması çalıştırın ve hem yapım süresini hem de tutarlı bir öznel sıralamayı kaydedin.",
-      "notes": "Yaratıcı, Gemini 3.6 Flash'ı Rocket League tarzı bir görevde test etti, kişisel skor tablosunda üçüncü sıraya koydu ve iki dakikadan kısa sürede tamamlandığını bildirdi."
+      "title": "Doğal dille yönetilen laboratuvar çalışma hücresi",
+      "takeaway": "Araç çalıştırmayı ve hata yönetimini, öne çıkan kıyaslama puanlarından ayrı değerlendirin.",
+      "notes": "Kaynak, doğal dil isteğiyle yönetilen bir laboratuvar çalışma hücresi gösteriyor ve laboratuvarla ilgili dört kıyaslamada sonuç bildiriyor. Hydrogen'ın bildirilen RareBench puanı Opus 5.5'inkinden düşük, diğer üçü ise yüksek; bu kıyaslamanın sahibinin demosudur, tıbbi doğrulama değildir."
     },
     "27": {
-      "title": "EyeBench Görsel Karşılaştırma",
-      "takeaway": "Artan verimlilik kazanımlarını mutlak kaliteden ayırmak için istikrarlı bir görsel kıyaslama kullanın.",
-      "notes": "Yaratıcı, EyeBench'te Gemini 3.6 Flash'ın 3.5 Flash'tan marjinal olarak daha iyi, ancak yine de Gemini 3.1 Pro Preview'dan daha kötü olduğunu değerlendirdi ve token verimliliğinin arttığına dikkat çekti."
+      "title": "Buzdağı ve römorkör: Hydrogen ve Carbon",
+      "takeaway": "Uzun bir 3B geliştirmeyi karşılaştırırken akıl yürütme seviyesini ve çalıştırma ortamının kısıtlarını kaydedin.",
+      "notes": "Üretici, her iki modelin de OpenRouter üzerinden High seviyesinde çalıştığını; Hydrogen için $4.27 ve 1h 23m 40s, Carbon için $8.83 ve 2h 39m 10s bildiriyor. Bunlar kaynağın bildirdiği kontrolsüz sonuçlardır, evrensel fiyat veya hız oranları değildir."
     },
     "28": {
-      "title": "Kağıt Kesim Animasyon Karşılaştırması",
-      "takeaway": "Yaratıcı nesli değerlendirirken yanıt hızını ve son animasyonu ayrı ayrı karşılaştırın.",
-      "notes": "Yaratıcı, kağıttan kesilmiş bir animasyon görevinde Gemini 3.6 Flash'ı Fable 5 ile karşılaştırdı ve Gemini'nin neredeyse anında tepkisini övdü, ancak sonuçla ilgili çekincelerini dile getirdi."
+      "title": "Jöle koi göleti: Hydrogen ve Sonnet",
+      "takeaway": "Bir kıyaslama sıralamasını model tercihine dönüştürmeden önce somut bir sahneyi inceleyin.",
+      "notes": "Yazar, 3B koi göleti görevinde Hydrogen ile Sonnet 5.5'i karşılaştırıyor. Kaynak, izleyicilerden çıktıları değerlendirmelerini istiyor ancak eşleştirilmiş ayarlar veya nesnel bir kalite puanı ortaya koymuyor."
     },
     "29": {
-      "title": "AI Arena Nesil Karşılaştırması",
-      "takeaway": "Birden fazla kodlama modelinde derleme süresini, fiyatı ve yapıt kalitesini karşılaştırmak için aynı arena görevini kullanın.",
-      "notes": "Yaratıcı, Grok 4.5, Gemini 3.6 Flash ve GPT-5.6 Luna'yı bir AI Arena görevinde test etti ve Gemini sonucunun bu çalıştırmada en zayıf olduğuna karar verdi."
+      "title": "Ortak istemli yaratıcı kodlama koleksiyonu",
+      "takeaway": "Tek bir çekici çıktıdan aşırı genelleme yapmamak için çeşitli görsel görevler kullanın.",
+      "notes": "Üretici, Hydrogen, Carbon ve Argon'a aynı istemleri verdiğini bildiriyor ve karşılaştırmaları yanıtlara yerleştiriyor. Ana gönderinin medyası düşük poligonlu hayvanları, neon bir sokağı ve suluboya tarzı bir kabı gösteriyor; tam kontrollü bir kıyaslama değildir."
     },
     "30": {
-      "title": "Çapraz Modelli Oyun Oluşturma Maliyeti",
-      "takeaway": "Oyun prototipi oluşturmak için bir model seçerken yineleme sayısını, geliştirici deneyimini, özellikleri ve maliyeti birlikte izleyin.",
-      "notes": "Yaratıcı, aynı tasarım iş akışını kullanarak, Gemini'nin oluşturduğu bir atlama ve düşme hatasını düzeltmek için altı ila yedi yinelemeye ihtiyaç duyulduğunu bildirdi ve karşılaştırmalı puanların yanı sıra 0,15 ABD doları tutarında bir çalıştırma maliyeti listeledi."
+      "title": "Megamind vokselleri: maliyet ve kalite için bir karşı örnek",
+      "takeaway": "Bir modelin sürekli daha ucuz veya görsel açıdan daha güçlü olup olmadığını değerlendirirken başarısız örnekleri koruyun.",
+      "notes": "Kaynak, Hydrogen'ın $36.07 maliyetle daha tutarsız bir Titan figürü ürettiğini, Sonnet 5.5'in ise $8.64 tuttuğunu söylüyor. Gönderide ticari tanıtım bulunuyor; maliyetler ve kalite değerlendirmesi yayıncının iddialarıdır."
     },
     "31": {
-      "title": "Siber Güvenlik Reddi Karşılaştırması",
-      "takeaway": "Savunma amaçlı kod incelemesi saldırgan isteklerle engellenebileceğinden, güvenlik aracı değerlendirmelerine reddetme davranışını dahil edin.",
-      "notes": "Bir siber güvenlik kıyaslama çalışmasının reddedilmesi, değerlendiricinin, test edilen politikanın, savunma kodu ve kötü niyetli kullanıma yönelik güvenlik açığı bulma davranışını engellediğini rapor etmesine yol açtı."
+      "title": "Dört mevsimde jonglör aslan",
+      "takeaway": "Yalnızca çevredeki arayüzün görsel kalitesini değil, istenen hareketi kontrol edin.",
+      "notes": "Yazar, Carbon'ın kesişen jonglör yaylarını gerçekleştirdiğini, Hydrogen'ın ise daha temiz mevsim geçişleri ve kırpmaya rağmen topları havada bıraktığını bildiriyor. Aynı görevin bu SVG karşılaştırması, genel bir model sıralaması değil belirli bir hareket hatasını gösteriyor."
     },
     "32": {
-      "title": "Bilgi Tazeliği Arızası",
-      "takeaway": "İddia edilen bir bilgi kesintisine güvenmek yerine, mevcut gerçekleri erişim yoluyla doğrulayın.",
-      "notes": "Testi yapan kişi mevcut amiral gemisi modellerini istedi ve daha eski isimler aldı, ardından modelin Mart 2026'da bir kesinti olduğunu iddia etmesine rağmen yalnızca 2025'in başlarına kadar geçerli olan bilgileri kabul ettiğini bildirdi."
+      "title": "Üç modelli çöp adam dövüşü: daha yavaş, daha pahalı sonuç",
+      "takeaway": "Bir modelin tanıtılan verimliliğini gerçek görev raporlarıyla karşılaştırırken karşı örnekleri koruyun.",
+      "notes": "Üretici Hydrogen, Carbon ve Argon'ı karşılaştırıyor; bu testte Hydrogen'ın Carbon'dan daha uzun sürdüğünü ve daha pahalı olduğunu bildiriyor. Ayarlar, faturalama ve yineleme sayıları bağımsız olarak doğrulanmadı."
     },
     "33": {
-      "title": "Jailbreak Kırmızı Takım Testi",
-      "takeaway": "Jailbreak taleplerini yeniden kullanılabilir talimatlar olarak değil, kontrollü çoğaltma ve güvenlik incelemesi gerektiren kırmızı takım sinyalleri olarak değerlendirin.",
-      "notes": "Gönderi, Gemini Uygulaması ve API genelinde jailbreak yapıldığını iddia ediyor ve test edilen zararlı içerik kategorilerini listeliyor; bu depo, yararlanma talimatlarını çoğaltmadan güvenlik sinyalini kaydeder."
+      "title": "Çiftlikte bisiklet sahnesi: Hydrogen ve Flash",
+      "takeaway": "Hareketi ve sahne kalitesini, üreticinin bildirdiği tamamlanma süresiyle birlikte karşılaştırın.",
+      "notes": "Kaynak, çiftlikte bisiklet sahnesinde Hydrogen ile Gemini 3.8 Flash'ı karşılaştırıyor ve altı dakikadan fazlaya karşı 56 saniye bildiriyor. Bu, tek bir üreticinin testidir; genel hız kıyaslaması değildir."
+    },
+    "34": {
+      "title": "Tandem bisikletlerde bir kız ve kedi",
+      "takeaway": "Farklı kodlama ortamlarını görünür tutarak isteme bağlılığı ve ek ayrıntıları karşılaştırın.",
+      "notes": "Üretici aynı belirtilen SVG görevini kullandı ancak Opus 5.5'i Claude Code'da, Hydrogen'ı Cursor'da çalıştırdı. Bildirilen süre ve maliyetler büyük ölçüde farklı olsa da farklı ortamlar ve açıklanmayan yinelemeler, yalnızca modelleri kapsayan kontrollü bir karşılaştırmayı engelliyor."
+    },
+    "35": {
+      "title": "Dört model Three.js ile Mario oyunu oluşturuyor",
+      "takeaway": "Aynı istemle üretilen oyunları karşılaştırmadan önce eşit olmayan akıl yürütme ayarlarını kaydedin.",
+      "notes": "Kaynak; dış 3B modeller veya dokular olmadan yalnızca Three.js kullanarak High seviyesindeki Gemini 3.8 Flash, Argon ve Carbon'ı XHigh seviyesindeki Hydrogen ile karşılaştırıyor. Dört çıktı gösteriyor; eşleştirilmiş akıl yürütme seviyeli bir kıyaslama değil."
+    },
+    "36": {
+      "title": "Üç Gemini modeli oyun kumandası çiziyor",
+      "takeaway": "Aile içinde bir hiyerarşi varsaymak yerine göreve özgü gerileme ve iyileşmelere bakın.",
+      "notes": "Üretici, Carbon, Argon ve Hydrogen'ın SVG kumanda çıktılarını karşılaştırıyor ve testi tekrar çalıştırdığını bildiriyor. Bildirilen süre ve maliyetler kaynak iddialarıdır; genel bir model kalitesi sıralaması oluşturmaz."
+    },
+    "37": {
+      "title": "Uygulama ve Studio'da farklı görsel yanıtlar",
+      "takeaway": "Bir görsel sonucuna güvenmeden önce aynı görüntüyü kullanmayı planladığınız üründe test edin.",
+      "notes": "Kaynak, Gemini uygulaması ve AI Studio'da Hydrogen'a atfedilen çelişkili yiyecek tanıma yanıtları gösteriyor. Karşılaştırma; yönlendirmenin, ayarların veya tam konuşma bağlamının aynı olduğunu bağımsız olarak doğrulamıyor."
+    },
+    "38": {
+      "title": "Roket fırlatma sahnesi: Hydrogen ve Flash",
+      "takeaway": "Bildirilen geliştirme süresinin yanı sıra gerçek fırlatma animasyonunu da karşılaştırın.",
+      "notes": "Üretici, Hydrogen ve Gemini 3.8 Flash çıktılarını sunuyor; yaklaşık üç dakikaya karşı bir dakikadan kısa süre bildiriyor. Görsel karşılaştırma, çalıştırma kurulumu bağımsız olarak kontrol edilmemiş tek bir görevdir."
+    },
+    "39": {
+      "title": "Dört SVG animasyon görevi",
+      "takeaway": "Görevler arası tutarlılığı incelemek için birden fazla etkileşim ve animasyon motifi kullanın.",
+      "notes": "Kaynak; transferler, gündüz/gece değişimleri, kutu açma ve bukalemun için Hydrogen ve Carbon çıktılarını eşleştiriyor. Kısa ana metin, tam istemleri, süre kanıtlarını veya nesnel bir puanlama yöntemini açıklamıyor."
+    },
+    "40": {
+      "title": "Üç model savanada bir atı canlandırıyor",
+      "takeaway": "Genel maliyet veya kalite iddialarını kabul etmeden önce hareketi ve görsel ayrıntıyı doğrudan inceleyin.",
+      "notes": "Üretici Hydrogen, Carbon ve Argon'ı savanada at sahnesinde sunuyor. Daha yüksek hız, daha düşük maliyet ve yüksek kalite iddiaları kaynağın değerlendirmesi olarak kalıyor; burada tekrarlanmış kontrollü bir karşılaştırma değildir."
     }
   }
 }

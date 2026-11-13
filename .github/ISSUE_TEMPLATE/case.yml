@@ -1,5 +1,5 @@
 name: Propose a source-backed case
-description: Suggest a concrete Gemini 3.6 Flash workflow, build, evaluation, or limit
+description: Suggest a concrete Gemini 4 Hydrogen workflow, build, evaluation, or limit
 title: "[Case]: "
 labels: ["case-proposal"]
 body:

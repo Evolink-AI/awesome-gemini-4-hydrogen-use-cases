@@ -1,225 +1,259 @@
 {
   "locale": "pt",
-  "translation_method": "machine-assisted first pass with source-locked fields",
+  "translation_method": "Tradução direta do texto editorial inglês, preservando atribuições e ressalvas.",
   "strings": {
-    "title": "Guia Flash impressionante do Gemini 3.6 e casos de uso",
+    "title": "Guia e casos de uso selecionados do Gemini 4 Hydrogen",
     "introduction": "Introdução",
-    "intro": "Bem-vindo a um guia baseado em fontes para o Gemini 3.6 Flash na prática",
-    "mission": "Este repositório coleta fluxos de trabalho concretos do Gemini 3.6 Flash, compilações, avaliações, comparações e limites de evidências públicas de criadores",
-    "boundary": "Cada case incluído vem do pacote fonte revisado. Os títulos direcionam para postagens originais, os autores vinculam-se aos perfis dos criadores e os prompts aparecem apenas quando o texto fonte realmente os contém",
+    "intro": "Explore o Gemini 4 Hydrogen por meio de aplicações com fontes, fluxos de programação e comparações práticas.",
+    "mission": "40 exemplos selecionados mostram o que as pessoas criaram, como trabalharam e onde os resultados ficaram aquém do esperado.",
+    "boundary": "Cada caso inclui um link para a fonte e os créditos do autor. Demonstrações, exemplos do fornecedor e comparações de criadores são identificados nas notas; instruções ausentes não são reconstruídas.",
     "overview": "Visão geral",
-    "overview_cases": "33 casos de alta confiança selecionados de 33 postagens originais revisadas",
-    "overview_coverage": "A cobertura inclui agentes, codificação, sites, jogos, 3D, comparações de estilo de benchmark e limites práticos de segurança",
-    "overview_media": "Todos os 24 casos de vídeo fornecem um pôster visível e um MP4 reproduzível hospedado em R2; casos de imagem preservam todas as imagens de origem revisadas",
-    "overview_model": "EvoLink lista o ID do modelo de produção como `gemini-3.6-flash`; este repositório está vinculado ao modelo atual e às superfícies da API Gemini Native",
-    "note": "Esta coleção favorece evidências observáveis em detrimento do exagero. Ele não reconstrói prompts ausentes, infere etapas de configuração não publicadas ou generaliza o resultado de um criador em um benchmark universal",
+    "overview_cases": "40 casos selecionados entre 75 publicações de demonstrações analisadas em uma coleta do X limitada a 500 publicações, realizada em 13 de novembro de 2026.",
+    "overview_coverage": "Cinco categorias abrangem agentes, aprendizado e aplicativos, planilhas e Search, 3D interativo, e comparações e limitações.",
+    "overview_media": "Todos os 41 recursos visuais selecionados foram preservados: 38 vídeos reproduzíveis com imagens de capa e 3 imagens.",
+    "overview_model": "O Gemini 4 Hydrogen foi anunciado em 12 de novembro de 2026. Explore o modelo e suas opções atuais de acesso no EvoLink.",
+    "note": "A atribuição do modelo, os custos, os tempos e os resultados permanecem alegações das fontes, salvo indicação contrária. A revisão dos vídeos usou quadros amostrados, não testes funcionais completos. Gravações de aplicativos programados não comprovam geração nativa de vídeo. Diferenças nos ambientes de execução, níveis de raciocínio ou números de iterações tornam as comparações não controladas.",
+    "official_sources": "Referências oficiais",
+    "official_launch": "Anúncio do Google",
+    "official_model_card": "Ficha do modelo do Google DeepMind",
     "start_here": "Comece aqui",
-    "explore": "explorar Gêmeos 3.6 Flash",
-    "get_key": "obter uma chave API",
-    "open_docs": "abra a documentação em inglês da API Gemini Native",
-    "menu": "Cardápio",
+    "explore": "Explore o Hydrogen no EvoLink",
+    "get_key": "Obtenha uma chave de API",
+    "open_docs": "Documentação da API nativa do Gemini (em inglês)",
+    "menu": "Menu",
     "section": "Seção",
     "cases": "Casos",
     "case": "Caso",
     "category": "Categoria",
-    "what_it_shows": "O que isso mostra",
+    "what_it_shows": "O que experimentar",
     "type": "Tipo",
     "by": "por",
-    "prompt": "Alerta",
+    "prompt": "Instrução",
     "date": "Data",
-    "play_video": "Reproduzir vídeo de origem",
-    "related": "Repositórios Relacionados",
-    "related_org": "Início rápido verificado da API da família Gemini e skill instalável para agentes",
-    "related_note": "Nenhuma habilidade Flash Gemini 3.6 instalável dedicada foi verificada de forma independente durante esta publicação",
+    "play_video": "Reproduzir vídeo original",
+    "related": "Repositórios relacionados",
+    "related_org": "Exemplos e comparações do Gemini 4 Carbon",
     "quickstart": "Início rápido",
-    "quick_intro": "Use as superfícies públicas verificadas abaixo para começar com o ID do modelo `gemini-3.6-flash`",
-    "quick_model": "Abra a página do modelo Flash do Gemini 3.6",
-    "quick_key": "Crie ou gerencie uma chave API EvoLink",
-    "quick_docs": "Siga o início rápido em inglês da API Gemini Native",
-    "quick_run": "Execute esta solicitação mínima verificada",
-    "quick_success": "Resultado esperado: uma resposta JSON cujo texto visível é `OK`",
-    "important": "Esta solicitação exata foi verificada no endpoint ativo com HTTP 200 e saída visível `OK`; mantenha a chave no ambiente e nunca a inclua em um commit",
-    "acknowledge": "Reconhecer",
-    "ack_text": "Esta coleção existe porque criadores e profissionais compartilharam publicamente seu trabalho em Flash do Gemini 3.6",
-    "thanks": "Agradecimentos aos criadores de origem representados aqui",
-    "correction": "Não podemos garantir que cada postagem identifique o criador original mais antigo. Se a atribuição, tradução ou redação precisar de correção, abra um problema de correção com uma fonte pública",
-    "contribute": "Para propor outro caso apoiado pela fonte, abra um problema ou pull request e siga a lista de verificação de contribuição",
-    "official_sources": "Fontes oficiais",
-    "official_launch": "Anúncio de lançamento do Google",
-    "official_model_card": "Ficha do modelo do Google DeepMind"
+    "quick_intro": "Comece no EvoLink e use a API nativa do Gemini quando quiser integrar o Hydrogen a um aplicativo.",
+    "quick_model": "Ver o Gemini 4 Hydrogen no navegador",
+    "quick_key": "Crie ou gerencie uma chave de API do EvoLink",
+    "quick_docs": "Leia o guia de início rápido da API nativa do Gemini (em inglês)",
+    "quick_run": "Requisição mínima à API nativa",
+    "quick_success": "Leia o texto gerado nos campos candidates[].content.parts[].text da resposta.",
+    "important": "Mantenha sua chave de API em uma variável de ambiente e nunca a inclua em um commit. Consulte a documentação da API para opções de transmissão, raciocínio e outras requisições.",
+    "acknowledge": "Agradecimentos",
+    "ack_text": "Obrigado aos criadores, desenvolvedores e avaliadores que compartilharam publicamente seu trabalho com o Hydrogen.",
+    "thanks": "Criadores das fontes",
+    "correction": "A atribuição segue as fontes públicas citadas e pode não identificar o criador original. Para correções ou solicitações de remoção, abra uma questão com uma fonte pública.",
+    "contribute": "Sugira um exemplo respaldado por fontes por meio de uma questão ou solicitação de integração, seguindo a lista de contribuição."
   },
   "categories": {
-    "efficiency-agents": "Eficiência e Agentes",
-    "coding-apps": "Codificação e aplicativos",
-    "web-games-3d": "Web, jogos e 3D",
-    "evaluations": "Avaliação e Comparações",
-    "safety-limits": "Segurança e Limites"
+    "agents": "Agentes e fluxos de programação",
+    "apps-learning": "Aplicativos e aprendizagem",
+    "data-search": "Planilhas e Search",
+    "interactive-3d": "3D interativo e interfaces",
+    "comparisons-limits": "Comparações e limitações"
   },
   "cases": {
     "1": {
-      "title": "Eficiência de token lado a lado",
-      "takeaway": "Compare o uso do token de saída no mesmo fluxo de trabalho antes de escolher um modelo Flash para cargas de trabalho em escala de agente.",
-      "notes": "Jeff Dean compartilhou uma demonstração lado a lado comparando Gemini 3.6 Flash com 3.5 Flash e destacou o menor uso de token no modelo mais recente."
+      "title": "Manutenção de código no Antigravity",
+      "takeaway": "Use uma tarefa de manutenção delimitada para avaliar conjuntamente edições, uso de ferramentas e verificação.",
+      "notes": "A demonstração de lançamento do Antigravity mostra o Hydrogen mantendo uma base de código. É um exemplo produzido pela plataforma, não uma avaliação de engenharia reproduzida independentemente."
     },
     "2": {
-      "title": "Modernizando o código legado em antigravidade",
-      "takeaway": "Use uma tarefa controlada de migração de código legado para comparar a latência do agente, a qualidade da edição e o comportamento de conclusão.",
-      "notes": "O Google Antigravity demonstrou ambas as gerações de Flash reconstruindo software legado e relatou uma conclusão mais rápida com latência e saída aprimoradas do Gemini 3.6 Flash."
+      "title": "Dezesseis aplicativos canvas em paralelo",
+      "takeaway": "Divida o desenvolvimento em módulos independentes e deixe explícitos os papéis de planejamento, implementação e controle de qualidade.",
+      "notes": "Um criador do Antigravity CLI no Google DeepMind descreve o Carbon coordenando, verificando e integrando enquanto o Hydrogen cria 16 miniaplicativos canvas sem dependências. Esse fluxo combina modelos, portanto seu resultado não deve ser atribuído apenas ao Hydrogen."
     },
     "3": {
-      "title": "Teste de eficiência do token Canvas",
-      "takeaway": "Execute a mesma tarefa do Canvas em versões de modelo e inspecione o uso do artefato e do token.",
-      "notes": "O criador comparou o Gemini 3.6 Flash e o 3.5 Flash em uma tarefa curta do Canvas e observou um uso de token substancialmente menor do 3.6 Flash."
+      "title": "Mariposa carmesim com um enxame de vários modelos",
+      "takeaway": "Separe os papéis de orquestração e implementação em um projeto interativo de programação criativa.",
+      "notes": "O criador diz que o Carbon orquestrou um enxame do Antigravity enquanto agentes Hydrogen construíram a obra da mariposa carmesim. Os 45 minutos informados incluem esse fluxo com vários modelos e não foram cronometrados independentemente."
     },
     "4": {
-      "title": "Referência do agente do navegador",
-      "takeaway": "Compare o sucesso e o custo do agente de navegador em conjunto, em vez de otimizar apenas uma das métricas.",
-      "notes": "O uso do navegador relatou 68% em seu benchmark BU para Gemini 3.6 Flash, em comparação com 67% para GPT-5.6 Sol, 62% para Sonnet 4.6 e 74% para Opus 4.8."
+      "title": "Inspeção e reparo com 3D Medic",
+      "takeaway": "Explore um agente que inspeciona um arquivo 3D, encontra erros e propõe reparos antes da exportação.",
+      "notes": "A demonstração 3D Medic do Google AI usa um aplicativo Managed Agent criado no AI Studio. Ela mostra um fluxo de reparo de arquivos, não evidências de que quaisquer recursos 3D serão reparados corretamente."
     },
     "5": {
-      "title": "Eficiência na recuperação de fatos de cauda longa",
-      "takeaway": "Use tarefas difíceis de recuperação de fatos para comparar etapas de raciocínio e sobrecarga de tokens de pensamento.",
-      "notes": "O criador executou Gemini 3.5 e 3.6 Flash frente a frente em uma tarefa complexa de recuperação de fatos de cauda longa e relatou metade das etapas e 75% menos tokens de pensamento para o Flash 3.6."
+      "title": "Uma cena de veleiro criada no Devin",
+      "takeaway": "Avalie um modelo no ambiente de agente de programação que você realmente pretende usar.",
+      "notes": "A fonte apresenta uma cena de veleiro atribuída ao Hydrogen executado no Devin. A publicação curta não divulga a instrução completa, o histórico de iterações ou uma configuração reproduzível."
     },
     "6": {
-      "title": "Processamento de Documentos Empresariais",
-      "takeaway": "Avalie o esforço de raciocínio em patentes longas e análise de documentos antes de definir um padrão de produção.",
-      "notes": "Databricks relatou maior precisão de classificação de documentos do que 3,5 Flash, bons resultados em patentes longas e cerca de 32% menos tokens totais com esforço médio do que com alto esforço para análise de documentos."
+      "title": "Prática de idiomas no Lingo City",
+      "takeaway": "Combine cartões de estudo com uma cena de rua interativa para praticar idiomas em contexto.",
+      "notes": "Tulsee Doshi compartilha um exemplo do Google que transmite cartões personalizados em 2D e 3D e permite praticar conversas com comerciantes em uma cidade virtual. É uma demonstração do fornecedor, não um estudo independente de resultados de aprendizagem."
     },
     "7": {
-      "title": "Avaliação de tarefas de engenharia em JetBrains",
-      "takeaway": "Crie uma tarefa de engenharia objetiva e compare gerações de modelos dentro do mesmo fluxo de trabalho IDE.",
-      "notes": "A JetBrains apresentou uma avaliação objetiva de tarefas de engenharia para Gemini 3.6 Flash em comparação com a geração Flash anterior no AI Assistant e Junie."
+      "title": "Romeu e Julieta como teatro de papel em 3D",
+      "takeaway": "Transforme uma aula específica em uma cena interativa com um objetivo de aprendizagem claro.",
+      "notes": "O criador construiu uma aula de teatro de papel em 3D sobre a cena da sacada de Romeu e Julieta para Literatura Inglesa do GCSE. A fonte demonstra a interface, mas não mede resultados de aprendizagem."
     },
     "8": {
-      "title": "Migração de código multiagente",
-      "takeaway": "Teste a migração de código com o mesmo plano de orquestração e compare latência, edições e qualidade final.",
-      "notes": "A demonstração mostra o Gemini 3.6 Flash executando uma migração de código por meio de orquestração multiagente no Antigravity e relata menor latência e maior qualidade do que o 3.5 Flash."
+      "title": "Da imagem de design a um site de leitura",
+      "takeaway": "Use um design de referência para avaliar a compreensão visual e uma implementação funcional da interface.",
+      "notes": "O criador afirma que o Hydrogen transformou uma imagem de design em um site funcional de gestão de leituras em 5 minutos e 27 segundos. A duração e a completude são alegações da fonte; esta coleção não inclui teste funcional independente."
     },
     "9": {
-      "title": "Afinador de guitarra Android",
-      "takeaway": "Protótipo de um utilitário móvel focado que combina ferramentas de áudio convencionais com ajustes alternativos assistidos por IA.",
-      "notes": "O criador usou o Gemini 3.6 Flash para construir um aplicativo de afinação de guitarra Android com suporte para afinação alternativa orientada por IA."
+      "title": "Um jardim de carpas koi criado em vinte módulos",
+      "takeaway": "Construa uma cena maior em módulos pequenos, em vez de esperar um resultado completo com uma única instrução.",
+      "notes": "O criador relata 20 instruções para 20 módulos no aplicativo Gemini, cada um levando 90–270 segundos. O autor declarou acesso antecipado e o exemplo é explicitamente iterativo, não um resultado obtido de uma só vez."
     },
     "10": {
-      "title": "Simulação de semáforo",
-      "takeaway": "Peça ao modelo uma visualização executável para inspecionar se o código gerado captura o tempo e o comportamento aleatório do tráfego.",
-      "notes": "O prompt público solicita o código Python que visualiza um semáforo de mão única com carros chegando em taxas aleatórias, e a postagem inclui a demonstração resultante."
+      "title": "Um jogo educativo de fusão de prótons",
+      "takeaway": "Crie um protótipo de explicação interativa de um processo científico e depois confira a ciência subjacente.",
+      "notes": "O jogo do criador percorre a cadeia próton–próton dentro de uma estrela jovem. A única instrução, os 78 segundos de execução e o custo aproximado de $0.19 relatados são alegações da fonte, não resultados reproduzidos independentemente."
     },
     "11": {
-      "title": "Aplicativo Piano Teclado",
-      "takeaway": "Transforme um conceito de interação simples em um aplicativo da web jogável controlado por teclado.",
-      "notes": "O criador construiu um aplicativo de piano com Gemini 3.6 Flash que pode ser tocado em um teclado de computador e o enquadrou como um aplicativo que as crianças poderiam explorar."
+      "title": "Uma paisagem animada no Google Sheets",
+      "takeaway": "Use uma animação incomum em planilha para inspecionar o código gerado e as atualizações das células.",
+      "notes": "O Google demonstra trens costeiros, nuvens e folhas de outono pintados nas células com código escrito no Antigravity. É uma demonstração criativa oficial, não uma avaliação de desempenho de planilhas."
     },
     "12": {
-      "title": "Assistente de voz do robô de mesa",
-      "takeaway": "Integre Flash e Flash-Lite em um aplicativo de voz e compare o comportamento de primeira resposta.",
-      "notes": "O criador adicionou Gemini 3.6 Flash e Gemini 3.5 Flash-Lite a um aplicativo de diálogo de voz para um robô de desktop e observou que a resposta inicial parecia um pouco lenta, mas utilizável."
+      "title": "Site de dados interativos Folio",
+      "takeaway": "Combine o layout de uma página de apresentação com visualizações interativas de dados em um pequeno protótipo web.",
+      "notes": "Um funcionário do Google DeepMind apresenta um site no estilo Folio e uma animação interativa criados no Google AI Studio. A publicação não fornece a instrução completa de geração nem um teste funcional independente."
     },
     "13": {
-      "title": "Falha no HTML da Ponte Golden Gate",
-      "takeaway": "Use uma tarefa estrita de entrega de arquivos para testar o seguimento das instruções antes de confiar nas experiências web 3D geradas.",
-      "notes": "O testador precisou de três prompts, viu o modelo tentar uma simulação no aplicativo e respostas de imagem da web em vez do arquivo HTML solicitado e julgou a saída final da ponte 3D materialmente mais fraca do que o Gemini 3.1 Pro."
+      "title": "Respostas visuais a buscas com várias partes",
+      "takeaway": "Compare a disposição das respostas e os links citados ao testar uma busca detalhada com várias restrições.",
+      "notes": "O exemplo do Search do Google combina compreensão da intenção, layouts visuais, tabelas comparativas e expansão de consultas. São comportamentos do produto descritos pelo fornecedor; a demonstração não estabelece efeitos sobre posicionamento ou tráfego para editores."
     },
     "14": {
-      "title": "Teste visual de prompt público",
-      "takeaway": "Abra o thread de origem quando precisar do prompt completo do criador, em vez de reconstruí-lo a partir da saída.",
-      "notes": "MotionViz publicou um teste visual do Gemini 3.6 Flash com mídia e indicou que o prompt completo está disponível no thread de origem; este repositório não reconstrói texto de prompt não presente no pacote fonte."
+      "title": "Previsões financeiras interativas no Sheets",
+      "takeaway": "Crie um protótipo de modelo financeiro com premissas visíveis e inspecione as fórmulas e os gráficos gerados.",
+      "notes": "Chandu Thota apresenta uma demonstração de previsões no Google Sheets. A alegação de geração de canvas mais de 30% mais rápida vem do fornecedor, não de uma medição controlada de tempo realizada para este repositório."
     },
     "15": {
-      "title": "Jogo de tela de prompt único",
-      "takeaway": "Use um prompt no Canvas para testar a rapidez com que o modelo pode transformar um conceito de jogo compacto em um resultado interativo.",
-      "notes": "O criador testou o Gemini 3.6 Flash no acesso antecipado e usou um único prompt do Canvas para produzir uma demonstração do jogo jogável."
+      "title": "Uma sala de jantar interativa",
+      "takeaway": "Confira as interações dos objetos, a iluminação e as mudanças de estado em vez de julgar uma cena por uma imagem estática.",
+      "notes": "O criador mostra uma sala de jantar com luzes, luminárias, geladeira e itens internos interativos. Os 30 minutos de construção informados não foram verificados independentemente."
     },
     "16": {
-      "title": "Comparação de versões da página de destino",
-      "takeaway": "Mantenha o prompt fixo entre gerações de modelos para isolar alterações na execução da página de destino e no julgamento visual.",
-      "notes": "O criador adicionou o Gemini 3.6 Flash a um arquivo da página de destino do mesmo prompt e julgou o resultado mais recente pior do que as saídas do Gemini 3 e 3.5."
+      "title": "Um controle de volume com um mundo em miniatura",
+      "takeaway": "Use um controle conhecido para testar tanto o design de interação quanto os detalhes da cena animada.",
+      "notes": "A fonte mostra um controle de volume que anima um pequeno mundo de estilo japonês. O criador informa um custo de $0.19, mas não apresenta uma fatura nem o fluxo completo de geração."
     },
     "17": {
-      "title": "Protótipo 3D de Subway Surfers",
-      "takeaway": "Habilite o pensamento estendido para experimentos de codificação e inspecione a qualidade da interação e a fidelidade visual.",
-      "notes": "O criador usou o Gemini 3.6 Flash para construir uma réplica 3D simples no estilo Subway Surfers e recomendou um pensamento estendido para tarefas de codificação."
+      "title": "Uma casa japonesa em Three.js",
+      "takeaway": "Separe a geração de código do tempo de renderização ao avaliar um passeio 3D detalhado.",
+      "notes": "O criador atribui essa casa e jardim ao Hydrogen em Three.js sem agentes. As alegações sobre consumo da assinatura e duração inferior a duas horas são específicas da configuração do autor, não garantias gerais de preço ou latência."
     },
     "18": {
-      "title": "Comparação de sites de uma página",
-      "takeaway": "Mantenha o prompt do site e o nível de raciocínio constantes e compare o custo do token, a velocidade e a preferência de design.",
-      "notes": "No mesmo prompt do site de uma página, o criador relatou cerca de 6.100 tokens para Gemini 3.6 Flash contra cerca de 9.300 para 3.5 Flash, embora pessoalmente preferisse a aparência do modelo mais antigo."
+      "title": "Um pelicano andando de bicicleta em 3D",
+      "takeaway": "Use um personagem em movimento para inspecionar coordenação, movimento e consistência da cena.",
+      "notes": "O criador apresenta um pelicano animado em 3D andando de bicicleta e identifica o modelo como Hydrogen em XHigh. A publicação demonstra um resultado, não uma instrução completa reproduzível nem uma validação física."
     },
     "19": {
-      "title": "Falha no jogo do Velho Oeste",
-      "takeaway": "Trate os resultados fracassados da geração de jogos como evidência para decidir quando mudar de modelo ou revisar a tarefa.",
-      "notes": "O testador usou um prompt de geração de jogo do Velho Oeste e julgou Gemini 3.6 Flash materialmente atrás de GPT-5.6, Kimi K3 e Fable 5 no resultado observado."
+      "title": "Um simulador planetário que começa pelo planejamento",
+      "takeaway": "Dê ao modelo de programação um plano concreto antes de pedir que edite uma cena complexa.",
+      "notes": "O criador com acesso antecipado mostra um simulador planetário e relata melhores resultados de edição após fornecer planos mais detalhados. A fonte credita a ideia ao ForwardEditor e descreve um fluxo iterativo."
     },
     "20": {
-      "title": "Falha no material do jogo antigravidade",
-      "takeaway": "Verifique os materiais visuais e o comportamento real de interação antes de aceitar um protótipo de jogo gerado por IA.",
-      "notes": "Em um segundo teste do jogo Antigravity, o criador encontrou texturas de madeira mais fracas e um elemento de mármore que parecia semelhante, mas permaneceu não funcional."
+      "title": "Uma ilha portuária com Antigravity Swarm",
+      "takeaway": "Use um pequeno ambiente navegável para inspecionar como vários agentes constroem cenas.",
+      "notes": "O criador declarou acesso antecipado e mostra uma ilha portuária construída com Hydrogen no recurso Swarm do Antigravity. A publicação pública não especifica toda a orquestração nem o histórico de instruções."
     },
     "21": {
-      "title": "Comparação Rolls-Royce SVG",
-      "takeaway": "Use um assunto SVG fixo para comparar como duas gerações do Flash lidam com forma, detalhes e composição.",
-      "notes": "A postagem coloca as saídas Gemini 3.6 Flash e 3.5 Flash lado a lado para a mesma tarefa Rolls-Royce SVG."
+      "title": "Uma ilha flutuante com a Torre Eiffel",
+      "takeaway": "Avalie composição, movimento de câmera e código gerado em uma cena compacta de um monumento.",
+      "notes": "A fonte mostra uma ilha em miniatura com a Torre Eiffel e a atribui ao Hydrogen XHigh. Os seis minutos de construção e gravação são um relato do autor, não um teste independente de tempo."
     },
     "22": {
-      "title": "Teste de aquário realista",
-      "takeaway": "Use uma cena 3D limitada para comparar o realismo e a qualidade da implementação nas versões do modelo.",
-      "notes": "O criador pediu ao Gemini 3.6 Flash para construir um aquário realista e julgou-o apenas ligeiramente melhor que o 3.5 Flash."
+      "title": "Uma cidade futurista sobrevoável",
+      "takeaway": "Teste edições posteriores em um mundo procedural em vez de assumir que o primeiro resultado é final.",
+      "notes": "O criador com acesso antecipado usou Hydrogen High no Antigravity e relata uma instrução adicional para produzir uma cidade Three.js com torres procedurais, chuva e tráfego aéreo. A gravação mostra código gerado em execução, não geração nativa de vídeo."
     },
     "23": {
-      "title": "Gêmeos versus Grok no Max Reasoning",
-      "takeaway": "Use as mesmas configurações de raciocínio rápido e máximo para comparar velocidade, custo e resultados, em vez de confiar na reputação do modelo.",
-      "notes": "O criador executou Gemini 3.6 Flash e Grok 4.5 sob as mesmas configurações de prompt e raciocínio máximo, observando que ambos eram rápidos enquanto Grok era um pouco mais rápido e barato."
+      "title": "Um hidroavião do amanhecer à noite",
+      "takeaway": "Inspecione os controles ambientais e as transições de iluminação em uma cena 3D interativa.",
+      "notes": "A demonstração original do LuminaBench mostra um hidroavião e mudanças na hora do dia, sendo depois compartilhada pelo Google. A publicação é anterior ao limite registrado do lançamento público; a via de acesso e a invocação do modelo não foram verificadas independentemente."
     },
     "24": {
-      "title": "Gêmeos versus Soneto em configurações máximas",
-      "takeaway": "Compare modelos em prompts idênticos e suas configurações mais fortes e, em seguida, inspecione o artefato real gerado.",
-      "notes": "O criador testou o Gemini 3.6 Flash e o Sonnet 5 com os mesmos prompts nas configurações máximas e preferiu a saída do Gemini na tarefa mostrada."
+      "title": "Animação de bonecos de neon: Hydrogen e Opus",
+      "takeaway": "Compare a animação pronta com o tempo e o custo informados, sem pressupor ambientes de execução idênticos.",
+      "notes": "O autor apresenta resultados do Hydrogen e do Opus 5.5 e informa $1.02 contra $7.43 e 10m 22s contra 34m. A coleção não verificou cobrança, instruções, número de iterações nem configurações de execução comparáveis."
     },
     "25": {
-      "title": "Teste de compreensão visual",
-      "takeaway": "Use uma tarefa de imagem concreta para inspecionar a qualidade da resposta e o estilo de interação antes de adotar o modelo para fluxos de trabalho de visão.",
-      "notes": "O criador apresentou um teste de visão no qual o Gemini 3.6 Flash passou e destacou a personalidade da resposta como parte da experiência observada."
+      "title": "Tarefas robóticas e erros reconhecidos",
+      "takeaway": "Inclua a conclusão de tarefas e o reconhecimento de pequenos erros em uma avaliação de robótica.",
+      "notes": "A Artificial Analysis mostra tarefas de despejar líquido e arrumar blocos e diz que o Hydrogen percebeu um pequeno derramamento e uma tampa aberta. O vídeo e a classificação AA-Robotics v0.1 vêm do avaliador; aqui não são reproduzidos independentemente."
     },
     "26": {
-      "title": "Referência de jogos da Rocket League",
-      "takeaway": "Execute um benchmark repetido de geração de jogos e registre o tempo de construção e uma classificação subjetiva consistente.",
-      "notes": "O criador testou o Gemini 3.6 Flash em uma tarefa no estilo Rocket League, classificou-o em terceiro lugar em uma tabela de classificação pessoal e relatou a conclusão em menos de dois minutos."
+      "title": "Uma célula de trabalho de laboratório em linguagem natural",
+      "takeaway": "Avalie a execução de ferramentas e o tratamento de falhas separadamente das principais pontuações das avaliações.",
+      "notes": "A fonte mostra uma célula de trabalho de laboratório acionada por um pedido em linguagem natural e relata resultados em quatro avaliações ligadas a laboratórios. A pontuação informada do Hydrogen no RareBench é menor que a do Opus 5.5, enquanto as outras três são maiores; é uma demonstração do responsável pelas avaliações, não uma validação médica."
     },
     "27": {
-      "title": "Comparação visual do EyeBench",
-      "takeaway": "Use uma referência visual estável para separar os ganhos incrementais de eficiência da qualidade absoluta.",
-      "notes": "No EyeBench, o criador julgou o Gemini 3.6 Flash um pouco melhor que o 3,5 Flash, mas ainda pior que o Gemini 3.1 Pro Preview, ao mesmo tempo em que observou uma melhor eficiência do token."
+      "title": "Iceberg e rebocador: Hydrogen e Carbon",
+      "takeaway": "Registre o nível de raciocínio e as restrições do ambiente ao comparar uma construção 3D longa.",
+      "notes": "O criador relata ambos os modelos em High via OpenRouter, com Hydrogen a $4.27 e 1h 23m 40s contra Carbon a $8.83 e 2h 39m 10s. São resultados não controlados relatados pela fonte, não proporções universais de preço ou velocidade."
     },
     "28": {
-      "title": "Comparação de animação de corte de papel",
-      "takeaway": "Compare a velocidade de resposta e a animação final separadamente ao avaliar a geração de criativos.",
-      "notes": "O criador comparou o Gemini 3.6 Flash com o Fable 5 em uma tarefa de animação recortada em papel, elogiando a resposta quase imediata do Gemini, mas expressando reservas sobre o resultado."
+      "title": "Um lago gelatinoso de carpas koi: Hydrogen e Sonnet",
+      "takeaway": "Inspecione uma cena concreta antes de transformar uma classificação de avaliação em uma escolha de modelo.",
+      "notes": "O autor compara Hydrogen e Sonnet 5.5 em uma tarefa de lago de carpas koi em 3D. A fonte pede que o público julgue os resultados, mas não estabelece configurações equivalentes nem uma pontuação objetiva de qualidade."
     },
     "29": {
-      "title": "Referência de geração de AI Arena",
-      "takeaway": "Use a mesma tarefa de arena para comparar o tempo de construção, o preço e a qualidade do artefato em vários modelos de codificação.",
-      "notes": "O criador testou Grok 4.5, Gemini 3.6 Flash e GPT-5.6 Luna em uma tarefa da AI Arena e julgou o resultado do Gemini o mais fraco nessa corrida."
+      "title": "Uma coleção de programação criativa com instruções compartilhadas",
+      "takeaway": "Use um conjunto variado de tarefas visuais para evitar generalizar a partir de um único resultado atraente.",
+      "notes": "O criador relata ter dado as mesmas instruções ao Hydrogen, Carbon e Argon e coloca comparações nas respostas. A mídia da publicação principal mostra animais com poucos polígonos, uma rua de neon e um recipiente em estilo aquarela; não é uma avaliação controlada completa."
     },
     "30": {
-      "title": "Custo de construção de jogo entre modelos",
-      "takeaway": "Acompanhe a contagem de iterações, a experiência do desenvolvedor, os recursos e o custo ao escolher um modelo para prototipagem de jogos.",
-      "notes": "Usando o mesmo fluxo de trabalho de design, o criador relatou a necessidade de seis a sete iterações para corrigir um bug de salto e queda gerado pelo Gemini e listou um custo de execução de US$ 0,15 junto com pontuações comparativas."
+      "title": "Vóxeis de Megamind: um contraexemplo de custo e qualidade",
+      "takeaway": "Mantenha os casos de falha ao avaliar se um modelo é consistentemente mais barato ou visualmente melhor.",
+      "notes": "A fonte diz que o Hydrogen produziu uma figura de Titan menos coerente ao custo de $36.07, contra $8.64 do Sonnet 5.5. A publicação inclui promoção comercial, e os custos e o julgamento de qualidade são alegações do publicador."
     },
     "31": {
-      "title": "Referência de recusa de segurança cibernética",
-      "takeaway": "Inclua comportamento de recusa nas avaliações de ferramentas de segurança porque a revisão defensiva do código pode ser bloqueada com solicitações ofensivas.",
-      "notes": "Uma execução de benchmark de segurança cibernética foi recusada, levando o avaliador a relatar que a política testada bloqueava o comportamento de descoberta de vulnerabilidades para código defensivo, bem como para uso malicioso."
+      "title": "Um leão malabarista nas quatro estações",
+      "takeaway": "Confira o movimento solicitado, não apenas o acabamento visual da interface ao redor.",
+      "notes": "O autor relata que o Carbon executou os arcos cruzados dos malabares enquanto o Hydrogen deixou as bolas flutuando, apesar de transições de estações e recortes mais limpos. Essa comparação SVG da mesma tarefa revela uma falha específica de movimento, não uma classificação geral dos modelos."
     },
     "32": {
-      "title": "Falha na atualização do conhecimento",
-      "takeaway": "Verifique os fatos atuais com recuperação em vez de confiar em um limite de conhecimento alegado.",
-      "notes": "O testador solicitou os modelos principais atuais e recebeu nomes mais antigos, depois relatou que o modelo reconhecia o conhecimento atual apenas até o início de 2025, apesar de reivindicar um limite de março de 2026."
+      "title": "Luta de bonecos com três modelos: resultado mais lento e caro",
+      "takeaway": "Preserve contraexemplos ao comparar a eficiência anunciada de um modelo com relatos de tarefas reais.",
+      "notes": "O criador compara Hydrogen, Carbon e Argon e relata que o Hydrogen levou mais tempo e custou mais que o Carbon nesse teste. Configurações, cobrança e número de iterações não foram verificados independentemente."
     },
     "33": {
-      "title": "Teste da equipe vermelha de Jailbreak",
-      "takeaway": "Trate as reivindicações de jailbreak como sinais de equipe vermelha que exigem reprodução controlada e revisão de segurança, não como instruções reutilizáveis.",
-      "notes": "A postagem afirma um jailbreak no aplicativo e API Gemini e lista as categorias de conteúdo prejudicial testadas; este repositório registra o sinal de segurança sem reproduzir instruções de exploração."
+      "title": "Uma cena de bicicleta na fazenda: Hydrogen e Flash",
+      "takeaway": "Compare o movimento e a qualidade da cena com o tempo de conclusão informado pelo criador.",
+      "notes": "A fonte compara Hydrogen e Gemini 3.8 Flash em uma cena de bicicleta na fazenda e relata 56 segundos contra mais de seis minutos. É um teste de um único criador, não uma avaliação geral de velocidade."
+    },
+    "34": {
+      "title": "Uma menina e um gato em bicicletas tandem",
+      "takeaway": "Compare a fidelidade à instrução e os detalhes adicionais, deixando visíveis as diferenças entre os ambientes de programação.",
+      "notes": "O criador usou a mesma tarefa SVG declarada, mas executou Opus 5.5 no Claude Code e Hydrogen no Cursor. Tempo e custo informados diferem bastante, mas ambientes diferentes e iterações não divulgadas impedem uma comparação controlada apenas dos modelos."
+    },
+    "35": {
+      "title": "Quatro modelos constroem um jogo de Mario em Three.js",
+      "takeaway": "Registre as diferenças de raciocínio antes de interpretar uma comparação de jogos com a mesma instrução.",
+      "notes": "A fonte compara Gemini 3.8 Flash, Argon e Carbon em High com Hydrogen em XHigh, usando apenas Three.js sem modelos 3D ou texturas externos. Ela mostra quatro resultados, não uma avaliação com raciocínio equivalente."
+    },
+    "36": {
+      "title": "Três modelos Gemini desenham um controle",
+      "takeaway": "Procure regressões e melhorias específicas da tarefa em vez de pressupor uma hierarquia entre modelos da família.",
+      "notes": "O criador compara controles SVG do Carbon, Argon e Hydrogen e relata ter repetido o teste. Durações e custos informados são alegações da fonte e não estabelecem uma ordem geral de qualidade dos modelos."
+    },
+    "37": {
+      "title": "Respostas visuais diferentes entre o aplicativo e o Studio",
+      "takeaway": "Teste a mesma imagem no produto que pretende usar antes de confiar em um resultado visual.",
+      "notes": "A fonte mostra respostas conflitantes de identificação de alimentos atribuídas ao Hydrogen no aplicativo Gemini e no AI Studio. A comparação não verifica independentemente se o roteamento, as configurações ou o contexto completo da conversa são idênticos."
+    },
+    "38": {
+      "title": "Uma cena de lançamento de foguete: Hydrogen e Flash",
+      "takeaway": "Compare a animação real do lançamento e também a duração de construção informada.",
+      "notes": "O criador apresenta resultados do Hydrogen e do Gemini 3.8 Flash e relata menos de um minuto contra aproximadamente três minutos. A comparação visual é de uma tarefa sem configuração de execução controlada independentemente."
+    },
+    "39": {
+      "title": "Quatro tarefas de animação SVG",
+      "takeaway": "Use vários temas de interação e animação para inspecionar a consistência entre tarefas.",
+      "notes": "A fonte apresenta pares de resultados do Hydrogen e do Carbon para transferências, mudanças de dia e noite, abertura de caixa e um camaleão. Seu breve texto principal não revela instruções completas, evidências de tempo nem um método objetivo de pontuação."
+    },
+    "40": {
+      "title": "Três modelos animam um cavalo na savana",
+      "takeaway": "Inspecione diretamente o movimento e os detalhes visuais antes de aceitar alegações amplas sobre custo ou qualidade.",
+      "notes": "O criador apresenta Hydrogen, Carbon e Argon em uma cena de cavalo na savana. As alegações de maior velocidade, menor custo e alta qualidade continuam sendo a avaliação da fonte, não uma comparação controlada reproduzida aqui."
     }
   }
 }
