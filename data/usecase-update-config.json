@@ -24,7 +24,7 @@
   "namespace": {
     "name": "gemini-4-hydrogen",
     "heading_prefix": "Case",
-    "anchor_prefix": "case-",
+    "anchor_prefix": "case",
     "category_anchors": [
       "agents",
       "apps-learning",
@@ -34,7 +34,19 @@
     ],
     "numbering_policy": "contiguous-model-migration",
     "existing_count": 0,
-    "intended_count": 40
+    "intended_count": 40,
+    "localized_heading_prefixes": {
+      "README_es.md": "Caso",
+      "README_pt.md": "Caso",
+      "README_ja.md": "事例",
+      "README_ko.md": "사례",
+      "README_de.md": "Fall",
+      "README_fr.md": "Cas",
+      "README_tr.md": "Örnek",
+      "README_zh-TW.md": "案例",
+      "README_zh-CN.md": "案例",
+      "README_ru.md": "Пример"
+    }
   },
   "requirements": {
     "allowed_types": [
