@@ -1,6 +1,6 @@
 # Contributing
 
-Thanks for helping improve this source-backed Gemini 3.6 Flash collection
+Thanks for helping improve this source-backed Gemini 4 Hydrogen collection
 
 ## Propose a case
 
@@ -23,7 +23,8 @@ Use the correction issue template for attribution, translation, broken-link, or 
 - Keep source URLs and author attribution intact
 - Do not reconstruct missing prompts
 - Do not commit downloaded media; public media is served from the repository's R2 namespace
-- Run `python3 scripts/verify_repository.py` before opening a pull request
+- Use Python 3.12. Run `python3 scripts/build_readmes.py --check`, `python3 scripts/verify_repository.py`, and `python3 -m unittest discover -s tests -v` before opening a pull request
+- Treat `data/source-inventory.json` as the independently reviewed source lock. An intentional source update must update its reviewed inventory hash and regression fixtures, not only generated counts
 - Keep all 11 README variants structurally aligned
 
 By contributing, you agree that your contribution is licensed under CC BY 4.0

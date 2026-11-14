@@ -1,11 +1,66 @@
 {
   "schema_version": 1,
   "repository": "Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases",
-  "model_id": "gemini-3.6-flash",
   "canonical_data": "data/use-cases.json",
   "source_fidelity_manifest": "data/source-fidelity-manifest.json",
-  "languages": ["en", "es", "pt", "ja", "ko", "de", "fr", "tr", "zh-TW", "zh-CN", "ru"],
+  "languages": [
+    "en",
+    "es",
+    "pt",
+    "ja",
+    "ko",
+    "de",
+    "fr",
+    "tr",
+    "zh-TW",
+    "zh-CN",
+    "ru"
+  ],
   "media_policy": "all-source-media",
   "video_policy": "r2-playable",
-  "localization_fallback": "english"
+  "localization_fallback": "english",
+  "source_inventory": "data/source-inventory.json",
+  "namespace": {
+    "name": "gemini-4-hydrogen",
+    "heading_prefix": "Case",
+    "anchor_prefix": "case",
+    "category_anchors": [
+      "agents",
+      "apps-learning",
+      "data-search",
+      "interactive-3d",
+      "comparisons-limits"
+    ],
+    "numbering_policy": "contiguous-model-migration",
+    "existing_count": 0,
+    "intended_count": 40,
+    "localized_heading_prefixes": {
+      "README_es.md": "Caso",
+      "README_pt.md": "Caso",
+      "README_ja.md": "事例",
+      "README_ko.md": "사례",
+      "README_de.md": "Fall",
+      "README_fr.md": "Cas",
+      "README_tr.md": "Örnek",
+      "README_zh-TW.md": "案例",
+      "README_zh-CN.md": "案例",
+      "README_ru.md": "Пример"
+    }
+  },
+  "requirements": {
+    "allowed_types": [
+      "Demo",
+      "Tutorial",
+      "Evaluation",
+      "Integration",
+      "Benchmark",
+      "Limit"
+    ]
+  },
+  "migration": {
+    "from_model": "Gemini 3.6 Flash",
+    "to_model": "Gemini 4 Hydrogen",
+    "prior_commit": "6261555bf8f0dd5fec227d2e01a1a0de30daa8a8",
+    "case_policy": "Replace the previous model collection; previous cases remain in Git history."
+  }
 }

@@ -1,15 +1,15 @@
 {
-  "schema_version": 1,
-  "source_artifact": "/Users/cheercheung/X-info/热词搜索/gemini-3-6-flash/use-case-media-posts.json",
-  "source_manifest_sha256": "f94185fa582d6532d8802d40f895c72c36a7456586d30821a37fb27962ef4d19",
-  "selected_case_count": 33,
-  "cases_with_source_media": 33,
-  "expected_public_visual_count": 42,
+  "schema_version": 2,
+  "source_manifest_sha256": "1491d66adc80e26e98b264822c215101ddf3f914fc1862de2653d730718b7969",
+  "source_inventory_sha256": "d07f9769c546bd3c3017b0c8a799520d49df0909f830ad519bb0e90605261aef",
+  "selected_case_count": 40,
+  "cases_with_source_media": 40,
+  "expected_public_visual_count": 41,
   "media_policy": "all-source-media",
   "owner_presentation": {
     "menu_layout": "centralized-single-table",
     "acknowledge_layout": "inline-comma",
-    "quick_start_position": "penultimate-section",
+    "quick_start_position": "before-first-case",
     "media_policy": "all-source-media",
     "video_playback_policy": "r2-playable",
     "localization_fallback": "english"
@@ -17,408 +17,599 @@
   "cases": [
     {
       "public_number": 1,
-      "source_url": "https://x.com/JeffDean/status/2079591562145870043",
+      "source_url": "https://x.com/antigravity/status/2120944334023389476",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079591478926745600/vid/avc1/1280x720/RtOxpZWLiS0yt6Pg.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120943582982864896/vid/avc1/3840x2160/mlWY5wNLewswJgbW.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042.mp4"
     },
     {
       "public_number": 2,
-      "source_url": "https://x.com/antigravity/status/2079663375991046351",
+      "source_url": "https://x.com/shengzheyao/status/2120944141559550409",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079663337156055040/vid/avc1/1280x720/1nWTgOb5vajEJRnn.mp4?tag=14"
+        "https://video.twimg.com/amplify_video/2120943961997180928/vid/avc1/1920x1080/ErTCg9iVX8dSR--3.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044.mp4"
     },
     {
       "public_number": 3,
-      "source_url": "https://x.com/stevibe/status/2079599477216956437",
+      "source_url": "https://x.com/thtbee_/status/2120958666480513310",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079599129467215872/vid/avc1/1116x720/wIvdGrImGBjG3q0a.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120957827384745984/vid/avc1/1920x1080/RQylyMWhfaOy83aK.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024.mp4"
     },
     {
       "public_number": 4,
-      "source_url": "https://x.com/browser_use/status/2079602472516264010",
+      "source_url": "https://x.com/GoogleAI/status/2120940683233984862",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNw7RZ1bsAE74Kw.jpg"
+        "https://video.twimg.com/amplify_video/2120939844440399873/vid/avc1/1920x1080/UdjxfjX9O8eqkkB4.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-04-01.jpg"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053.mp4"
     },
     {
       "public_number": 5,
-      "source_url": "https://x.com/__apf__/status/2079603658141184134",
+      "source_url": "https://x.com/Da7_Tech/status/2120967690722677144",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079603634695024644/vid/avc1/1280x720/-SrsYkddcuDCtSMZ.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120966829187227649/vid/avc1/2932x1724/8c1L5itpDycfxqAv.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018.mp4"
     },
     {
       "public_number": 6,
-      "source_url": "https://x.com/databricks/status/2079598684455551326",
+      "source_url": "https://x.com/tulseedoshi/status/2121095754844713427",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNw391VXYAAxMCK.png"
+        "https://video.twimg.com/amplify_video/2121095725778092032/vid/avc1/1920x1080/lMYP6Aga1csE_b6u.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-06-01.png"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001.mp4"
     },
     {
       "public_number": 7,
-      "source_url": "https://x.com/jetbrains/status/2079618218587574636",
+      "source_url": "https://x.com/techartist_/status/2120957446202253803",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079617687844519936/vid/avc1/720x1280/Lt0CxAxtU2mgUd8b.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120956372825341952/vid/avc1/1920x1080/h2VGj9HMiycXA_R8.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026.mp4"
     },
     {
       "public_number": 8,
-      "source_url": "https://x.com/CodeByPoonam/status/2079607995861021073",
+      "source_url": "https://x.com/thebuggeddev/status/2120952661046689992",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079607963250307076/vid/avc1/1280x720/ITig8q6D2bUdL_2L.mp4?tag=14"
+        "https://video.twimg.com/amplify_video/2120952446084407296/vid/avc1/2826x1840/SU5r9DTPL_t2or18.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030.mp4"
     },
     {
       "public_number": 9,
-      "source_url": "https://x.com/bijanbowen/status/2079675781794443640",
+      "source_url": "https://x.com/IamEmily2050/status/2120951069874532806",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079674956623814656/vid/avc1/1280x720/ri11OOhyV-m2bfEa.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120950685038735360/vid/avc1/1920x1080/BmrHRv2HBYyhaEMQ.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032.mp4"
     },
     {
       "public_number": 10,
-      "source_url": "https://x.com/diegocabezas01/status/2079588206513631483",
+      "source_url": "https://x.com/SidraMiconi/status/2120948703095820743",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079587440604442624/vid/avc1/1000x720/AoFQ1PnmKwpUW4c7.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120947306744954880/vid/avc1/1080x1350/PKZKgLXWlSaY3VkM.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034.mp4"
     },
     {
       "public_number": 11,
-      "source_url": "https://x.com/Majin_AppSheet/status/2079734240540041230",
+      "source_url": "https://x.com/Google/status/2121004369617485896",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079733824905465856/vid/avc1/1264x720/K0VbA_JESRUcnDkV.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2121002921806438400/vid/avc1/1920x1920/U-uPGtBz9uacWeC1.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006.mp4"
     },
     {
       "public_number": 12,
-      "source_url": "https://x.com/AILogDev/status/2079716688745132044",
+      "source_url": "https://x.com/vamsibatchuk/status/2120996342923436188",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079716656004374528/vid/avc1/720x1280/20XvIUdrUPvBtyxC.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120994942827024384/vid/avc1/3836x2160/HI_ycQ1CEDyQZr-1.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007.mp4"
     },
     {
       "public_number": 13,
-      "source_url": "https://x.com/LuminaXspace/status/2079597030922465407",
+      "source_url": "https://x.com/Google/status/2120960715011883148",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079596873115901952/vid/avc1/1280x720/QlyXKMba8g6E1csg.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120959886766772224/vid/avc1/1080x1080/vBFxh1k58I9Lfa-B.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021.mp4"
     },
     {
       "public_number": 14,
-      "source_url": "https://x.com/Motion_Viz/status/2079592671530938537",
+      "source_url": "https://x.com/ChanduThota/status/2120942270627414079",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079592646746738688/vid/avc1/1266x720/MIJ2XFqzcQjaMjKl.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120941222823108608/vid/avc1/1920x1080/vtGhaHK5ZNCrSJ1K.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047.mp4"
     },
     {
       "public_number": 15,
-      "source_url": "https://x.com/ozansihay/status/2079599565565468672",
+      "source_url": "https://x.com/notjazii/status/2120979811569222137",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079599236568473600/vid/avc1/1080x1114/L9oVscInrualI-EI.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120978707414491136/vid/avc1/1920x1080/op-ZnAi5yMmotnHo.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014.mp4"
     },
     {
       "public_number": 16,
-      "source_url": "https://x.com/nemumusitocha/status/2079596099854307650",
+      "source_url": "https://x.com/vib3coded/status/2120973294090555890",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNw1KGLbsAAFEIx.jpg",
-        "https://pbs.twimg.com/media/HNw1O8lbYAAFsLb.jpg",
-        "https://pbs.twimg.com/media/HNw1THxbYAAmaVq.jpg"
+        "https://video.twimg.com/amplify_video/2120973203120050176/vid/avc1/1120x780/pm3v1PgkGfm_gCYC.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016.mp4"
     },
     {
       "public_number": 17,
-      "source_url": "https://x.com/itsPaulAi/status/2079597536155668890",
+      "source_url": "https://x.com/SPAC89/status/2120972954146140409",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079595879170744320/vid/avc1/1148x720/c-XE5SZOkOiVkDnA.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120971353633202177/vid/avc1/1920x1080/Od6wUqpvt7b79vBW.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017.mp4"
     },
     {
       "public_number": 18,
-      "source_url": "https://x.com/SaiNemani1/status/2079606113306325496",
+      "source_url": "https://x.com/nehstrr3/status/2120953932692537722",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079605359254380544/vid/avc1/694x360/S65v6aXVXgPbojmi.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120953837385359360/vid/avc1/1430x720/5Ue6IDqk9aW_5ERZ.mp4?tag=14"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029.mp4"
     },
     {
       "public_number": 19,
-      "source_url": "https://x.com/Mr_Salio/status/2079635008424169901",
+      "source_url": "https://x.com/The_Alex/status/2120950301318582643",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079633369424359425/vid/avc1/1280x720/fvnjpDv6M7En3Iez.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120944950129176576/vid/avc1/3840x2160/8PsAAgymgRIfmDIn.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033.mp4"
     },
     {
       "public_number": 20,
-      "source_url": "https://x.com/Conor_D_Dart/status/2079592731211399460",
+      "source_url": "https://x.com/ai_for_success/status/2120942147780464660",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079592621333221376/vid/avc1/1008x720/DK0-8_KI2xcT76gj.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120940950755373056/vid/avc1/3840x2160/xRy9emOaWA5dTwBB.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048.mp4"
     },
     {
       "public_number": 21,
-      "source_url": "https://x.com/ggg78g89/status/2079610251444437335",
+      "source_url": "https://x.com/RezAIT00/status/2120940988780736973",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNxCSPYbQAAHuFu.png",
-        "https://pbs.twimg.com/media/HNxCc07awAAwjoh.png"
+        "https://video.twimg.com/amplify_video/2120940731434950656/vid/avc1/1280x720/OHfW-AouSSJ0jQOw.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051.mp4"
     },
     {
       "public_number": 22,
-      "source_url": "https://x.com/intheworldofai/status/2079681107516170431",
+      "source_url": "https://x.com/kimmonismus/status/2120940617169826037",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079680565427470336/vid/avc1/1280x720/5uE2zmiw9-WAi7fN.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120940540548284416/vid/avc1/1920x1080/Y3L6dlEDMLhpGusP.mp4?tag=16"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054.mp4"
     },
     {
       "public_number": 23,
-      "source_url": "https://x.com/notjazii/status/2079609162431181193",
+      "source_url": "https://x.com/LuminaBench/status/2120939312564842663",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079608993304260610/vid/avc1/840x360/nhYhaeCgArHRo-Cw.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120938572953915392/vid/avc1/1880x1280/78GQdCMIIp9JTPlU.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056.mp4"
     },
     {
       "public_number": 24,
-      "source_url": "https://x.com/notjazii/status/2079617706693902416",
+      "source_url": "https://x.com/rubenssoto_ai/status/2121068028435791947",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079617607930650624/vid/avc1/840x360/ccrTdvbnWtjuBQEc.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2121058952364306432/vid/avc1/1920x2160/5JpHRUW7vJ_bGegU.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002.mp4"
     },
     {
       "public_number": 25,
-      "source_url": "https://x.com/HarshithLucky3/status/2079607042403381313",
+      "source_url": "https://x.com/ArtificialAnlys/status/2120995180891508833",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNw_anRbsAQe6Em.jpg"
+        "https://video.twimg.com/amplify_video/2120994997126549504/vid/avc1/1080x1080/dlP6Dpa3d8_-lN2J.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-25-01.jpg"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008.mp4"
     },
     {
       "public_number": 26,
-      "source_url": "https://x.com/LLMJunky/status/2079712480683790743",
+      "source_url": "https://x.com/danielmckinn0n/status/2120990834246173125",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079712137786621952/vid/avc1/1208x720/mwyHbRzHHghlpbPL.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120988034686758912/vid/avc1/720x1280/aRBzoKk1GMjkB8mS.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009.mp4"
     },
     {
       "public_number": 27,
-      "source_url": "https://x.com/adonis_singh/status/2079631807817933222",
+      "source_url": "https://x.com/EnvolDev/status/2120989670582677930",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNxUot7WIAAhe7L.jpg"
+        "https://video.twimg.com/amplify_video/2120989436049825792/vid/avc1/2880x2880/KxQPHJBspvQTrCN9.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-27-01.jpg"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010.mp4"
     },
     {
       "public_number": 28,
-      "source_url": "https://x.com/OriSilver/status/2079603778441957776",
+      "source_url": "https://x.com/Haleeeemahh/status/2120987701352739314",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079603528473993217/vid/avc1/1280x720/mcdZxRd0jQtm3YhD.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120987489166852096/vid/avc1/1290x1564/dS2oRXr3Bz_axYo4.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011.mp4"
     },
     {
       "public_number": 29,
-      "source_url": "https://x.com/OmedVibeCodes/status/2079663080049660220",
+      "source_url": "https://x.com/kickingkeys/status/2120985358317875222",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079662825014743040/vid/avc1/1280x720/-gN-giUFX7ukBC0r.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120978886603280384/vid/avc1/1200x1200/wB2WJi1UmbYbfYtf.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012.mp4"
     },
     {
       "public_number": 30,
-      "source_url": "https://x.com/naymur_dev/status/2079710299918401907",
+      "source_url": "https://x.com/thehypedotnews/status/2120980737012670720",
       "source_media_urls": [
-        "https://video.twimg.com/amplify_video/2079704378949386240/vid/avc1/1280x720/ihkIliMEV8ecf61N.mp4?tag=29"
+        "https://video.twimg.com/amplify_video/2120978298066874369/vid/avc1/1552x1620/2xdrD-muYn7DNkYt.mp4?tag=29"
       ],
       "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30-poster.jpg"
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013-poster.jpg"
       ],
-      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30.mp4"
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013.mp4"
     },
     {
       "public_number": 31,
-      "source_url": "https://x.com/pilvar222/status/2079602157779566836",
+      "source_url": "https://x.com/SahilPanhotra/status/2120978349967458704",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNw6AODX0AAWPho.jpg"
+        "https://video.twimg.com/amplify_video/2120977801537003520/vid/avc1/1920x1920/DX0tnAF1TVhs28J_.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-31-01.jpg"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015.mp4"
     },
     {
       "public_number": 32,
-      "source_url": "https://x.com/ggg78g89/status/2079587359851737339",
+      "source_url": "https://x.com/DanielZambrini/status/2120963180461769183",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNws0XcbEAAIbOr.jpg",
-        "https://pbs.twimg.com/media/HNws46obcAAlkW-.jpg",
-        "https://pbs.twimg.com/media/HNws90waQAAwUlL.jpg",
-        "https://pbs.twimg.com/media/HNwtCd0a0AAQbdP.png"
+        "https://video.twimg.com/amplify_video/2120961857381105664/vid/avc1/1024x1728/H4xp0pmShW52yogo.mp4?tag=29"
       ],
-      "public_media_disposition": "r2-image",
+      "public_media_disposition": "r2-video",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019.mp4"
     },
     {
       "public_number": 33,
-      "source_url": "https://x.com/Ubannoblesse/status/2079711268899086484",
+      "source_url": "https://x.com/Bhavani_00007/status/2120959112934834412",
       "source_media_urls": [
-        "https://pbs.twimg.com/media/HNyeSUzbwAA9dw7.jpg",
-        "https://pbs.twimg.com/media/HNyeSUobMAA5c9n.jpg",
-        "https://pbs.twimg.com/media/HNyeSU0bwAErRxO.jpg",
-        "https://pbs.twimg.com/media/HNyeSUzbMAAFFDE.jpg"
+        "https://video.twimg.com/amplify_video/2120958093228134400/vid/avc1/1200x1600/tVk7yRqK5zF3Djtq.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023.mp4"
+    },
+    {
+      "public_number": 34,
+      "source_url": "https://x.com/marcthecreatorr/status/2120956699951628637",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2120956511706820608/vid/avc1/1440x1440/AC_CmcOnH_VLav9B.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027.mp4"
+    },
+    {
+      "public_number": 35,
+      "source_url": "https://x.com/StatsWire/status/2120955723396071548",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2120954121700208640/vid/avc1/1440x1440/wKt1DND11jRCJInA.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028.mp4"
+    },
+    {
+      "public_number": 36,
+      "source_url": "https://x.com/notjazii/status/2120952314873987271",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HW8iJaIbYAAuHET.jpg"
       ],
       "public_media_disposition": "r2-image",
       "expected_public_media_urls": [
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg",
-        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"
-      ]
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U031-01.jpg"
+      ],
+      "playable_video_urls": []
+    },
+    {
+      "public_number": 37,
+      "source_url": "https://x.com/thegenioo/status/2120946497802174688",
+      "source_media_urls": [
+        "https://pbs.twimg.com/media/HW8dbC4bEAAw3W2.jpg",
+        "https://pbs.twimg.com/media/HW8dbnqbEAABXX-.jpg"
+      ],
+      "public_media_disposition": "r2-image",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-01.jpg",
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-02.jpg"
+      ],
+      "playable_video_urls": []
+    },
+    {
+      "public_number": 38,
+      "source_url": "https://x.com/Bhavani_00007/status/2120945380850569395",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2120945027623075840/vid/avc1/1200x1200/0JQXFm2ZZbszKVn3.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040.mp4"
+    },
+    {
+      "public_number": 39,
+      "source_url": "https://x.com/Angaisb_/status/2120944947193127061",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2120944899822325761/vid/avc1/1920x1080/3fSiIOaWBjXNcWLe.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041.mp4"
+    },
+    {
+      "public_number": 40,
+      "source_url": "https://x.com/AI_Screening/status/2120944276586823689",
+      "source_media_urls": [
+        "https://video.twimg.com/amplify_video/2120943934646222848/vid/avc1/2160x3306/e1SAiKco6MHBL7DU.mp4?tag=29"
+      ],
+      "public_media_disposition": "r2-video",
+      "expected_public_media_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043-poster.jpg"
+      ],
+      "playable_video_urls": [
+        "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043.mp4"
+      ],
+      "playable_video_url": "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043.mp4"
     }
   ]
 }

@@ -3,13 +3,15 @@
 
 from __future__ import annotations
 
+import argparse
 import json
+import sys
 from pathlib import Path
 
 
 ROOT = Path(__file__).resolve().parents[1]
-R2 = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases"
-MODEL_PAGE = "https://evolink.ai/gemini-3-6-flash"
+R2 = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113"
+MODEL_PAGE = "https://evolink.ai/gemini-4-hydrogen"
 API_KEYS = "https://evolink.ai/dashboard/keys"
 API_DOCS_PATH = "api-manual/language-series/gemini/native-api/native-api-quickstart"
 DOC_LOCALE_BY_README = {
@@ -25,26 +27,20 @@ DOC_LOCALE_BY_README = {
     "zh-CN": "cn",
     "ru": "en",
 }
-GOOGLE_RELEASE = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/"
-MODEL_CARD = "https://deepmind.google/models/model-cards/gemini-3-6-flash/"
-RELATED_REPOSITORY = "https://github.com/Evolink-AI/gemini-omni-flash-api-skill"
-CAMPAIGN = "awesome-gemini-3-6-flash-guide-and-use-cases"
+GOOGLE_RELEASE = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
+MODEL_CARD = "https://deepmind.google/models/model-cards/gemini-4-hydrogen/"
+RELATED_REPOSITORY = "https://github.com/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases"
+CAMPAIGN = "awesome-gemini-4-hydrogen-guide-and-use-cases"
 MINIMAL_CURL = r"""export EVOLINK_API_KEY="your_api_key_here"
 
 curl --fail-with-body --silent --show-error \
   --request POST \
-  --url "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent" \
+  --url "https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent" \
   --header "Authorization: Bearer $EVOLINK_API_KEY" \
   --header "Content-Type: application/json" \
-  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":128,"temperature":0}}'"""
+  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":2048,"temperature":0,"thinkingConfig":{"thinkingLevel":"low"}}}'"""
 
-CATEGORY_EMOJI = {
-    "efficiency-agents": "⚡",
-    "coding-apps": "💻",
-    "web-games-3d": "🎮",
-    "evaluations": "🧪",
-    "safety-limits": "🛡️",
-}
+CATEGORY_EMOJI = {'agents': '⚡', 'apps-learning': '💻', 'data-search': '📊', 'interactive-3d': '🎮', 'comparisons-limits': '🧪'}
 
 LANGUAGES = [
     ("en", "README.md", "🇺🇸 English", "111111"),
@@ -61,51 +57,50 @@ LANGUAGES = [
 ]
 
 ENGLISH = {
-    "title": "Awesome Gemini 3.6 Flash Guide and Use Cases",
+    "title": "Awesome Gemini 4 Hydrogen Guide and Use Cases",
     "introduction": "Introduction",
-    "intro": "Welcome to a source-backed guide to Gemini 3.6 Flash in practice",
-    "mission": "This repository collects concrete Gemini 3.6 Flash workflows, builds, evaluations, comparisons, and limits from public creator evidence",
-    "boundary": "Every included case comes from the reviewed source package. Titles link to original posts, authors link to creator profiles, and prompts appear only when the source text actually contains them",
+    "intro": "Explore Gemini 4 Hydrogen through source-backed applications, coding workflows, and practical comparisons.",
+    "mission": "40 selected examples show what people built, how they worked, and where the results fell short.",
+    "boundary": "Each case links to its source and credits its author. Demos, provider examples, and creator comparisons are labeled in the notes; missing prompts are not reconstructed.",
     "overview": "Overview",
-    "overview_cases": "33 high-confidence cases selected from 33 reviewed source posts",
-    "overview_coverage": "Coverage includes agents, coding, websites, games, 3D, benchmark-style comparisons, and practical safety limits",
-    "overview_media": "All 24 video cases provide a visible poster and a playable R2-hosted MP4; image cases preserve every reviewed source image",
-    "overview_model": "EvoLink lists the production model ID as `gemini-3.6-flash`; this repository links to the current model and Gemini Native API surfaces",
-    "note": "This collection favors observable evidence over hype. It does not reconstruct missing prompts, infer unpublished setup steps, or generalize one creator's result into a universal benchmark",
-    "official_sources": "Official sources",
-    "official_launch": "Google launch announcement",
+    "overview_cases": "40 selected cases from 75 reviewed demo posts in a capped 500-post X collection, captured on November 13, 2026.",
+    "overview_coverage": "Five categories cover agents, learning and apps, spreadsheets and Search, interactive 3D, and comparisons and limitations.",
+    "overview_media": "All 41 selected source visuals are preserved: 38 playable videos with posters and 3 images.",
+    "overview_model": "Gemini 4 Hydrogen was announced on November 12, 2026. Explore the model and its current access options on EvoLink.",
+    "note": "Model attribution, costs, timing, and results remain source claims unless stated otherwise. Video review used sampled frames, not full functional testing. Recordings of coded applications are not evidence of native video generation. Different harnesses, reasoning levels, or iteration counts make comparisons uncontrolled.",
+    "official_sources": "Official references",
+    "official_launch": "Google announcement",
     "official_model_card": "Google DeepMind model card",
     "start_here": "Start here",
-    "explore": "explore Gemini 3.6 Flash",
-    "get_key": "get an API key",
-    "open_docs": "open the Gemini Native API docs",
+    "explore": "Explore Hydrogen on EvoLink",
+    "get_key": "Get an API key",
+    "open_docs": "Gemini Native API documentation",
     "menu": "Menu",
     "section": "Section",
     "cases": "Cases",
     "case": "Case",
     "category": "Category",
-    "what_it_shows": "What it shows",
+    "what_it_shows": "What to try",
     "type": "Type",
     "by": "by",
     "prompt": "Prompt",
     "date": "Date",
     "play_video": "Play source video",
     "related": "Related Repositories",
-    "related_org": "Verified Gemini-family API quick start and installable agent skill",
-    "related_note": "No dedicated installable Gemini 3.6 Flash skill was independently verified during this publication",
+    "related_org": "Gemini 4 Carbon examples and comparisons",
     "quickstart": "Quick Start",
-    "quick_intro": "Use the verified public surfaces below to start with model ID `gemini-3.6-flash`",
-    "quick_model": "Open the Gemini 3.6 Flash model page",
+    "quick_intro": "Start on EvoLink, then use the Gemini native API when you want to integrate Hydrogen into an application.",
+    "quick_model": "View Gemini 4 Hydrogen in your browser",
     "quick_key": "Create or manage an EvoLink API key",
-    "quick_docs": "Follow the Gemini Native API Quick Start",
-    "quick_run": "Run this verified minimal request",
-    "quick_success": "Expected result: a JSON response whose visible text is `OK`",
-    "important": "This exact request was verified against the live endpoint with HTTP 200 and visible output `OK`; keep your key in the environment and never commit it",
+    "quick_docs": "Read the Gemini Native API Quick Start",
+    "quick_run": "Minimal native API request",
+    "quick_success": "Read the generated text from the response's candidates[].content.parts[].text fields.",
+    "important": "Keep your API key in an environment variable and never commit it. See the API documentation for streaming, reasoning, and other request options.",
     "acknowledge": "Acknowledge",
-    "ack_text": "This collection exists because creators and practitioners shared their Gemini 3.6 Flash work publicly",
-    "thanks": "Thanks to the source creators represented here",
-    "correction": "We cannot guarantee that every post identifies the earliest original creator. If attribution, translation, or wording needs correction, open a correction issue with a public source",
-    "contribute": "To propose another source-backed case, open an issue or pull request and follow the contribution checklist",
+    "ack_text": "Thanks to the creators, developers, and evaluators who shared their Hydrogen work publicly.",
+    "thanks": "Source creators",
+    "correction": "Attribution follows the cited public sources and may not identify the earliest creator. For corrections or removal requests, open an issue with a public source.",
+    "contribute": "Suggest a source-backed example through an issue or pull request following the contribution checklist."
 }
 
 
@@ -175,10 +170,10 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
     lines = [
         '<div align="center">',
         "",
-        f'<a href="{with_utm(MODEL_PAGE, "banner", "readme_banner")}"><img src="{R2}/images/banner.png" alt="Awesome Gemini 3.6 Flash guide and use cases banner" width="760"></a>',
+        f'<a href="{with_utm(MODEL_PAGE, "banner", "readme_banner")}"><img src="{R2}/images/banner.png" alt="Awesome Gemini 4 Hydrogen guide and use cases banner" width="760"></a>',
         "",
         "[![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)",
-        f'[![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)]({with_utm(MODEL_PAGE, "badge", "top_badge")})',
+        f'[![View Hydrogen in your browser](https://img.shields.io/badge/View_Hydrogen-Browser-4285f4)]({with_utm(MODEL_PAGE, "badge", "model_try")})',
         f'[![{docs_badge_alt}](https://img.shields.io/badge/{docs_badge_text}-f22f3d)]({with_utm(api_docs, "badge", "docs_link")})',
         "",
         badges(),
@@ -207,7 +202,7 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         "",
         f'**{strings["official_sources"]}: [{strings["official_launch"]}]({GOOGLE_RELEASE}) · [{strings["official_model_card"]}]({MODEL_CARD})**',
         "",
-        f'**{strings["start_here"]}: [{strings["explore"]}]({with_utm(MODEL_PAGE, "overview", "model_link")}) · [{strings["get_key"]}]({with_utm(API_KEYS, "overview", "api_key")}) · [{strings["open_docs"]}]({with_utm(api_docs, "overview", "docs_link")})**',
+        f'**{strings["start_here"]}: [{strings["explore"]}]({with_utm(MODEL_PAGE, "readme", "landing_overview")}) · [{strings["get_key"]}]({with_utm(API_KEYS, "overview", "api_key")})**',
         "",
         f'## 📑 {strings["menu"]}',
         "",
@@ -219,9 +214,9 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         count = sum(1 for item in items if item["category_key"] == key)
         lines.append(f'| [{CATEGORY_EMOJI[key]} {categories[key]}](#{key}) | {count} |')
     lines.extend([
-        f'| [{strings["related"]}](#related-repositories) | {strings["related"]} |',
-        f'| [{strings["quickstart"]}](#quick-start) | {strings["quickstart"]} |',
-        f'| [{strings["acknowledge"]}](#acknowledge) | {strings["acknowledge"]} |',
+        f'| [{strings["related"]}](#related-repositories) |  |',
+        f'| [{strings["quickstart"]}](#quick-start) |  |',
+        f'| [{strings["acknowledge"]}](#acknowledge) |  |',
         "",
         f'| {strings["case"]} | {strings["category"]} | {strings["what_it_shows"]} | {strings["type"]} |',
         "|---|---|---|---|",
@@ -246,7 +241,7 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
                 "",
             ])
             if item.get("prompt_public"):
-                lines.extend([f'**{strings["prompt"]}:**', "", "```text", item["prompt_text"], "```", ""])
+                lines.extend([f'**{strings["prompt"]}:**', "", "```", item["prompt_text"], "```", ""])
             media = media_block(item, strings)
             if media:
                 lines.extend(["\n\n".join(media), ""])
@@ -256,23 +251,25 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         '<a id="related-repositories"></a>',
         f'## {strings["related"]}',
         "",
-        f'- [Gemini Omni Flash API Skill]({RELATED_REPOSITORY}) — {strings["related_org"]}',
-        f'- {strings["related_note"]}',
+        f'- [Gemini 4 Carbon Guide and Use Cases]({RELATED_REPOSITORY}): {strings["related_org"]}',
         "",
         '<a id="quick-start"></a>',
         f'## ⚡ {strings["quickstart"]}',
         "",
         strings["quick_intro"],
         "",
-        f'1. [{strings["quick_model"]}]({with_utm(MODEL_PAGE, "quickstart", "model_link")})',
+        f'1. [{strings["quick_model"]}]({with_utm(MODEL_PAGE, "quickstart", "browser_try")})',
         f'2. [{strings["quick_key"]}]({with_utm(API_KEYS, "quickstart", "api_key")})',
-        f'3. [{strings["quick_docs"]}]({with_utm(api_docs, "docs", "first_run")})',
         "",
         strings["quick_run"],
         "",
         "```bash",
         MINIMAL_CURL,
         "```",
+        "",
+        "`POST https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent`",
+        "",
+        f'[{strings["quick_docs"]}]({with_utm(api_docs, "docs", "first_run")})',
         "",
         "> [!TIP]",
         f'> {strings["quick_success"]}',
@@ -294,22 +291,40 @@ def render(curated: dict, locale: str, localized: dict | None) -> str:
         strings["contribute"],
         "",
     ])
-    return "\n".join(lines)
+    rendered = "\n".join(lines)
+    quick_start = rendered.index('<a id="quick-start"></a>')
+    acknowledge = rendered.index('<a id="acknowledge"></a>')
+    quick_block = rendered[quick_start:acknowledge]
+    rendered = rendered[:quick_start] + rendered[acknowledge:]
+    menu = rendered.index(f'## 📑 {strings["menu"]}')
+    return rendered[:menu] + quick_block + rendered[menu:]
 
 
-def main() -> None:
+def main() -> int:
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--check", action="store_true", help="Fail if generated README files differ")
+    parser.add_argument("--english-only", action="store_true", help="Render or check the English gate only")
+    args = parser.parse_args()
     curated = json.loads((ROOT / "data/use-cases.json").read_text(encoding="utf-8"))
-    (ROOT / "README.md").write_text(render(curated, "en", None), encoding="utf-8")
-    print("README.md")
-    locale_dir = ROOT / "data/localizations"
-    for locale, filename, _label, _color in LANGUAGES[1:]:
-        config_path = locale_dir / f"{locale}.json"
-        if not config_path.exists():
-            continue
-        localized = json.loads(config_path.read_text(encoding="utf-8"))
-        (ROOT / filename).write_text(render(curated, locale, localized), encoding="utf-8")
-        print(filename)
+    failures = []
+    languages = LANGUAGES[:1] if args.english_only else LANGUAGES
+    for locale, filename, _label, _color in languages:
+        localized = None if locale == "en" else json.loads((ROOT / f"data/localizations/{locale}.json").read_text(encoding="utf-8"))
+        expected = render(curated, locale, localized)
+        target = ROOT / filename
+        if args.check:
+            if not target.exists() or target.read_text(encoding="utf-8") != expected:
+                failures.append(filename)
+        else:
+            target.write_text(expected, encoding="utf-8")
+            print(filename)
+    if failures:
+        print("FAIL: generated README drift: " + ", ".join(failures), file=sys.stderr)
+        return 1
+    if args.check:
+        print(f"PASS: {len(languages)} README files match canonical data")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

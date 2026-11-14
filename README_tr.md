@@ -1,10 +1,10 @@
 <div align="center">
 
-<a href="https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=banner&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/images/banner.png" alt="Awesome Gemini 3.6 Flash guide and use cases banner" width="760"></a>
+<a href="https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=banner&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=readme_banner"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/images/banner.png" alt="Awesome Gemini 4 Hydrogen guide and use cases banner" width="760"></a>
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
-[![Gemini 3.6 Flash](https://img.shields.io/badge/Gemini_3.6_Flash-Model_Page-00d4e6)](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=top_badge)
-[![Gemini Native API (English)](https://img.shields.io/badge/Gemini_Native_API-English-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)
+[![View Hydrogen in your browser](https://img.shields.io/badge/View_Hydrogen-Browser-4285f4)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_try)
+[![Gemini Native API (English)](https://img.shields.io/badge/Gemini_Native_API-English-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=docs_link)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -20,694 +20,755 @@
 
 </div>
 
-# Awesome Gemini 3.6 Flash Kılavuzu ve Kullanım Durumları
+# Seçilmiş Gemini 4 Hydrogen Rehberi ve Kullanım Örnekleri
 
 ## 🍌 Giriş
 
-Gemini 3.6 Flash'ın uygulamalı kullanımına ilişkin kaynak destekli kılavuza hoş geldiniz
+Kaynaklarla desteklenen uygulamalar, kodlama iş akışları ve pratik karşılaştırmalar üzerinden Gemini 4 Hydrogen'ı keşfedin.
 
-**Bu depo, herkese açık içerik oluşturucu kanıtlarından somut Gemini 3.6 Flash iş akışlarını, derlemelerini, değerlendirmelerini, karşılaştırmalarını ve sınırlarını toplar**
+**Seçilen 40 örnek, insanların ne geliştirdiğini, nasıl çalıştığını ve sonuçların nerede yetersiz kaldığını gösteriyor.**
 
-Dahil edilen her vaka, incelenen kaynak paketinden gelir. Başlıklar orijinal gönderilere, yazarlar yaratıcı profillerine bağlantı verir ve istemler yalnızca kaynak metin bunları gerçekten içerdiğinde görünür
+Her örnek kaynağına bağlantı verir ve yazarını belirtir. Demolar, sağlayıcı örnekleri ve üretici karşılaştırmaları notlarda işaretlenir; eksik istemler yeniden oluşturulmaz.
 
-## 📊 Genel Bakış
+## 📊 Genel bakış
 
-- İncelenen 33 kaynak gönderiden seçilmiş 33 yüksek güvenirlik vakası
-- Kapsam, aracıları, kodlamayı, web sitelerini, oyunları, 3D'yi, kıyaslama tarzı karşılaştırmaları ve pratik güvenlik sınırlarını içerir
-- 24 video kutusunun tamamında görünür bir poster ve oynatılabilir bir R2 barındırılan MP4 bulunur; görüntü vakaları incelenen her kaynak görüntüyü korur
-- EvoLink, üretim modeli kimliğini "gemini-3.6-flash" olarak listeliyor; bu depo mevcut modele ve Gemini Native API yüzeylerine bağlanır
+- 13 Kasım 2026'da kaydedilen, en fazla 500 X gönderisi içeren bir derlemede incelenen 75 demo gönderisinden seçilmiş 40 örnek.
+- Beş kategori; ajanları, öğrenme ve uygulamaları, e-tablolar ve Search'ü, etkileşimli 3B'yi, karşılaştırma ve sınırlamaları kapsar.
+- Seçilen 41 kaynak görselinin tamamı korunmuştur: kapak görselleriyle birlikte 38 oynatılabilir video ve 3 görsel.
+- Gemini 4 Hydrogen, 12 Kasım 2026'da duyuruldu. Modeli ve mevcut erişim seçeneklerini EvoLink'te keşfedin.
 
 > [!NOTE]
-> Bu koleksiyon abartı yerine gözlemlenebilir kanıtları tercih ediyor. Eksik istemleri yeniden yapılandırmaz, yayınlanmamış kurulum adımlarına ilişkin çıkarımlarda bulunmaz veya bir yaratıcının sonucunu evrensel bir kıyaslama halinde genelleştirmez
+> Aksi belirtilmedikçe model atıfları, maliyetler, süreler ve sonuçlar kaynakların iddialarıdır. Video incelemesinde tam işlevsel testler değil, örneklenmiş kareler kullanılmıştır. Kodlanmış uygulamaların kayıtları, yerel video üretiminin kanıtı değildir. Farklı çalıştırma ortamları, akıl yürütme seviyeleri veya yineleme sayıları nedeniyle karşılaştırmalar kontrollü değildir.
 
-**Resmî kaynaklar: [Google lansman duyurusu](https://blog.google/innovation-and-ai/models-and-research/gemini-models/gemini-3-6-flash-3-5-flash-lite-3-5-flash-cyber/) · [Google DeepMind model kartı](https://deepmind.google/models/model-cards/gemini-3-6-flash/)**
+**Resmî kaynaklar: [Google duyurusu](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Google DeepMind model kartı](https://deepmind.google/models/model-cards/gemini-4-hydrogen/)**
 
-**Buradan başlayın: [Gemini 3.6 Flash'ı keşfedin](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link) · [API anahtarı edinin](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key) · [İngilizce Gemini Native API belgelerini açın](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=docs_link)**
-
-## 📑 Menü
-
-| Bölüm | Vakalar |
-|---|---|
-| [⚡ Verimlilik ve Temsilciler](#efficiency-agents) | 8 |
-| [💻 Kodlama ve Uygulamalar](#coding-apps) | 4 |
-| [🎮 Web, Oyunlar ve 3D](#web-games-3d) | 10 |
-| [🧪 Değerlendirme ve Karşılaştırmalar](#evaluations) | 8 |
-| [🛡️ Güvenlik ve Sınırlar](#safety-limits) | 3 |
-| [İlgili Depolar](#related-repositories) | İlgili Depolar |
-| [Hızlı Başlangıç](#quick-start) | Hızlı Başlangıç |
-| [onayla](#acknowledge) | onayla |
-
-| Vaka | Kategori | Ne gösteriyor? | Tür |
-|---|---|---|---|
-| [Token Verimliliği Yanyana](#case-1) | Verimlilik ve Temsilciler | Aracı ölçekli iş yükleri için bir Flash modeli seçmeden önce, aynı iş akışında çıktı belirteci kullanımını karşılaştırın. | Evaluation |
-| [Yerçekimine Karşı Korumada Eski Kodun Modernleştirilmesi](#case-2) | Verimlilik ve Temsilciler | Aracı gecikmesini, düzenleme kalitesini ve tamamlanma davranışını karşılaştırmak için kontrollü bir eski kod geçiş görevi kullanın. | Evaluation |
-| [Canvas Token Verimlilik Testi](#case-3) | Verimlilik ve Temsilciler | Aynı Canvas görevini model sürümleri arasında çalıştırın ve hem yapıyı hem de belirteç kullanımını inceleyin. | Evaluation |
-| [Tarayıcı Aracısı Karşılaştırması](#case-4) | Verimlilik ve Temsilciler | Her iki ölçümü de tek başına optimize etmek yerine, tarayıcı aracısı başarısını ve maliyetini birlikte karşılaştırın. | Benchmark |
-| [Uzun Kuyruklu Bilgi Alma Verimliliği](#case-5) | Verimlilik ve Temsilciler | Akıl yürütme adımlarını ve düşünce belirteci yükünü karşılaştırmak için zor gerçekleri elde etme görevlerini kullanın. | Evaluation |
-| [Kurumsal Belge İşleme](#case-6) | Verimlilik ve Temsilciler | Üretim temerrüdünü belirlemeden önce uzun patentler ve belge ayrıştırma konusundaki akıl yürütme çabasını değerlendirin. | Benchmark |
-| [JetBrains'te Mühendislik Görev Değerlendirmesi](#case-7) | Verimlilik ve Temsilciler | Nesnel bir mühendislik görevi oluşturun ve aynı IDE iş akışındaki model nesillerini karşılaştırın. | Evaluation |
-| [Çok Aracılı Kod Geçişi](#case-8) | Verimlilik ve Temsilciler | Kod geçişini aynı düzenleme planıyla test edin ve gecikmeyi, düzenlemeleri ve son kaliteyi karşılaştırın. | Demo |
-| [Android Gitar Akort Aleti](#case-9) | Kodlama ve Uygulamalar | Geleneksel ses araçlarını yapay zeka destekli alternatif ayarlarla birleştiren odaklanmış bir mobil yardımcı programın prototipini yapın. | Demo |
-| [Trafik Işığı Simülasyonu](#case-10) | Kodlama ve Uygulamalar | Oluşturulan kodun zamanlamayı ve rastgele trafik davranışını yakalayıp yakalamadığını denetlemek için modelden yürütülebilir bir görselleştirme isteyin. | Demo |
-| [Klavye Piyano Uygulaması](#case-11) | Kodlama ve Uygulamalar | Basit bir etkileşim konseptini oynanabilir, klavye kontrollü bir web uygulamasına dönüştürün. | Demo |
-| [Masaüstü Robot Sesli Asistan](#case-12) | Kodlama ve Uygulamalar | Hem Flash'ı hem de Flash-Lite'ı bir ses uygulamasına entegre edin ve ilk müdahale davranışını karşılaştırın. | Integration |
-| [Golden Gate Köprüsü HTML Hatası](#case-13) | Web, Oyunlar ve 3D | Oluşturulan 3D web deneyimlerine güvenmeden önce talimatların izlenmesini test etmek için katı bir dosya teslim görevi kullanın. | Limit |
-| [Genel Uyarı Görsel Testi](#case-14) | Web, Oyunlar ve 3D | Oluşturucunun tam istemine ihtiyaç duyduğunuzda, onu çıktıdan yeniden oluşturmak yerine kaynak iş parçacığını açın. | Demo |
-| [Tek İstemli Kanvas Oyunu](#case-15) | Web, Oyunlar ve 3D | Modelin kompakt bir oyun konseptini ne kadar hızlı bir şekilde etkileşimli bir sonuca dönüştürebildiğini test etmek için Canvas'taki bir istemi kullanın. | Demo |
-| [Açılış Sayfası Sürüm Karşılaştırması](#case-16) | Web, Oyunlar ve 3D | Açılış sayfası yürütme ve görsel değerlendirmedeki değişiklikleri izole etmek için istemi model nesilleri boyunca sabit tutun. | Evaluation |
-| [Subway Surfers 3D Prototipi](#case-17) | Web, Oyunlar ve 3D | Kodlama deneyleri için genişletilmiş düşünmeyi etkinleştirin ve hem etkileşim kalitesini hem de görsel doğruluğu denetleyin. | Demo |
-| [Tek Sayfalık Web Sitesi Karşılaştırması](#case-18) | Web, Oyunlar ve 3D | Web sitesinin istemini ve muhakeme düzeyini sabit tutun, ardından belirteç maliyetini, hızını ve tasarım tercihini karşılaştırın. | Evaluation |
-| [Vahşi Batı Oyunu Başarısızlığı](#case-19) | Web, Oyunlar ve 3D | Başarısız olan oyun oluşturma çıktılarını, modelleri ne zaman değiştireceğinize veya görevi ne zaman gözden geçireceğinize karar vermek için kanıt olarak değerlendirin. | Limit |
-| [Anti Yerçekimi Oyunu Malzeme Arızası](#case-20) | Web, Oyunlar ve 3D | Yapay zeka tarafından oluşturulan bir oyun prototipini kabul etmeden önce hem görsel malzemeleri hem de gerçek etkileşim davranışını kontrol edin. | Limit |
-| [Rolls-Royce SVG Karşılaştırması](#case-21) | Web, Oyunlar ve 3D | İki Flash neslinin şekil, ayrıntı ve kompozisyonu nasıl ele aldığını karşılaştırmak için sabit bir SVG konusu kullanın. | Evaluation |
-| [Gerçekçi Akvaryum Testi](#case-22) | Web, Oyunlar ve 3D | Model sürümleri arasında gerçekçilik ve uygulama kalitesini karşılaştırmak için sınırlı bir 3B sahne kullanın. | Evaluation |
-| [Max Reasoning'de İkizler Grok'a Karşı](#case-23) | Değerlendirme ve Karşılaştırmalar | Hızı, maliyeti ve çıktıyı karşılaştırmak için model itibarına güvenmek yerine aynı istemi ve maksimum akıl yürütme ayarlarını kullanın. | Evaluation |
-| [Maksimum Ayarlarda Gemini Versus Sonnet](#case-24) | Değerlendirme ve Karşılaştırmalar | Modelleri aynı istemlerle ve bunların en güçlü ayarlarıyla karşılaştırın, ardından oluşturulan gerçek yapıyı inceleyin. | Evaluation |
-| [Görsel Anlama Testi](#case-25) | Değerlendirme ve Karşılaştırmalar | Modeli görsel iş akışları için benimsemeden önce yanıt kalitesini ve etkileşim stilini incelemek için somut bir görüntü görevi kullanın. | Demo |
-| [Rocket League Oyun Karşılaştırması](#case-26) | Değerlendirme ve Karşılaştırmalar | Tekrarlanan bir oyun oluşturma karşılaştırması çalıştırın ve hem yapım süresini hem de tutarlı bir öznel sıralamayı kaydedin. | Benchmark |
-| [EyeBench Görsel Karşılaştırma](#case-27) | Değerlendirme ve Karşılaştırmalar | Artan verimlilik kazanımlarını mutlak kaliteden ayırmak için istikrarlı bir görsel kıyaslama kullanın. | Benchmark |
-| [Kağıt Kesim Animasyon Karşılaştırması](#case-28) | Değerlendirme ve Karşılaştırmalar | Yaratıcı nesli değerlendirirken yanıt hızını ve son animasyonu ayrı ayrı karşılaştırın. | Evaluation |
-| [AI Arena Nesil Karşılaştırması](#case-29) | Değerlendirme ve Karşılaştırmalar | Birden fazla kodlama modelinde derleme süresini, fiyatı ve yapıt kalitesini karşılaştırmak için aynı arena görevini kullanın. | Benchmark |
-| [Çapraz Modelli Oyun Oluşturma Maliyeti](#case-30) | Değerlendirme ve Karşılaştırmalar | Oyun prototipi oluşturmak için bir model seçerken yineleme sayısını, geliştirici deneyimini, özellikleri ve maliyeti birlikte izleyin. | Benchmark |
-| [Siber Güvenlik Reddi Karşılaştırması](#case-31) | Güvenlik ve Sınırlar | Savunma amaçlı kod incelemesi saldırgan isteklerle engellenebileceğinden, güvenlik aracı değerlendirmelerine reddetme davranışını dahil edin. | Limit |
-| [Bilgi Tazeliği Arızası](#case-32) | Güvenlik ve Sınırlar | İddia edilen bir bilgi kesintisine güvenmek yerine, mevcut gerçekleri erişim yoluyla doğrulayın. | Limit |
-| [Jailbreak Kırmızı Takım Testi](#case-33) | Güvenlik ve Sınırlar | Jailbreak taleplerini yeniden kullanılabilir talimatlar olarak değil, kontrollü çoğaltma ve güvenlik incelemesi gerektiren kırmızı takım sinyalleri olarak değerlendirin. | Limit |
-
-<a id="efficiency-agents"></a>
-## ⚡ Verimlilik ve Temsilciler
-
-<a id="case-1"></a>
-### Vaka 1: [Token Verimliliği Yanyana](https://x.com/JeffDean/status/2079591562145870043) (tarafından [@JeffDean](https://x.com/JeffDean))
-
-**Aracı ölçekli iş yükleri için bir Flash modeli seçmeden önce, aynı iş akışında çıktı belirteci kullanımını karşılaştırın.**
-
-Jeff Dean, Gemini 3.6 Flash ile 3.5 Flash'ı karşılaştıran yan yana bir gösteri paylaştı ve yeni modelde daha düşük token kullanımının altını çizdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01-poster.jpg" alt="Case 1 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-01.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-2"></a>
-### Vaka 2: [Yerçekimine Karşı Korumada Eski Kodun Modernleştirilmesi](https://x.com/antigravity/status/2079663375991046351) (tarafından [@antigravity](https://x.com/antigravity))
-
-**Aracı gecikmesini, düzenleme kalitesini ve tamamlanma davranışını karşılaştırmak için kontrollü bir eski kod geçiş görevi kullanın.**
-
-Google Antigravity, hem Flash nesillerinin eski yazılımları yeniden oluşturduğunu gösterdi hem de Gemini 3.6 Flash'tan gelen gelişmiş gecikme ve çıktı ile daha hızlı tamamlandığını bildirdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02-poster.jpg" alt="Case 2 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-02.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-3"></a>
-### Vaka 3: [Canvas Token Verimlilik Testi](https://x.com/stevibe/status/2079599477216956437) (tarafından [@stevibe](https://x.com/stevibe))
-
-**Aynı Canvas görevini model sürümleri arasında çalıştırın ve hem yapıyı hem de belirteç kullanımını inceleyin.**
-
-İçerik oluşturucu, Gemini 3.6 Flash ve 3.5 Flash'ı kısa bir Canvas görevinde karşılaştırdı ve 3.6 Flash'a göre önemli ölçüde daha düşük token kullanımı gözlemledi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03-poster.jpg" alt="Case 3 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-03.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-4"></a>
-### Vaka 4: [Tarayıcı Aracısı Karşılaştırması](https://x.com/browser_use/status/2079602472516264010) (tarafından [@browser_use](https://x.com/browser_use))
-
-**Her iki ölçümü de tek başına optimize etmek yerine, tarayıcı aracısı başarısını ve maliyetini birlikte karşılaştırın.**
-
-Tarayıcı Kullanımı BU Benchmark'ta Gemini 3.6 Flash için %68 rapor ederken, GPT-5.6 Sol için %67, Sonnet 4.6 için %62 ve Opus 4.8 için %74 rapor verdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-04-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-04-01.jpg" alt="Case 4 source image 1" height="360"></a>
-
-Tür: Benchmark | Tarih: 2026-07-21
-
----
-
-<a id="case-5"></a>
-### Vaka 5: [Uzun Kuyruklu Bilgi Alma Verimliliği](https://x.com/__apf__/status/2079603658141184134) (tarafından [@__apf__](https://x.com/__apf__))
-
-**Akıl yürütme adımlarını ve düşünce belirteci yükünü karşılaştırmak için zor gerçekleri elde etme görevlerini kullanın.**
-
-Yaratıcı, Gemini 3.5 ve 3.6 Flash'ı karmaşık, uzun kuyruklu bir bilgi alma görevi üzerinde kafa kafaya çalıştırdı ve 3.6 Flash için yarısı kadar adım ve %75 daha az düşünce belirteci bildirdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05-poster.jpg" alt="Case 5 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-05.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-6"></a>
-### Vaka 6: [Kurumsal Belge İşleme](https://x.com/databricks/status/2079598684455551326) (tarafından [@databricks](https://x.com/databricks))
-
-**Üretim temerrüdünü belirlemeden önce uzun patentler ve belge ayrıştırma konusundaki akıl yürütme çabasını değerlendirin.**
-
-Databricks, 3.5 Flash'tan daha yüksek belge sınıflandırma doğruluğu, uzun patentlerde güçlü sonuçlar ve belge ayrıştırma için yüksek çabaya kıyasla orta çabayla yaklaşık %32 daha az toplam token bildirdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-06-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-06-01.png" alt="Case 6 source image 1" height="360"></a>
-
-Tür: Benchmark | Tarih: 2026-07-21
-
----
-
-<a id="case-7"></a>
-### Vaka 7: [JetBrains'te Mühendislik Görev Değerlendirmesi](https://x.com/jetbrains/status/2079618218587574636) (tarafından [@jetbrains](https://x.com/jetbrains))
-
-**Nesnel bir mühendislik görevi oluşturun ve aynı IDE iş akışındaki model nesillerini karşılaştırın.**
-
-JetBrains, Gemini 3.6 Flash için AI Assistant ve Junie'deki önceki Flash nesline kıyasla objektif bir mühendislik görevi değerlendirmesi sundu.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07-poster.jpg" alt="Case 7 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-07.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-8"></a>
-### Vaka 8: [Çok Aracılı Kod Geçişi](https://x.com/CodeByPoonam/status/2079607995861021073) (tarafından [@CodeByPoonam](https://x.com/CodeByPoonam))
-
-**Kod geçişini aynı düzenleme planıyla test edin ve gecikmeyi, düzenlemeleri ve son kaliteyi karşılaştırın.**
-
-Gösteri Gemini 3.6 Flash'ın Antigravity'de çoklu aracı orkestrasyonu yoluyla bir kod geçişi yürüttüğünü gösteriyor ve 3.5 Flash'a göre daha düşük gecikme süresi ve daha yüksek kalite rapor ediyor.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08-poster.jpg" alt="Case 8 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-08.mp4)
-
-Tür: Demo | Tarih: 2026-07-21
-
----
-
-
-<a id="coding-apps"></a>
-## 💻 Kodlama ve Uygulamalar
-
-<a id="case-9"></a>
-### Vaka 9: [Android Gitar Akort Aleti](https://x.com/bijanbowen/status/2079675781794443640) (tarafından [@bijanbowen](https://x.com/bijanbowen))
-
-**Geleneksel ses araçlarını yapay zeka destekli alternatif ayarlarla birleştiren odaklanmış bir mobil yardımcı programın prototipini yapın.**
-
-Yaratıcı, Yapay Zeka destekli alternatif akort desteğine sahip bir Android gitar tuner uygulaması oluşturmak için Gemini 3.6 Flash'ı kullandı.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09-poster.jpg" alt="Case 9 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-09.mp4)
-
-Tür: Demo | Tarih: 2026-07-21
-
----
-
-<a id="case-10"></a>
-### Vaka 10: [Trafik Işığı Simülasyonu](https://x.com/diegocabezas01/status/2079588206513631483) (tarafından [@diegocabezas01](https://x.com/diegocabezas01))
-
-**Oluşturulan kodun zamanlamayı ve rastgele trafik davranışını yakalayıp yakalamadığını denetlemek için modelden yürütülebilir bir görselleştirme isteyin.**
-
-Genel istem, arabaların rastgele hızlarla geldiği tek yönlü bir sokak trafik ışığını görselleştiren Python kodunu talep ediyor ve gönderi, bunun sonucunda ortaya çıkan gösterimi içeriyor.
-
-**İstemi:**
-
-```text
-write a python code that visualizes how a traffic light works in a one way street with cars entering at random rate.
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10-poster.jpg" alt="Case 10 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-10.mp4)
-
-Tür: Demo | Tarih: 2026-07-21
-
----
-
-<a id="case-11"></a>
-### Vaka 11: [Klavye Piyano Uygulaması](https://x.com/Majin_AppSheet/status/2079734240540041230) (tarafından [@Majin_AppSheet](https://x.com/Majin_AppSheet))
-
-**Basit bir etkileşim konseptini oynanabilir, klavye kontrollü bir web uygulamasına dönüştürün.**
-
-Yaratıcı, Gemini 3.6 Flash ile bilgisayar klavyesinden çalınabilen bir piyano uygulaması geliştirdi ve bunu çocukların keşfedebileceği bir uygulama olarak çerçeveledi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11-poster.jpg" alt="Case 11 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-11.mp4)
-
-Tür: Demo | Tarih: 2026-07-22
-
----
-
-<a id="case-12"></a>
-### Vaka 12: [Masaüstü Robot Sesli Asistan](https://x.com/AILogDev/status/2079716688745132044) (tarafından [@AILogDev](https://x.com/AILogDev))
-
-**Hem Flash'ı hem de Flash-Lite'ı bir ses uygulamasına entegre edin ve ilk müdahale davranışını karşılaştırın.**
-
-Yaratıcı, Gemini 3.6 Flash ve Gemini 3.5 Flash-Lite'ı bir masaüstü robot için sesli diyalog uygulamasına ekledi ve ilk tepkinin biraz yavaş ama kullanışlı olduğunu belirtti.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12-poster.jpg" alt="Case 12 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-12.mp4)
-
-Tür: Integration | Tarih: 2026-07-21
-
----
-
-
-<a id="web-games-3d"></a>
-## 🎮 Web, Oyunlar ve 3D
-
-<a id="case-13"></a>
-### Vaka 13: [Golden Gate Köprüsü HTML Hatası](https://x.com/LuminaXspace/status/2079597030922465407) (tarafından [@LuminaXspace](https://x.com/LuminaXspace))
-
-**Oluşturulan 3D web deneyimlerine güvenmeden önce talimatların izlenmesini test etmek için katı bir dosya teslim görevi kullanın.**
-
-Testi yapan kişinin üç uyarıya ihtiyacı vardı, modelin istenen HTML dosyası yerine uygulama içi simülasyon ve web görüntüsü yanıtlarını denediğini gördü ve son 3D köprü çıktısının Gemini 3.1 Pro'dan maddi olarak daha zayıf olduğuna karar verdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13-poster.jpg" alt="Case 13 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-13.mp4)
-
-Tür: Limit | Tarih: 2026-07-21
-
----
-
-<a id="case-14"></a>
-### Vaka 14: [Genel Uyarı Görsel Testi](https://x.com/Motion_Viz/status/2079592671530938537) (tarafından [@Motion_Viz](https://x.com/Motion_Viz))
-
-**Oluşturucunun tam istemine ihtiyaç duyduğunuzda, onu çıktıdan yeniden oluşturmak yerine kaynak iş parçacığını açın.**
-
-MotionViz, medyayla birlikte bir Gemini 3.6 Flash görsel testi yayınladı ve tüm istemin kaynak iş parçacığında mevcut olduğunu belirtti; bu depo, kaynak pakette bulunmayan bilgi istemi metnini yeniden yapılandırmaz.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14-poster.jpg" alt="Case 14 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-14.mp4)
-
-Tür: Demo | Tarih: 2026-07-21
-
----
-
-<a id="case-15"></a>
-### Vaka 15: [Tek İstemli Kanvas Oyunu](https://x.com/ozansihay/status/2079599565565468672) (tarafından [@ozansihay](https://x.com/ozansihay))
-
-**Modelin kompakt bir oyun konseptini ne kadar hızlı bir şekilde etkileşimli bir sonuca dönüştürebildiğini test etmek için Canvas'taki bir istemi kullanın.**
-
-Yaratıcı, Gemini 3.6 Flash'ı erken erişimde test etti ve oynanabilir bir oyun gösterimi oluşturmak için tek bir Canvas istemi kullandı.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15-poster.jpg" alt="Case 15 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-15.mp4)
-
-Tür: Demo | Tarih: 2026-07-21
-
----
-
-<a id="case-16"></a>
-### Vaka 16: [Açılış Sayfası Sürüm Karşılaştırması](https://x.com/nemumusitocha/status/2079596099854307650) (tarafından [@nemumusitocha](https://x.com/nemumusitocha))
-
-**Açılış sayfası yürütme ve görsel değerlendirmedeki değişiklikleri izole etmek için istemi model nesilleri boyunca sabit tutun.**
-
-Yaratıcı, Gemini 3.6 Flash'ı aynı istemli açılış sayfası arşivine ekledi ve yeni sonucun Gemini 3 ve 3.5 çıktılarından daha kötü olduğuna karar verdi.
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-01.jpg" alt="Case 16 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-02.jpg" alt="Case 16 source image 2" width="100%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-16-03.jpg" alt="Case 16 source image 3" width="100%"></a>
-</td>
-<td width="50%" valign="top"></td>
-</tr>
-</table>
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-17"></a>
-### Vaka 17: [Subway Surfers 3D Prototipi](https://x.com/itsPaulAi/status/2079597536155668890) (tarafından [@itsPaulAi](https://x.com/itsPaulAi))
-
-**Kodlama deneyleri için genişletilmiş düşünmeyi etkinleştirin ve hem etkileşim kalitesini hem de görsel doğruluğu denetleyin.**
-
-Yaratıcı, basit bir 3D Subway Surfers tarzı kopya oluşturmak için Gemini 3.6 Flash'ı kullandı ve kodlama görevleri için daha kapsamlı düşünmeyi önerdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17-poster.jpg" alt="Case 17 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-17.mp4)
-
-Tür: Demo | Tarih: 2026-07-21
-
----
-
-<a id="case-18"></a>
-### Vaka 18: [Tek Sayfalık Web Sitesi Karşılaştırması](https://x.com/SaiNemani1/status/2079606113306325496) (tarafından [@SaiNemani1](https://x.com/SaiNemani1))
-
-**Web sitesinin istemini ve muhakeme düzeyini sabit tutun, ardından belirteç maliyetini, hızını ve tasarım tercihini karşılaştırın.**
-
-Aynı tek sayfalık web sitesinde yaratıcı, Gemini 3.6 Flash için yaklaşık 6.100 token, 3.5 Flash için ise yaklaşık 9.300 token bildirdi ve kişisel olarak eski modelin görünümünü tercih etti.
-
-**İstemi:**
-
-```text
-create a modern website! Should look amazing! One-code page
-```
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18-poster.jpg" alt="Case 18 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-18.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-19"></a>
-### Vaka 19: [Vahşi Batı Oyunu Başarısızlığı](https://x.com/Mr_Salio/status/2079635008424169901) (tarafından [@Mr_Salio](https://x.com/Mr_Salio))
-
-**Başarısız olan oyun oluşturma çıktılarını, modelleri ne zaman değiştireceğinize veya görevi ne zaman gözden geçireceğinize karar vermek için kanıt olarak değerlendirin.**
-
-Testi yapan kişi, Wild West oyun nesli istemini kullandı ve gözlemlenen sonuca göre Gemini 3.6 Flash'ın GPT-5.6, Kimi K3 ve Fable 5'in önemli ölçüde gerisinde olduğuna karar verdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19-poster.jpg" alt="Case 19 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-19.mp4)
-
-Tür: Limit | Tarih: 2026-07-21
-
----
-
-<a id="case-20"></a>
-### Vaka 20: [Anti Yerçekimi Oyunu Malzeme Arızası](https://x.com/Conor_D_Dart/status/2079592731211399460) (tarafından [@Conor_D_Dart](https://x.com/Conor_D_Dart))
-
-**Yapay zeka tarafından oluşturulan bir oyun prototipini kabul etmeden önce hem görsel malzemeleri hem de gerçek etkileşim davranışını kontrol edin.**
-
-İkinci bir Antigravity oyun testinde yaratıcı, daha zayıf ahşap dokular ve benzer görünen ancak işlevsel olmayan bir mermer öğe buldu.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20-poster.jpg" alt="Case 20 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-20.mp4)
-
-Tür: Limit | Tarih: 2026-07-21
-
----
-
-<a id="case-21"></a>
-### Vaka 21: [Rolls-Royce SVG Karşılaştırması](https://x.com/ggg78g89/status/2079610251444437335) (tarafından [@ggg78g89](https://x.com/ggg78g89))
-
-**İki Flash neslinin şekil, ayrıntı ve kompozisyonu nasıl ele aldığını karşılaştırmak için sabit bir SVG konusu kullanın.**
-
-Gönderi, aynı Rolls-Royce SVG görevi için Gemini 3.6 Flash ve 3.5 Flash çıkışlarını yan yana yerleştiriyor.
-
-**İstemi:**
-
-```text
-SVG of a Rolls Royce
-```
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-01.png" alt="Case 21 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-21-02.png" alt="Case 21 source image 2" width="100%"></a>
-</td>
-</tr>
-</table>
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-22"></a>
-### Vaka 22: [Gerçekçi Akvaryum Testi](https://x.com/intheworldofai/status/2079681107516170431) (tarafından [@intheworldofai](https://x.com/intheworldofai))
-
-**Model sürümleri arasında gerçekçilik ve uygulama kalitesini karşılaştırmak için sınırlı bir 3B sahne kullanın.**
-
-Yaratıcı, Gemini 3.6 Flash'tan gerçekçi bir akvaryum yapmasını istedi ve bunun 3.5 Flash'tan çok az daha iyi olduğuna karar verdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22-poster.jpg" alt="Case 22 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-22.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-
-<a id="evaluations"></a>
-## 🧪 Değerlendirme ve Karşılaştırmalar
-
-<a id="case-23"></a>
-### Vaka 23: [Max Reasoning'de İkizler Grok'a Karşı](https://x.com/notjazii/status/2079609162431181193) (tarafından [@notjazii](https://x.com/notjazii))
-
-**Hızı, maliyeti ve çıktıyı karşılaştırmak için model itibarına güvenmek yerine aynı istemi ve maksimum akıl yürütme ayarlarını kullanın.**
-
-Yaratıcı, Gemini 3.6 Flash ve Grok 4.5'i aynı istem ve maksimum mantık ayarları altında çalıştırdı ve her ikisinin de hızlı olduğunu, Grok'un ise biraz daha hızlı ve daha ucuz olduğunu gözlemledi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23-poster.jpg" alt="Case 23 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-23.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-24"></a>
-### Vaka 24: [Maksimum Ayarlarda Gemini Versus Sonnet](https://x.com/notjazii/status/2079617706693902416) (tarafından [@notjazii](https://x.com/notjazii))
-
-**Modelleri aynı istemlerle ve bunların en güçlü ayarlarıyla karşılaştırın, ardından oluşturulan gerçek yapıyı inceleyin.**
-
-Yaratıcı, Gemini 3.6 Flash ve Sonnet 5'i aynı istemlerle maksimum ayarlarda test etti ve gösterilen görevde Gemini çıkışını tercih etti.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24-poster.jpg" alt="Case 24 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-24.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-25"></a>
-### Vaka 25: [Görsel Anlama Testi](https://x.com/HarshithLucky3/status/2079607042403381313) (tarafından [@HarshithLucky3](https://x.com/HarshithLucky3))
-
-**Modeli görsel iş akışları için benimsemeden önce yanıt kalitesini ve etkileşim stilini incelemek için somut bir görüntü görevi kullanın.**
-
-Yaratıcı, Gemini 3.6 Flash'ın geçtiği bir görme testi sundu ve gözlemlenen deneyimin bir parçası olarak tepki kişiliğini vurguladı.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-25-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-25-01.jpg" alt="Case 25 source image 1" height="360"></a>
-
-Tür: Demo | Tarih: 2026-07-21
-
----
-
-<a id="case-26"></a>
-### Vaka 26: [Rocket League Oyun Karşılaştırması](https://x.com/LLMJunky/status/2079712480683790743) (tarafından [@LLMJunky](https://x.com/LLMJunky))
-
-**Tekrarlanan bir oyun oluşturma karşılaştırması çalıştırın ve hem yapım süresini hem de tutarlı bir öznel sıralamayı kaydedin.**
-
-Yaratıcı, Gemini 3.6 Flash'ı Rocket League tarzı bir görevde test etti, kişisel skor tablosunda üçüncü sıraya koydu ve iki dakikadan kısa sürede tamamlandığını bildirdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26-poster.jpg" alt="Case 26 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-26.mp4)
-
-Tür: Benchmark | Tarih: 2026-07-21
-
----
-
-<a id="case-27"></a>
-### Vaka 27: [EyeBench Görsel Karşılaştırma](https://x.com/adonis_singh/status/2079631807817933222) (tarafından [@adonis_singh](https://x.com/adonis_singh))
-
-**Artan verimlilik kazanımlarını mutlak kaliteden ayırmak için istikrarlı bir görsel kıyaslama kullanın.**
-
-Yaratıcı, EyeBench'te Gemini 3.6 Flash'ın 3.5 Flash'tan marjinal olarak daha iyi, ancak yine de Gemini 3.1 Pro Preview'dan daha kötü olduğunu değerlendirdi ve token verimliliğinin arttığına dikkat çekti.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-27-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-27-01.jpg" alt="Case 27 source image 1" height="360"></a>
-
-Tür: Benchmark | Tarih: 2026-07-21
-
----
-
-<a id="case-28"></a>
-### Vaka 28: [Kağıt Kesim Animasyon Karşılaştırması](https://x.com/OriSilver/status/2079603778441957776) (tarafından [@OriSilver](https://x.com/OriSilver))
-
-**Yaratıcı nesli değerlendirirken yanıt hızını ve son animasyonu ayrı ayrı karşılaştırın.**
-
-Yaratıcı, kağıttan kesilmiş bir animasyon görevinde Gemini 3.6 Flash'ı Fable 5 ile karşılaştırdı ve Gemini'nin neredeyse anında tepkisini övdü, ancak sonuçla ilgili çekincelerini dile getirdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28-poster.jpg" alt="Case 28 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-28.mp4)
-
-Tür: Evaluation | Tarih: 2026-07-21
-
----
-
-<a id="case-29"></a>
-### Vaka 29: [AI Arena Nesil Karşılaştırması](https://x.com/OmedVibeCodes/status/2079663080049660220) (tarafından [@OmedVibeCodes](https://x.com/OmedVibeCodes))
-
-**Birden fazla kodlama modelinde derleme süresini, fiyatı ve yapıt kalitesini karşılaştırmak için aynı arena görevini kullanın.**
-
-Yaratıcı, Grok 4.5, Gemini 3.6 Flash ve GPT-5.6 Luna'yı bir AI Arena görevinde test etti ve Gemini sonucunun bu çalıştırmada en zayıf olduğuna karar verdi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29-poster.jpg" alt="Case 29 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-29.mp4)
-
-Tür: Benchmark | Tarih: 2026-07-21
-
----
-
-<a id="case-30"></a>
-### Vaka 30: [Çapraz Modelli Oyun Oluşturma Maliyeti](https://x.com/naymur_dev/status/2079710299918401907) (tarafından [@naymur_dev](https://x.com/naymur_dev))
-
-**Oyun prototipi oluşturmak için bir model seçerken yineleme sayısını, geliştirici deneyimini, özellikleri ve maliyeti birlikte izleyin.**
-
-Yaratıcı, aynı tasarım iş akışını kullanarak, Gemini'nin oluşturduğu bir atlama ve düşme hatasını düzeltmek için altı ila yedi yinelemeye ihtiyaç duyulduğunu bildirdi ve karşılaştırmalı puanların yanı sıra 0,15 ABD doları tutarında bir çalıştırma maliyeti listeledi.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30-poster.jpg" alt="Case 30 source video poster" height="360"></a>
-
-[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-30.mp4)
-
-Tür: Benchmark | Tarih: 2026-07-21
-
----
-
-
-<a id="safety-limits"></a>
-## 🛡️ Güvenlik ve Sınırlar
-
-<a id="case-31"></a>
-### Vaka 31: [Siber Güvenlik Reddi Karşılaştırması](https://x.com/pilvar222/status/2079602157779566836) (tarafından [@pilvar222](https://x.com/pilvar222))
-
-**Savunma amaçlı kod incelemesi saldırgan isteklerle engellenebileceğinden, güvenlik aracı değerlendirmelerine reddetme davranışını dahil edin.**
-
-Bir siber güvenlik kıyaslama çalışmasının reddedilmesi, değerlendiricinin, test edilen politikanın, savunma kodu ve kötü niyetli kullanıma yönelik güvenlik açığı bulma davranışını engellediğini rapor etmesine yol açtı.
-
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-31-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-31-01.jpg" alt="Case 31 source image 1" height="360"></a>
-
-Tür: Limit | Tarih: 2026-07-21
-
----
-
-<a id="case-32"></a>
-### Vaka 32: [Bilgi Tazeliği Arızası](https://x.com/ggg78g89/status/2079587359851737339) (tarafından [@ggg78g89](https://x.com/ggg78g89))
-
-**İddia edilen bir bilgi kesintisine güvenmek yerine, mevcut gerçekleri erişim yoluyla doğrulayın.**
-
-Testi yapan kişi mevcut amiral gemisi modellerini istedi ve daha eski isimler aldı, ardından modelin Mart 2026'da bir kesinti olduğunu iddia etmesine rağmen yalnızca 2025'in başlarına kadar geçerli olan bilgileri kabul ettiğini bildirdi.
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-01.jpg" alt="Case 32 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-02.jpg" alt="Case 32 source image 2" width="100%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-03.jpg" alt="Case 32 source image 3" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-32-04.png" alt="Case 32 source image 4" width="100%"></a>
-</td>
-</tr>
-</table>
-
-Tür: Limit | Tarih: 2026-07-21
-
----
-
-<a id="case-33"></a>
-### Vaka 33: [Jailbreak Kırmızı Takım Testi](https://x.com/Ubannoblesse/status/2079711268899086484) (tarafından [@Ubannoblesse](https://x.com/Ubannoblesse))
-
-**Jailbreak taleplerini yeniden kullanılabilir talimatlar olarak değil, kontrollü çoğaltma ve güvenlik incelemesi gerektiren kırmızı takım sinyalleri olarak değerlendirin.**
-
-Gönderi, Gemini Uygulaması ve API genelinde jailbreak yapıldığını iddia ediyor ve test edilen zararlı içerik kategorilerini listeliyor; bu depo, yararlanma talimatlarını çoğaltmadan güvenlik sinyalini kaydeder.
-
-<table>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-01.jpg" alt="Case 33 source image 1" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-02.jpg" alt="Case 33 source image 2" width="100%"></a>
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-03.jpg" alt="Case 33 source image 3" width="100%"></a>
-</td>
-<td width="50%" valign="top" align="center">
-<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/media/source-cases/case-33-04.jpg" alt="Case 33 source image 4" width="100%"></a>
-</td>
-</tr>
-</table>
-
-Tür: Limit | Tarih: 2026-07-21
-
----
-
-<a id="related-repositories"></a>
-## İlgili Depolar
-
-- [Gemini Omni Flash API Skill](https://github.com/Evolink-AI/gemini-omni-flash-api-skill) — Doğrulanmış Gemini ailesi API hızlı başlangıcı ve kurulabilir agent skill
-- Bu yayın sırasında kurulabilir özel bir Gemini 3.6 Flash becerisi bağımsız olarak doğrulanmadı
+**Buradan başlayın: [Hydrogen'ı EvoLink'te keşfedin](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [API anahtarı alın](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)**
 
 <a id="quick-start"></a>
-## ⚡ Hızlı Başlangıç
+## ⚡ Hızlı başlangıç
 
-"Gemini-3.6-flash" model kimliğiyle başlamak için aşağıdaki doğrulanmış genel yüzeyleri kullanın
+EvoLink'te başlayın; Hydrogen'ı bir uygulamaya entegre etmek istediğinizde Gemini yerel API'sini kullanın.
 
-1. [Gemini 3.6 Flash modeli sayfasını açın](https://evolink.ai/gemini-3-6-flash?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=model_link)
-2. [EvoLink API anahtarı oluşturun veya yönetin](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=api_key)
-3. [İngilizce Gemini Native API Hızlı Başlangıç kılavuzunu izleyin](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-3-6-flash-guide-and-use-cases&utm_content=first_run)
+1. [Gemini 4 Hydrogen’ı tarayıcıda görüntüleyin](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
+2. [EvoLink API anahtarı oluşturun veya yönetin](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)
 
-Doğrulanmış bu minimum isteği çalıştırın
+Asgari yerel API isteği
 
 ```bash
 export EVOLINK_API_KEY="your_api_key_here"
 
 curl --fail-with-body --silent --show-error \
   --request POST \
-  --url "https://direct.evolink.ai/v1beta/models/gemini-3.6-flash:generateContent" \
+  --url "https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent" \
   --header "Authorization: Bearer $EVOLINK_API_KEY" \
   --header "Content-Type: application/json" \
-  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":128,"temperature":0}}'
+  --data '{"contents":[{"role":"user","parts":[{"text":"Reply exactly: OK"}]}],"generationConfig":{"candidateCount":1,"maxOutputTokens":2048,"temperature":0,"thinkingConfig":{"thinkingLevel":"low"}}}'
 ```
 
+`POST https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent`
+
+[Gemini Yerel API hızlı başlangıç rehberini okuyun (İngilizce)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=first_run)
+
 > [!TIP]
-> Beklenen sonuç: görünür metni `OK` olan bir JSON yanıtı
+> Üretilen metni yanıtın candidates[].content.parts[].text alanlarından okuyun.
 
 > [!IMPORTANT]
-> Bu istek canlı endpoint üzerinde HTTP 200 ve görünür `OK` çıktısıyla doğrulandı; anahtarı ortam değişkeninde tutun ve asla commit etmeyin
+> API anahtarınızı bir ortam değişkeninde tutun ve asla depoya işlemeyin. Akış, akıl yürütme ve diğer istek seçenekleri için API belgelerine bakın.
+
+## 📑 Menü
+
+| Bölüm | Örnekler |
+|---|---|
+| [⚡ Ajanlar ve kodlama iş akışları](#agents) | 5 |
+| [💻 Uygulamalar ve öğrenme](#apps-learning) | 5 |
+| [📊 E-tablolar ve Search](#data-search) | 4 |
+| [🎮 Etkileşimli 3B ve arayüzler](#interactive-3d) | 9 |
+| [🧪 Karşılaştırmalar ve sınırlamalar](#comparisons-limits) | 17 |
+| [İlgili depolar](#related-repositories) |  |
+| [Hızlı başlangıç](#quick-start) |  |
+| [Teşekkürler](#acknowledge) |  |
+
+| Örnek | Kategori | Denenecekler | Tür |
+|---|---|---|---|
+| [Antigravity'de kod tabanı bakımı](#case-1) | Ajanlar ve kodlama iş akışları | Düzenlemeleri, araç kullanımını ve doğrulamayı birlikte değerlendirmek için sınırları belirli bir bakım görevi kullanın. | Demo |
+| [Paralel çalışan on altı canvas uygulaması](#case-2) | Ajanlar ve kodlama iş akışları | Geliştirmeyi bağımsız modüllere ayırın; planlama, uygulama ve kalite kontrol rollerini açıkça belirleyin. | Demo |
+| [Çok modelli bir sürüyle kızıl güve](#case-3) | Ajanlar ve kodlama iş akışları | Etkileşimli bir yaratıcı kodlama projesinde orkestrasyon ve uygulama rollerini ayırın. | Demo |
+| [3D Medic ile inceleme ve onarım](#case-4) | Ajanlar ve kodlama iş akışları | Bir 3B dosyayı inceleyen, hataları bulan ve dışa aktarmadan önce onarım öneren bir ajanı keşfedin. | Demo |
+| [Devin'de oluşturulmuş bir yelkenli sahnesi](#case-5) | Ajanlar ve kodlama iş akışları | Modeli gerçekten kullanmayı planladığınız kodlama ajanı ortamında değerlendirin. | Demo |
+| [Lingo City'de dil pratiği](#case-6) | Uygulamalar ve öğrenme | Bağlama dayalı dil pratiği için çalışma kartlarını etkileşimli bir sokak sahnesiyle birleştirin. | Demo |
+| [3B kâğıt tiyatrosu olarak Romeo ve Juliet](#case-7) | Uygulamalar ve öğrenme | Belirli bir dersi, net bir öğrenme hedefi olan etkileşimli bir sahneye dönüştürün. | Demo |
+| [Tasarım görselinden okuma sitesine](#case-8) | Uygulamalar ve öğrenme | Görsel anlayışı ve çalışan ön yüz uygulamasını değerlendirmek için bir referans tasarım kullanın. | Demo |
+| [Yirmi modülde oluşturulmuş koi bahçesi](#case-9) | Uygulamalar ve öğrenme | Tek bir istemden eksiksiz sonuç beklemek yerine büyük bir sahneyi küçük modüllerle oluşturun. | Demo |
+| [Proton füzyonunu öğreten bir oyun](#case-10) | Uygulamalar ve öğrenme | Bilimsel bir sürecin etkileşimli açıklamasını prototipleyin, ardından temelindeki bilimi kontrol edin. | Demo |
+| [Google Sheets'te hareketli manzara](#case-11) | E-tablolar ve Search | Üretilen kodu ve hücre düzeyindeki güncellemeleri incelemek için alışılmadık bir e-tablo animasyonu kullanın. | Demo |
+| [Folio etkileşimli veri sitesi](#case-12) | E-tablolar ve Search | Küçük bir web prototipinde tanıtım sayfası düzenini etkileşimli veri görselleştirmeleriyle birleştirin. | Demo |
+| [Çok parçalı arama sorularına görsel yanıtlar](#case-13) | E-tablolar ve Search | Çok sayıda koşul içeren ayrıntılı bir arama isteğini test ederken yanıt düzenini ve kaynak bağlantılarını karşılaştırın. | Demo |
+| [Sheets'te etkileşimli finansal tahmin](#case-14) | E-tablolar ve Search | Varsayımları görünür bir finansal model prototipi oluşturun ve üretilen formülleri ve grafikleri inceleyin. | Demo |
+| [Etkileşimli bir yemek odası](#case-15) | Etkileşimli 3B ve arayüzler | Bir sahneyi sabit görselden değerlendirmek yerine nesne etkileşimlerini, aydınlatmayı ve durum değişikliklerini kontrol edin. | Demo |
+| [Minyatür dünyalı bir ses kaydırıcısı](#case-16) | Etkileşimli 3B ve arayüzler | Hem etkileşim tasarımını hem de hareketli sahnenin ayrıntılarını test etmek için tanıdık bir kontrol kullanın. | Demo |
+| [Three.js ile bir Japon evi](#case-17) | Etkileşimli 3B ve arayüzler | Ayrıntılı bir 3B gezintiyi değerlendirirken kod üretimini görüntüleme süresinden ayırın. | Demo |
+| [3B bisiklet süren pelikan](#case-18) | Etkileşimli 3B ve arayüzler | Koordinasyonu, hareketi ve sahne tutarlılığını incelemek için hareketli bir karakter kullanın. | Demo |
+| [Önce planlanan bir gezegen simülatörü](#case-19) | Etkileşimli 3B ve arayüzler | Karmaşık bir sahneyi düzenlemesini istemeden önce kodlama modeline somut bir plan verin. | Demo |
+| [Antigravity Swarm ile liman adası](#case-20) | Etkileşimli 3B ve arayüzler | Çok ajanlı sahne oluşturma davranışını incelemek için gezilebilir küçük bir ortam kullanın. | Demo |
+| [Eyfel Kuleli yüzen ada](#case-21) | Etkileşimli 3B ve arayüzler | Kompakt bir anıt sahnesinde kompozisyonu, kamera hareketini ve modelin ürettiği kodu değerlendirin. | Demo |
+| [Uçarak gezilebilen fütüristik şehir](#case-22) | Etkileşimli 3B ve arayüzler | İlk çıktının nihai olduğunu varsaymak yerine prosedürel bir dünyada sonraki düzenlemeleri test edin. | Demo |
+| [Gün doğumundan geceye bir deniz uçağı](#case-23) | Etkileşimli 3B ve arayüzler | Etkileşimli bir 3B sahnede ortam kontrollerini ve ışık geçişlerini inceleyin. | Demo |
+| [Neon çöp adam animasyonu: Hydrogen ve Opus](#case-24) | Karşılaştırmalar ve sınırlamalar | Aynı çalıştırma ortamlarını varsaymadan tamamlanmış animasyonu bildirilen süre ve maliyetle birlikte karşılaştırın. | Evaluation |
+| [Robotik görevler ve fark edilen hatalar](#case-25) | Karşılaştırmalar ve sınırlamalar | Robotik değerlendirmeye görev tamamlamayı ve küçük hataları fark etmeyi dahil edin. | Evaluation |
+| [Doğal dille yönetilen laboratuvar çalışma hücresi](#case-26) | Karşılaştırmalar ve sınırlamalar | Araç çalıştırmayı ve hata yönetimini, öne çıkan kıyaslama puanlarından ayrı değerlendirin. | Evaluation |
+| [Buzdağı ve römorkör: Hydrogen ve Carbon](#case-27) | Karşılaştırmalar ve sınırlamalar | Uzun bir 3B geliştirmeyi karşılaştırırken akıl yürütme seviyesini ve çalıştırma ortamının kısıtlarını kaydedin. | Evaluation |
+| [Jöle koi göleti: Hydrogen ve Sonnet](#case-28) | Karşılaştırmalar ve sınırlamalar | Bir kıyaslama sıralamasını model tercihine dönüştürmeden önce somut bir sahneyi inceleyin. | Evaluation |
+| [Ortak istemli yaratıcı kodlama koleksiyonu](#case-29) | Karşılaştırmalar ve sınırlamalar | Tek bir çekici çıktıdan aşırı genelleme yapmamak için çeşitli görsel görevler kullanın. | Evaluation |
+| [Megamind vokselleri: maliyet ve kalite için bir karşı örnek](#case-30) | Karşılaştırmalar ve sınırlamalar | Bir modelin sürekli daha ucuz veya görsel açıdan daha güçlü olup olmadığını değerlendirirken başarısız örnekleri koruyun. | Limit |
+| [Dört mevsimde jonglör aslan](#case-31) | Karşılaştırmalar ve sınırlamalar | Yalnızca çevredeki arayüzün görsel kalitesini değil, istenen hareketi kontrol edin. | Limit |
+| [Üç modelli çöp adam dövüşü: daha yavaş, daha pahalı sonuç](#case-32) | Karşılaştırmalar ve sınırlamalar | Bir modelin tanıtılan verimliliğini gerçek görev raporlarıyla karşılaştırırken karşı örnekleri koruyun. | Limit |
+| [Çiftlikte bisiklet sahnesi: Hydrogen ve Flash](#case-33) | Karşılaştırmalar ve sınırlamalar | Hareketi ve sahne kalitesini, üreticinin bildirdiği tamamlanma süresiyle birlikte karşılaştırın. | Evaluation |
+| [Tandem bisikletlerde bir kız ve kedi](#case-34) | Karşılaştırmalar ve sınırlamalar | Farklı kodlama ortamlarını görünür tutarak isteme bağlılığı ve ek ayrıntıları karşılaştırın. | Evaluation |
+| [Dört model Three.js ile Mario oyunu oluşturuyor](#case-35) | Karşılaştırmalar ve sınırlamalar | Aynı istemle üretilen oyunları karşılaştırmadan önce eşit olmayan akıl yürütme ayarlarını kaydedin. | Evaluation |
+| [Üç Gemini modeli oyun kumandası çiziyor](#case-36) | Karşılaştırmalar ve sınırlamalar | Aile içinde bir hiyerarşi varsaymak yerine göreve özgü gerileme ve iyileşmelere bakın. | Evaluation |
+| [Uygulama ve Studio'da farklı görsel yanıtlar](#case-37) | Karşılaştırmalar ve sınırlamalar | Bir görsel sonucuna güvenmeden önce aynı görüntüyü kullanmayı planladığınız üründe test edin. | Limit |
+| [Roket fırlatma sahnesi: Hydrogen ve Flash](#case-38) | Karşılaştırmalar ve sınırlamalar | Bildirilen geliştirme süresinin yanı sıra gerçek fırlatma animasyonunu da karşılaştırın. | Evaluation |
+| [Dört SVG animasyon görevi](#case-39) | Karşılaştırmalar ve sınırlamalar | Görevler arası tutarlılığı incelemek için birden fazla etkileşim ve animasyon motifi kullanın. | Evaluation |
+| [Üç model savanada bir atı canlandırıyor](#case-40) | Karşılaştırmalar ve sınırlamalar | Genel maliyet veya kalite iddialarını kabul etmeden önce hareketi ve görsel ayrıntıyı doğrudan inceleyin. | Evaluation |
+
+<a id="agents"></a>
+## ⚡ Ajanlar ve kodlama iş akışları
+
+<a id="case-1"></a>
+### Örnek 1: [Antigravity'de kod tabanı bakımı](https://x.com/antigravity/status/2120944334023389476) (hazırlayan [@antigravity](https://x.com/antigravity))
+
+**Düzenlemeleri, araç kullanımını ve doğrulamayı birlikte değerlendirmek için sınırları belirli bir bakım görevi kullanın.**
+
+Antigravity'nin tanıtım demosu, Hydrogen'ın bir kod tabanının bakımını yaptığını gösteriyor. Bu, platformun hazırladığı bir örnektir; bağımsız olarak tekrarlanmış bir mühendislik kıyaslaması değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042-poster.jpg" alt="Case 1 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U042.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-2"></a>
+### Örnek 2: [Paralel çalışan on altı canvas uygulaması](https://x.com/shengzheyao/status/2120944141559550409) (hazırlayan [@shengzheyao](https://x.com/shengzheyao))
+
+**Geliştirmeyi bağımsız modüllere ayırın; planlama, uygulama ve kalite kontrol rollerini açıkça belirleyin.**
+
+Google DeepMind'daki bir Antigravity CLI geliştiricisi, Hydrogen bağımlılıksız 16 canvas mini uygulaması oluştururken Carbon'ın koordinasyon, doğrulama ve entegrasyon yaptığını anlatıyor. Bu, birden fazla model kullanan bir iş akışıdır; sonuç yalnızca Hydrogen'a atfedilmemelidir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044-poster.jpg" alt="Case 2 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U044.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-3"></a>
+### Örnek 3: [Çok modelli bir sürüyle kızıl güve](https://x.com/thtbee_/status/2120958666480513310) (hazırlayan [@thtbee_](https://x.com/thtbee_))
+
+**Etkileşimli bir yaratıcı kodlama projesinde orkestrasyon ve uygulama rollerini ayırın.**
+
+Üretici, Hydrogen çalışanları kızıl güve eserini oluştururken Carbon'ın bir Antigravity sürüsünü yönettiğini söylüyor. Bildirilen 45 dakikalık süre bu çok modelli iş akışını kapsıyor ve bağımsız olarak ölçülmedi.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024-poster.jpg" alt="Case 3 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U024.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-4"></a>
+### Örnek 4: [3D Medic ile inceleme ve onarım](https://x.com/GoogleAI/status/2120940683233984862) (hazırlayan [@GoogleAI](https://x.com/GoogleAI))
+
+**Bir 3B dosyayı inceleyen, hataları bulan ve dışa aktarmadan önce onarım öneren bir ajanı keşfedin.**
+
+Google AI'ın 3D Medic demosu, AI Studio'da oluşturulmuş bir Managed Agent uygulaması kullanıyor. Bu, bir dosya onarım iş akışını gösterir; herhangi bir 3B varlığın doğru onarılacağının kanıtı değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053-poster.jpg" alt="Case 4 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U053.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-5"></a>
+### Örnek 5: [Devin'de oluşturulmuş bir yelkenli sahnesi](https://x.com/Da7_Tech/status/2120967690722677144) (hazırlayan [@Da7_Tech](https://x.com/Da7_Tech))
+
+**Modeli gerçekten kullanmayı planladığınız kodlama ajanı ortamında değerlendirin.**
+
+Kaynak, Devin içinde çalışan Hydrogen'a atfedilen bir yelkenli sahnesi sunuyor. Kısa gönderi; tam istemi, yineleme geçmişini veya tekrarlanabilir bir kurulumu açıklamıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018-poster.jpg" alt="Case 5 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U018.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+
+<a id="apps-learning"></a>
+## 💻 Uygulamalar ve öğrenme
+
+<a id="case-6"></a>
+### Örnek 6: [Lingo City'de dil pratiği](https://x.com/tulseedoshi/status/2121095754844713427) (hazırlayan [@tulseedoshi](https://x.com/tulseedoshi))
+
+**Bağlama dayalı dil pratiği için çalışma kartlarını etkileşimli bir sokak sahnesiyle birleştirin.**
+
+Tulsee Doshi, özelleştirilmiş 2B ve 3B çalışma kartlarını akışla sunan ve sanal bir şehirde esnafla konuşma pratiği sağlayan bir Google örneği paylaşıyor. Bu bir sağlayıcı demosudur, bağımsız bir öğrenme sonuçları araştırması değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001-poster.jpg" alt="Case 6 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U001.mp4)
+
+Tür: Demo | Tarih: 2026-11-13
+
+---
+
+<a id="case-7"></a>
+### Örnek 7: [3B kâğıt tiyatrosu olarak Romeo ve Juliet](https://x.com/techartist_/status/2120957446202253803) (hazırlayan [@techartist_](https://x.com/techartist_))
+
+**Belirli bir dersi, net bir öğrenme hedefi olan etkileşimli bir sahneye dönüştürün.**
+
+Üretici, GCSE İngiliz Edebiyatı için Romeo ve Juliet'in balkon sahnesini konu alan bir 3B kâğıt tiyatrosu dersi oluşturdu. Kaynak arayüzü gösteriyor ancak öğrenme sonuçlarını ölçmüyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026-poster.jpg" alt="Case 7 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U026.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-8"></a>
+### Örnek 8: [Tasarım görselinden okuma sitesine](https://x.com/thebuggeddev/status/2120952661046689992) (hazırlayan [@thebuggeddev](https://x.com/thebuggeddev))
+
+**Görsel anlayışı ve çalışan ön yüz uygulamasını değerlendirmek için bir referans tasarım kullanın.**
+
+Üretici, Hydrogen'ın bir tasarım görselini 5 dakika 27 saniyede çalışan bir okuma yönetimi sitesine dönüştürdüğünü söylüyor. Süre ve eksiksizlik, kaynağın iddialarıdır; bu derlemede bağımsız bir işlevsel test bulunmuyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030-poster.jpg" alt="Case 8 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U030.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-9"></a>
+### Örnek 9: [Yirmi modülde oluşturulmuş koi bahçesi](https://x.com/IamEmily2050/status/2120951069874532806) (hazırlayan [@IamEmily2050](https://x.com/IamEmily2050))
+
+**Tek bir istemden eksiksiz sonuç beklemek yerine büyük bir sahneyi küçük modüllerle oluşturun.**
+
+Üretici, Gemini uygulamasında 20 modül için 20 istem kullandığını ve her birinin 90–270 saniye sürdüğünü bildiriyor. Yazar erken erişimi açıkladı; örnek tek seferlik bir sonuç değil, açıkça yinelemeli bir çalışmadır.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032-poster.jpg" alt="Case 9 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U032.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-10"></a>
+### Örnek 10: [Proton füzyonunu öğreten bir oyun](https://x.com/SidraMiconi/status/2120948703095820743) (hazırlayan [@SidraMiconi](https://x.com/SidraMiconi))
+
+**Bilimsel bir sürecin etkileşimli açıklamasını prototipleyin, ardından temelindeki bilimi kontrol edin.**
+
+Üreticinin oyunu genç bir yıldız içindeki proton–proton zincirini izliyor. Bildirilen tek istem, 78 saniyelik çalışma süresi ve yaklaşık $0.19 maliyet, kaynağın iddialarıdır; bağımsız olarak tekrarlanmış sonuçlar değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034-poster.jpg" alt="Case 10 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U034.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+
+<a id="data-search"></a>
+## 📊 E-tablolar ve Search
+
+<a id="case-11"></a>
+### Örnek 11: [Google Sheets'te hareketli manzara](https://x.com/Google/status/2121004369617485896) (hazırlayan [@Google](https://x.com/Google))
+
+**Üretilen kodu ve hücre düzeyindeki güncellemeleri incelemek için alışılmadık bir e-tablo animasyonu kullanın.**
+
+Google, Antigravity'de yazılan kodla e-tablo hücrelerine çizilmiş kıyı trenleri, bulutlar ve sonbahar yapraklarını gösteriyor. Bu resmî bir yaratıcı demodur, e-tablo performans kıyaslaması değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006-poster.jpg" alt="Case 11 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U006.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-12"></a>
+### Örnek 12: [Folio etkileşimli veri sitesi](https://x.com/vamsibatchuk/status/2120996342923436188) (hazırlayan [@vamsibatchuk](https://x.com/vamsibatchuk))
+
+**Küçük bir web prototipinde tanıtım sayfası düzenini etkileşimli veri görselleştirmeleriyle birleştirin.**
+
+Bir Google DeepMind çalışanı, Google AI Studio ile oluşturulmuş Folio tarzı bir siteyi ve etkileşimli animasyonu sunuyor. Gönderi, tam üretim istemini veya bağımsız bir işlevsel testi sağlamıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007-poster.jpg" alt="Case 12 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U007.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-13"></a>
+### Örnek 13: [Çok parçalı arama sorularına görsel yanıtlar](https://x.com/Google/status/2120960715011883148) (hazırlayan [@Google](https://x.com/Google))
+
+**Çok sayıda koşul içeren ayrıntılı bir arama isteğini test ederken yanıt düzenini ve kaynak bağlantılarını karşılaştırın.**
+
+Google'ın Search örneği; niyet anlama, görsel düzenler, karşılaştırma tabloları ve sorgu dallandırmayı birleştiriyor. Bunlar sağlayıcının anlattığı ürün davranışlarıdır; demo, yayıncıların sıralamalarına veya trafiğine etkisini ortaya koymuyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021-poster.jpg" alt="Case 13 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U021.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-14"></a>
+### Örnek 14: [Sheets'te etkileşimli finansal tahmin](https://x.com/ChanduThota/status/2120942270627414079) (hazırlayan [@ChanduThota](https://x.com/ChanduThota))
+
+**Varsayımları görünür bir finansal model prototipi oluşturun ve üretilen formülleri ve grafikleri inceleyin.**
+
+Chandu Thota, Google Sheets'te bir tahmin demosu sunuyor. Kaynaktaki %30'dan fazla hızlı canvas üretimi iddiası sağlayıcıya aittir; bu depo için yapılmış kontrollü bir süre ölçümü değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047-poster.jpg" alt="Case 14 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U047.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+
+<a id="interactive-3d"></a>
+## 🎮 Etkileşimli 3B ve arayüzler
+
+<a id="case-15"></a>
+### Örnek 15: [Etkileşimli bir yemek odası](https://x.com/notjazii/status/2120979811569222137) (hazırlayan [@notjazii](https://x.com/notjazii))
+
+**Bir sahneyi sabit görselden değerlendirmek yerine nesne etkileşimlerini, aydınlatmayı ve durum değişikliklerini kontrol edin.**
+
+Üretici; ışıkları, lambaları, buzdolabı ve içindeki nesneleri etkileşimli olan bir yemek odası gösteriyor. Bildirilen 30 dakikalık geliştirme süresi bağımsız olarak doğrulanmadı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014-poster.jpg" alt="Case 15 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U014.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-16"></a>
+### Örnek 16: [Minyatür dünyalı bir ses kaydırıcısı](https://x.com/vib3coded/status/2120973294090555890) (hazırlayan [@vib3coded](https://x.com/vib3coded))
+
+**Hem etkileşim tasarımını hem de hareketli sahnenin ayrıntılarını test etmek için tanıdık bir kontrol kullanın.**
+
+Kaynak, küçük bir Japon tarzı dünyayı hareketlendiren ses kaydırıcısını gösteriyor. Üretici $0.19 maliyet bildiriyor ancak fatura veya tam üretim iş akışı sunmuyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016-poster.jpg" alt="Case 16 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U016.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-17"></a>
+### Örnek 17: [Three.js ile bir Japon evi](https://x.com/SPAC89/status/2120972954146140409) (hazırlayan [@SPAC89](https://x.com/SPAC89))
+
+**Ayrıntılı bir 3B gezintiyi değerlendirirken kod üretimini görüntüleme süresinden ayırın.**
+
+Üretici, bu ev ve bahçeyi ajan kullanmadan Three.js ile çalışan Hydrogen'a atfediyor. Gönderideki abonelik kullanımı ve iki saatten kısa süre iddiaları yazarın kurulumuna özgüdür; genel fiyat veya gecikme garantileri değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017-poster.jpg" alt="Case 17 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U017.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-18"></a>
+### Örnek 18: [3B bisiklet süren pelikan](https://x.com/nehstrr3/status/2120953932692537722) (hazırlayan [@nehstrr3](https://x.com/nehstrr3))
+
+**Koordinasyonu, hareketi ve sahne tutarlılığını incelemek için hareketli bir karakter kullanın.**
+
+Üretici, bisiklet süren bir 3B pelikan animasyonu sunuyor ve modeli Hydrogen XHigh olarak belirtiyor. Gönderi bir çıktı demosudur; tam, tekrarlanabilir bir istem veya fizik doğrulaması değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029-poster.jpg" alt="Case 18 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U029.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-19"></a>
+### Örnek 19: [Önce planlanan bir gezegen simülatörü](https://x.com/The_Alex/status/2120950301318582643) (hazırlayan [@The_Alex](https://x.com/The_Alex))
+
+**Karmaşık bir sahneyi düzenlemesini istemeden önce kodlama modeline somut bir plan verin.**
+
+Erken erişimli üretici bir gezegen simülatörü gösteriyor ve daha ayrıntılı planlar verdikten sonra düzenleme sonuçlarının iyileştiğini bildiriyor. Kaynak, fikri ForwardEditor'a atfediyor ve yinelemeli bir iş akışı anlatıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033-poster.jpg" alt="Case 19 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U033.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-20"></a>
+### Örnek 20: [Antigravity Swarm ile liman adası](https://x.com/ai_for_success/status/2120942147780464660) (hazırlayan [@ai_for_success](https://x.com/ai_for_success))
+
+**Çok ajanlı sahne oluşturma davranışını incelemek için gezilebilir küçük bir ortam kullanın.**
+
+Üretici erken erişimi açıkladı ve Antigravity'nin Swarm özelliği içinde Hydrogen ile oluşturulmuş bir liman adası gösteriyor. Herkese açık gönderi, tüm orkestrasyonu veya istem geçmişini belirtmiyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048-poster.jpg" alt="Case 20 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U048.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-21"></a>
+### Örnek 21: [Eyfel Kuleli yüzen ada](https://x.com/RezAIT00/status/2120940988780736973) (hazırlayan [@RezAIT00](https://x.com/RezAIT00))
+
+**Kompakt bir anıt sahnesinde kompozisyonu, kamera hareketini ve modelin ürettiği kodu değerlendirin.**
+
+Kaynak, Eyfel Kuleli minyatür bir ada gösteriyor ve bunu Hydrogen XHigh'a atfediyor. Altı dakikalık oluşturma ve kayıt süresi yazarın bildirimidir, bağımsız bir süre testi değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051-poster.jpg" alt="Case 21 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U051.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-22"></a>
+### Örnek 22: [Uçarak gezilebilen fütüristik şehir](https://x.com/kimmonismus/status/2120940617169826037) (hazırlayan [@kimmonismus](https://x.com/kimmonismus))
+
+**İlk çıktının nihai olduğunu varsaymak yerine prosedürel bir dünyada sonraki düzenlemeleri test edin.**
+
+Erken erişimli üretici Antigravity'de Hydrogen High kullandı; prosedürel kuleler, yağmur ve uçan trafik içeren Three.js şehrini bir ek istemle oluşturduğunu bildiriyor. Kayıt, üretilen kodun çalışmasını gösteriyor; yerel video üretimini değil.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054-poster.jpg" alt="Case 22 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U054.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+<a id="case-23"></a>
+### Örnek 23: [Gün doğumundan geceye bir deniz uçağı](https://x.com/LuminaBench/status/2120939312564842663) (hazırlayan [@LuminaBench](https://x.com/LuminaBench))
+
+**Etkileşimli bir 3B sahnede ortam kontrollerini ve ışık geçişlerini inceleyin.**
+
+LuminaBench'in daha sonra Google tarafından yeniden paylaşılan özgün demosu, bir deniz uçağını ve günün değişen saatlerini gösteriyor. Gönderi, kayıtlı herkese açık yayın sınırından önceye aittir; erişim yolu ve model çağrısı bağımsız olarak doğrulanmadı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056-poster.jpg" alt="Case 23 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U056.mp4)
+
+Tür: Demo | Tarih: 2026-11-12
+
+---
+
+
+<a id="comparisons-limits"></a>
+## 🧪 Karşılaştırmalar ve sınırlamalar
+
+<a id="case-24"></a>
+### Örnek 24: [Neon çöp adam animasyonu: Hydrogen ve Opus](https://x.com/rubenssoto_ai/status/2121068028435791947) (hazırlayan [@rubenssoto_ai](https://x.com/rubenssoto_ai))
+
+**Aynı çalıştırma ortamlarını varsaymadan tamamlanmış animasyonu bildirilen süre ve maliyetle birlikte karşılaştırın.**
+
+Yazar, Hydrogen ve Opus 5.5 çıktılarını sunuyor; $1.02 karşısında $7.43 ve 10m 22s karşısında 34m bildiriyor. Bu derleme; faturalamayı, istemleri, yineleme sayılarını veya karşılaştırılabilir çalıştırma ayarlarını doğrulamadı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002-poster.jpg" alt="Case 24 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U002.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-13
+
+---
+
+<a id="case-25"></a>
+### Örnek 25: [Robotik görevler ve fark edilen hatalar](https://x.com/ArtificialAnlys/status/2120995180891508833) (hazırlayan [@ArtificialAnlys](https://x.com/ArtificialAnlys))
+
+**Robotik değerlendirmeye görev tamamlamayı ve küçük hataları fark etmeyi dahil edin.**
+
+Artificial Analysis, sıvı dökme ve blok toplama görevleri gösteriyor; Hydrogen'ın küçük bir dökülmeyi ve kapatılmamış bir kapağı fark ettiğini söylüyor. Video ve AA-Robotics v0.1 sıralaması değerlendiriciden geliyor; burada bağımsız tekrar yapılmadı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008-poster.jpg" alt="Case 25 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U008.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-26"></a>
+### Örnek 26: [Doğal dille yönetilen laboratuvar çalışma hücresi](https://x.com/danielmckinn0n/status/2120990834246173125) (hazırlayan [@danielmckinn0n](https://x.com/danielmckinn0n))
+
+**Araç çalıştırmayı ve hata yönetimini, öne çıkan kıyaslama puanlarından ayrı değerlendirin.**
+
+Kaynak, doğal dil isteğiyle yönetilen bir laboratuvar çalışma hücresi gösteriyor ve laboratuvarla ilgili dört kıyaslamada sonuç bildiriyor. Hydrogen'ın bildirilen RareBench puanı Opus 5.5'inkinden düşük, diğer üçü ise yüksek; bu kıyaslamanın sahibinin demosudur, tıbbi doğrulama değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009-poster.jpg" alt="Case 26 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U009.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-27"></a>
+### Örnek 27: [Buzdağı ve römorkör: Hydrogen ve Carbon](https://x.com/EnvolDev/status/2120989670582677930) (hazırlayan [@EnvolDev](https://x.com/EnvolDev))
+
+**Uzun bir 3B geliştirmeyi karşılaştırırken akıl yürütme seviyesini ve çalıştırma ortamının kısıtlarını kaydedin.**
+
+Üretici, her iki modelin de OpenRouter üzerinden High seviyesinde çalıştığını; Hydrogen için $4.27 ve 1h 23m 40s, Carbon için $8.83 ve 2h 39m 10s bildiriyor. Bunlar kaynağın bildirdiği kontrolsüz sonuçlardır, evrensel fiyat veya hız oranları değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010-poster.jpg" alt="Case 27 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U010.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-28"></a>
+### Örnek 28: [Jöle koi göleti: Hydrogen ve Sonnet](https://x.com/Haleeeemahh/status/2120987701352739314) (hazırlayan [@Haleeeemahh](https://x.com/Haleeeemahh))
+
+**Bir kıyaslama sıralamasını model tercihine dönüştürmeden önce somut bir sahneyi inceleyin.**
+
+Yazar, 3B koi göleti görevinde Hydrogen ile Sonnet 5.5'i karşılaştırıyor. Kaynak, izleyicilerden çıktıları değerlendirmelerini istiyor ancak eşleştirilmiş ayarlar veya nesnel bir kalite puanı ortaya koymuyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011-poster.jpg" alt="Case 28 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U011.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-29"></a>
+### Örnek 29: [Ortak istemli yaratıcı kodlama koleksiyonu](https://x.com/kickingkeys/status/2120985358317875222) (hazırlayan [@kickingkeys](https://x.com/kickingkeys))
+
+**Tek bir çekici çıktıdan aşırı genelleme yapmamak için çeşitli görsel görevler kullanın.**
+
+Üretici, Hydrogen, Carbon ve Argon'a aynı istemleri verdiğini bildiriyor ve karşılaştırmaları yanıtlara yerleştiriyor. Ana gönderinin medyası düşük poligonlu hayvanları, neon bir sokağı ve suluboya tarzı bir kabı gösteriyor; tam kontrollü bir kıyaslama değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012-poster.jpg" alt="Case 29 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U012.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-30"></a>
+### Örnek 30: [Megamind vokselleri: maliyet ve kalite için bir karşı örnek](https://x.com/thehypedotnews/status/2120980737012670720) (hazırlayan [@thehypedotnews](https://x.com/thehypedotnews))
+
+**Bir modelin sürekli daha ucuz veya görsel açıdan daha güçlü olup olmadığını değerlendirirken başarısız örnekleri koruyun.**
+
+Kaynak, Hydrogen'ın $36.07 maliyetle daha tutarsız bir Titan figürü ürettiğini, Sonnet 5.5'in ise $8.64 tuttuğunu söylüyor. Gönderide ticari tanıtım bulunuyor; maliyetler ve kalite değerlendirmesi yayıncının iddialarıdır.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013-poster.jpg" alt="Case 30 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U013.mp4)
+
+Tür: Limit | Tarih: 2026-11-12
+
+---
+
+<a id="case-31"></a>
+### Örnek 31: [Dört mevsimde jonglör aslan](https://x.com/SahilPanhotra/status/2120978349967458704) (hazırlayan [@SahilPanhotra](https://x.com/SahilPanhotra))
+
+**Yalnızca çevredeki arayüzün görsel kalitesini değil, istenen hareketi kontrol edin.**
+
+Yazar, Carbon'ın kesişen jonglör yaylarını gerçekleştirdiğini, Hydrogen'ın ise daha temiz mevsim geçişleri ve kırpmaya rağmen topları havada bıraktığını bildiriyor. Aynı görevin bu SVG karşılaştırması, genel bir model sıralaması değil belirli bir hareket hatasını gösteriyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015-poster.jpg" alt="Case 31 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U015.mp4)
+
+Tür: Limit | Tarih: 2026-11-12
+
+---
+
+<a id="case-32"></a>
+### Örnek 32: [Üç modelli çöp adam dövüşü: daha yavaş, daha pahalı sonuç](https://x.com/DanielZambrini/status/2120963180461769183) (hazırlayan [@DanielZambrini](https://x.com/DanielZambrini))
+
+**Bir modelin tanıtılan verimliliğini gerçek görev raporlarıyla karşılaştırırken karşı örnekleri koruyun.**
+
+Üretici Hydrogen, Carbon ve Argon'ı karşılaştırıyor; bu testte Hydrogen'ın Carbon'dan daha uzun sürdüğünü ve daha pahalı olduğunu bildiriyor. Ayarlar, faturalama ve yineleme sayıları bağımsız olarak doğrulanmadı.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019-poster.jpg" alt="Case 32 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U019.mp4)
+
+Tür: Limit | Tarih: 2026-11-12
+
+---
+
+<a id="case-33"></a>
+### Örnek 33: [Çiftlikte bisiklet sahnesi: Hydrogen ve Flash](https://x.com/Bhavani_00007/status/2120959112934834412) (hazırlayan [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**Hareketi ve sahne kalitesini, üreticinin bildirdiği tamamlanma süresiyle birlikte karşılaştırın.**
+
+Kaynak, çiftlikte bisiklet sahnesinde Hydrogen ile Gemini 3.8 Flash'ı karşılaştırıyor ve altı dakikadan fazlaya karşı 56 saniye bildiriyor. Bu, tek bir üreticinin testidir; genel hız kıyaslaması değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023-poster.jpg" alt="Case 33 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U023.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-34"></a>
+### Örnek 34: [Tandem bisikletlerde bir kız ve kedi](https://x.com/marcthecreatorr/status/2120956699951628637) (hazırlayan [@marcthecreatorr](https://x.com/marcthecreatorr))
+
+**Farklı kodlama ortamlarını görünür tutarak isteme bağlılığı ve ek ayrıntıları karşılaştırın.**
+
+Üretici aynı belirtilen SVG görevini kullandı ancak Opus 5.5'i Claude Code'da, Hydrogen'ı Cursor'da çalıştırdı. Bildirilen süre ve maliyetler büyük ölçüde farklı olsa da farklı ortamlar ve açıklanmayan yinelemeler, yalnızca modelleri kapsayan kontrollü bir karşılaştırmayı engelliyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027-poster.jpg" alt="Case 34 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U027.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-35"></a>
+### Örnek 35: [Dört model Three.js ile Mario oyunu oluşturuyor](https://x.com/StatsWire/status/2120955723396071548) (hazırlayan [@StatsWire](https://x.com/StatsWire))
+
+**Aynı istemle üretilen oyunları karşılaştırmadan önce eşit olmayan akıl yürütme ayarlarını kaydedin.**
+
+Kaynak; dış 3B modeller veya dokular olmadan yalnızca Three.js kullanarak High seviyesindeki Gemini 3.8 Flash, Argon ve Carbon'ı XHigh seviyesindeki Hydrogen ile karşılaştırıyor. Dört çıktı gösteriyor; eşleştirilmiş akıl yürütme seviyeli bir kıyaslama değil.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028-poster.jpg" alt="Case 35 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U028.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-36"></a>
+### Örnek 36: [Üç Gemini modeli oyun kumandası çiziyor](https://x.com/notjazii/status/2120952314873987271) (hazırlayan [@notjazii](https://x.com/notjazii))
+
+**Aile içinde bir hiyerarşi varsaymak yerine göreve özgü gerileme ve iyileşmelere bakın.**
+
+Üretici, Carbon, Argon ve Hydrogen'ın SVG kumanda çıktılarını karşılaştırıyor ve testi tekrar çalıştırdığını bildiriyor. Bildirilen süre ve maliyetler kaynak iddialarıdır; genel bir model kalitesi sıralaması oluşturmaz.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U031-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U031-01.jpg" alt="Case 36 source image 1" height="360"></a>
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-37"></a>
+### Örnek 37: [Uygulama ve Studio'da farklı görsel yanıtlar](https://x.com/thegenioo/status/2120946497802174688) (hazırlayan [@thegenioo](https://x.com/thegenioo))
+
+**Bir görsel sonucuna güvenmeden önce aynı görüntüyü kullanmayı planladığınız üründe test edin.**
+
+Kaynak, Gemini uygulaması ve AI Studio'da Hydrogen'a atfedilen çelişkili yiyecek tanıma yanıtları gösteriyor. Karşılaştırma; yönlendirmenin, ayarların veya tam konuşma bağlamının aynı olduğunu bağımsız olarak doğrulamıyor.
+
+<table>
+<tr>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-01.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-01.jpg" alt="Case 37 source image 1" width="100%"></a>
+</td>
+<td width="50%" valign="top" align="center">
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-02.jpg"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U037-02.jpg" alt="Case 37 source image 2" width="100%"></a>
+</td>
+</tr>
+</table>
+
+Tür: Limit | Tarih: 2026-11-12
+
+---
+
+<a id="case-38"></a>
+### Örnek 38: [Roket fırlatma sahnesi: Hydrogen ve Flash](https://x.com/Bhavani_00007/status/2120945380850569395) (hazırlayan [@Bhavani_00007](https://x.com/Bhavani_00007))
+
+**Bildirilen geliştirme süresinin yanı sıra gerçek fırlatma animasyonunu da karşılaştırın.**
+
+Üretici, Hydrogen ve Gemini 3.8 Flash çıktılarını sunuyor; yaklaşık üç dakikaya karşı bir dakikadan kısa süre bildiriyor. Görsel karşılaştırma, çalıştırma kurulumu bağımsız olarak kontrol edilmemiş tek bir görevdir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040-poster.jpg" alt="Case 38 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U040.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-39"></a>
+### Örnek 39: [Dört SVG animasyon görevi](https://x.com/Angaisb_/status/2120944947193127061) (hazırlayan [@Angaisb_](https://x.com/Angaisb_))
+
+**Görevler arası tutarlılığı incelemek için birden fazla etkileşim ve animasyon motifi kullanın.**
+
+Kaynak; transferler, gündüz/gece değişimleri, kutu açma ve bukalemun için Hydrogen ve Carbon çıktılarını eşleştiriyor. Kısa ana metin, tam istemleri, süre kanıtlarını veya nesnel bir puanlama yöntemini açıklamıyor.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041-poster.jpg" alt="Case 39 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U041.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="case-40"></a>
+### Örnek 40: [Üç model savanada bir atı canlandırıyor](https://x.com/AI_Screening/status/2120944276586823689) (hazırlayan [@AI_Screening](https://x.com/AI_Screening))
+
+**Genel maliyet veya kalite iddialarını kabul etmeden önce hareketi ve görsel ayrıntıyı doğrudan inceleyin.**
+
+Üretici Hydrogen, Carbon ve Argon'ı savanada at sahnesinde sunuyor. Daha yüksek hız, daha düşük maliyet ve yüksek kalite iddiaları kaynağın değerlendirmesi olarak kalıyor; burada tekrarlanmış kontrollü bir karşılaştırma değildir.
+
+<a href="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043.mp4"><img src="https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043-poster.jpg" alt="Case 40 source video poster" height="360"></a>
+
+[Kaynak videoyu oynat](https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/media/U043.mp4)
+
+Tür: Evaluation | Tarih: 2026-11-12
+
+---
+
+<a id="related-repositories"></a>
+## İlgili depolar
+
+- [Gemini 4 Carbon Guide and Use Cases](https://github.com/cheercheung/awesome-gemini-4-carbon-guide-and-use-cases): Gemini 4 Carbon örnekleri ve karşılaştırmaları
 
 <a id="acknowledge"></a>
-## 🙏 onayla
+## 🙏 Teşekkürler
 
-Bu koleksiyon, yaratıcıların ve uygulayıcıların Gemini 3.6 Flash çalışmalarını herkese açık olarak paylaşmaları nedeniyle mevcuttur.
+Hydrogen çalışmalarını herkese açık olarak paylaşan üreticilere, geliştiricilere ve değerlendiricilere teşekkürler.
 
-**Burada temsil edilen kaynak yaratıcıları sayesinde:**
+**Kaynak üreticileri:**
 
-[@JeffDean](https://x.com/JeffDean), [@antigravity](https://x.com/antigravity), [@stevibe](https://x.com/stevibe), [@browser_use](https://x.com/browser_use), [@__apf__](https://x.com/__apf__), [@databricks](https://x.com/databricks), [@jetbrains](https://x.com/jetbrains), [@CodeByPoonam](https://x.com/CodeByPoonam), [@bijanbowen](https://x.com/bijanbowen), [@diegocabezas01](https://x.com/diegocabezas01), [@Majin_AppSheet](https://x.com/Majin_AppSheet), [@AILogDev](https://x.com/AILogDev), [@LuminaXspace](https://x.com/LuminaXspace), [@Motion_Viz](https://x.com/Motion_Viz), [@ozansihay](https://x.com/ozansihay), [@nemumusitocha](https://x.com/nemumusitocha), [@itsPaulAi](https://x.com/itsPaulAi), [@SaiNemani1](https://x.com/SaiNemani1), [@Mr_Salio](https://x.com/Mr_Salio), [@Conor_D_Dart](https://x.com/Conor_D_Dart), [@ggg78g89](https://x.com/ggg78g89), [@intheworldofai](https://x.com/intheworldofai), [@notjazii](https://x.com/notjazii), [@HarshithLucky3](https://x.com/HarshithLucky3), [@LLMJunky](https://x.com/LLMJunky), [@adonis_singh](https://x.com/adonis_singh), [@OriSilver](https://x.com/OriSilver), [@OmedVibeCodes](https://x.com/OmedVibeCodes), [@naymur_dev](https://x.com/naymur_dev), [@pilvar222](https://x.com/pilvar222), [@Ubannoblesse](https://x.com/Ubannoblesse)
+[@antigravity](https://x.com/antigravity), [@shengzheyao](https://x.com/shengzheyao), [@thtbee_](https://x.com/thtbee_), [@GoogleAI](https://x.com/GoogleAI), [@Da7_Tech](https://x.com/Da7_Tech), [@tulseedoshi](https://x.com/tulseedoshi), [@techartist_](https://x.com/techartist_), [@thebuggeddev](https://x.com/thebuggeddev), [@IamEmily2050](https://x.com/IamEmily2050), [@SidraMiconi](https://x.com/SidraMiconi), [@Google](https://x.com/Google), [@vamsibatchuk](https://x.com/vamsibatchuk), [@ChanduThota](https://x.com/ChanduThota), [@notjazii](https://x.com/notjazii), [@vib3coded](https://x.com/vib3coded), [@SPAC89](https://x.com/SPAC89), [@nehstrr3](https://x.com/nehstrr3), [@The_Alex](https://x.com/The_Alex), [@ai_for_success](https://x.com/ai_for_success), [@RezAIT00](https://x.com/RezAIT00), [@kimmonismus](https://x.com/kimmonismus), [@LuminaBench](https://x.com/LuminaBench), [@rubenssoto_ai](https://x.com/rubenssoto_ai), [@ArtificialAnlys](https://x.com/ArtificialAnlys), [@danielmckinn0n](https://x.com/danielmckinn0n), [@EnvolDev](https://x.com/EnvolDev), [@Haleeeemahh](https://x.com/Haleeeemahh), [@kickingkeys](https://x.com/kickingkeys), [@thehypedotnews](https://x.com/thehypedotnews), [@SahilPanhotra](https://x.com/SahilPanhotra), [@DanielZambrini](https://x.com/DanielZambrini), [@Bhavani_00007](https://x.com/Bhavani_00007), [@marcthecreatorr](https://x.com/marcthecreatorr), [@StatsWire](https://x.com/StatsWire), [@thegenioo](https://x.com/thegenioo), [@Angaisb_](https://x.com/Angaisb_), [@AI_Screening](https://x.com/AI_Screening)
 
-*Her gönderinin en eski orijinal yaratıcıyı tanımladığını garanti edemeyiz. Atıf, çeviri veya ifadelerin düzeltilmesi gerekiyorsa herkese açık bir kaynakla düzeltme konusu açın*
+*Atıflar belirtilen herkese açık kaynakları izler ve ilk üreticiyi belirlemeyebilir. Düzeltme veya kaldırma talepleri için herkese açık bir kaynak ekleyerek sorun kaydı açın.*
 
-Başka bir kaynak destekli vaka önermek için bir konu açın veya talebi çekin ve katkı kontrol listesini takip edin
+Katkı kontrol listesini izleyerek bir sorun kaydı veya değişiklik isteği üzerinden kaynaklarla desteklenen bir örnek önerin.
