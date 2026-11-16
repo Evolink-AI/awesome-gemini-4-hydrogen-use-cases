@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "repository": "Evolink-AI/awesome-gemini-3.6-flash-guide-and-use-cases",
+  "repository": "Evolink-AI/awesome-gemini-4-hydrogen-use-cases",
   "canonical_data": "data/use-cases.json",
   "source_fidelity_manifest": "data/source-fidelity-manifest.json",
   "languages": [
@@ -31,9 +31,9 @@
       "interactive-3d",
       "comparisons-limits"
     ],
-    "numbering_policy": "contiguous-model-migration",
-    "existing_count": 0,
-    "intended_count": 40,
+    "numbering_policy": "stable-case-ids",
+    "existing_count": 40,
+    "intended_count": 225,
     "localized_heading_prefixes": {
       "README_es.md": "Caso",
       "README_pt.md": "Caso",
@@ -45,7 +45,8 @@
       "README_zh-TW.md": "案例",
       "README_zh-CN.md": "案例",
       "README_ru.md": "Пример"
-    }
+    },
+    "numbering_order": "set-contiguous"
   },
   "requirements": {
     "allowed_types": [
@@ -62,5 +63,11 @@
     "to_model": "Gemini 4 Hydrogen",
     "prior_commit": "6261555bf8f0dd5fec227d2e01a1a0de30daa8a8",
     "case_policy": "Replace the previous model collection; previous cases remain in Git history."
+  },
+  "structured_data": {
+    "path": "data/use-cases.json",
+    "items_key": "items",
+    "source_field": "source_url",
+    "dedup_field": "dedup_key"
   }
 }

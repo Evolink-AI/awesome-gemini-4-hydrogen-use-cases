@@ -10,6 +10,8 @@
 
 The source inventory hash is pinned in the verifier. A deliberate collection update requires a fresh source review and a matching lock update. Changing generated counts alone must never make missing source material pass validation.
 
+All 11 README editions use the same R2-hosted Hydrogen cover. Link and render audits include that cover.
+
 ## Update flow
 
 Use Python 3.12.
@@ -49,4 +51,4 @@ The README-to-documentation mapping is maintained in `scripts/build_readmes.py` 
 
 Do not infer a localized documentation route from a README locale. An HTTP 200 alone does not prove the correct page. Keep the native API endpoint free of UTM parameters; placement-specific campaign parameters belong on the EvoLink landing, key-management, and documentation links.
 
-The repository slug and historical media namespace retain their original names. Public model copy and the conversion campaign identify Hydrogen. Renaming the repository is a separate change.
+The current repository slug identifies Hydrogen. The November 13 edition still references its original versioned R2 paths. Later updates use their own versioned paths.

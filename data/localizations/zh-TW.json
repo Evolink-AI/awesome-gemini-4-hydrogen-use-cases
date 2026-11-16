@@ -5,12 +5,12 @@
     "title": "Gemini 4 Hydrogen 精選指南與應用程式案例",
     "introduction": "簡介",
     "intro": "通過有來源依據的應用程式、程式設計工作流和實用對比，探索 Gemini 4 Hydrogen",
-    "mission": "40 個精選示例展示人們構建了甚麼、如何操作，以及結果有哪些不足",
+    "mission": "225 個案例呈現 Hydrogen 的實際用法與結果的限制",
     "boundary": "每個案例均連結至來源並注明作者；演示、供應商示例和創作者對比均在說明中標注；未公開的提示詞不會被補寫",
     "overview": "概覽",
-    "overview_cases": "從最多收集 500 條 X 貼文的資料中審閱了 75 條演示貼文，精選 40 個案例，資料採集於 2026 年 11 月 13 日",
+    "overview_cases": "共 225 個案例. 11 月 17 日更新查核了 1,304 則 X 貼文，新增 185 個案例. 新增來源在蒐集時皆超過 30 個喜歡",
     "overview_coverage": "五個類別涵蓋代理程式、學習與應用程式、電子錶格與搜索、互動式 3D，以及對比與局限",
-    "overview_media": "完整保留全部 41 項選定來源視覺素材：38 段帶封面的可播放影片和 3 張圖片",
+    "overview_media": "全庫保留 264 個原始視覺素材，包括 168 部附封面且可播放的影片和 96 張圖片",
     "overview_model": "Gemini 4 Hydrogen 於 2026 年 11 月 12 日發佈；可在 EvoLink 探索該模型及當前訪問方式",
     "note": "除非另有說明，模型歸屬、費用、耗時和結果均為來源方的說法；影片審閱採用抽樣幀，未進行完整功能測試；程式碼應用程式的執行錄像不能證明模型具備原生影片生成能力；不同執行框架、推理級別或迭代次數會使對比缺乏受控條件",
     "official_sources": "官方參考資料",
@@ -254,6 +254,931 @@
       "title": "三個模型製作草原馬匹動畫",
       "takeaway": "直接檢查動作與視覺細節，再判斷寬泛的費用或品質說法是否可信",
       "notes": "創作者展示了 Hydrogen、Carbon 和 Argon 的草原馬匹場景；關於更快速度、更低費用和高品質的說法仍是來源方評價，並非本合集復現的受控對比"
+    },
+    "41": {
+      "title": "把太空參考圖做成 HTML 場景",
+      "takeaway": "用少量參考圖檢驗生成場景能否呈現可辨識的視覺風格.",
+      "notes": "創作者將太空視覺化歸功於 Hydrogen，展示了輸入的行星圖片和帶有行星環的 HTML 場景."
+    },
+    "42": {
+      "title": "Gemini Canvas 中的F1 賽車原型",
+      "takeaway": "給車輛檢視介面設定幾個鏡頭，從不同角度檢查生成模型.",
+      "notes": "創作者將一款F1 賽車檢視器歸功於首次使用 Canvas 中的 Hydrogen. 螢幕錄影顯示多個預設鏡頭和懸吊系統檢視."
+    },
+    "43": {
+      "title": "Hydrogen API 與 Carbon Antigravity 輸出",
+      "takeaway": "用同一提示詞比較視覺效果時，記錄各自的執行環境.",
+      "notes": "創作者透過 API 執行 Hydrogen、透過 Antigravity 執行 Carbon，並並排展示兩份輸出. 文中報告的 4 分 47 秒對應此次 Hydrogen 執行."
+    },
+    "44": {
+      "title": "Hydrogen 與 Astra 的陰影細節對比",
+      "takeaway": "比較兩次執行的費用和耗時，同時檢查渲染細節.",
+      "notes": "創作者更喜歡帶陰影的 Hydrogen 版本，並報告它在該測試環境下更快完成."
+    },
+    "45": {
+      "title": "程式化 3D 動效對比",
+      "takeaway": "比較程式化動效的連貫性與構圖時，記錄生成耗時.",
+      "notes": "創作者展示了歸因於 Hydrogen High 的條紋 3D 形體，報告製作耗時不到五分鐘，並與自己試用的更高價模型對照."
+    },
+    "46": {
+      "title": "歷時 89 分鐘的 PokéBench 視覺測試",
+      "takeaway": "測試長時視覺代理時，同時記錄任務完成情況、回合數和 API 失敗次數.",
+      "notes": "來源報告，發布前透過 Vertex 以 High 等級執行時，Hydrogen 用 365 回合、89 分鐘闖過小剛關卡，期間 API 呼叫失敗數為零. 結果對應來源所用的測試環境."
+    },
+    "47": {
+      "title": "Hydrogen 與 DeepSeek 建構同一個 3D 場景",
+      "takeaway": "對照視覺輸出並分別記錄耗時和 API 費用.",
+      "notes": "AIHubMix 用同一個 3D 場景提示詞比較兩個模型，各用最高可用推理等級. 服務商報告 Hydrogen 用時 3 分鐘、花費 $1.30，DeepSeek V4.1 Flash 用時 100 分鐘、花費 $0.90."
+    },
+    "48": {
+      "title": "用 SVG 繪製BMW側視圖",
+      "takeaway": "用車輛 SVG 側視圖檢查比例、輪廓和細節.",
+      "notes": "作者展示一張BMW M4 CS 的 SVG 側視圖，歸因於 Gemini App 中的 Hydrogen High，並報告生成不到 30 秒."
+    },
+    "49": {
+      "title": "天文學家的浮空島",
+      "takeaway": "給小場景設定明確主題，再檢查物件和光照能否強化主題.",
+      "notes": "創作者把天文學家浮空島歸因於 Arena 上的 Hydrogen 檢查點，並報告生成用時四分鐘. 歸因限於此次 Arena 執行."
+    },
+    "50": {
+      "title": "把參考圖做成可探索的 3D 地形",
+      "takeaway": "檢查圖生場景能否同時還原視覺元素並支援移動.",
+      "notes": "創作者展示 Gemini 應用中歸因於 Hydrogen 的可操作 3D 地形，並介紹了 GLSL 反射、程式化幾何和游泳物理."
+    },
+    "51": {
+      "title": "用 3D 積木建構微縮景觀",
+      "takeaway": "讓模型建構積木微縮景觀，檢查各形體能否組成完整場景.",
+      "notes": "創作者分享了 3D 積木微縮景觀的螢幕錄影，並將其歸功於 Hydrogen. 來源未披露建構耗時和具體執行設定."
+    },
+    "52": {
+      "title": "可互動的櫻花樹",
+      "takeaway": "用一件帶動效的物體和幾個控制元件探索微縮場景的即時變化.",
+      "notes": "創作者將截圖中的櫻花樹介面歸功於 Hydrogen. 截圖可見場景設定控制元件，實現細節未公開."
+    },
+    "53": {
+      "title": "Agent Arena 的單任務耗時和成本",
+      "takeaway": "檢視整體成功率時，也比較單任務延遲、費用和輸出 Token 數.",
+      "notes": "Agent Arena 報告 Hydrogen High 在其評估中的單任務中位耗時為 5.3 分鐘，中位費用為 $1.60，輸出 Token 多於 Carbon 和 Argon."
+    },
+    "54": {
+      "title": "視覺文件和終端基準測試",
+      "takeaway": "分別檢視文件與終端測試結果，再決定推理預算.",
+      "notes": "Artificial Analysis 報告視覺文件表現較強，終端專案的增益不一. Extra 推理提高了科學終端得分，通用 Terminal-Bench 得分仍為 54%."
+    },
+    "55": {
+      "title": "Vals 指數和 Tax Agent 成績",
+      "takeaway": "結合整體評估和專業任務分數來判斷模型是否適用.",
+      "notes": "Vals AI 報告，Hydrogen 的綜合指數為 68.5%，在測試時的 Tax Agent 專案中排名第一."
+    },
+    "56": {
+      "title": "CursorBench 的 Hydrogen 預設推理等級",
+      "takeaway": "先檢視預設推理等級的基準成績，再到自己的倉庫裡測試.",
+      "notes": "Cursor 報告，在自家 CursorBench 中，預設推理等級的 Hydrogen 得分為 54.3%，Gemini 3.8 Flash 為 39.6%."
+    },
+    "57": {
+      "title": "四款模型製作弓箭手戰鬥動畫",
+      "takeaway": "比較各個動畫能否清楚表現角色的戰鬥動作.",
+      "notes": "創作者在同一影片中並排展示 Hydrogen、Fable 5.2、GPT-6.1 Sol 和 Carbon 的弓箭手戰鬥動畫."
+    },
+    "58": {
+      "title": "15 分鐘建構 Minecraft 風格原型",
+      "takeaway": "用體素沙盒檢驗挖掘、背包等生成系統能否協同工作.",
+      "notes": "創作者報告用 Hydrogen Extra High 在 15 分鐘內建構 Minecraft 風格原型，列出的功能包括放置、挖掘和背包. 螢幕錄影只覆蓋部分功能."
+    },
+    "59": {
+      "title": "n8n 中的 Hydrogen 工具呼叫流程",
+      "takeaway": "讓 Hydrogen 在 n8n 中處理工具呼叫迴圈，並單獨安排規劃步驟.",
+      "notes": "n8n 介紹了 Hydrogen 支援情況，建議由 Carbon 或 Argon 規劃、Hydrogen 執行，並在原帖附上整合設定."
+    },
+    "60": {
+      "title": "Box Agent 處理複雜企業文件",
+      "takeaway": "在接近真實的文件任務中同時檢查準確率、耗時和 Token 用量.",
+      "notes": "Box 報告，在早期試用評估的典型任務中，相比 Gemini 3.8 Flash，Hydrogen 準確率提高五個百分點、耗時不到一半、Token 約少 12%."
+    },
+    "61": {
+      "title": "Hydrogen 的 Devin FrontierCode 結果",
+      "takeaway": "比較候選補丁能否合併，並記錄各自使用的代理環境.",
+      "notes": "Cognition 報告 Hydrogen 在 FrontierCode 2.0 得分為 38.2%. 該模型的測試環境與對照模型使用的 Devin CLI 設定不同."
+    },
+    "62": {
+      "title": "小型互動動畫中的光線折射",
+      "takeaway": "先快速預覽並調整光學效果，再增加場景複雜度.",
+      "notes": "創作者將 Small Delights 系列的一段互動小動畫歸功於 Hydrogen，特地展示折射效果，並介紹了逐步迭代的創作過程."
+    },
+    "63": {
+      "title": "一條向上流的河",
+      "takeaway": "選擇運動方向不同尋常的小場景，觀察視覺效果.",
+      "notes": "作者報告在網頁端用 Hydrogen 做出倒流河流並分享螢幕錄影. 耗時和訂閱額度用量為作者自己的觀察."
+    },
+    "64": {
+      "title": "禁止聯網後仍觸發搜尋",
+      "takeaway": "流程要求離線作答時，檢查模型是否真的沒有呼叫工具.",
+      "notes": "作者報告，儘管提示詞要求避開搜尋和工具呼叫，Hydrogen 仍然搜尋了網頁. 原帖展示一次具體情況，未統計發生頻率."
+    },
+    "65": {
+      "title": "記錄 Antigravity Swarm 的配額用量",
+      "takeaway": "測試多代理執行時記錄 Token 量和消耗的額度.",
+      "notes": "創作者報告，在自己的套餐下使用 Swarm 時用了 1700 萬 Token，消耗了五小時額度的 21%. 數字對應此次會話."
+    },
+    "66": {
+      "title": "專業任務評估中的工具呼叫",
+      "takeaway": "觀察代理在執行專業任務前如何收集背景資訊.",
+      "notes": "Mercor 報告，Hydrogen 在 APEX-Agents 中達到 78.0% Pass@1，平均每項任務呼叫工具 93 次. 評估涉及法律、諮詢和銀行業務."
+    },
+    "67": {
+      "title": "Hydrogen 生成的 3D 肖像",
+      "takeaway": "用肖像做小型測試，檢查 3D 表現能否保留可辨識的主體特徵.",
+      "notes": "作者把為原帖所提人物製作的 3D 肖像歸因於 Hydrogen，並分享了結果圖. 來源提供的執行細節有限."
+    },
+    "68": {
+      "title": "四款模型製作法師鬥龍動畫",
+      "takeaway": "比較同一奇幻場景各版本的排程、動作清晰度和特效.",
+      "notes": "對比影片展示 Hydrogen 和三款 Claude 模型生成的法師鬥龍場景. 創作者在這次對照中更偏好 Claude 的輸出."
+    },
+    "69": {
+      "title": "多代理設定中的認證路徑",
+      "takeaway": "代理委派給其他服務時，核對實際發起認證的是哪個用戶端.",
+      "notes": "作者報告，要求 Claude 透過 Antigravity CLI 使用 Hydrogen 後，Claude Code 直接嘗試認證，隨後 Antigravity 訪問被暫停. 截圖顯示暫停通知，作者將原因歸於用戶端認證路徑."
+    },
+    "70": {
+      "title": "一次 Antigravity Goal Mode 執行",
+      "takeaway": "長時間程式設計時，記錄計劃、程式碼修改與測試結果.",
+      "notes": "作者報告在 Hydrogen Extra 的 Goal Mode 中執行 105 分鐘，完成規劃、實現和測試. 測試結果來自作者陳述."
+    },
+    "71": {
+      "title": "MazeBench 中的低成功率",
+      "takeaway": "用迷宮任務檢驗空間推理，再決定能否依賴它.",
+      "notes": "公佈的 MazeBench 對比在其設定下測得 Hydrogen 1%、Sonnet 5.5 4%、GPT-6.1 Terra 8%."
+    },
+    "72": {
+      "title": "三款 Gemini 模型建構帆船場景",
+      "takeaway": "在主題化 Three.js 場景中比較運動效果和環境細節.",
+      "notes": "創作者展示 Hydrogen、Argon 和 Carbon 的帆船輸出，更喜歡 Carbon 的細節，並認為這次測試中 Hydrogen 接近 Argon."
+    },
+    "73": {
+      "title": "Antigravity Orchestrator 中的 Carbon 與 Hydrogen",
+      "takeaway": "讓規劃模型在快速執行模型卡住時接手排障.",
+      "notes": "Google 介紹由 Carbon 規劃和處理卡點、Hydrogen 編輯與測試的流程，並報告 Terminal-Bench 4.0 成功率接近 Carbon，配額用量較低、耗時較短."
+    },
+    "74": {
+      "title": "從 Workspace 資料生成圖表和報告",
+      "takeaway": "檢查追問一輪能否補齊分析、圖表或報告.",
+      "notes": "創作者在 Google Workspace for Education Fundamentals 演示環境中用 Hydrogen 分析資料、生成圖表並輸出報告檔案，稱共進行了兩輪交流."
+    },
+    "75": {
+      "title": "識別球衣號碼時耗盡推理預算",
+      "takeaway": "識別圖片中的小細節時，設定推理上限並準備替代方案.",
+      "notes": "評估者報告，Hydrogen XHigh 用了 131,069 個推理 Token，執行 9 分 55 秒仍未給出球衣號碼."
+    },
+    "76": {
+      "title": "不同模型系列的 ClutterBench 表現",
+      "takeaway": "用專門的雜亂場景基準檢驗模型的通用優勢是否適用於這一任務.",
+      "notes": "作者分享 ClutterBench 成績. Hydrogen 在圖中列出的 Gemini 模型裡領先，落後於參與對照的 OpenAI 模型."
+    },
+    "77": {
+      "title": "把新聞簡報製作成帶旁白的短片",
+      "takeaway": "先查資料，再將新聞簡報做成旁白短片並核查其中的事實.",
+      "notes": "螢幕錄影顯示 Hydrogen 在 Gemini 手機應用中查詢近期新聞、起草提綱，創作者隨後要求製作影片. 影片在應用內播放，時長十秒. 耗時與旁白由創作者報告，渲染後端未說明."
+    },
+    "78": {
+      "title": "Minecraft 風格人體解剖剖面像",
+      "takeaway": "檢查生成的剖面是否包含指定的內部結構.",
+      "notes": "創作者讓 Hydrogen 和 Argon 各用一次請求製作 Minecraft 風格解剖胸像，並報告在 Hydrogen 輸出中看到頭骨、肋骨和脊柱."
+    },
+    "79": {
+      "title": "三款模型渲染同一件道具",
+      "takeaway": "同時記錄質量和 Token 用量，檢查單價較低的模型是否在該任務中消耗更多 Token.",
+      "notes": "來源對比 Hydrogen、Carbon 和 Fable 5.2 渲染同一個步槍形道具. 創作者報告 Hydrogen 使用 369 萬 Token、花費 $1.62，Carbon 使用 39.8 萬 Token、花費 $0.77."
+    },
+    "80": {
+      "title": "歸納基準測試與 Token 消耗",
+      "takeaway": "評估高難度推理時，將計費輸入和輸出用量與成績一起記錄.",
+      "notes": "評估者報告，Hydrogen 在其 100 道題的歸納基準中列第四，接近 Opus 5.5. 作者記錄了 5500 萬輸出 Token 和 3.07 億計費輸入 Token，計費機制仍待解釋."
+    },
+    "81": {
+      "title": "用不同 Gemini 模式在表格裡畫畫素畫",
+      "takeaway": "用同一個 Google 表格繪圖任務比較不同模型選項.",
+      "notes": "創作者錄製 Hydrogen 在 Google 表格中繪製畫素畫的過程，並附上 Antigravity Orchestrator、Carbon 和 Argon 的獨立執行. 該創作者演示未採用正式評分標準."
+    },
+    "82": {
+      "title": "把參考圖中的公寓做成 3D 列印件",
+      "takeaway": "把圖生 3D 的測試延伸到列印實物.",
+      "notes": "作者分享《宋飛正傳》公寓的參考圖和列印實物，將該公寓模型歸因於 Hydrogen."
+    },
+    "83": {
+      "title": "三款模型製作 3D 動物動畫",
+      "takeaway": "在同一項 3D 動物建模任務中檢查身體結構和運動.",
+      "notes": "來源對比 Hydrogen、GPT-6.1 Terra 和 Claude Haiku 5.5. 創作者指出 Hydrogen 輸出的不足；觀察結果僅對應這項任務."
+    },
+    "84": {
+      "title": "Hydrogen 與 Qwen 的 ts-bench 測試",
+      "takeaway": "將工具呼叫錯誤和整體基準成績一起檢視.",
+      "notes": "來源在 ts-bench 上對比 Hydrogen 和 Qwen4 Max Preview，並討論了這幾次執行的工具呼叫可靠性. 截圖保留了當次評估結果."
+    },
+    "85": {
+      "title": "Vending-Bench 商業模擬",
+      "takeaway": "比較模擬收入時同時計入代理執行成本.",
+      "notes": "Andon Labs 報告，Hydrogen 在 Vending-Bench 2 中排名第三，在其模擬中賺取的收入高於同價位模型."
+    },
+    "86": {
+      "title": "黃金梅麗號海上場景",
+      "takeaway": "用辨識度高的虛構船隻測試風格化海景的構圖.",
+      "notes": "創作者將黃金梅麗號場景歸功於 Hydrogen，並分享了船在藍色海面上的影片. 原帖未說明提示詞、工具設定和反覆調整的次數."
+    },
+    "87": {
+      "title": "在 OpenClaw 中使用 Hydrogen",
+      "takeaway": "檢查計劃採用的代理框架能否選用 Hydrogen.",
+      "notes": "OpenClaw 宣佈支援 Hydrogen 並附上截圖. 原帖未提供基準評分或完整配置記錄."
+    },
+    "88": {
+      "title": "遊過雲海的鯨魚",
+      "takeaway": "透過一個程式碼製作的生物場景分別檢查流體運動和眼睛設計.",
+      "notes": "來源展示了程式碼製作的雲海鯨魚，報告 Hydrogen 用時約兩分鐘. 速度和配額用量來自作者觀察."
+    },
+    "89": {
+      "title": "四款模型建構微縮島嶼",
+      "takeaway": "比較島嶼設計時，一併記錄各個環境的耗時和費用.",
+      "notes": "來源對比四種微縮島，報告 Hydrogen 用時 4 分鐘，GPT-6.1 Terra 20 分鐘，Sol 40 分鐘，DeepSeek 60 分鐘. 作者所稱 Hydrogen 零額外收費與其設定有關."
+    },
+    "90": {
+      "title": "攝像頭空中繪畫工具",
+      "takeaway": "在鏡頭前比畫筆畫，觀察繪圖介面如何跟隨.",
+      "notes": "創作者報告在 Hydrogen 早期試用期間建構了攝像頭空中繪畫工具，並分享演示螢幕錄影."
+    },
+    "91": {
+      "title": "用程式碼模擬布料撕裂",
+      "takeaway": "用同一動畫任務檢查布料拉伸、撕裂及與毛髮的相互作用.",
+      "notes": "創作者對比 Hydrogen 和 Claude Fable 5.2 的程式碼生成動畫，認為後者視覺表現更佳. 來源未給出統一執行設定或獨立物理驗證."
+    },
+    "92": {
+      "title": "Gemini Canvas 裡的海底城市",
+      "takeaway": "從小型 3D 場景起步，透過多輪迭代加入可探索的區域和會動的生物.",
+      "notes": "創作者在 Gemini 應用內多輪迭代，建構了有魚群、水母、珊瑚和可探索玻璃穹頂的海底城市. 來源明確提到使用多條提示詞."
+    },
+    "93": {
+      "title": "一次生成的網站門戶",
+      "takeaway": "先用門戶佈局檢查首輪介面，再測試各條操作流程.",
+      "notes": "作者展示在 Antigravity 中用 Hydrogen 一次生成的門戶截圖. 截圖只能用於檢視頁面外觀."
+    },
+    "94": {
+      "title": "事實核查缺少可追溯來源",
+      "takeaway": "依據模型對截圖的判斷行動之前，要求給出可查驗的引用.",
+      "notes": "作者請 Hydrogen 核實一張帖文截圖，稱模型確認內容、反覆開啟核查工具，但始終未給出原始來源."
+    },
+    "95": {
+      "title": "《城市：天際線》風格建城工具",
+      "takeaway": "建構城市模擬原型，觀察控制元件和模擬邏輯如何配合.",
+      "notes": "創作者把影片中的《城市：天際線》風格原型歸功於 Hydrogen，並報告生成用時不到 30 分鐘."
+    },
+    "96": {
+      "title": "Hydrogen 與 Sol 繪製 2D 鵜鶘",
+      "takeaway": "用同一項簡單 2D 動畫任務對比耗時與動作表現.",
+      "notes": "作者在影片中展示 Hydrogen 和 GPT-6.1 Sol 的 2D 鵜鶘騎車結果，報告分別用時 28 秒和 6 分 51 秒. 兩次執行的設定是否一致尚未證實."
+    },
+    "97": {
+      "title": "用 Blender MCP 重建王座廳",
+      "takeaway": "用 Blender MCP 在編輯器中檢查生成場景的構圖.",
+      "notes": "創作者將透過 Blender MCP 重建的《權力的遊戲》鐵王座大廳歸功於 Hydrogen，並分享場景螢幕錄影."
+    },
+    "98": {
+      "title": "四款模型建構蛛絲擺盪遊戲",
+      "takeaway": "統一使用單檔案限制，比較各款遊戲的移動和操作.",
+      "notes": "來源展示四款 Gemini 模型製作同一項 3D 蛛絲擺盪挑戰，限定單個 HTML 檔案且無外部素材. Hydrogen 使用 Extra High，其餘 Gemini 3.8 Flash、Argon 和 Carbon 使用 High."
+    },
+    "99": {
+      "title": "Three.js 灰階海盜船",
+      "takeaway": "將 Three.js 場景限定為灰階，檢查光照還能否突出幾何形狀.",
+      "notes": "作者在 Antigravity 中用 Hydrogen 建構 Three.js 灰階海盜船，螢幕錄影用於展示光照和 3D 細節."
+    },
+    "100": {
+      "title": "四款模型渲染建築微縮景觀",
+      "takeaway": "用統一的建築任務比較輸出，檢視各模型如何打光.",
+      "notes": "創作者稱使用同一提示詞，對照 Hydrogen、GPT-6.2、Claude Fable 5.2 和 DeepSeek 的建築微縮景觀. 排名和速度評價均屬作者感受."
+    },
+    "101": {
+      "title": "CadXStudio 中的引數化檯燈",
+      "takeaway": "檢查 CAD 模型中的元件尺寸和可編輯性.",
+      "notes": "工具提供方 CadXStudio 展示了瀏覽器內的檯燈模型，稱包含 35 個可編輯零件."
+    },
+    "102": {
+      "title": "用 C++ 製作神社參道動畫",
+      "takeaway": "用小型原生程式碼場景檢驗模型能否在沒有 Web 技術棧時寫出可執行動畫.",
+      "notes": "創作者將穿過神社鳥居的參道動畫歸功於 Hydrogen Extra High，並稱由自編 C++ 實現."
+    },
+    "103": {
+      "title": "三款模型渲染列車場景",
+      "takeaway": "用同一列車場景任務比較各自配置下的完成速度.",
+      "notes": "創作者報告 Hydrogen 用時約 3 分鐘、GPT-6.1 Terra 20 分鐘、Qwen4 Max Preview 68 分鐘. 影片展示渲染結果，來源未說明設定和反覆調整的次數."
+    },
+    "104": {
+      "title": "用 Extra 等級製作雨夜唐人街",
+      "takeaway": "給大型動畫選擇推理等級前，記錄實際耗時並檢查最終畫面.",
+      "notes": "作者用 Hydrogen Extra 執行另一創作者提供的提示詞，報告雨夜唐人街 MP4 用時近四小時，並與另一次 Claude Fable 5.2 執行比較. 兩次設定的可比性有限."
+    },
+    "105": {
+      "title": "用 30 個模組建構城鎮場景",
+      "takeaway": "按模組分別提示模型，再檢查組裝後的整體效果.",
+      "notes": "作者稱使用 Gemini App 中的 Hydrogen High，每個模組用一則提示詞，共製作 30 個模組."
+    },
+    "106": {
+      "title": "三款模型建構行星視覺化介面",
+      "takeaway": "用同一提示詞比較不同模型製作的科學視覺化介面.",
+      "notes": "螢幕錄影對比 Claude Fable 5.2、GPT-6.2 Sol 與 Hydrogen 的行星主題輸出. 排序是作者的視覺判斷，來源未證實統一設定，也沒有客觀評分."
+    },
+    "107": {
+      "title": "四款模型復刻 Chrome 小恐龍",
+      "takeaway": "為每次遊戲復刻計時，並比較可玩結果.",
+      "notes": "創作者報告，AI Studio 中的 Hydrogen 用時 18 分 41 秒，Fable 5.2 用時 45 分 30 秒. 螢幕錄影也展示 Qwen4-Max-Preview 和 Carbon 及畫面評分."
+    },
+    "108": {
+      "title": "浮空島上的郵局",
+      "takeaway": "指定一種微縮建築，觀察材質和光照如何表現主題.",
+      "notes": "作者請 Hydrogen 在浮空島上建構一座 3D 微縮郵局，分享螢幕錄影並指出其中的紋理、顏色和光照."
+    },
+    "109": {
+      "title": "兩款程式開發代理分別造船",
+      "takeaway": "在實際使用的工具中比較首個可用結果和返工成本.",
+      "notes": "作者以同一提示詞在 Claude Code 中執行 Sonnet，在 Cursor 中執行 Hydrogen. 作者報告 Hydrogen 更快完成，但需要第二版."
+    },
+    "110": {
+      "title": "錦鯉庭院裡的水與魚",
+      "takeaway": "用有游魚的場景檢查水面反射與光照是否連貫.",
+      "notes": "創作者展示 Hydrogen 在錦鯉庭院測試中的輸出，重點說明焦散、反射和游魚行為，並附上 Carbon 版本."
+    },
+    "111": {
+      "title": "四款模型製作剛體投石機攻城原型",
+      "takeaway": "用同一任務比較可玩的物理原型，並記錄推理等級.",
+      "notes": "創作者讓四款 Gemini 模型建構含數百塊石塊的投石機場景. 報告 Hydrogen Extra High 用時 10 分 3 秒，Carbon High 為 23 分 33 秒，Gemini 3.8 Flash High 最快."
+    },
+    "112": {
+      "title": "Gemini 網頁端執行互動式 3D 場景",
+      "takeaway": "在 Gemini 網頁端快速製作可互動光照和粒子效果.",
+      "notes": "創作者展示 Hydrogen 在網頁端執行的 3D 場景，包含粒子、動態光照和即時控制元件."
+    },
+    "113": {
+      "title": "瀏覽器 CAD 中的混凝土攪拌機裝配",
+      "takeaway": "把生成的裝配體用於 CAD 工作流之前，檢查零件樹和配合情況.",
+      "notes": "創作者報告，Hydrogen 在 CadX Studio 中根據一則提示詞、用 40 分鐘生成 265 個零件的攪拌機裝配體，未逐件手工建模."
+    },
+    "114": {
+      "title": "在 Blender 中程式化製作斧頭",
+      "takeaway": "用輪廓參考圖和多輪視口檢查來稽核程式化 Blender 資產.",
+      "notes": "創作者報告在 Antigravity CLI 中用 Hydrogen 透過 Python 模組和反覆視口檢查製作風格化斧頭. 計入錄製耗時 51 分鐘，報告 API 費用 $5.01."
+    },
+    "115": {
+      "title": "單 HTML 檔案裡的粉色 3D 場景",
+      "takeaway": "嘗試無外部素材的 Three.js 場景，檢查構圖是否清晰.",
+      "notes": "創作者將粉色場景歸功於 Hydrogen，稱僅在一個 HTML 檔案中使用純 Three.js，無外部素材. 連結中的錦鯉庭院是另一個專案."
+    },
+    "116": {
+      "title": "FrontierMemory 的長期記憶測試",
+      "takeaway": "為長期代理記憶選模型時，結合評分和單次費用.",
+      "notes": "Letta 報告 Hydrogen 在 FrontierMemory 中獲得 64.4%，與 Argon 持平，每次記憶執行約 $100. 在該基準配置下，Carbon 為 71.1%，每次約 $94."
+    },
+    "117": {
+      "title": "故意損壞的 LiveKit 語音代理",
+      "takeaway": "引入可控的工具故障，檢查語音代理會不會報告無依據的結果.",
+      "notes": "LiveKit 在故意損壞的語音代理裡測試 Hydrogen，報告虛假結果為零. 服務商將其與 Gemini 3.8 Flash 對照，並附文字記錄."
+    },
+    "118": {
+      "title": "由 28 個模組組成的 Ember Isle",
+      "takeaway": "把大場景拆成模組，並記錄每次生成的耗時.",
+      "notes": "創作者用 Gemini App 中的 Hydrogen High 製作 Ember Isle，稱共 28 個模組，每個模組用一則提示詞，每次 82 至 290 秒."
+    },
+    "119": {
+      "title": "純程式碼製作的大爆炸模擬",
+      "takeaway": "用短動畫快速構建視覺化解釋，再檢查科學表述.",
+      "notes": "創作者把 15 秒大爆炸視覺化歸功於 Gemini App 中的 Hydrogen，稱完全用程式碼製作，未使用網頁訪問、紋理、外部素材或 3D 模型."
+    },
+    "120": {
+      "title": "帶裝配爆炸圖的直升機",
+      "takeaway": "檢查 3D 原型能否把飛行控制與實用的零件檢視方式結合起來.",
+      "notes": "創作者展示可操控的直升機及裝配和爆炸圖，將原型歸功於 Hydrogen Extra High."
+    },
+    "121": {
+      "title": "帶透視和線框檢視的 Hydrogen Express",
+      "takeaway": "給可操控的 3D 原型加入多種檢查模式.",
+      "notes": "創作者展示具有速度控制元件、爆炸圖、線框及透視模式的列車，並報告生成約用五分鐘."
+    },
+    "122": {
+      "title": "空中的補給站",
+      "takeaway": "給場景安排有辨識度的移動物體和光照狀態，讓變化在演示中清晰可見.",
+      "notes": "創作者分享 Hydrogen 製作的空中補給站，包含復古飛車、旋轉渦輪和晝夜交替，報告一次生成完成."
+    },
+    "123": {
+      "title": "三款 Gemini 模型製作騎行者動畫",
+      "takeaway": "用統一簡報比較短動畫，並記錄各次執行的耗時.",
+      "notes": "創作者展示 Carbon、Argon 與 Hydrogen 的騎行者動畫，報告 Hydrogen 約 90 秒、Argon 超過五分鐘，畫面更偏好 Carbon."
+    },
+    "124": {
+      "title": "把化學教材做成互動課程",
+      "takeaway": "用提示、語音引導和可選文本建構自學課程.",
+      "notes": "作者展示帶語音引導和提示的九年級化學課程. 演示未測量學習成效."
+    },
+    "125": {
+      "title": "一首 Vocaloid 歌曲原型",
+      "takeaway": "檢查一次生成的曲目能否符合指定角色和風格.",
+      "notes": "作者分享一段歌曲，將作曲歸功於 Hydrogen. 來源未說明用什麼工具渲染音訊."
+    },
+    "126": {
+      "title": "兩款模型建構 LEGO 世界",
+      "takeaway": "結合耗時比較各模型建構了多少主題場景.",
+      "notes": "創作者展示 Fable 5.2 和 Hydrogen 的 LEGO 世界版本，分別報告用時 44 和 28 分鐘. 結果對應作者自己的執行."
+    },
+    "127": {
+      "title": "修復兩個倉庫裡重新植入的缺陷",
+      "takeaway": "植入已知缺陷，測量程式開發代理能找出並修復哪些問題.",
+      "notes": "評估者在兩個倉庫中植入 105 個缺陷. 在其設定下，Extra High 的 Hydrogen 略落後於同為 Extra High 的 Sonnet 5.5."
+    },
+    "128": {
+      "title": "兩款模型製作火柴人對戰游標",
+      "takeaway": "比較兩份互動動畫如何響應滑鼠指標.",
+      "notes": "創作者更喜歡 Fable 的火柴人對戰游標版本，並認為 Hydrogen 足以用於更低成本的一輪生成."
+    },
+    "129": {
+      "title": "單 HTML 檔案裡的水磨坊",
+      "takeaway": "用帶醒目運動元素的小景觀檢查快速生成的 3D 原型.",
+      "notes": "創作者稱 Hydrogen 用約 30 秒在一個 HTML 檔案裡建構水磨坊，並分享輸出螢幕錄影."
+    },
+    "130": {
+      "title": "兩款模型渲染山地景觀",
+      "takeaway": "在同一類景觀動畫中分別比較構圖、生成耗時和費用.",
+      "notes": "創作者分享 Hydrogen 與 Opus 5.5 的山景動畫，報告前者用時 20 分 30 秒、花費 $0.50，後者 11 分 23 秒、花費 $2.50."
+    },
+    "131": {
+      "title": "用自定義環境做英譯波斯語評估",
+      "takeaway": "用人工參考譯文給高難度翻譯段落打分.",
+      "notes": "作者在自定義評估環境下做個人翻譯測試，給 Hydrogen 94 分，滿分 100. 主觀分數取決於這套設定."
+    },
+    "132": {
+      "title": "用 Hydrogen Extra 建構 Blender 場景",
+      "takeaway": "增加視覺細節之前，先在 Blender 中檢查幾何與材質.",
+      "notes": "作者展示歸因於 Hydrogen Extra 的 Blender 場景，並給出僅適用於該會話的訂閱額度估算."
+    },
+    "133": {
+      "title": "四款模型建構沉船場景",
+      "takeaway": "用同一場景分別記錄視覺還原、生成時間與成本.",
+      "notes": "創作者報告 Hydrogen 用時 8.6 分鐘、花費 $1.16，Gemini 3.8 Flash 用時 10.8 分鐘、花費 $1.06. 還測試了 Carbon 和 Opus 5.5，更偏好 Opus 的真實感."
+    },
+    "134": {
+      "title": "從圖片讀取複雜積分式",
+      "takeaway": "化簡長表示式前，檢查模型能否識別積分上下限相同.",
+      "notes": "創作者錄製 Gemini App 中的 Hydrogen High 對複雜積分截圖作答. 測試重點是模型能否識別外層積分的相同上下限."
+    },
+    "135": {
+      "title": "四款模型的文案盲測",
+      "takeaway": "在選用文案之前，隱去模型名稱再評判.",
+      "notes": "創作者報告對四款模型進行文案盲測，更偏好 Hydrogen 的輸出，並在這次測試中發現它比 Carbon 更快、成本更低."
+    },
+    "136": {
+      "title": "不同推理等級的視覺檢測與讀字",
+      "takeaway": "在各個推理等級分別測量檢測準確率、文字識別準確率、費用與延遲.",
+      "notes": "評估者分別報告 Hydrogen、Argon 和 Carbon 的檢測和文字識別分數. Hydrogen High 在此次測試中平均每張圖 29.3 秒，檢測得 64.6 分、文字識別 87.2 分. Carbon High 兩項得分都更高，成本和延遲也更高."
+    },
+    "137": {
+      "title": "四款模型重建《飛屋環遊記》的房屋",
+      "takeaway": "用同一張參考圖和簡報比較 3D 製作的各項取捨.",
+      "notes": "作者報告 Hydrogen 在四次執行中最快、最便宜，視覺上更喜歡 Fable. 設定和費用由來源報告."
+    },
+    "138": {
+      "title": "用 WebGL2 製作人體細胞百科",
+      "takeaway": "透過互動剖面講解細胞內部的空間關係.",
+      "notes": "創作者報告在 Antigravity 中用 Hydrogen 建構 3D 人體細胞百科，使用 WebGL2、無外部庫，並重點展示了剖面檢視."
+    },
+    "139": {
+      "title": "Hydrogen 製作的兩段粒子動畫",
+      "takeaway": "用不同粒子場景檢驗簡單特效中的形態和運動.",
+      "notes": "創作者將兩段短粒子特效螢幕錄影歸功於 Hydrogen. 來源僅展示輸出，未記錄執行設定."
+    },
+    "140": {
+      "title": "Parking Bench 中只看圖的對手",
+      "takeaway": "只給益智遊戲對手棋盤圖片，測試它如何讀取局面.",
+      "notes": "創作者稱遊戲由 Carbon 建構，玩家在五關中透過 API 對戰 Hydrogen 或 Gemini Decision 1. 兩款模型都只接收棋盤 PNG，不接收網格狀態資料."
+    },
+    "141": {
+      "title": "Google 文件的操作教學影片",
+      "takeaway": "用螢幕截圖和編號標註講解手機端的編輯步驟.",
+      "notes": "作者將一段 Google 文件手機端教學歸功於 Hydrogen. 抽樣畫面顯示加註的選取文字、樣式、顏色、字型及儲存步驟. 來源未說明剪輯方式."
+    },
+    "142": {
+      "title": "微縮世界的晝夜切換開關",
+      "takeaway": "用小型開關測試介面狀態切換時動作是否連貫.",
+      "notes": "創作者展示由開關控制的晝夜過渡，報告本次製作花費 $0.21."
+    },
+    "143": {
+      "title": "用 65 個模組建構場景",
+      "takeaway": "隨著場景擴充套件，記錄生成耗時和整合工作量.",
+      "notes": "創作者報告在 Gemini 應用中建構了 65 個模組，每個模組用一則提示詞，並分享結果螢幕錄影."
+    },
+    "144": {
+      "title": "固定鏡頭的舞蹈短片",
+      "takeaway": "檢查參考圖動畫能否保留角色設計、構圖與鏡頭位置.",
+      "notes": "作者分享日語提示詞及與 Google Gemini 中 Hydrogen 關聯的舞蹈影片. 提示詞要求固定鏡頭、保留參考風格，底層影片生成模型尚未確認."
+    },
+    "145": {
+      "title": "程式開發代理卡在基線測試",
+      "takeaway": "給基線測試設定時限，並檢查進度再等待修復方案.",
+      "notes": "創作者展示 Antigravity 中 Hydrogen 長時間仍在執行基線測試的會話. 截圖記錄了先停止排查、再繼續執行的請求."
+    },
+    "146": {
+      "title": "為 MZ-1500 建構 BASIC 環境",
+      "takeaway": "建構復古 BASIC 環境原型，並逐一核對外設支援.",
+      "notes": "作者將演示歸功於 Hydrogen，報告用時約 15 分鐘. 演示列出 PCG、PSG 與 QuickDisk 支援，其中 QuickDisk 僅支援 LOAD."
+    },
+    "147": {
+      "title": "兩款模型建構互動機械臂",
+      "takeaway": "操作 Three.js 機械臂時，檢查各關節的動作是否連貫.",
+      "notes": "GMI Cloud 提供 Hydrogen 與 Sonnet 5.5 在 Three.js 機械臂任務上的螢幕錄影. 本次對比中服務商更喜歡 Sonnet."
+    },
+    "148": {
+      "title": "可互動的 FAA 地面停飛地圖",
+      "takeaway": "用時間線和地圖展示停飛解除後佇列為何仍存在.",
+      "notes": "創作者報告用 Hydrogen 在 222 秒內製作了可操作的 FAA 執行中斷地圖，並糾正一處標籤. 時間線依據官方通報，交通流量則按常規時刻表模擬."
+    },
+    "149": {
+      "title": "微縮寶塔庭院",
+      "takeaway": "檢查生成的微縮場景如何平衡建築和周邊綠化.",
+      "notes": "創作者把積木風格寶塔和庭院的影片歸功於 Hydrogen. 影片展示了結果，實現細節未公開."
+    },
+    "150": {
+      "title": "用不同模型做規劃、執行與審閱",
+      "takeaway": "分別指定規劃、執行和審閱角色，並比較各模型的任務統計.",
+      "notes": "作者安排 Opus 5.5 規劃、Hydrogen 執行、Sol 後備及 Sol 6.1 審閱. 來源同時提供個人 Antigravity 用量與獨立的公開基準對照."
+    },
+    "151": {
+      "title": "Hydrogen 與 Sol 建構雪中村莊",
+      "takeaway": "在程式設計對比中分別記錄耗時、費用和場景質量.",
+      "notes": "創作者報告 Hydrogen High 用時三分鐘、花費 $1.37，Sol High 用時 15 分鐘、花費 $4.03. 創作者更喜歡 Sol 的雪村畫面."
+    },
+    "152": {
+      "title": "High 與 Ultra 檔製作 Three.js 島嶼",
+      "takeaway": "比較畫面和響應速度時，記錄推理等級並區分不同產品的額度.",
+      "notes": "作者對比 Hydrogen High 和 GPT-6.1 Sol Ultra，分別報告 Three.js 島嶼耗時約 90 秒和 30 分鐘. 費用為估算，推理等級不同."
+    },
+    "153": {
+      "title": "二戰機場微縮景觀",
+      "takeaway": "給 3D 演示提供參考資料與機械運動要求，檢驗外觀之外的表現.",
+      "notes": "創作者報告給 Hydrogen 參考資料和簡短任務說明，在一個 HTML 檔案中建構機場微縮景觀. 要求包括可動的飛機和坦克."
+    },
+    "154": {
+      "title": "在程式設計用戶端配置 Hydrogen",
+      "takeaway": "在受支援的用戶端中配置 Google API 金鑰時，填入準確的模型 ID.",
+      "notes": "作者介紹如何從 Google AI Studio 獲取金鑰，並在 OpenCode 或 Cline 選擇 gemini-4-hydrogen. 使用資格和速率限制取決於服務商."
+    },
+    "155": {
+      "title": "在 SuperARIS 科研團隊中使用 Hydrogen",
+      "takeaway": "在多模型團隊中給 Hydrogen 分配明確的研究和論文任務.",
+      "notes": "來源展示安裝 SuperARIS 和選擇團隊配置的步驟，建議 Hydrogen 或 Carbon 負責討論和寫作，並分別設定協調與實現角色. 案例展示整合流程，研究質量未經測量."
+    },
+    "156": {
+      "title": "四款模型淨室重寫核心模組",
+      "takeaway": "選擇重寫任務的代理時，分別比較程式碼庫理解、設計與實現.",
+      "notes": "創作者對比 Hydrogen、Argon、GPT-6 Astra 和 Claude Opus 5.5 重寫軟體核心模組的結果，認為 Hydrogen 執行力強，其他執行則各有架構設計優勢."
+    },
+    "157": {
+      "title": "對比 3D PS5 手柄細節",
+      "takeaway": "比較手柄模型時檢查按鈕陰影及背面硬體細節.",
+      "notes": "創作者用 Hydrogen High 和 GPT-6.2 Sol 建模手柄. 來源報告分別約三分鐘和十一分鐘，作者認為 Sol 對背面及側面按鈕的還原更完整."
+    },
+    "158": {
+      "title": "Muse 把任務委派給 Antigravity CLI",
+      "takeaway": "把遠端助手連到本地程式設計環境，並設定預設寫作模型.",
+      "notes": "作者描述 Muse 把任務發到家中電腦上的 Antigravity CLI 並接收成果. 預設用 Hydrogen，也可選 Argon，示例有日語寫作和視覺材料."
+    },
+    "159": {
+      "title": "CursorBench 中的推理預算對照",
+      "takeaway": "選擇更快的預設檔前，比較不同推理配置下的成功率.",
+      "notes": "作者報告，增加 Hydrogen 的推理預算時，CursorBench 4.0 成功率顯著上升. 結果對應測試配置."
+    },
+    "160": {
+      "title": "三款模型渲染星核聖殿",
+      "takeaway": "在 3D 任務中分別觀察渲染穩定性和畫面細節.",
+      "notes": "創作者對比 Hydrogen、DeepSeek V4.1 1017 與 Qwen4 Max Preview 的星核主題場景，稱 Hydrogen 在本次測試中更快且未黑屏或閃爍，視覺細節則更少."
+    },
+    "161": {
+      "title": "一分鐘製作 HTML 射擊遊戲原型",
+      "takeaway": "在一個 HTML 檔案中測試射擊遊戲的基本輸入與反饋迴圈.",
+      "notes": "創作者報告 Hydrogen 按一則提示詞在一分鐘內生成了可玩的射擊遊戲. 專案只用一個 HTML 檔案，無框架或額外設定."
+    },
+    "162": {
+      "title": "挑戰現有的遷移方案",
+      "takeaway": "讓程式開發代理評估遷移是否需要替換現有架構.",
+      "notes": "作者展示一次設計審閱，Hydrogen 和 Argon 支援原有方案，Claude Opus 建議替換該方案並更早遷移. 這是單個專案的判斷."
+    },
+    "163": {
+      "title": "在 AITuber OnAir 讓 Hydrogen 和使用者對話",
+      "takeaway": "試用 Hydrogen 驅動 Live2D 形象背後的聊天.",
+      "notes": "專案維護者公佈 AITuber OnAir 的 Hydrogen 支援，並提供含 Live2D 在內的對話形象示例. 螢幕錄影展示了整合效果."
+    },
+    "164": {
+      "title": "純程式碼製作宣傳片",
+      "takeaway": "給程式開發模型簡短的宣傳任務，檢視生成的動態設計.",
+      "notes": "作者展示一段以 GPT-6.2 Astra 為主題的宣傳片，稱 Hydrogen 完全用程式碼製作. 影片展示了程式碼製作的輸出."
+    },
+    "165": {
+      "title": "兩款模型製作神廟逃脫遊戲",
+      "takeaway": "在同一遊戲概念中比較光照和氛圍是否便於看清場景.",
+      "notes": "服務商 Runable 展示 Hydrogen 和 Argon 實現的神廟逃脫遊戲，描述前者的光照更有氛圍、後者的畫面更明亮."
+    },
+    "166": {
+      "title": "三款 Gemini 模型製作拉力車動畫",
+      "takeaway": "檢查車輛透過帶傾角的彎道時，懸掛運動和輪胎抓地是否合理.",
+      "notes": "創作者用 Carbon、Argon 與 Hydrogen 製作採石場裡的 Three.js 越野車動畫. 任務要求展示懸掛壓縮和在傾斜土路彎道上滑行."
+    },
+    "167": {
+      "title": "程式化生成的知更鳥飛行動畫",
+      "takeaway": "檢查生成飛行動畫中的翅膀和身體動作.",
+      "notes": "創作者將知更鳥飛行動畫程式碼歸功於 Hydrogen，並在後續帖展示同一工作的獨立 Antigravity swarm 流程圖."
+    },
+    "168": {
+      "title": "如何選擇 Antigravity Orchestrator 或 Swarm",
+      "takeaway": "讓序列任務走模型交接，可並行任務交給獨立工作和驗證代理.",
+      "notes": "作者用圖解說明 Antigravity Orchestrator 如何先由前沿模型規劃，再由 Hydrogen 實現，並與獨立的 /swarm 協調模式對比，建議按任務依賴選擇."
+    },
+    "169": {
+      "title": "兩款模型製作 Chasing Views 動畫",
+      "takeaway": "比較輸出和耗時，同時記錄各自的推理等級.",
+      "notes": "創作者展示 Hydrogen Extra High 與 Opus 5.5 High 的 Chasing Views 動畫，本次對比分別報告耗時 22 和 18 分鐘."
+    },
+    "170": {
+      "title": "Design Creativity Bench 的速度和費用",
+      "takeaway": "檢視創意評分時，一起比較單份設計的生成耗時與費用.",
+      "notes": "基準運營方報告 Hydrogen 創意得分 49.4，每份設計中位耗時 3.4 分鐘、費用 $0.39. 在該評估中 Argon 較慢且較便宜，Carbon 較慢且較貴."
+    },
+    "171": {
+      "title": "從參考圖建立 SolidWorks CAD 零件",
+      "takeaway": "用 3D 參考圖評估代理在 SolidWorks 裡的建模流程.",
+      "notes": "創作者報告，在 Antigravity 中給 Hydrogen 一張參考圖後得到所展示的 SolidWorks 零件. 後續帖說明使用 SolidWorks MCP，幾何公差和工程適用性尚未驗證."
+    },
+    "172": {
+      "title": "四款模型製作沙漠駿馬動畫",
+      "takeaway": "先比較腳掌著地和重心轉移，再看打光和網格細節.",
+      "notes": "創作者讓 Astra、Carbon、Fable 5.2 與 Hydrogen 製作沙漠奔馬場景. 作者偏好 Astra 的步態，指出 Hydrogen 的馬匹建模有缺陷."
+    },
+    "173": {
+      "title": "講解榮格共時性的簡報",
+      "takeaway": "用需要講清相關概念的主題測試幻燈片生成流程.",
+      "notes": "作者將介紹卡爾·榮格共時性和非因果秩序的幻燈片歸功於 Hydrogen 與自定義工具，稱工具在 Antigravity 中開發，並分享部分輸出."
+    },
+    "174": {
+      "title": "FrontierCS 2 計算機科學研究評估",
+      "takeaway": "在常規程式設計測試之外使用研究基準，並記錄執行環境.",
+      "notes": "來源報告 Hydrogen 用 Antigravity 在 FrontierCS 2 按透過率排第七. 評估涵蓋計算機科學研究中的技術問題."
+    },
+    "175": {
+      "title": "四款模型製作雲端里約",
+      "takeaway": "用同一個創意簡報比較費用、耗時和主觀質量.",
+      "notes": "評估者報告 Hydrogen Extra High 花費 $6.21，是他們最不喜歡的結果. 此次 Astra 用時較少，來源未確認原生影片生成."
+    },
+    "176": {
+      "title": "Hydrogen 在 GBENCH 技術任務中的表現",
+      "takeaway": "評估技術工作時，把可核驗的程式設計與非程式設計結果和價格、耗時一起比較.",
+      "notes": "評估方公佈 Hydrogen 的 GBENCH 結果. 非程式設計任務包括電路設計和抽象推理. 作者稱在其測量中，Sol 在相近價格與速度下更有競爭力."
+    },
+    "177": {
+      "title": "訓練車輛側方停車",
+      "takeaway": "比較生成模擬中的學習進展和最終成功率.",
+      "notes": "使用同一任務說明，創作者報告 Hydrogen 為 44 輛車中 5 輛成功停車，Fable 5.2 為 40 輛中 26 輛. 兩次建構分別耗時 5.6 和 24 分鐘."
+    },
+    "178": {
+      "title": "可操控的線粒體分子馬達",
+      "takeaway": "用互動圖把分子運動和 ATP 產生聯絡起來.",
+      "notes": "作者稱 Hydrogen High 按一則提示詞生成 ATP 合酶應用，隨後修正鏡頭. 模型外形以冷凍電子顯微鏡座標為基礎，運動過程經過簡化."
+    },
+    "179": {
+      "title": "Qix 風格的圈地遊戲",
+      "takeaway": "用簡短大型電玩任務檢驗首輪輸出是否實現可互動的遊戲迴圈.",
+      "notes": "創作者在免費 Gemini 介面請求製作 Qix 風格的圈地遊戲，分享演示、標記 Hydrogen，並報告只用了一個請求."
+    },
+    "180": {
+      "title": "用 Hydrogen 生成 HTML 幻燈片",
+      "takeaway": "測試 HTML 生成速度時檢視幻燈片的資訊層次和佈局.",
+      "notes": "作者展示 Hydrogen 生成 HTML 幻燈片的過程，認為速度快、細節充分. 螢幕錄影展示文稿，原帖未給出對照計時."
+    },
+    "181": {
+      "title": "Hydrogen 在 Terminal-Bench 4.0 中的表現",
+      "takeaway": "選命令列程式開發模型時，一起考慮基準完成率與任務費用.",
+      "notes": "這項獨立的 Terminal-Bench 4.0 測試對照 Hydrogen、Claude Opus 5.5 和 GPT-6.1 Sol. 評估者報告成績相近、費用居兩者之間，並提醒執行環境的成熟度影響實際採用."
+    },
+    "182": {
+      "title": "用單個 HTML 檔案繪製插圖",
+      "takeaway": "測試程式碼能否在沒有外部素材的情況下重現參考視覺效果.",
+      "notes": "DeepMind 員工展示一張單檔案插圖，稱制作過程無外部庫、影像生成器、Skill 或嵌入素材."
+    },
+    "183": {
+      "title": "三款 Gemini 模型製作章魚動畫",
+      "takeaway": "觀察觸手抓住岩石後是否明顯帶動身體前進.",
+      "notes": "創作者展示 Carbon、Argon 和 Hydrogen 在同一 Three.js 任務上的結果，其中章魚抓住礁石邊緣並向前拉動自己. 作者請讀者比較觸手與身體動作的連貫性."
+    },
+    "184": {
+      "title": "用 Chrome 整理結構化 YouTube 摘要",
+      "takeaway": "請 Chrome 的 Gemini 面板提供帶時間戳的影片摘要和有來源的背景資料.",
+      "notes": "日語原帖演示如何在 Chrome 的 Gemini 面板總結當前開啟的 YouTube 影片. 公開提示詞要求簡述、要點、各段落的脈絡、單獨註明出處的背景、事實核查與延伸資料."
+    },
+    "185": {
+      "title": "把課程做成短影片",
+      "takeaway": "把一節課轉換成影片時，檢查解釋準確性和節奏.",
+      "notes": "創作者將課程工作流歸功於 Hydrogen，併發布兩個片段. 實際負責渲染影片的系統未得到確認."
+    },
+    "186": {
+      "title": "從靜態場景製作海鸚動畫",
+      "takeaway": "把現有 HTML 場景用作程式化動畫的第一影格.",
+      "notes": "創作者讓 Hydrogen 在一個 HTML 檔案裡製作後續 50 幀，螢幕錄影展示海鸚拿走角色帽子."
+    },
+    "187": {
+      "title": "一項城堡建模測試",
+      "takeaway": "對比多次模型執行的城堡輸出和資源用量.",
+      "notes": "創作者展示由 Hydrogen 生成的 3D 城堡，並連結往期模型的對照. 其報告的 Google AI Pro 每週額度 3% 僅對應本次執行."
+    },
+    "188": {
+      "title": "Antigravity Swarm 中的瀏覽器操作",
+      "takeaway": "評估代理群組時，把瀏覽器活動和任務記錄放在一起檢視.",
+      "notes": "Google 員工分享在 Antigravity Swarm 中使用 Hydrogen 和瀏覽器的截圖. 來源未放出完整任務日誌."
+    },
+    "189": {
+      "title": "經 Google Drive 把任務交給 Muse",
+      "takeaway": "把研究結果交給第二個代理時，用受監控的 Drive 資料夾完成交接.",
+      "notes": "作者用 Hydrogen 收集資訊並整理成 Drive 檔案，再讓 Muse 監聽 Drive，在檔案出現時接手後續任務. 圖解展示了交接流程."
+    },
+    "190": {
+      "title": "Gemini Canvas 中的直笛練習指南",
+      "takeaway": "試用高速模式，將樂譜和演奏指引結合成練習工具.",
+      "notes": "影片展示在 Hydrogen 高速模式下製作的 Canvas 直笛應用. 創作者稱也可以匯入樂譜生成."
+    },
+    "191": {
+      "title": "新增範圍後項目估時大幅改變",
+      "takeaway": "交付時間發生大幅變化時，要求模型說明專案範圍與假設.",
+      "notes": "創作者分享對話，要求更現實的工期和完整功能後，預計時間從一個月增加到一年. 對話裡沒有實際交付記錄."
+    },
+    "192": {
+      "title": "Antigravity Swarm 製作鵜鶘動畫",
+      "takeaway": "把動畫和音效製作交給程式開發代理群組，再檢查合成的場景.",
+      "notes": "創作者將多種藝術風格之間切換的 JavaScript 鵜鶘場景歸功於 Carbon 與 Hydrogen，並稱音樂和音效也由程式碼生成."
+    },
+    "193": {
+      "title": "考慮閏年邊界的日曆問題",
+      "takeaway": "提出簡單換算問題，檢查答案是否考慮日曆邊界情況.",
+      "notes": "創作者詢問 Hydrogen High 和 GPT，一年有多少秒. 兩份截圖都列出平年與閏年的秒數，Hydrogen 也計算了公曆平均年的秒數."
+    },
+    "194": {
+      "title": "一個 HTML 檔案裡的 TAJ VICE",
+      "takeaway": "限定單檔案製作可探索地圖，然後測試剩餘缺陷.",
+      "notes": "創作者稱用 Hydrogen 在不足 12 小時的會話中製作了受 GTA 啟發、以虛構阿格拉為背景的遊戲. 專案使用純 JavaScript 和一個 HTML 檔案，無外部資產，仍有玩法缺陷."
+    },
+    "195": {
+      "title": "透過 Google Cloud 專案連線 Antigravity",
+      "takeaway": "用託管憑據啟用 Hydrogen 時，檢查代理認證和專案結算方式.",
+      "notes": "作者記錄透過應用預設憑據將 Antigravity 從個人計劃切換到 Google Cloud Agent Platform 專案. 模型選擇器包含 Hydrogen，來源還介紹按 SKU 檢查專案花費."
+    },
+    "196": {
+      "title": "回答引用了過時的訂閱額度",
+      "takeaway": "評估研究助手時，對照一手來源核實計劃條款和模型名稱.",
+      "notes": "作者展示 Hydrogen 混淆相似模型名，且給出過時的 Qwen 套餐額度週期. 截圖記錄了這幾處疑似引用錯誤."
+    },
+    "197": {
+      "title": "修改 WebGL 動畫的敘事",
+      "takeaway": "首版技術效果豐富卻缺少清楚脈絡時，要求增強敘事.",
+      "notes": "創作者附上 WebGL 初版，指出它嘈雜且缺少故事，再展示給出反饋後的第二版. 作者更喜歡修改版，對照中仍偏好 Claude Code."
+    },
+    "198": {
+      "title": "Carbon 規劃、Hydrogen 實現移動應用",
+      "takeaway": "將互動設計分派給規劃模型，再把實現工作交給執行模型.",
+      "notes": "創作者稱 Carbon 規劃了手機應用，Hydrogen 實現了應用及 Reanimated 物理動效. 作者描述動作流暢，並分享螢幕錄影."
+    },
+    "199": {
+      "title": "兩款模型用程式碼製作山間鬥龍",
+      "takeaway": "比較同一場景中的兩方角色互動.",
+      "notes": "創作者分享 Qwen-4 Max 和 Hydrogen 用程式碼製作的山寺上空鬥龍動畫，並註明提示詞由另一創作者提供."
+    },
+    "200": {
+      "title": "用一則提示詞建構 3D 微縮島",
+      "takeaway": "檢查一次生成的場景能否清楚安排地標、地形與水域.",
+      "notes": "創作者稱由 Hydrogen 按一則提示詞建構微縮島. 畫面可見建築和其他地標."
+    },
+    "201": {
+      "title": "可複用的 Three.js 鵜鶘提示詞",
+      "takeaway": "檢查騎行動畫中腿、車輪和轉向能否同步.",
+      "notes": "創作者公佈完整日語 Three.js 提示詞，錄製 Hydrogen 在海岸公路場景中的輸出，並稱曾將同一提示詞交給 GPT-6.1 Terra. 該螢幕錄影展示 Hydrogen 這次執行."
+    },
+    "202": {
+      "title": "在 T3 Code 中使用 Hydrogen",
+      "takeaway": "在實際程式設計會話中試用用戶端，跟蹤滾動用量上限和每週額度.",
+      "notes": "作者稱把 Gemini Pro 接入 T3 Code，用 Hydrogen 處理了約半天任務. 截圖和原帖記錄額度體驗，作者分別評價了速度與準確性."
+    },
+    "203": {
+      "title": "手繪風公益短片",
+      "takeaway": "用簡短的公益主題評估手繪式視覺表現.",
+      "notes": "創作者分享一段手繪風格的公益短片並歸功於 Gemini 4 Hydrogen. 一次成片來自作者陳述，渲染模型和製作步驟未公開."
+    },
+    "204": {
+      "title": "孔雀騎車穿過十種藝術風格",
+      "takeaway": "用混合模型代理群組用程式碼製作畫面過渡並同步聲音.",
+      "notes": "創作者將跨十種藝術風格的孔雀騎車動畫歸功於 Carbon 和 Hydrogen 的代理群組，並稱畫面、音樂和音效都由程式碼製作."
+    },
+    "205": {
+      "title": "同一個小屋任務在三種環境中執行",
+      "takeaway": "把視覺任務遷移到不同模型檔和平臺時，檢查輸出格式.",
+      "notes": "創作者報告，在 Antigravity 中使用 Hydrogen High 和 Carbon High、在 AI Studio 使用 Hydrogen Extra High 都得到靜態結果. Arena 標註為 Hydrogen 的一次執行生成了動畫 SVG，該檢查點身份未被獨立核實."
+    },
+    "206": {
+      "title": "用同一提示詞對比儀表盤",
+      "takeaway": "用同一個前端提示詞比較介面佈局和資訊層次.",
+      "notes": "作者並排釋出歸因於 GPT-6.1 Sol 與 Hydrogen 的網頁介面截圖. 截圖可供視覺對照，實現、設定和實際功能未說明."
+    },
+    "207": {
+      "title": "從參考圖復刻 React.gg 網站",
+      "takeaway": "從一張圖開始復刻，再檢查哪些細節還需要調整.",
+      "notes": "創作者報告給 Hydrogen 一張參考圖，透過少量提示覆刻 React.gg. 來源連結了演示，並說明還有細節不一致."
+    },
+    "208": {
+      "title": "奇點主題的互動面板",
+      "takeaway": "圍繞一個視覺概念製作簡短的互動片段.",
+      "notes": "創作者將奇點主題的互動面板歸功於 Hydrogen. 螢幕錄影展示結果，實現細節有限."
+    },
+    "209": {
+      "title": "兩款模型用程式碼製作橫版動畫",
+      "takeaway": "比較生成的動作場景時，關注動作連續性和製作費用.",
+      "notes": "創作者對比 Hydrogen 與 GPT-6 Astra 的橫版卷軸動畫，偏好 Hydrogen 更自然的動作，並報告在兩次執行中 Hydrogen 費用更低."
+    },
+    "210": {
+      "title": "讓 Gemini 擔任跑步教練",
+      "takeaway": "把訓練記錄與模型建議對照，按自己的起點調整目標.",
+      "notes": "創作者將跑步指導歸功於 Gemini Hydrogen，分享了訓練截圖，並稱完成約一年以來最長的一次跑步. 這是個人使用案例."
+    },
+    "211": {
+      "title": "成績上鍊的瀏覽器遊戲",
+      "takeaway": "在桌面瀏覽器中測試遊戲，同時單獨驗證成績如何記錄.",
+      "notes": "創作者稱 Hydrogen 協助建構與 Base 相連、把成績寫入鏈上的 Sheytonak 遊戲. 來源稱為桌面做了最佳化，移動端仍有問題，遊戲也尚有缺陷."
+    },
+    "212": {
+      "title": "日語回答裡的數學公式未渲染",
+      "takeaway": "回答含 TeX 指令時，同時檢查內容和公式顯示.",
+      "notes": "作者展示切換到 Hydrogen 後的一條日語 Gemini 回答，顯示原始數學符號而未排成公式. 截圖記錄了該介面的一次格式問題."
+    },
+    "213": {
+      "title": "從提示詞到 MIDI 的作曲應用",
+      "takeaway": "建構從日語簡報到 MIDI、WAV 和鋼琴捲簾檢視的工具原型.",
+      "notes": "創作者用 Hydrogen 建構應用，將日語輸入轉成英文音樂提示詞，寫出 MIDI、渲染 WAV，再生成鋼琴捲簾影片. 以上是演示應用的功能."
+    },
+    "214": {
+      "title": "測試模型能否遵守保持沉默的指令",
+      "takeaway": "流程要求不回覆時，檢查模型能否真正不產生答覆.",
+      "notes": "作者分享不回覆測試的截圖，報告與 Carbon 和 Argon 的行為不同. 原帖展示了一組測試."
+    },
+    "215": {
+      "title": "一頁圖文回顧演唱會",
+      "takeaway": "把活動資訊整理成易於瀏覽的一頁視覺回顧.",
+      "notes": "作者分享 Batten Girls 演唱會的日語圖文回顧，將總結歸功於 Hydrogen. 來源未展示完整素材或提示詞."
+    },
+    "216": {
+      "title": "三款模型解釋電動機原理",
+      "takeaway": "在同一個模擬提示詞下，比較畫面清晰度與教學控制元件.",
+      "notes": "創作者比較 Hydrogen 與兩款 Qwen 模型，更偏好 Hydrogen 的 3D 電動機和物理解釋. 判斷來自一次對照."
+    },
+    "217": {
+      "title": "兩種模型工作流製作桌面動畫",
+      "takeaway": "對照原始任務檢查畫面細節、音量和片尾是否保持靜止.",
+      "notes": "創作者以同一提示詞透過 API 對照 Hydrogen 與 Astra 輔助製作的桌面動畫，認為 Gemini 版本更流暢，片尾仍然在動且音量較低. 渲染流程未說明."
+    },
+    "218": {
+      "title": "從頭像製作日常片段",
+      "takeaway": "用一張參考頭像和四個日常場景檢驗短分鏡的改編.",
+      "notes": "創作者提供 X 頭像及學習、吃飯、看手機、運動四個場景，釋出約十秒的成果並歸因於 Hydrogen，未說明影片渲染後端."
+    },
+    "219": {
+      "title": "Hydrogen 為 ComfyUI 角色影片做規劃",
+      "takeaway": "固定服裝與背景，在簡報中變化角色表情與動作.",
+      "notes": "創作者稱 Hydrogen 圍繞參考角色設計規劃短片，透過另一套 ComfyUI MiniMax 圖生影片流程渲染，併為變體準備新第一影格和含 30 個鏡頭的提示詞."
+    },
+    "220": {
+      "title": "把 Almance Vale 擴充套件到 100 個模組",
+      "takeaway": "將已有應用移入程式開發代理，要求新增模組時保留既有風格.",
+      "notes": "創作者把 Almance Vale 從 Gemini 應用遷入 Antigravity，報告在 swarm 模式中用 Hydrogen Extra 遵循原有程式碼約定，數小時擴充套件到 100 個模組."
+    },
+    "221": {
+      "title": "帶程序式音效的 2D 村莊",
+      "takeaway": "記錄建構耗時，並檢查聲音是否隨畫面中的事件變化.",
+      "notes": "創作者用 Extra High 的 Hydrogen 與 Qwen 4 Max 建構 2D 村莊，報告 Qwen 約 75 分鐘、$0.90，Hydrogen 約 12 分鐘、$1.70. 作者更喜歡 Hydrogen 中音樂與事件的配合."
+    },
+    "222": {
+      "title": "為歌曲製作寬屏視覺畫面",
+      "takeaway": "給模型一首歌與畫幅要求，觀察畫面運動如何傳遞歌曲的能量.",
+      "notes": "創作者稱只給 Hydrogen XHigh 一首歌，要求 21:9 畫幅和速度感. 影片展示高速移動的道路場景，來源未說明渲染流程."
+    },
+    "223": {
+      "title": "七個 Hydrogen 子代理建構尼亞加拉瀑布",
+      "takeaway": "給協調代理可分割的場景元件，讓它把實現任務交給子代理.",
+      "notes": "作者將不到一小時、按一則提示詞建構的尼亞加拉瀑布體驗歸功於 Carbon 與七個 Hydrogen 子代理. 螢幕錄影可見水體、遊船、多種視角與環境變化."
+    },
+    "224": {
+      "title": "兩段年代愛情短片的連續性",
+      "takeaway": "讓第二段短片延續第一段時，明確要保留哪些細節.",
+      "notes": "創作者將遠洋客輪上的愛情場景歸功於使用 Hydrogen 的 Gemini 工作流，公開了要求保持角色與服裝連續的兩段簡報. 底層影片模型未說明."
+    },
+    "225": {
+      "title": "Gemini App 中的水球",
+      "takeaway": "用簡單光學場景觀察高光與折射的關係.",
+      "notes": "Google 分享 Gemini App 中的一張擬水球體圖，球上有 Hydrogen 字樣，並將成果歸於 Hydrogen. 來源展示輸出，未說明底層渲染方式."
     }
   }
 }

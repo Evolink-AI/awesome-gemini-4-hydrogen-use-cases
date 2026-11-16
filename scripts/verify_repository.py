@@ -17,6 +17,8 @@ ROOT = Path(__file__).resolve().parents[1]
 LOCALES = ["en", "es", "pt", "ja", "ko", "de", "fr", "tr", "zh-TW", "zh-CN", "ru"]
 READMES = ["README.md", *[f"README_{locale}.md" for locale in LOCALES[1:]]]
 R2_PREFIX = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-3.6-flash-guide-and-use-cases/hydrogen-20261113/"
+UPDATE_MEDIA_PREFIX = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-4-hydrogen-use-cases/hydrogen-20261117/media/"
+R2_PREFIXES = (R2_PREFIX, UPDATE_MEDIA_PREFIX)
 MODEL_PAGE = "https://evolink.ai/gemini-4-hydrogen"
 API_KEYS = "https://evolink.ai/dashboard/keys"
 API_DOCS_PATH = "api-manual/language-series/gemini/native-api/native-api-quickstart"
@@ -34,7 +36,7 @@ URL_RE = re.compile(r'https://[^\s)>"`]+')
 
 # Pinned before generation, from the independent source review package. Updating
 # this lock requires a new source review, not regenerated output denominators.
-INVENTORY_SHA256 = "d07f9769c546bd3c3017b0c8a799520d49df0909f830ad519bb0e90605261aef"
+INVENTORY_SHA256 = "397a85c53e0ce3dcdd05ecf2824c663c0590deae2c9ef6738171956ddbbf7c8f"
 
 
 def validate_source_inventory(curated: dict, inventory: dict) -> list[str]:
@@ -58,9 +60,9 @@ def validate_source_inventory(curated: dict, inventory: dict) -> list[str]:
         if actual != expected or item.get("media_source_urls") != [url for _, url in expected]:
             errors.append(f"case {number}: source-media expected set differs")
         for asset in item.get("media_assets", []):
-            if not str(asset.get("url", "")).startswith(R2_PREFIX):
+            if not str(asset.get("url", "")).startswith(R2_PREFIXES):
                 errors.append(f"case {number}: media URL is outside isolated R2 namespace")
-            if asset.get("kind") == "video" and (not str(asset.get("poster_url", "")).startswith(R2_PREFIX) or not urllib.parse.urlparse(asset.get("url", "")).path.endswith(".mp4")):
+            if asset.get("kind") == "video" and (not str(asset.get("poster_url", "")).startswith(R2_PREFIXES) or not urllib.parse.urlparse(asset.get("url", "")).path.endswith(".mp4")):
                 errors.append(f"case {number}: video requires R2 poster and playable MP4")
     order = curated.get("category_order", [])
     if len(order) != len(set(order)) or set(order) != {s["category_key"] for s in candidates}:
@@ -166,7 +168,12 @@ def main() -> int:
         errors.append("source URLs are not unique")
     if any(item.get("quality_tier") != "high" or item.get("decision") != "high_confidence_update" for item in items):
         errors.append("curated data includes a non-high-confidence case")
-    expected_prompts = sum(bool(case.get("prompt_public")) for case in inventory["cases"])
+    expected_anchor_order = [
+        item["public_number"]
+        for category in curated["category_order"]
+        for item in items
+        if item["category_key"] == category
+    ]
     if any(not item.get("media_assets") or not item.get("media_source_urls") for item in items):
         errors.append("one or more cases lacks source-media lineage")
 
@@ -182,10 +189,14 @@ def main() -> int:
         errors.append("public visual count differs from independent source inventory")
     if len(playable_urls) != sum(asset["kind"] == "video" for asset in source_media):
         errors.append("playable video count differs from independent source inventory")
-    if any(not url.startswith(R2_PREFIX) for url in [*visual_urls, *playable_urls]):
+    if any(not url.startswith(R2_PREFIXES) for url in [*visual_urls, *playable_urls]):
         errors.append("one or more public media URLs are outside the isolated R2 namespace")
 
     fidelity = json.loads((ROOT / "data/source-fidelity-manifest.json").read_text(encoding="utf-8"))
+    if fidelity.get("source_inventory_sha256") != INVENTORY_SHA256:
+        errors.append("source-fidelity manifest does not bind the frozen source inventory")
+    if fidelity.get("source_manifest_sha256") != inventory.get("source_package_sha256"):
+        errors.append("source-fidelity manifest does not bind the reviewed source package")
     errors.extend(validate_fidelity(items, fidelity))
     if fidelity.get("selected_case_count") != expected_count:
         errors.append("source-fidelity selected-case denominator differs")
@@ -242,8 +253,8 @@ def main() -> int:
             if marker in text:
                 errors.append(f"{filename}: unresolved marker {marker}")
         anchors = [int(value) for value in re.findall(r'^<a id="case-(\d+)"></a>$', text, re.MULTILINE)]
-        if anchors != expected_numbers:
-            errors.append(f"{filename}: case anchors differ from 1..{expected_count}")
+        if anchors != expected_anchor_order:
+            errors.append(f"{filename}: case anchors differ from the categorized canonical order")
         titles = re.findall(r'^### .+? \d+: \[([^\]]+)\]\(https://x\.com/[^)]+\)', text, re.MULTILINE)
         if len(titles) != expected_count:
             errors.append(f"{filename}: rendered case heading count is {len(titles)}")
@@ -253,8 +264,6 @@ def main() -> int:
             errors.append(f"{filename}: rendered source visual count differs")
         if sum(text.count(f']({url})') for url in playable_urls) != len(playable_urls):
             errors.append(f"{filename}: playable source video count differs")
-        if text.count("```text") != expected_prompts:
-            errors.append(f"{filename}: public prompt block count differs")
         menu_start = text.find("## 📑")
         first_case = text.find('<a id="case-')
         menu_text = text[menu_start:first_case] if menu_start >= 0 else ""
@@ -267,6 +276,10 @@ def main() -> int:
             block = text.split(f'<a id="case-{item["public_number"]}"></a>', 1)[-1].split("\n---", 1)[0]
             if item["date"] not in block or item["author_url"] not in block or item["type"] not in block:
                 errors.append(f'{filename}: case {item["public_number"]} attribution/date/type differs')
+            prompt_blocks = re.findall(r"^```\n(.*?)\n```$", block, re.MULTILINE | re.DOTALL)
+            expected_prompt = [item["prompt_text"]] if item.get("prompt_public") else []
+            if prompt_blocks != expected_prompt:
+                errors.append(f'{filename}: case {item["public_number"]} prompt differs from its frozen source')
             if text.count(item["source_url"]) != 1:
                 errors.append(f'{filename}: case {item["public_number"]} source URL is missing or duplicated')
             for asset in item["media_assets"]:
@@ -329,7 +342,9 @@ def main() -> int:
                 errors.append(f"{filename}: only {changed} of {expected_count} titles are localized")
 
     for filename in ("README_zh-CN.md", "README_zh-TW.md"):
-        if "。" in (ROOT / filename).read_text(encoding="utf-8"):
+        text = (ROOT / filename).read_text(encoding="utf-8")
+        prose = re.sub(r"^```[^\n]*\n.*?^```$", "", text, flags=re.MULTILINE | re.DOTALL)
+        if "。" in prose:
             errors.append(f"{filename}: Chinese full stop violates the vault writing rule")
 
     security = (ROOT / "SECURITY.md").read_text(encoding="utf-8")
