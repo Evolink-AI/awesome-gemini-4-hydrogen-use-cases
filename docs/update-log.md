@@ -1,5 +1,12 @@
 # Update Log
 
+## 2026-11-17: Hydrogen case update
+
+- Added 185 cases (Cases 41–225) across the existing five categories
+- Reviewed 1,304 unique X posts with more than 30 observed likes between November 11 at 00:00 and November 17 at 00:42 (UTC+8)
+- Kept the existing case IDs and synchronized the central menu, source inventory, and all 11 README editions
+- Preserved 223 new source visuals and 5 verbatim public prompts
+
 ## 2026-11-13: Hydrogen edition
 
 - Replaced the previous model collection with 40 selected Gemini 4 Hydrogen cases across five categories

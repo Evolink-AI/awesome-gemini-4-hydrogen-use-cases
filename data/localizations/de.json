@@ -5,12 +5,12 @@
     "title": "Hervorragende Gemini 4 Hydrogen-Anleitung und Anwendungsfälle",
     "introduction": "Einführung",
     "intro": "Entdecke Gemini 4 Hydrogen anhand quellenbelegter Anwendungen, Programmierabläufe und praktischer Vergleiche.",
-    "mission": "40 ausgewählte Beispiele zeigen, was Menschen gebaut haben, wie sie vorgegangen sind und wo die Ergebnisse Schwächen hatten.",
+    "mission": "225 Beispiele zeigen, wie Hydrogen eingesetzt wird und wo die Ergebnisse an Grenzen stoßen.",
     "boundary": "Jeder Fall verlinkt seine Quelle und nennt den Urheber. Demos, Anbieterbeispiele und Vergleiche von Urhebern sind in den Anmerkungen gekennzeichnet; fehlende Prompts werden nicht rekonstruiert.",
     "overview": "Überblick",
-    "overview_cases": "40 ausgewählte Fälle aus 75 geprüften Demo-Beiträgen einer auf 500 Beiträge begrenzten X-Sammlung, erfasst am 13. November 2026.",
+    "overview_cases": "225 Fälle insgesamt. Nach der Sichtung von 1.304 X-Beiträgen kamen am 17. November 185 Fälle hinzu. Die neuen Quellen hatten bei der Erfassung mehr als 30 Likes.",
     "overview_coverage": "Fünf Kategorien behandeln Agenten, Lernen und Apps, Tabellen und Suche, interaktives 3D sowie Vergleiche und Grenzen.",
-    "overview_media": "Alle 41 ausgewählten visuellen Quelldateien bleiben erhalten: 38 abspielbare Videos mit Vorschaubildern und 3 Bilder.",
+    "overview_media": "264 Originalmedien, darunter 168 abspielbare Videos mit Vorschaubildern und 96 Bilder.",
     "overview_model": "Gemini 4 Hydrogen wurde am 12. November 2026 angekündigt. Entdecke das Modell und seine aktuellen Zugangsmöglichkeiten auf EvoLink.",
     "note": "Modellzuordnung, Kosten, Zeitangaben und Ergebnisse bleiben Aussagen der Quellen, sofern nicht anders angegeben. Die Videoprüfung verwendete Stichproben von Einzelbildern, keine vollständigen Funktionstests. Aufzeichnungen programmierter Anwendungen belegen keine native Videogenerierung. Unterschiedliche Ausführungsumgebungen, Denkstufen oder Iterationszahlen machen Vergleiche unkontrolliert.",
     "official_sources": "Offizielle Referenzen",
@@ -254,6 +254,931 @@
       "title": "Drei Modelle animieren ein Savannenpferd",
       "takeaway": "Prüfe Bewegung und visuelle Details direkt, bevor du pauschale Kosten- oder Qualitätsaussagen akzeptierst.",
       "notes": "Der Urheber zeigt Hydrogen, Carbon und Argon anhand einer Savannenpferd-Szene. Aussagen zu höherer Geschwindigkeit, niedrigeren Kosten und hoher Qualität bleiben die Einschätzung der Quelle, kein hier reproduzierter kontrollierter Vergleich."
+    },
+    "41": {
+      "title": "Von Weltraumbildern zur HTML-Szene",
+      "takeaway": "Prüfe mit wenigen Referenzbildern, ob die erzeugte Szene deren Bildsprache erkennbar aufgreift.",
+      "notes": "Der Autor schreibt die Weltraumvisualisierung Hydrogen zu. Der Beitrag zeigt die verwendeten Planetenbilder und eine daraus entstandene HTML-Szene mit einem Ringplaneten."
+    },
+    "42": {
+      "title": "Ein Formel-1-Prototyp in Gemini Canvas",
+      "takeaway": "Prüfe ein generiertes Fahrzeugmodell mit mehreren Kameraperspektiven.",
+      "notes": "Der Autor schreibt den Formel-1-Betrachter seinem ersten Hydrogen-Versuch in Gemini Canvas zu. Die Aufnahme zeigt mehrere Kameravoreinstellungen und Ansichten der Aufhängung."
+    },
+    "43": {
+      "title": "Hydrogen per API und Carbon in Antigravity",
+      "takeaway": "Halte bei Bildvergleichen mit demselben Prompt die jeweilige Ausführungsumgebung fest.",
+      "notes": "Der Autor nutzt Hydrogen direkt über die API und Carbon über Antigravity und zeigt beide Ergebnisse nebeneinander. Die angegebenen 4 Minuten und 47 Sekunden beziehen sich auf den Hydrogen-Lauf in diesem Versuchsaufbau."
+    },
+    "44": {
+      "title": "Schattendetails im Vergleich von Hydrogen und Astra",
+      "takeaway": "Beurteile kleine Renderdetails zusammen mit Kosten und Laufzeit beider Durchläufe.",
+      "notes": "Der Autor bevorzugte das Hydrogen-Rendering wegen seines Schattens und berichtet von einer kürzeren Laufzeit in seiner Testumgebung."
+    },
+    "45": {
+      "title": "Prozedurale 3D-Bewegung im Vergleich",
+      "takeaway": "Erfasse die Generierungszeit und vergleiche flüssige Übergänge und Bildaufbau in einer prozeduralen Animation.",
+      "notes": "Der Autor zeigt eine gestreifte 3D-Form, die er Hydrogen High zuschreibt. Nach eigenen Angaben entstand sie in unter fünf Minuten. Er vergleicht sie mit Ausgaben teurerer Modelle in seinem eigenen Test."
+    },
+    "46": {
+      "title": "89 Minuten im PokéBench-Bildtest",
+      "takeaway": "Erfasse in langen Bildagenten-Tests neben der Aufgabenerfüllung auch Spielzüge und API-Fehler.",
+      "notes": "Die Quelle berichtet von einem Vertex-Lauf vor der Ankündigung. Mit Hydrogen auf High wurde Brock nach 365 Spielzügen und 89 Minuten besiegt. Die Quelle meldet keinen fehlgeschlagenen API-Aufruf. Das Ergebnis gilt für diesen Versuchsaufbau."
+    },
+    "47": {
+      "title": "Dieselbe 3D-Szene mit Hydrogen und DeepSeek",
+      "takeaway": "Erfasse beim Vergleich der Bilder Laufzeit und API-Kosten getrennt.",
+      "notes": "AIHubMix testet Hydrogen und DeepSeek V4.1 Flash mit demselben 3D-Prompt und der jeweils höchsten verfügbaren Reasoning-Stufe. Der Anbieter meldet für Hydrogen drei Minuten bei 1,30 USD und für DeepSeek 100 Minuten bei 0,90 USD."
+    },
+    "48": {
+      "title": "Ein BMW-Seitenprofil als SVG",
+      "takeaway": "Prüfe anhand einer SVG-Seitenansicht die Proportionen, Silhouette und feinen Details eines Fahrzeugs.",
+      "notes": "Der Autor zeigt eine SVG-Seitenansicht eines BMW M4 CS, die er Hydrogen High in der Gemini-App zuschreibt. Nach seiner Angabe dauerte die Generierung weniger als 30 Sekunden."
+    },
+    "49": {
+      "title": "Die schwebende Insel eines Astronomen",
+      "takeaway": "Gib einer kleinen Szene ein klares Thema und prüfe, wie Objekte und Beleuchtung dazu beitragen.",
+      "notes": "Der Autor schreibt die Astronomeninsel einem Hydrogen-Checkpoint auf Arena zu und meldet vier Minuten Generierungszeit für diesen Lauf."
+    },
+    "50": {
+      "title": "Vom Referenzbild zur begehbaren 3D-Landschaft",
+      "takeaway": "Prüfe, wie genau eine begehbare Szene die Bildvorlage aufgreift.",
+      "notes": "Der Autor zeigt eine spielbare 3D-Landschaft, die er Hydrogen in der Gemini-App zuschreibt. Er beschreibt GLSL-Reflexionen, prozedurale Geometrie und Schwimmphysik."
+    },
+    "51": {
+      "title": "Ein Miniaturdiorama aus 3D-Bausteinen",
+      "takeaway": "Bitte um eine Miniatur aus Bausteinen und prüfe, ob ihre Formen eine stimmige Szene ergeben.",
+      "notes": "Der Autor zeigt eine Aufnahme eines 3D-Miniaturdioramas aus Bausteinen und schreibt es Hydrogen zu. Bauzeit und genaue Testumgebung bleiben offen."
+    },
+    "52": {
+      "title": "Ein interaktiver Kirschblütenbaum",
+      "takeaway": "Untersuche Veränderungen in Echtzeit anhand eines animierten Objekts und weniger Bedienelemente.",
+      "notes": "Der Autor schreibt die abgebildete Oberfläche mit Kirschblütenbaum Hydrogen zu. Auf dem Bild sind Einstellungen für die Szene zu sehen. Einzelheiten zur Umsetzung fehlen."
+    },
+    "53": {
+      "title": "Zeit und Kosten pro Aufgabe in Agent Arena",
+      "takeaway": "Betrachte neben der Gesamtquote auch Latenz, Kosten und Ausgabetokens pro Aufgabe.",
+      "notes": "Agent Arena meldet für Hydrogen High im Median 5,3 Minuten und 1,60 USD je Aufgabe. Der Benchmark weist für Hydrogen außerdem mehr Ausgabetokens aus als für Carbon und Argon."
+    },
+    "54": {
+      "title": "Benchmarks für visuelle Dokumente und Terminalaufgaben",
+      "takeaway": "Betrachte Dokument- und Terminalergebnisse getrennt, wenn du den Reasoning-Aufwand festlegst.",
+      "notes": "Artificial Analysis meldet starke Ergebnisse bei visuellen Dokumenten und unterschiedliche Zuwächse bei Terminalaufgaben. Mit höherem Reasoning-Aufwand stieg der Wert für wissenschaftliche Terminalaufgaben. Der allgemeine Terminal-Bench-Wert blieb bei 54 %."
+    },
+    "55": {
+      "title": "Ergebnisse im Vals Index und Tax Agent",
+      "takeaway": "Betrachte das Ergebnis einer Fachaufgabe neben dem Gesamtwert der Evaluation.",
+      "notes": "Vals AI meldet 68,5 % im eigenen Index und zum Testzeitpunkt den ersten Platz auf Tax Agent."
+    },
+    "56": {
+      "title": "Hydrogen mit Standardeinstellung in CursorBench",
+      "takeaway": "Nimm das Ergebnis bei Standardaufwand als Ausgangspunkt für Tests mit deinem eigenen Repository.",
+      "notes": "Cursor meldet im eigenen Benchmark 54,3 % für Hydrogen mit Standardeinstellung und 39,6 % für Gemini 3.8 Flash."
+    },
+    "57": {
+      "title": "Vier Modelle animieren einen Bogenschützenkampf",
+      "takeaway": "Vergleiche, wie deutlich jede Animation die Handlungen der Figuren vermittelt.",
+      "notes": "Der Autor zeigt Aufnahmen eines Bogenschützenkampfs mit Hydrogen, Fable 5.2, GPT-6.1 Sol und Carbon nebeneinander."
+    },
+    "58": {
+      "title": "Ein Minecraft-Prototyp in fünfzehn Minuten",
+      "takeaway": "Prüfe in einer Voxel-Sandbox, wie gut Systeme wie Abbau und Inventar zusammenspielen.",
+      "notes": "Der Autor meldet 15 Minuten Bauzeit mit Hydrogen Extra High. Er nennt Blockplatzierung, Abbau und Inventar. Die Aufnahme zeigt diese Funktionen nur teilweise."
+    },
+    "59": {
+      "title": "Werkzeugaufrufe mit Hydrogen in n8n",
+      "takeaway": "Überlasse Hydrogen in n8n die Schleifen mit Werkzeugaufrufen und plane den Ablauf separat.",
+      "notes": "n8n dokumentiert die Hydrogen-Integration und schlägt vor, mit Carbon oder Argon zu planen und mit Hydrogen auszuführen. Der Beitrag verlinkt die Einrichtung."
+    },
+    "60": {
+      "title": "Box Agent mit komplexen Unternehmensdokumenten",
+      "takeaway": "Prüfe Genauigkeit, Laufzeit und Tokenverbrauch anhand einer realistischen Dokumentaufgabe.",
+      "notes": "Box meldet aus seinem Vorabtest gegenüber Gemini 3.8 Flash fünf Prozentpunkte mehr Genauigkeit, weniger als die Hälfte der Laufzeit und rund 12 % weniger Tokens bei einer typischen Aufgabe."
+    },
+    "61": {
+      "title": "Hydrogen auf Devin FrontierCode",
+      "takeaway": "Prüfe, welche Patches sich übernehmen lassen, und dokumentiere die Agentenumgebung.",
+      "notes": "Cognition meldet 38,2 % auf FrontierCode 2.0. Der Versuchsaufbau für Hydrogen unterscheidet sich vom Devin-CLI-Aufbau der Vergleichsmodelle."
+    },
+    "62": {
+      "title": "Lichtbrechung in einer kleinen interaktiven Animation",
+      "takeaway": "Verfeinere einen optischen Effekt mit kurzen Vorschauen, bevor du die Szene ausbaust.",
+      "notes": "Der Autor schreibt Hydrogen eine animierte Szene der Reihe Small Delights zu und hebt den Brechungseffekt hervor. Die Quelle beschreibt einen iterativen Gestaltungsprozess."
+    },
+    "63": {
+      "title": "Ein Fluss, der bergauf fließt",
+      "takeaway": "Prüfe den visuellen Eindruck einer kleinen Szene mit ungewöhnlicher Fließrichtung.",
+      "notes": "Der Autor berichtet, den rückwärts fließenden Fluss mit Hydrogen im Web gebaut zu haben, und zeigt die Aufnahme. Die Angaben zu Zeit und verbrauchtem Kontingent stammen vom Autor."
+    },
+    "64": {
+      "title": "Websuche trotz ausdrücklichen Verbots",
+      "takeaway": "Kontrolliere bei einer Aufgabe ohne Websuche, ob Werkzeugaufrufe ausbleiben.",
+      "notes": "Der Autor berichtet, Hydrogen habe trotz einer Anweisung gegen Suche und Werkzeugaufrufe im Web gesucht. Der Beitrag belegt einen einzelnen beobachteten Fall."
+    },
+    "65": {
+      "title": "Kontingentverbrauch im Antigravity-Swarm",
+      "takeaway": "Halte bei einem Lauf mit mehreren Agenten Tokenmenge und verbrauchtes Kontingent fest.",
+      "notes": "Der Autor meldet 17 Millionen Tokens und 21 % eines Fünf-Stunden-Kontingents seines Tarifs. Die Werte beziehen sich auf diese Swarm-Sitzung."
+    },
+    "66": {
+      "title": "Werkzeugaufrufe in Benchmarks für Fachaufgaben",
+      "takeaway": "Untersuche, wie ein Agent den nötigen Kontext für berufliche Aufgaben sammelt.",
+      "notes": "Mercor meldet 78,0 % Pass@1 bei APEX-Agents und im Mittel 93 Werkzeugaufrufe je Aufgabe. Der Bericht umfasst Recht, Beratung und Bankwesen."
+    },
+    "67": {
+      "title": "Ein 3D-Porträt von Hydrogen",
+      "takeaway": "Prüfe anhand eines Porträts, wie gut in einer 3D-Darstellung das Motiv erkennbar bleibt.",
+      "notes": "Der Autor schreibt Hydrogen ein 3D-Porträt der im Beitrag angesprochenen Person zu und zeigt das Ergebnis als Bild. Zur Testumgebung gibt es wenige Angaben."
+    },
+    "68": {
+      "title": "Vier Modelle animieren Magier und Drachen",
+      "takeaway": "Vergleiche Inszenierung, erkennbare Handlungen und Effekte in Versionen derselben Fantasyszene.",
+      "notes": "Der Clip zeigt Hydrogen und drei Claude-Modelle bei einer Szene zwischen Magier und Drachen. Der Autor bevorzugte in diesem Beispiel die Claude-Ausgabe."
+    },
+    "69": {
+      "title": "Authentifizierung bei der Übergabe zwischen Agenten",
+      "takeaway": "Kontrolliere, welcher Client die Authentifizierung übernimmt, wenn ein Agent Arbeit an einen anderen Anbieter delegiert.",
+      "notes": "Der Autor wollte Claude über Antigravity CLI auf Hydrogen zugreifen lassen. Nach seiner Schilderung versuchte Claude Code selbst die Anmeldung, woraufhin sein Antigravity-Zugang gesperrt wurde. Der Screenshot zeigt die Sperrmeldung. Den Grund führt der Autor auf den Client-Zugriffsweg zurück."
+    },
+    "70": {
+      "title": "Goal Mode in Antigravity",
+      "takeaway": "Verfolge Plan, Codeänderungen und Testergebnisse in einer längeren Coding-Sitzung.",
+      "notes": "Der Autor meldet eine 105-minütige Goal-Mode-Sitzung mit Hydrogen Extra, die Planung, Umsetzung und Tests umfasste. Die Testergebnisse stammen aus seinem Bericht."
+    },
+    "71": {
+      "title": "MazeBench zeigt niedrige Erfolgsquoten",
+      "takeaway": "Prüfe räumliches Schlussfolgern mit Labyrinthaufgaben, bevor du dich darauf verlässt.",
+      "notes": "Der veröffentlichte MazeBench-Vergleich meldet im verwendeten Versuchsaufbau 1 % für Hydrogen, 4 % für Sonnet 5.5 und 8 % für GPT-6.1 Terra."
+    },
+    "72": {
+      "title": "Drei Gemini-Modelle bauen Segelschiffszenen",
+      "takeaway": "Vergleiche Bewegung und Umgebungsdetails in einer kleinen Three.js-Szene.",
+      "notes": "Der Autor zeigt Segelschiffe von Hydrogen, Argon und Carbon. Ihm gefällt Carbons Detailgrad am besten. In seinem Test kam Hydrogen nahe an Argon heran."
+    },
+    "73": {
+      "title": "Carbon und Hydrogen in Antigravity Orchestrator",
+      "takeaway": "Lass das planende Modell eingreifen, wenn das schnellere Modell bei der Umsetzung feststeckt.",
+      "notes": "Google beschreibt, wie Carbon plant und bei Problemen eingreift, während Hydrogen Änderungen umsetzt und testet. Google meldet für Terminal-Bench 4.0 einen Erfolg nahe dem von Carbon bei geringerem Kontingentverbrauch und kürzeren Läufen."
+    },
+    "74": {
+      "title": "Diagramme und Bericht aus Workspace-Daten",
+      "takeaway": "Prüfe, ob eine Folgeanfrage fehlende Analysen, Diagramme oder die Berichtsdatei ergänzt.",
+      "notes": "Der Autor nutzte Hydrogen in einer Demo mit Google Workspace for Education Fundamentals zur Datenanalyse, Diagrammerstellung und Ausgabe einer Berichtsdatei. Nach seiner Angabe brauchte es zwei Gesprächsrunden."
+    },
+    "75": {
+      "title": "Trikotnummernerkennung am Rand des Budgets",
+      "takeaway": "Lege für kleine Bilddetails einen maximalen Aufwand und einen Ausweichweg fest.",
+      "notes": "Der Tester meldet, dass Hydrogen XHigh 131.069 Thinking-Tokens verbrauchte und nach 9 Minuten und 55 Sekunden keine Trikotnummer ausgab."
+    },
+    "76": {
+      "title": "ClutterBench im Vergleich mehrerer Modellfamilien",
+      "takeaway": "Prüfe mit einem Benchmark für unübersichtliche Szenen, ob sich die allgemeine Stärke einer Modellfamilie auf diese Aufgabe überträgt.",
+      "notes": "Der Autor zeigt ClutterBench-Ergebnisse, in denen Hydrogen die gezeigten Gemini-Modelle anführt und hinter den OpenAI-Modellen des Vergleichs liegt."
+    },
+    "77": {
+      "title": "Vom Nachrichtenbriefing zum vertonten Clip",
+      "takeaway": "Mache aus einem recherchierten Nachrichtenbriefing einen kurzen Clip mit Sprechertext und kontrolliere die verwendeten Fakten.",
+      "notes": "Die Aufnahme zeigt, wie Hydrogen in der mobilen Gemini-App nach aktuellen Meldungen sucht und eine Gliederung entwirft. Nach der Videoanfrage spielt die App einen zehnsekündigen Clip ab. Angaben zu Dauer und Vertonung stammen vom Autor, die Rendering-Technik bleibt offen."
+    },
+    "78": {
+      "title": "Anatomische Schnittansicht einer Minecraft-Büste",
+      "takeaway": "Prüfe, ob die generierte Schnittansicht die geforderten inneren Strukturen enthält.",
+      "notes": "Der Autor gab Hydrogen und Argon dieselbe Aufgabe, in einem Durchlauf eine anatomische Büste im Minecraft-Stil zu bauen. In Hydrogens Ergebnis erkannte er Schädel, Rippen und Wirbelsäule."
+    },
+    "79": {
+      "title": "Drei Modelle rendern dieselbe Requisite",
+      "takeaway": "Erfasse Tokens und Qualität getrennt, da ein günstigeres Modell in einem Test mehr Tokens verbrauchen kann.",
+      "notes": "Der Vergleich zeigt eine gewehrförmige Requisite von Hydrogen, Carbon und Fable 5.2. Der Autor meldet für Hydrogen 3,69 Millionen Tokens und 1,62 USD und für Carbon 398.000 Tokens und 0,77 USD."
+    },
+    "80": {
+      "title": "Induktionsbenchmark und Tokenverbrauch",
+      "takeaway": "Erfasse bei schwierigen Schlussfolgerungsaufgaben neben der Punktzahl die abgerechneten Eingabe- und Ausgabetokens.",
+      "notes": "Der Tester meldet den vierten Platz für Hydrogen, nahe bei Opus 5.5, in seinem Induktionsbenchmark mit 100 Aufgaben. Er nennt 55 Millionen Ausgabetokens und 307 Millionen abgerechnete Eingabetokens. Wie die Abrechnung zustande kam, bleibt offen."
+    },
+    "81": {
+      "title": "Pixelkunst in Google Sheets mit mehreren Gemini-Modi",
+      "takeaway": "Vergleiche mehrere Modelloptionen mit derselben Zeichenaufgabe in Google Sheets.",
+      "notes": "Der Autor zeigt Hydrogen beim Zeichnen von Pixelkunst in Google Sheets und verlinkt separate Durchläufe mit Antigravity Orchestrator, Carbon und Argon. Die Demo nutzt keine formale Bewertung."
+    },
+    "82": {
+      "title": "Eine Wohnung vom Referenzbild zum 3D-Druck",
+      "takeaway": "Führe einen Bild-zu-3D-Test bis zum physischen Druck durch.",
+      "notes": "Der Autor zeigt ein Referenzbild und den physischen Druck eines Modells der Wohnung aus Seinfeld und schreibt das Modell Hydrogen zu."
+    },
+    "83": {
+      "title": "Drei Modelle animieren ein 3D-Tier",
+      "takeaway": "Prüfe Anatomie und Bewegung in einer gemeinsamen 3D-Modellierungsaufgabe.",
+      "notes": "Die Quelle vergleicht Hydrogen, GPT-6.1 Terra und Claude Haiku 5.5 bei einer visuellen Modellierungsaufgabe. Der Autor beobachtet Schwächen in Hydrogens Ausgabe. Die Beobachtung bezieht sich auf diese eine 3D-Aufgabe."
+    },
+    "84": {
+      "title": "Hydrogen und Qwen auf ts-bench",
+      "takeaway": "Betrachte Fehler bei Werkzeugaufrufen neben den Gesamtwerten des Benchmarks.",
+      "notes": "Die Quelle vergleicht Hydrogen und Qwen4 Max Preview auf ts-bench und erörtert die Zuverlässigkeit von Werkzeugaufrufen in den gemeldeten Durchläufen. Der Screenshot hält die Benchmarkwerte fest."
+    },
+    "85": {
+      "title": "Geschäftssimulation in Vending-Bench",
+      "takeaway": "Vergleiche simulierte Einnahmen zusammen mit den Betriebskosten des Agenten.",
+      "notes": "Andon Labs meldet für Hydrogen den dritten Platz in Vending-Bench 2 und höhere Einnahmen als bei ähnlich teuren Modellen in der Simulation."
+    },
+    "86": {
+      "title": "Eine Schiffsszene mit der Golden Merry",
+      "takeaway": "Prüfe den Aufbau einer stilisierten Meeresszene anhand eines bekannten fiktiven Schiffs.",
+      "notes": "Der Autor schreibt die Szene Hydrogen zu und zeigt die Golden Merry auf blauem Wasser. Prompt, Werkzeugeinstellungen und Zahl der Durchläufe bleiben offen."
+    },
+    "87": {
+      "title": "Hydrogen-Unterstützung in OpenClaw",
+      "takeaway": "Prüfe die Modellauswahl direkt im vorgesehenen Agenten-Framework.",
+      "notes": "OpenClaw kündigt die Unterstützung von Hydrogen an und zeigt einen Screenshot. Der Beitrag nennt keine Benchmarkwerte oder weiteren Einrichtungsschritte."
+    },
+    "88": {
+      "title": "Ein Wal zwischen Wolken",
+      "takeaway": "Prüfe flüssige Bewegungen und Augengestaltung bei einem programmierten Tier getrennt.",
+      "notes": "Die Quelle zeigt einen programmierten Wal in den Wolken und nennt einen rund zweiminütigen Hydrogen-Lauf. Die Angaben zu Laufzeit und Kontingent stammen vom Autor."
+    },
+    "89": {
+      "title": "Vier Modelle bauen eine Miniaturinsel",
+      "takeaway": "Vergleiche Inseldesigns zusammen mit Laufzeit und Kosten in der jeweiligen Umgebung.",
+      "notes": "Die Quelle zeigt vier Inseln und meldet 4 Minuten mit Hydrogen, 20 mit GPT-6.1 Terra, 40 mit Sol und 60 mit DeepSeek. Dass für Hydrogen keine zusätzlichen Kosten anfielen, gilt für den Aufbau des Autors."
+    },
+    "90": {
+      "title": "Zeichnen in der Luft per Webcam",
+      "takeaway": "Zeichne mit der Hand in der Luft und beobachte, wie die Oberfläche deiner Bewegung folgt.",
+      "notes": "Der Autor berichtet, mit frühem Zugang zu Hydrogen ein Webcam-Zeichenwerkzeug gebaut zu haben, und zeigt die Bedienung in einer Aufnahme."
+    },
+    "91": {
+      "title": "Stoffrisse in programmierten Animationen",
+      "takeaway": "Prüfe Dehnung, Reißen und die Wechselwirkung mit Fell anhand derselben Animationsaufgabe.",
+      "notes": "Der Autor vergleicht programmierte Animationen von Hydrogen und Claude Fable 5.2 und bevorzugt visuell die zweite. Angaben zu identischen Einstellungen und unabhängiger Physikprüfung fehlen."
+    },
+    "92": {
+      "title": "Eine Unterwasserstadt in Gemini Canvas",
+      "takeaway": "Beginne mit einer kleinen 3D-Szene und ergänze begehbare Bereiche und animierte Tiere schrittweise.",
+      "notes": "Der Autor entwickelte in der Gemini-App per mehrerer Prompts eine Unterwasserstadt mit Fischen, Quallen, Korallen und begehbaren Glaskuppeln."
+    },
+    "93": {
+      "title": "Ein Webportal aus einem Durchlauf",
+      "takeaway": "Beurteile zuerst das Layout eines Portals und prüfe anschließend einzelne Abläufe.",
+      "notes": "Der Autor zeigt einen Screenshot einer mit Hydrogen in Antigravity erstellten Portalseite und meldet einen einzigen Generierungslauf. Die Funktionsfähigkeit der Interaktionen bleibt offen."
+    },
+    "94": {
+      "title": "Faktenprüfung mit nicht nachvollziehbarer Quelle",
+      "takeaway": "Verlange bei einer Beurteilung eines Screenshots einen überprüfbaren Beleg, bevor du dich auf das Ergebnis verlässt.",
+      "notes": "Der Autor fragte Hydrogen, ob ein abgebildeter Beitrag stimmte. Nach seiner Angabe bestätigte das Modell die Aussage und öffnete wiederholt ein Prüfwerkzeug, gab die zugrunde liegende Quelle jedoch nicht an."
+    },
+    "95": {
+      "title": "Eine Städtebausimulation im Stil von Cities: Skylines",
+      "takeaway": "Prototypisiere eine Städtebausimulation und prüfe das Zusammenspiel von Bedienung und Simulation.",
+      "notes": "Der Autor zeigt einen Hydrogen zugeschriebenen Prototyp im Stil von Cities: Skylines und meldet eine Generierungssitzung von unter 30 Minuten."
+    },
+    "96": {
+      "title": "Hydrogen und Sol animieren einen 2D-Pelikan",
+      "takeaway": "Vergleiche Laufzeit und Bewegungsqualität bei derselben einfachen 2D-Aufgabe.",
+      "notes": "Der Clip zeigt radfahrende Pelikane von Hydrogen und GPT-6.1 Sol. Der Autor meldet 28 Sekunden für Hydrogen und 6 Minuten und 51 Sekunden für Sol. Übereinstimmende Einstellungen sind nicht belegt."
+    },
+    "97": {
+      "title": "Ein Thronsaal mit Blender MCP",
+      "takeaway": "Prüfe mit Blender MCP den Aufbau einer generierten Szene im Editor.",
+      "notes": "Der Autor schreibt Hydrogen den Nachbau des Saals mit dem Eisernen Thron aus Game of Thrones zu. Er nennt Blender MCP und zeigt die fertige Szene in einer Aufnahme."
+    },
+    "98": {
+      "title": "Vier Modelle bauen ein Netzschwing-Spiel",
+      "takeaway": "Vergleiche Fortbewegung und Steuerung bei Spielen mit derselben Ein-Datei-Vorgabe.",
+      "notes": "Die Quelle zeigt vier Gemini-Modelle bei derselben 3D-Aufgabe in einer eigenständigen HTML-Datei ohne externe Assets. Hydrogen lief auf Extra High, Gemini 3.8 Flash, Argon und Carbon auf High."
+    },
+    "99": {
+      "title": "Ein graues Piratenschiff in Three.js",
+      "takeaway": "Beschränke eine Three.js-Szene auf Graustufen und prüfe, ob das Licht die Geometrie gut erkennen lässt.",
+      "notes": "Der Autor erstellte mit Hydrogen in Antigravity ein graues Piratenschiff in Three.js. Die Aufnahme dokumentiert einen Test der Beleuchtung und 3D-Details."
+    },
+    "100": {
+      "title": "Vier Modelle rendern ein Gebäudediorama",
+      "takeaway": "Vergleiche bei derselben Architekturaufgabe die Beleuchtung der erzeugten Szenen.",
+      "notes": "Der Autor zeigt vier Gebäudedioramen zum angegebenen gemeinsamen Prompt, von Hydrogen, GPT-6.2, Claude Fable 5.2 und DeepSeek. Rangfolge und Einschätzung der Geschwindigkeit stammen vom Autor."
+    },
+    "101": {
+      "title": "Eine parametrische Tischlampe in CadXStudio",
+      "takeaway": "Prüfe Maße und Bearbeitbarkeit der Komponenten eines generierten CAD-Modells.",
+      "notes": "CadXStudio zeigt eine browserbasierte Tischlampe und nennt 35 bearbeitbare Bauteile. Das Beispiel stammt vom Werkzeuganbieter."
+    },
+    "102": {
+      "title": "Ein animierter Schreinpfad in C++",
+      "takeaway": "Prüfe mit einer kleinen nativen Szene, ob das Modell eine lauffähige Animation ohne Webtechnik schreiben kann.",
+      "notes": "Der Autor schreibt die Animation eines Wegs unter Schreintoren Hydrogen auf Extra High zu. Als Implementierungssprache nennt er C++."
+    },
+    "103": {
+      "title": "Drei Modelle rendern eine Zugszene",
+      "takeaway": "Miss anhand derselben Zugszene die Laufzeiten deiner Modellkonfigurationen.",
+      "notes": "Der Autor meldet rund 3 Minuten für Hydrogen, 20 für GPT-6.1 Terra und 68 für Qwen4 Max Preview. Der Clip zeigt die Szenen. Einstellungen und Anzahl der Versuche sind offen."
+    },
+    "104": {
+      "title": "Regnerische Chinatown-Animation mit hohem Aufwand",
+      "takeaway": "Miss bei einer großen Animation die Laufzeit und prüfe die fertige Szene vor der Wahl der Reasoning-Stufe.",
+      "notes": "Der Autor nutzte Hydrogen Extra mit dem Prompt eines anderen Autors und meldet fast vier Stunden für ein Chinatown-MP4. Die Vergleichbarkeit mit dem separaten Claude-Fable-5.2-Lauf ist begrenzt."
+    },
+    "105": {
+      "title": "Eine Stadtszene aus 30 Modulen",
+      "takeaway": "Baue eine Szene aus einzeln angeforderten Modulen und begutachte das zusammengesetzte Bild.",
+      "notes": "Der Autor schreibt die Szene Hydrogen High in der Gemini-App zu und meldet je einen Prompt für die 30 Module."
+    },
+    "106": {
+      "title": "Drei Modelle visualisieren Planeten",
+      "takeaway": "Vergleiche mehrere Modelle mit demselben Prompt für eine visuelle Wissenschaftsoberfläche.",
+      "notes": "Die Aufnahme zeigt Planetenoberflächen von Claude Fable 5.2, GPT-6.2 Sol und Hydrogen. Die Rangfolge ist ein visueller Eindruck des Autors, Einstellungen und objektive Bewertung bleiben offen."
+    },
+    "107": {
+      "title": "Vier Modelle bauen Chrome Dino nach",
+      "takeaway": "Miss die Zeit für jeden Nachbau eines bekannten Spiels und vergleiche die spielbaren Ergebnisse.",
+      "notes": "Der Autor meldet 18 Minuten und 41 Sekunden für Hydrogen in AI Studio und 45 Minuten und 30 Sekunden für Fable 5.2. Die Aufnahme zeigt auch Qwen4-Max-Preview und Carbon sowie die visuellen Bewertungen des Autors."
+    },
+    "108": {
+      "title": "Ein Postamt auf einer schwebenden Insel",
+      "takeaway": "Beschreibe ein Miniaturgebäude und prüfe die Wirkung von Materialien und Beleuchtung.",
+      "notes": "Der Autor bat Hydrogen um ein 3D-Miniaturpostamt auf einer schwebenden Insel. In der Aufnahme hebt er Texturen, Farben und Beleuchtung hervor."
+    },
+    "109": {
+      "title": "Zwei Coding-Agenten bauen unterschiedliche Schiffe",
+      "takeaway": "Vergleiche das erste brauchbare Ergebnis und den Überarbeitungsaufwand in deiner Umgebung.",
+      "notes": "Der Autor verwendete denselben Prompt mit Sonnet in Claude Code und Hydrogen in Cursor. Er meldet eine kürzere Laufzeit für Hydrogen und einen zweiten erforderlichen Durchlauf."
+    },
+    "110": {
+      "title": "Wasser und Fische im Koi Courtyard",
+      "takeaway": "Prüfe in einer Szene mit schwimmenden Fischen, wie stimmig Reflexionen und Wasserbeleuchtung bleiben.",
+      "notes": "Der Autor zeigt Hydrogens Version seines Koi-Courtyard-Tests und hebt Kaustik, Reflexionen und das Verhalten der Fische hervor. Die verlinkte Carbon-Version dient als Kontext."
+    },
+    "111": {
+      "title": "Trebuchet mit Starrkörperphysik in vier Modellen",
+      "takeaway": "Vergleiche spielbare Physikprototypen mit derselben Aufgabe und halte die Reasoning-Stufen fest.",
+      "notes": "Der Autor testete vier Gemini-Modelle mit einem Trebuchet und Hunderten Steinblöcken. Er meldet 10 Minuten und 3 Sekunden für Hydrogen auf Extra High sowie 23 Minuten und 33 Sekunden für Carbon auf High. Gemini 3.8 Flash auf High war am schnellsten."
+    },
+    "112": {
+      "title": "Eine Live-3D-Szene in der Gemini-App",
+      "takeaway": "Prototypisiere interaktive Beleuchtung und Partikel in Geminis Weboberfläche.",
+      "notes": "Der Autor zeigt eine Hydrogen-Szene mit Partikeln, animiertem Licht und Echtzeitreglern. Die Aufnahme zeigt die laufende 3D-Szene im Gemini-Browserfenster."
+    },
+    "113": {
+      "title": "Betonmischer-Baugruppe im Browser-CAD",
+      "takeaway": "Prüfe den Bauteilbaum und die Passung einer generierten Baugruppe, bevor du sie im CAD-Workflow einsetzt.",
+      "notes": "Der Autor meldet, dass Hydrogen in CadX Studio aus einem Prompt in 40 Minuten einen Betonmischer mit 265 Teilen erzeugte, ohne die Teile einzeln von Hand zu modellieren."
+    },
+    "114": {
+      "title": "Prozedurales Modellieren einer Axt in Blender",
+      "takeaway": "Prüfe ein prozedurales Blender-Objekt anhand einer Referenzsilhouette und mehrerer Ansichten im Editor.",
+      "notes": "Der Autor verwendete Hydrogen in Antigravity CLI, um eine stilisierte Blender-Axt mit Python-Modulen und wiederholten Ansichtsprüfungen zu bauen. Er meldet 51 Minuten einschließlich Aufnahme und 5,01 USD API-Kosten."
+    },
+    "115": {
+      "title": "Eine rosa 3D-Szene in einer HTML-Datei",
+      "takeaway": "Prüfe, ob eine Three.js-Szene ohne externe Assets eine verständliche Komposition ergibt.",
+      "notes": "Der Autor schreibt die rosa Szene Hydrogen zu und nennt reines Three.js in einer HTML-Datei ohne externe Assets. Der verlinkte Koi Courtyard ist ein eigenes Projekt."
+    },
+    "116": {
+      "title": "Dauerhafter Agentenspeicher in FrontierMemory",
+      "takeaway": "Vergleiche Bewertung und Kosten je Lauf, wenn du ein Modell für dauerhaftes Agentengedächtnis auswählst.",
+      "notes": "Letta meldet für Hydrogen 64,4 % in FrontierMemory, gleichauf mit Argon, für etwa 100 USD pro Lauf. Für Carbon meldet Letta 71,1 % bei rund 94 USD unter der Benchmark-Konfiguration."
+    },
+    "117": {
+      "title": "Hydrogen in einem absichtlich fehlerhaften LiveKit-Sprachagenten",
+      "takeaway": "Löse einen kontrollierten Werkzeugfehler aus und prüfe, ob der Sprachagent unbelegte Ergebnisse behauptet.",
+      "notes": "LiveKit setzte Hydrogen in einem absichtlich fehlerhaften Sprachagenten ein und meldet null Falschmeldungen im eigenen Test. Der Anbieter vergleicht mit Gemini 3.8 Flash und verlinkt seinen Bericht."
+    },
+    "118": {
+      "title": "Ember Isle aus 28 Modulen",
+      "takeaway": "Teile eine große Szene in Module und halte die Laufzeit je Generierung fest.",
+      "notes": "Der Autor nutzte Hydrogen High in der Gemini-App für Ember Isle. Er nennt 28 Module, je einen Prompt und 82 bis 290 Sekunden pro Prompt."
+    },
+    "119": {
+      "title": "Eine Urknallsimulation aus reinem Code",
+      "takeaway": "Prototypisiere eine visuelle Erklärung als kurze Animation und prüfe deren wissenschaftliche Einordnung.",
+      "notes": "Der Autor schreibt Hydrogen in der Gemini-App eine 15-sekündige Urknallvisualisierung zu. Sie soll vollständig aus Code entstanden sein, ohne Webzugriff, Texturen, externe Assets oder 3D-Modelle."
+    },
+    "120": {
+      "title": "Ein Hubschrauber mit Explosionsansichten",
+      "takeaway": "Prüfe, ob ein 3D-Prototyp Flugsteuerung mit brauchbaren Inspektionsansichten verbindet.",
+      "notes": "Der Autor zeigt einen steuerbaren Hubschrauber sowie Baugruppen- und Explosionsansichten. Er schreibt den Prototyp Hydrogen mit besonders hohem Aufwand zu."
+    },
+    "121": {
+      "title": "Hydrogen Express mit Röntgen- und Drahtgitteransicht",
+      "takeaway": "Ergänze einen steuerbaren 3D-Prototyp um mehrere Inspektionsmodi.",
+      "notes": "Der Autor zeigt einen Zug mit Temporegelung, Explosionsansicht, Drahtgitter- und Röntgenmodus. Er meldet eine Laufzeit von etwa fünf Minuten."
+    },
+    "122": {
+      "title": "Eine Tankstelle im Himmel",
+      "takeaway": "Gib einer Demoszene bewegliche Objekte und wechselnde Lichtzustände, damit ihr Verhalten sichtbar wird.",
+      "notes": "Der Autor zeigt eine Hydrogen-Tankstelle mit Retro-Flugauto, bewegten Turbinen und einem Tag-Nacht-Wechsel. Er berichtet von einem Durchlauf."
+    },
+    "123": {
+      "title": "Drei Gemini-Modelle animieren einen Radfahrer",
+      "takeaway": "Vergleiche kurze Bewegungsanimationen mit derselben Aufgabenstellung und erfasse die Laufzeiten.",
+      "notes": "Der Autor zeigt Radfahrer von Carbon, Argon und Hydrogen. Er meldet rund 90 Sekunden für Hydrogen und mehr als fünf Minuten für Argon. Optisch gefällt ihm Carbon am besten."
+    },
+    "124": {
+      "title": "Vom Chemiebuch zur interaktiven Lektion",
+      "takeaway": "Baue eine Selbstlerneinheit mit Hinweisen, gesprochener Anleitung und zuschaltbarem Text.",
+      "notes": "Der Autor zeigt eine Chemielektion für die neunte Klasse mit gesprochenen Anleitungen und Hinweisen. Der Beitrag demonstriert deren Bedienung."
+    },
+    "125": {
+      "title": "Ein Vocaloid-Song als Prototyp",
+      "takeaway": "Prüfe, ob die Komposition aus einem Durchlauf zu Figur und Stilvorgaben passt.",
+      "notes": "Der Autor veröffentlicht einen Songausschnitt und schreibt Hydrogen die Komposition zu. Die Werkzeuge für das Audio-Rendering bleiben offen."
+    },
+    "126": {
+      "title": "Zwei Modelle bauen eine LEGO-Welt",
+      "takeaway": "Vergleiche den Umfang einer Themenwelt mit der benötigten Laufzeit.",
+      "notes": "Der Autor zeigt LEGO-Welten von Fable 5.2 und Hydrogen und meldet 44 beziehungsweise 28 Minuten. Die Angaben beziehen sich auf seine Durchläufe."
+    },
+    "127": {
+      "title": "Gezielt eingebaute Fehler in zwei Repositorys",
+      "takeaway": "Setze bekannte Fehler ein, um zu messen, was ein Coding-Agent findet und behebt.",
+      "notes": "Der Tester baute 105 Fehler in zwei Repositorys ein. In diesem Aufbau lag Hydrogen mit besonders hohem Aufwand knapp hinter Sonnet 5.5 mit ebenfalls besonders hohem Aufwand."
+    },
+    "128": {
+      "title": "Strichmännchen gegen Mauszeiger in zwei Modellen",
+      "takeaway": "Vergleiche, wie die interaktiven Animationen auf den Mauszeiger reagieren.",
+      "notes": "Der Autor bevorzugte Fables Ausgabe im Vergleich und hielt Hydrogen für einen kostengünstigeren Durchlauf für ausreichend."
+    },
+    "129": {
+      "title": "Eine Wassermühle in einer HTML-Datei",
+      "takeaway": "Prüfe einen schnellen 3D-Prototyp mit einer kleinen Landschaft und erkennbar beweglichen Elementen.",
+      "notes": "Der Autor meldet etwa 30 Sekunden für die Wassermühlenszene von Hydrogen in einer HTML-Datei. Er zeigt das Ergebnis in einer Aufnahme."
+    },
+    "130": {
+      "title": "Zwei Modelle rendern eine Berglandschaft",
+      "takeaway": "Vergleiche Bildaufbau, Generierungszeit und Kosten einer Landschaftsanimation getrennt.",
+      "notes": "Der Autor zeigt Bergszenen von Hydrogen und Opus 5.5. Er meldet für Hydrogen 20 Minuten und 30 Sekunden bei 0,50 USD und für Opus 11 Minuten und 23 Sekunden bei 2,50 USD."
+    },
+    "131": {
+      "title": "Englisch-Persisch-Übersetzung in eigener Testumgebung",
+      "takeaway": "Bewerte eine schwierige Übersetzung anhand einer menschlichen Referenz.",
+      "notes": "Der Autor vergab 94 von 100 Punkten für Hydrogen in einer persönlichen Übersetzungsaufgabe. Die subjektive Bewertung gilt für seine Testumgebung."
+    },
+    "132": {
+      "title": "Eine Blender-Szene mit Hydrogen Extra",
+      "takeaway": "Prüfe Geometrie und Materialien in Blender, bevor du Details ergänzt.",
+      "notes": "Der Autor zeigt einen Hydrogen Extra zugeschriebenen Blender-Aufbau und schätzt den Verbrauch seines Abonnementkontingents für diese Sitzung."
+    },
+    "133": {
+      "title": "Vier Modelle bauen ein sinkendes Schiff",
+      "takeaway": "Erfasse bei derselben Szene Bildtreue, Bauzeit und Kosten getrennt.",
+      "notes": "Der Autor meldet für Hydrogen 8,6 Minuten und 1,16 USD und für Gemini 3.8 Flash 10,8 Minuten und 1,06 USD. Er testete auch Carbon und Opus 5.5 und bevorzugte Opus für die realistische Darstellung."
+    },
+    "134": {
+      "title": "Ein komplexes Integral aus einem Bild lesen",
+      "takeaway": "Prüfe vor dem Vereinfachen des Ausdrucks, ob das Modell gleiche Integrationsgrenzen erkennt.",
+      "notes": "Der Autor zeigt, wie Hydrogen High in der Gemini-App auf einen Screenshot eines komplexen Integrals antwortet. Entscheidend ist, ob das Modell gleiche Grenzen beim äußeren Integral erkennt."
+    },
+    "135": {
+      "title": "Blinder Textvergleich mit vier Modellen",
+      "takeaway": "Blende Modellnamen aus, bevor du in einem Schreibworkflow einen Text auswählst.",
+      "notes": "Der Autor berichtet von einem Blindvergleich mit vier Modellen und bevorzugte Hydrogens Werbetext. In seinem Test war Hydrogen laut Autor auch schneller und günstiger als Carbon."
+    },
+    "136": {
+      "title": "Bilderkennung und Textlesen nach Reasoning-Stufe",
+      "takeaway": "Miss Erkennungs- und Textgenauigkeit, Kosten sowie Latenz für jede Reasoning-Stufe getrennt.",
+      "notes": "Der Tester meldet die Werte für Hydrogen, Argon und Carbon getrennt. Hydrogen High brauchte im Mittel 29,3 Sekunden pro Bild und erreichte 64,6 bei der Erkennung und 87,2 beim Textlesen. Carbon High erzielte höhere Werte bei höheren Kosten und längerer Laufzeit."
+    },
+    "137": {
+      "title": "Vier Modelle bauen das Haus aus Oben nach",
+      "takeaway": "Vergleiche 3D-Modelle mit demselben Referenzbild und derselben Aufgabenstellung.",
+      "notes": "Der Autor meldet für Hydrogen den schnellsten und günstigsten der vier Läufe und bevorzugt visuell Fables Ausgabe. Einstellungen und Kostendaten stammen aus der Quelle."
+    },
+    "138": {
+      "title": "Menschliche Zellen als WebGL2-Enzyklopädie",
+      "takeaway": "Erkläre räumliche Zusammenhänge in einer Zelle mit einem interaktiven Schnitt.",
+      "notes": "Der Autor berichtet, mit Hydrogen in Antigravity eine 3D-Enzyklopädie menschlicher Zellen in WebGL2 ohne externe Bibliotheken gebaut zu haben. Er hebt die Schnittansicht hervor."
+    },
+    "139": {
+      "title": "Zwei Partikelanimationen mit Hydrogen",
+      "takeaway": "Prüfe Form und Bewegung anhand zweier unterschiedlicher Partikelszenen.",
+      "notes": "Der Autor schreibt Hydrogen zwei kurze Partikeleffekte zu. Er zeigt die Aufnahmen, der genaue Aufbau bleibt offen."
+    },
+    "140": {
+      "title": "Ein bildbasierter Gegner in Parking Bench",
+      "takeaway": "Teste einen Rätselgegner mit einem Bild des Spielfelds als einziger Zustandsinformation.",
+      "notes": "Der Autor schreibt Carbon das Spiel zu. Über fünf Level treten Spieler per API gegen Hydrogen oder Gemini Decision 1 an. Beide erhalten das Spielfeld als PNG ohne Rasterdaten."
+    },
+    "141": {
+      "title": "Videoanleitung für die Google-Docs-App",
+      "takeaway": "Erkläre eine mobile Bearbeitungsaufgabe mit Screenshots und nummerierten Markierungen.",
+      "notes": "Der Autor schreibt Hydrogen eine geschnittene Anleitung zu Textauswahl, Stilen, Farben, Schriften und Speichern in der Google-Docs-App zu. Stichprobenbilder zeigen Markierungen. Die Schnittmethode bleibt offen."
+    },
+    "142": {
+      "title": "Tag-Nacht-Schalter für eine Miniaturwelt",
+      "takeaway": "Prüfe mit einem einfachen Schalter, ob Zustandswechsel flüssig animiert sind.",
+      "notes": "Der Autor zeigt den per Schalter ausgelösten Tag-Nacht-Wechsel und meldet Kosten von 0,21 USD für seinen Aufbau."
+    },
+    "143": {
+      "title": "Eine Umgebung aus 65 Modulen",
+      "takeaway": "Verfolge Bauzeit und Integrationsaufwand, während die generierte Szene wächst.",
+      "notes": "Der Autor meldet 65 Module mit je einem Prompt in der Gemini-App und zeigt eine Aufnahme des Ergebnisses."
+    },
+    "144": {
+      "title": "Ein Tanzclip mit fester Kamera",
+      "takeaway": "Prüfe, ob eine referenzbasierte Animation Figurendesign, Bildaufbau und Kameraposition wahrt.",
+      "notes": "Der Autor zeigt einen japanischen Prompt und einen Hydrogen in Google Gemini zugeschriebenen Tanzclip. Der Prompt verlangt eine feste Kamera und den Stil der Vorlage. Das zugrunde liegende Videomodell bleibt offen."
+    },
+    "145": {
+      "title": "Ein Coding-Agent hängt im Basistest",
+      "takeaway": "Setze Basistests ein Zeitlimit und prüfe den Fortschritt, bevor du weiter auf einen Fix wartest.",
+      "notes": "Der Autor zeigt eine Antigravity-Sitzung, in der Hydrogen nach längerer Wartezeit noch einen Basistest ausführte. Der Screenshot zeigt die Aufforderung, anzuhalten und den Hänger zu untersuchen."
+    },
+    "146": {
+      "title": "Eine BASIC-Umgebung für den MZ-1500",
+      "takeaway": "Prototypisiere eine Retro-BASIC-Umgebung und prüfe die Unterstützung der Peripherie gezielt.",
+      "notes": "Der Autor schreibt die Demo Hydrogen zu und meldet rund 15 Minuten Arbeit. Genannt werden PCG, PSG und QuickDisk, bei QuickDisk ist nur LOAD aufgeführt."
+    },
+    "147": {
+      "title": "Zwei Modelle bauen einen interaktiven Roboterarm",
+      "takeaway": "Prüfe, ob die Gelenke eines Three.js-Arms stimmig auf Nutzeraktionen reagieren.",
+      "notes": "GMI Cloud zeigt Hydrogen und Sonnet 5.5 bei derselben Three.js-Aufgabe. Der Anbieter bevorzugte im Vergleich Sonnet und teilt beide Aufnahmen."
+    },
+    "148": {
+      "title": "Eine interaktive Karte zum FAA-Ground-Stop",
+      "takeaway": "Zeige in einer Karte und Zeitachse, warum eine Warteschlange nach dem Betriebsstopp bestehen bleibt.",
+      "notes": "Der Autor meldet 222 Sekunden für eine interaktive FAA-Störungskarte mit Hydrogen und korrigierte eine Beschriftung. Die Zeitachse folgt offiziellen Berichten. Der Verkehr ist anhand typischer Flugpläne simuliert."
+    },
+    "149": {
+      "title": "Ein Pagodengarten in Miniatur",
+      "takeaway": "Prüfe, wie gut eine Miniatur Architektur und Gartengestaltung verbindet.",
+      "notes": "Der Autor schreibt Hydrogen den Clip einer Pagode im Bausteinstil mit Garten zu. Die Aufnahme zeigt das Ergebnis. Einzelheiten zur Umsetzung fehlen."
+    },
+    "150": {
+      "title": "Planung, Ausführung und Prüfung mit separaten Modellen",
+      "takeaway": "Verteile Planung, Ausführung und Prüfung auf eigene Rollen und vergleiche den Aufwand je Modell.",
+      "notes": "Der Autor beschreibt Opus 5.5 für die Planung, Hydrogen mit Sol als Ausweichmodell für die Ausführung und Sol 6.1 für die Prüfung. Er verbindet eigene Antigravity-Nutzungswerte mit separat veröffentlichten Benchmarks."
+    },
+    "151": {
+      "title": "Hydrogen und Sol bauen ein Winterdorf",
+      "takeaway": "Betrachte Laufzeit, Kosten und Szenenqualität getrennt.",
+      "notes": "Der Autor meldet drei Minuten bei 1,37 USD für Hydrogen High und 15 Minuten bei 4,03 USD für Sol High. Er bevorzugte Sols Gestaltung des Winterdorfs."
+    },
+    "152": {
+      "title": "Eine Three.js-Insel auf High und Ultra",
+      "takeaway": "Vergleiche Bilder und Laufzeiten mit festgehaltenen Reasoning-Stufen.",
+      "notes": "Der Autor nennt für eine Three.js-Insel rund 90 Sekunden mit Hydrogen High und 30 Minuten mit GPT-6.1 Sol Ultra. Die Kosten sind Schätzungen. Die Durchläufe nutzten unterschiedliche Reasoning-Stufen."
+    },
+    "153": {
+      "title": "Diorama eines Flugplatzes aus dem Zweiten Weltkrieg",
+      "takeaway": "Ergänze eine 3D-Aufgabe um Referenzen und mechanische Bewegungsanforderungen.",
+      "notes": "Der Autor meldet, Hydrogen mithilfe von Referenzen und einer kurzen Beschreibung ein Flugplatzdiorama in einer HTML-Datei bauen zu lassen. Die Aufgabe verlangte ein funktionsfähiges Flugzeug und einen Panzer."
+    },
+    "154": {
+      "title": "Hydrogen in einem Coding-Client konfigurieren",
+      "takeaway": "Verwende beim Einrichten eines Google-API-Schlüssels die genaue Modell-ID.",
+      "notes": "Der Autor beschreibt einen Schlüssel aus Google AI Studio und die Auswahl von gemini-4-hydrogen in OpenCode oder Cline. Zugang und Ratenlimits hängen vom Anbieter ab."
+    },
+    "155": {
+      "title": "SuperARIS-Forschungsteam mit Hydrogen",
+      "takeaway": "Weise Hydrogen in einem Team aus mehreren Agenten konkrete Recherche- und Schreibaufgaben zu.",
+      "notes": "Der Beitrag erläutert die Installation von SuperARIS und die Teamauswahl. Er schlägt Hydrogen oder Carbon für Diskussion und Textarbeit sowie separate Rollen für Koordination und Umsetzung vor. Die Forschungsqualität wurde dabei nicht bewertet."
+    },
+    "156": {
+      "title": "Vier Modelle schreiben ein Kernmodul neu",
+      "takeaway": "Vergleiche Codeverständnis, Entwurf und Implementierung bei der Wahl eines Coding-Agenten.",
+      "notes": "Der Autor vergleicht Hydrogen, Argon, GPT-6 Astra und Claude Opus 5.5 beim Neuschreiben eines Kernmoduls. Er hebt Hydrogens Umsetzung und die Architekturarbeit in anderen Läufen gesondert hervor."
+    },
+    "157": {
+      "title": "Ein 3D-PS5-Controller im Detailvergleich",
+      "takeaway": "Prüfe Schattierung der Tasten und Details auf der Rückseite.",
+      "notes": "Der Autor vergleicht Hydrogen High mit GPT-6.2 Sol. Nach seiner Angabe brauchte Hydrogen rund drei Minuten und Sol elf. In Sols Ausgabe fand er seitlich und hinten vollständigere Bedienelemente."
+    },
+    "158": {
+      "title": "Muse delegiert an Antigravity CLI",
+      "takeaway": "Verbinde einen entfernten Assistenten mit einer lokalen Coding-Umgebung und wähle ein Schreibmodell.",
+      "notes": "Der Autor beschreibt, wie Muse Aufgaben an Antigravity CLI auf einem Heimrechner sendet und Ergebnisse zurückbekommt. Er nutzt standardmäßig Hydrogen, auch Argon ist auswählbar. Die Beispiele umfassen japanische Texte und Bildmaterial."
+    },
+    "159": {
+      "title": "CursorBench mit mehreren Reasoning-Budgets",
+      "takeaway": "Prüfe die Erfolgsquote verschiedener Reasoning-Stufen vor der Wahl einer schnellen Standardeinstellung.",
+      "notes": "Der Autor meldet einen starken Anstieg beim Hydrogen-Erfolg in CursorBench 4.0 mit höherem Reasoning-Budget. Das Ergebnis gilt für die getesteten Einstellungen."
+    },
+    "160": {
+      "title": "Drei Modelle rendern einen Sternentempel",
+      "takeaway": "Beurteile Stabilität und visuelle Detailtiefe in einer 3D-Aufgabe getrennt.",
+      "notes": "Der Autor vergleicht Hydrogen, DeepSeek V4.1 1017 und Qwen4 Max Preview. Er meldet für Hydrogen eine kürzere Laufzeit ohne schwarze Bilder oder Flackern im Test und beschreibt die Szene als weniger detailreich."
+    },
+    "161": {
+      "title": "Ein HTML-Shooter in unter einer Minute",
+      "takeaway": "Prüfe mit einer HTML-Datei die grundlegende Steuerung und Rückmeldung eines Shooters.",
+      "notes": "Der Autor meldet, Hydrogen habe in unter einer Minute aus einem Prompt einen spielbaren Shooter erstellt. Das Projekt nutzte eine HTML-Datei ohne Framework und ohne Einrichtungsschritt."
+    },
+    "162": {
+      "title": "Eine bestehende Migrationsarchitektur hinterfragen",
+      "takeaway": "Lass Coding-Agenten prüfen, ob eine Migration die aktuelle Architektur ersetzen sollte.",
+      "notes": "Der Autor zeigt eine Entwurfsprüfung, in der Hydrogen und Argon die bestehende Vorgehensweise unterstützten. Claude Opus schlug einen Ersatz und eine frühere Migration vor. Die Einschätzung gilt für dieses Projekt."
+    },
+    "163": {
+      "title": "Gespräche mit Hydrogen in AITuber OnAir",
+      "takeaway": "Probiere Hydrogen als Gesprächsmodell hinter einem Live2D-Avatar aus.",
+      "notes": "Der Projektbetreuer kündigt Hydrogen-Unterstützung in AITuber OnAir an und stellt Beispielavatare bereit, darunter Live2D. Die Aufnahme zeigt die Integration."
+    },
+    "164": {
+      "title": "Ein Werbevideo aus Code",
+      "takeaway": "Gib einem Coding-Modell eine kurze Werbeaufgabe und beurteile die animierten Grafiken.",
+      "notes": "Der Autor zeigt ein Werbevideo zu GPT-6.2 Astra und schreibt die Umsetzung per reinem Code Hydrogen zu. Der Clip dokumentiert einen programmierten Produktionsablauf."
+    },
+    "165": {
+      "title": "Zwei Modelle gestalten ein Tempel-Fluchtspiel",
+      "takeaway": "Prüfe anhand desselben Spielkonzepts, ob Licht und Atmosphäre die Lesbarkeit unterstützen.",
+      "notes": "Runable zeigt Umsetzungen mit Hydrogen und Argon. Der Anbieter beschreibt Hydrogens Beleuchtung als stimmungsvoller und Argons Szene als heller."
+    },
+    "166": {
+      "title": "Drei Gemini-Modelle animieren einen Rallye-Buggy",
+      "takeaway": "Prüfe in einer überhöhten Kurve, ob Federweg und Reifenhaftung plausibel wirken.",
+      "notes": "Der Autor vergleicht Carbon, Argon und Hydrogen bei einer Buggy-Animation in Three.js. Die Aufgabe verlangt ein Einfedern und Rutschen auf einer geneigten Schotterpiste im Steinbruch."
+    },
+    "167": {
+      "title": "Ein prozedural animiertes Rotkehlchen",
+      "takeaway": "Prüfe Flügel- und Körperbewegung in einer generierten Fluganimation.",
+      "notes": "Der Autor schreibt Hydrogen die programmierte Fluganimation eines Rotkehlchens zu. Ein Folgebeitrag zeigt einen separaten Antigravity-Swarm-Graphen für dieselbe Arbeit."
+    },
+    "168": {
+      "title": "Antigravity Orchestrator oder Swarm auswählen",
+      "takeaway": "Nutze Modellübergaben bei abhängigen Aufgaben und getrennte Arbeits- und Prüfrollen bei parallelen Aufgaben.",
+      "notes": "Der Autor skizziert Orchestrator mit Planung durch ein stärkeres Modell und Umsetzung durch Hydrogen. Er vergleicht den Ablauf mit dem separaten Modus /swarm und leitet die Auswahl aus den Aufgabenabhängigkeiten ab."
+    },
+    "169": {
+      "title": "Zwei Modelle animieren Chasing Views",
+      "takeaway": "Vergleiche Ergebnis und Laufzeit unter Berücksichtigung der Reasoning-Stufe.",
+      "notes": "Der Autor zeigt Chasing Views mit Hydrogen auf Extra High und Opus 5.5 auf High. Er meldet 22 beziehungsweise 18 Minuten."
+    },
+    "170": {
+      "title": "Zeit und Kosten im Design Creativity Bench",
+      "takeaway": "Betrachte Laufzeit und Kosten je Entwurf zusammen mit der Kreativitätswertung.",
+      "notes": "Der Benchmark-Betreiber meldet für Hydrogen 49,4 Kreativitätspunkte und einen Median von 3,4 Minuten und 0,39 USD je Entwurf. Im selben Test war Argon langsamer und günstiger, Carbon langsamer und teurer."
+    },
+    "171": {
+      "title": "Vom Referenzbild zum SolidWorks-Modell",
+      "takeaway": "Prüfe den SolidWorks-Workflow eines Agenten anhand einer 3D-Bildvorlage.",
+      "notes": "Der Autor zeigt ein SolidWorks-Teil, das er Hydrogen in Antigravity nach einem Bild zuschreibt. Ein Folgebeitrag nennt SolidWorks MCP. Geometrietoleranzen und technische Eignung wurden für diese Sammlung nicht getestet."
+    },
+    "172": {
+      "title": "Vier Modelle animieren einen Wüstengalopp",
+      "takeaway": "Prüfe Bodenkontakt und Gewichtsverlagerung, bevor du Licht oder Modellierung bewertest.",
+      "notes": "Der Autor vergleicht Astra, Carbon, Fable 5.2 und Hydrogen bei einem galoppierenden Pferd in der Wüste. Ihm gefiel Astras Gangart besser. Am Hydrogen-Pferd bemängelte er den Aufbau."
+    },
+    "173": {
+      "title": "Eine Präsentation über Jungs Synchronizität",
+      "takeaway": "Prüfe die Erstellung von Folien an einem Thema mit eng verwandten Begriffen.",
+      "notes": "Der Autor schreibt die Folien zu Carl Jungs Synchronizität und akausaler Ordnung Hydrogen und einem eigenen Folienwerkzeug zu. Seiner Angabe nach entstand das Werkzeug in Antigravity."
+    },
+    "174": {
+      "title": "Informatikforschung mit FrontierCS 2",
+      "takeaway": "Ergänze gewöhnliche Coding-Tests um einen Forschungsbenchmark und dokumentiere den Versuchsaufbau.",
+      "notes": "Die Quelle meldet für Hydrogen in Antigravity Platz sieben nach Erfolgsquote in FrontierCS 2. Der Benchmark nutzt technische Aufgaben aus der Informatikforschung."
+    },
+    "175": {
+      "title": "Rio über den Wolken mit vier Modellen",
+      "takeaway": "Vergleiche Kosten, Laufzeit und wahrgenommene Qualität anhand derselben kreativen Aufgabe.",
+      "notes": "Der Tester meldet 6,21 USD für Hydrogen Extra High und bevorzugte die anderen Ergebnisse. Astra brauchte in diesem Lauf weniger Zeit. Der Bericht belegt keine native Videoerzeugung."
+    },
+    "176": {
+      "title": "Hydrogen bei technischen GBENCH-Aufgaben",
+      "takeaway": "Beurteile technische Arbeit anhand überprüfbarer Ergebnisse mit und ohne Code sowie anhand von Preis und Laufzeit.",
+      "notes": "Der Benchmark-Betreiber berichtet über Hydrogen in GBENCH, darunter Schaltungsentwurf und abstraktes Schlussfolgern. In seiner Messung war Sol bei ähnlichem Preis und Tempo konkurrenzfähiger."
+    },
+    "177": {
+      "title": "Autos lernen rückwärts einzuparken",
+      "takeaway": "Vergleiche Lernfortschritt und endgültige Erfolgsquote in generierten Simulationen.",
+      "notes": "Bei derselben Aufgabe parkten laut Autor 5 von 44 Autos mit Hydrogen und 26 von 40 mit Fable 5.2 ein. Er meldet 5,6 Minuten Bauzeit für Hydrogen und 24 für Fable."
+    },
+    "178": {
+      "title": "Ein interaktiver mitochondrialer Motor",
+      "takeaway": "Verknüpfe in einem interaktiven Diagramm die molekulare Bewegung mit der ATP-Produktion.",
+      "notes": "Der Autor schreibt Hydrogen High eine ATP-Synthase-App aus einem Prompt und einer späteren Kamerakorrektur zu. Die Form basiert auf Kryo-EM-Koordinaten. Die Bewegung ist vereinfacht."
+    },
+    "179": {
+      "title": "Ein Gebietsspiel im Stil von Qix",
+      "takeaway": "Prüfe mit einer kurzen Arcade-Aufgabe, ob die erste Ausgabe eine interaktive Spielschleife bietet.",
+      "notes": "Der Autor bat die kostenlose Gemini-Oberfläche um ein Gebietsspiel im Stil von Qix und zeigt die Demo. Er markiert Hydrogen und meldet eine Anfrage."
+    },
+    "180": {
+      "title": "HTML-Folien mit Hydrogen",
+      "takeaway": "Prüfe Gliederung und Layout der Folien, während du die HTML-Generierung testest.",
+      "notes": "Der Autor zeigt HTML-Folien aus einem Hydrogen-Lauf und beschreibt die Ausgabe als schnell und detailliert. Die Aufnahme zeigt die Präsentation. Vergleichszeiten fehlen."
+    },
+    "181": {
+      "title": "Hydrogen im Terminal-Bench 4.0",
+      "takeaway": "Betrachte Erfolgsquote und Kosten gemeinsam, wenn du ein Coding-Modell für die Kommandozeile auswählst.",
+      "notes": "Der unabhängige Benchmark vergleicht Hydrogen mit Claude Opus 5.5 und GPT-6.1 Sol. Der Tester meldet vergleichbare Werte und Kosten zwischen den beiden Modellen. Er weist auf den Reifegrad der Ausführungsumgebungen hin."
+    },
+    "182": {
+      "title": "Eine Illustration in einer HTML-Datei",
+      "takeaway": "Prüfe, ob sich eine visuelle Vorlage mit Code ohne externe Assets nachbilden lässt.",
+      "notes": "Ein DeepMind-Mitarbeiter zeigt eine Illustration in einer Datei. Seiner Angabe nach nutzte der Aufbau keine Bibliotheken, Bildgeneratoren, Skills oder eingebetteten Assets."
+    },
+    "183": {
+      "title": "Drei Gemini-Modelle animieren einen Oktopus",
+      "takeaway": "Beurteile, ob der Griff am Felsen den Körper sichtbar nach vorn zieht.",
+      "notes": "Der Autor zeigt Carbon, Argon und Hydrogen bei einer Three.js-Aufgabe, in der ein Oktopus ein Riff greift und sich vorwärtszieht. Er lenkt den Vergleich auf die Verbindung von Griff und Körperbewegung."
+    },
+    "184": {
+      "title": "Eine strukturierte YouTube-Zusammenfassung in Chrome",
+      "takeaway": "Bitte Gemini in Chrome um eine Videozusammenfassung mit Zeitmarken und belegten Hintergrundinformationen.",
+      "notes": "Der japanische Beitrag zeigt die Zusammenfassung eines geöffneten YouTube-Videos in Chrome. Der öffentliche Prompt fordert Kurzfassung, Kernpunkte, Kapitelverlauf, separate Hintergrundquellen, Faktenhinweise und weitere Ressourcen."
+    },
+    "185": {
+      "title": "Aus einer Lektion wird ein Kurzvideo",
+      "takeaway": "Prüfe fachliche Genauigkeit und Erzähltempo bei einer Lektion im Videoformat.",
+      "notes": "Der Autor schreibt den Unterrichtsworkflow Hydrogen zu und veröffentlicht zwei Clips. Welches System sie renderte, bleibt offen."
+    },
+    "186": {
+      "title": "Ein Papageitaucher erwacht aus einer Standbildszene",
+      "takeaway": "Nutze eine vorhandene HTML-Szene als erstes Bild einer prozeduralen Animation.",
+      "notes": "Der Autor bat Hydrogen um eine Fortsetzung mit 50 Bildern in einer HTML-Datei. Im Clip nimmt ein Papageitaucher der Figur den Hut weg."
+    },
+    "187": {
+      "title": "Ein Test zur 3D-Modellierung einer Burg",
+      "takeaway": "Vergleiche die Burgmodelle und den Ressourcenverbrauch mehrerer Durchläufe.",
+      "notes": "Der Autor zeigt eine Hydrogen-Burg und verlinkt frühere Modellvergleiche. Die genannten drei Prozent des wöchentlichen Google-AI-Pro-Kontingents gelten für diesen Lauf."
+    },
+    "188": {
+      "title": "Browsernutzung in einem Antigravity-Swarm",
+      "takeaway": "Prüfe die Browseraktivität zusammen mit den Agentenaufgaben eines Schwarms.",
+      "notes": "Ein Google-Mitarbeiter zeigt einen Screenshot der Browsernutzung mit Hydrogen und einem Antigravity-Swarm. Ein vollständiges Aufgabenprotokoll fehlt."
+    },
+    "189": {
+      "title": "Übergabe aus Google Drive an Muse",
+      "takeaway": "Übergib Recherche über einen beobachteten Drive-Ordner, wenn ein anderer Agent den nächsten Schritt übernimmt.",
+      "notes": "Der Autor lässt Hydrogen Informationen sammeln und in einer Drive-Datei ordnen. Muse überwacht Drive und übernimmt, sobald die Datei erscheint. Ein Diagramm zeigt die Übergabe."
+    },
+    "190": {
+      "title": "Blockflötenhilfe in Gemini Canvas",
+      "takeaway": "Probiere den schnellen Modus für eine Übungshilfe aus, die Noten und Instrumentenanleitung verbindet.",
+      "notes": "Das Video zeigt eine Blockflötenhilfe in Canvas, die laut Autor mit Hydrogen im schnellen Modus entstand. Laut Beitrag kann sie auch aus importierten Noten erstellt werden."
+    },
+    "191": {
+      "title": "Projektschätzungen bei größerem Umfang",
+      "takeaway": "Bitte das Modell um Umfang und Annahmen, wenn sich eine Terminschätzung deutlich ändert.",
+      "notes": "Der Autor zeigt, wie aus einem Monat ein Jahr wurde, nachdem er nach einem realistischeren Zeitplan mit vollständigen Funktionen fragte. Die tatsächliche Projektdauer bleibt offen."
+    },
+    "192": {
+      "title": "Ein Antigravity-Swarm animiert einen Pelikan",
+      "takeaway": "Verteile Animation und Ton auf einen Coding-Swarm und prüfe die zusammengesetzte Szene.",
+      "notes": "Der Autor schreibt Carbon und Hydrogen eine JavaScript-Szene zu, in der ein Pelikan zwischen Kunststilen wechselt. Musik und Geräusche entstanden laut Autor aus Code."
+    },
+    "193": {
+      "title": "Eine Kalenderfrage mit Schaltjahren",
+      "takeaway": "Prüfe bei einfachen Umrechnungen, ob die Antwort Kalender-Sonderfälle berücksichtigt.",
+      "notes": "Der Autor fragte Hydrogen High und GPT nach den Sekunden eines Jahres. Beide Screenshots unterscheiden gewöhnliche Jahre und Schaltjahre. Hydrogen berechnet zusätzlich das mittlere gregorianische Jahr."
+    },
+    "194": {
+      "title": "TAJ VICE in einer HTML-Datei",
+      "takeaway": "Prototypisiere eine begehbare Karte in einer Datei und prüfe verbleibende Spielfehler.",
+      "notes": "Der Autor baute mit Hydrogen in unter zwölf Stunden ein GTA-inspiriertes Spiel in einem fiktiven Agra. Er nennt reines JavaScript, eine HTML-Datei, keine externen Assets und verbleibende Fehler."
+    },
+    "195": {
+      "title": "Antigravity über ein Google-Cloud-Projekt",
+      "takeaway": "Prüfe bei Hydrogen mit verwalteten Zugangsdaten die Agenten-Anmeldung und Projektabrechnung.",
+      "notes": "Der Autor dokumentiert den Wechsel vom persönlichen Antigravity-Tarif zu einem Google-Cloud-Agent-Platform-Projekt mit Application Default Credentials. Seine Modellauswahl enthält Hydrogen, und er beschreibt die Kostenprüfung nach SKU."
+    },
+    "196": {
+      "title": "Veraltete Tarifgrenzen in einer Antwort",
+      "takeaway": "Prüfe Tarifbedingungen und Modellnamen anhand von Primärquellen, wenn du einen Rechercheassistenten bewertest.",
+      "notes": "Der Autor zeigt zwei mutmaßliche Referenzfehler in Hydrogen-Antworten, einen verwechselten Modellnamen und veraltete Zeitfenster eines Qwen-Tarifs."
+    },
+    "197": {
+      "title": "Eine WebGL-Animation erzählerisch überarbeiten",
+      "takeaway": "Bitte um einen klaren Handlungsverlauf, wenn der technisch aufwendigen ersten Fassung ein roter Faden fehlt.",
+      "notes": "Der Autor verlinkt die erste WebGL-Fassung und zeigt eine zweite nach Feedback zu visueller Unruhe und fehlender Handlung. Er bevorzugte die Überarbeitung, fand seinen Claude-Code-Vergleich aber überzeugender."
+    },
+    "198": {
+      "title": "Carbon plant und Hydrogen baut eine mobile App",
+      "takeaway": "Gib einem Modell die Interaktionsplanung und einem zweiten die Implementierung.",
+      "notes": "Der Autor schreibt Carbon die Planung der mobilen App und Hydrogen ihre Umsetzung zu, darunter Physik mit Reanimated. Die Aufnahme zeigt die vom Autor als flüssig beschriebene Bewegung."
+    },
+    "199": {
+      "title": "Zwei Modelle programmieren einen Drachenkampf am Berg",
+      "takeaway": "Prüfe, wie eine generierte Animation zwei interagierende Figuren in derselben Szene darstellt.",
+      "notes": "Der Autor vergleicht programmierte Drachenkämpfe über einem Bergtempel von Qwen-4 Max und Hydrogen. Den Prompt schreibt er einem anderen Autor zu."
+    },
+    "200": {
+      "title": "Eine 3D-Miniaturinsel aus einem Prompt",
+      "takeaway": "Prüfe, ob eine Szene aus einem Durchlauf Gelände, Wasser und Orientierungspunkte übersichtlich anordnet.",
+      "notes": "Der Autor schreibt Hydrogen den Ein-Prompt-Aufbau der gezeigten Miniaturinsel zu. Das Bild zeigt Gebäude und weitere Orientierungspunkte auf der Insel."
+    },
+    "201": {
+      "title": "Ein reproduzierbarer Three.js-Prompt für einen Pelikan",
+      "takeaway": "Prüfe bei einer Radfahranimation, ob Beine, Räder und Lenkung zusammenspielen.",
+      "notes": "Der Autor veröffentlicht einen vollständigen japanischen Three.js-Prompt und zeigt das Hydrogen-Ergebnis auf einer Küstenstraße. Denselben Prompt gab er laut Beitrag zuvor GPT-6.1 Terra."
+    },
+    "202": {
+      "title": "Hydrogen in einem T3-Code-Workflow",
+      "takeaway": "Probiere einen Coding-Client aus und verfolge in einer realistischen Sitzung laufende und wöchentliche Kontingente.",
+      "notes": "Der Autor meldet etwa einen halben Tag mit Hydrogen über Gemini Pro in T3 Code. Beitrag und Screenshots dokumentieren seine Kontingenterfahrung und trennen gefühlte Geschwindigkeit von Genauigkeit."
+    },
+    "203": {
+      "title": "Ein handgezeichneter Aufklärungsclip",
+      "takeaway": "Beurteile einen handgezeichneten Stil anhand einer kurzen gemeinnützigen Botschaft.",
+      "notes": "Der Autor zeigt einen Aufklärungsclip im handgezeichneten Stil und schreibt ihn Gemini 4 Hydrogen zu. Die Angabe zu einem Durchlauf stammt vom Autor. Das Rendering-Modell und der Ablauf bleiben offen."
+    },
+    "204": {
+      "title": "Ein radfahrender Pfau in zehn Kunststilen",
+      "takeaway": "Nutze einen Swarm aus mehreren Modellen, um Übergänge und synchronen Ton zu programmieren.",
+      "notes": "Der Autor schreibt den radfahrenden Pfau in zehn Kunststilen einem Swarm aus Carbon und Hydrogen zu. Visuals, Musik und Effekte entstanden laut Autor aus Code."
+    },
+    "205": {
+      "title": "Ein Landhaus-Prompt auf drei Plattformen",
+      "takeaway": "Kontrolliere das Ausgabeformat, wenn du eine visuelle Aufgabe in andere Modelleinstellungen oder Plattformen überträgst.",
+      "notes": "Der Autor meldet Standbilder von Hydrogen High in Antigravity, Hydrogen Extra High in AI Studio und Carbon High in Antigravity. Ein als Hydrogen markierter Arena-Lauf ergab animiertes SVG. Der konkrete Checkpoint bleibt unbestätigt."
+    },
+    "206": {
+      "title": "Dashboard-Vergleich mit demselben Prompt",
+      "takeaway": "Vergleiche Layout und Informationshierarchie mit demselben Frontend-Prompt.",
+      "notes": "Der Autor zeigt Weboberflächen, die er GPT-6.1 Sol und Hydrogen zuschreibt. Die Screenshots erlauben einen visuellen Vergleich. Umsetzung, Einstellungen und Funktionen bleiben offen."
+    },
+    "207": {
+      "title": "React.gg nach einer Bildvorlage nachbauen",
+      "takeaway": "Nutze ein Referenzbild als Ausgangspunkt und prüfe verbleibende Abweichungen.",
+      "notes": "Der Autor berichtet, React.gg mit Hydrogen in wenigen Prompts aus einer Bildvorlage nachgebaut zu haben. Er verweist auf die Demo und nennt Abweichungen vom Original."
+    },
+    "208": {
+      "title": "Ein interaktives Panel zum Thema Singularität",
+      "takeaway": "Prototypisiere eine kurze interaktive Folge zu einem einzigen visuellen Konzept.",
+      "notes": "Der Autor zeigt ein Hydrogen zugeschriebenes interaktives Singularitäts-Panel. Die Aufnahme zeigt das Ergebnis, Angaben zur Umsetzung sind knapp."
+    },
+    "209": {
+      "title": "Zwei Modelle programmieren eine Side-Scroller-Szene",
+      "takeaway": "Prüfe bei animierten Actionszenen flüssige Bewegungen und Entwicklungskosten.",
+      "notes": "Der Autor vergleicht Hydrogen und GPT-6 Astra bei einer seitlich scrollenden Animation. In diesen Läufen bevorzugte er Hydrogens Bewegungen und meldet geringere Kosten."
+    },
+    "210": {
+      "title": "Gemini als Laufcoach",
+      "takeaway": "Vergleiche Trainingstagebuch und Coaching-Vorschläge und passe die Ziele deinem Ausgangsniveau an.",
+      "notes": "Der Autor schreibt das Laufcoaching Gemini Hydrogen zu und zeigt einen Trainings-Screenshot. Er berichtet von seinem längsten Lauf seit etwa einem Jahr."
+    },
+    "211": {
+      "title": "Ein Browserspiel mit On-Chain-Punkteständen",
+      "takeaway": "Teste das Desktop-Spiel und prüfe separat, wie es Punktestände speichert.",
+      "notes": "Der Autor schreibt Hydrogen Hilfe beim Bau von Sheytonak zu, einem Spiel mit Punkteständen auf Base. Er meldet Desktop-Optimierung sowie Probleme auf Mobilgeräten und verbleibende Fehler."
+    },
+    "212": {
+      "title": "Nicht gerenderte Mathematik in einer japanischen Antwort",
+      "takeaway": "Prüfe neben fachlicher Richtigkeit auch die Darstellung von TeX-Befehlen.",
+      "notes": "Der Autor zeigt eine japanische Gemini-Antwort nach dem Wechsel zu Hydrogen, in der rohe mathematische Notation statt gesetzter Gleichungen erscheint. Der Screenshot zeigt einen einzelnen Darstellungsfehler."
+    },
+    "213": {
+      "title": "Kompositions-App von der Texteingabe zu MIDI",
+      "takeaway": "Prototypisiere ein Werkzeug, das aus japanischem Text MIDI, WAV und eine Piano-Roll-Ansicht erzeugt.",
+      "notes": "Der Autor zeigt eine mit Hydrogen gebaute App, die japanische Eingabe in einen englischen Musik-Prompt übersetzt, MIDI schreibt, WAV rendert und ein Piano-Roll-Video erzeugt. Das sind Funktionen der Demo-App."
+    },
+    "214": {
+      "title": "Eine Anweisung zum Schweigen testen",
+      "takeaway": "Prüfe, ob das Modell stumm bleibt, wenn ein Workflow keine Antwort verlangt.",
+      "notes": "Der Autor zeigt einen Screenshot eines Tests ohne erwartete Antwort und meldet abweichendes Verhalten bei Carbon und Argon. Der Beitrag zeigt eine Versuchsreihe."
+    },
+    "215": {
+      "title": "Ein Konzert auf einer Seite zusammenfassen",
+      "takeaway": "Mache aus Veranstaltungsinformationen eine schnell erfassbare visuelle Zusammenfassung.",
+      "notes": "Der Autor zeigt eine japanische Konzertübersicht zu Batten Girls und schreibt die Zusammenfassung Hydrogen zu. Die vollständigen Ausgangsmaterialien und der Prompt bleiben offen."
+    },
+    "216": {
+      "title": "Drei Modelle erklären einen Elektromotor",
+      "takeaway": "Vergleiche visuelle Klarheit und Lernbedienung mit demselben Simulations-Prompt.",
+      "notes": "Der Autor verglich Hydrogen mit zwei Qwen-Modellen und bevorzugte Hydrogens 3D-Motor sowie dessen Physikerklärungen. Die Bewertung gilt für diesen Einzelvergleich."
+    },
+    "217": {
+      "title": "Zwei Modellabläufe animieren eine Schreibtischszene",
+      "takeaway": "Prüfe Szenendetails, Lautstärke und das geforderte Schlussbild anhand der Aufgabenstellung.",
+      "notes": "Der Autor vergleicht Schreibtischanimationen aus demselben Prompt über eine API-Umgebung mit Hydrogen und Astra. Er beschreibt die Gemini-Fassung als flüssiger, am Ende jedoch weiter bewegt und leiser. Der Rendering-Ablauf bleibt offen."
+    },
+    "218": {
+      "title": "Eine Alltagsmontage aus einem Avatar",
+      "takeaway": "Prüfe eine kurze Storyboard-Adaption mit einem Avatar und vier Alltagsszenen.",
+      "notes": "Der Autor gab einen X-Avatar und Szenen zum Lernen, Essen, Handynutzen und Sport vor. Er schreibt Hydrogen den rund zehnsekündigen Clip zu. Die Rendering-Technik bleibt offen."
+    },
+    "219": {
+      "title": "Hydrogen plant einen Figurenclip für ComfyUI",
+      "takeaway": "Halte Kostüm und Hintergrund konstant und variiere Mimik und Handlung.",
+      "notes": "Der Autor schreibt Hydrogen die Planung nach einer Figurenvorlage zu. Für das Rendering nennt er eine separate ComfyUI-Pipeline mit MiniMax für Bild-zu-Video. Er bereitete ein neues Anfangsbild und einen Prompt für 30 Einstellungen vor."
+    },
+    "220": {
+      "title": "Almance Vale auf 100 Module erweitern",
+      "takeaway": "Überführe eine vorhandene App in einen Coding-Agenten und behalte beim Erweitern ihren Stil bei.",
+      "notes": "Der Autor wechselte mit Almance Vale von der Gemini-App zu Antigravity. Er meldet, mit Hydrogen Extra im Swarm-Modus bestehende Codekonventionen beibehalten und die Szene in wenigen Stunden auf 100 Module erweitert zu haben."
+    },
+    "221": {
+      "title": "Ein 2D-Dorf mit prozeduralem Ton",
+      "takeaway": "Prüfe neben der Bauzeit, ob sich der Klang der Spielwelt mit den sichtbaren Ereignissen ändert.",
+      "notes": "Der Autor vergleicht Qwen 4 Max und Hydrogen auf Extra High. Er meldet rund 75 Minuten und 0,90 USD für Qwen sowie 12 Minuten und 1,70 USD für Hydrogen. Ihm gefiel, wie Hydrogens Musik auf Ereignisse abgestimmt war."
+    },
+    "222": {
+      "title": "Eine Breitbildvisualisierung zu einem Song",
+      "takeaway": "Gib einen Song und ein Bildformat vor und prüfe, ob die Bewegung seine Energie vermittelt.",
+      "notes": "Der Autor gab Hydrogen XHigh laut Beitrag nur den Song, das Format 21:9 und den Wunsch nach Tempo. Der Clip zeigt eine rasante Fahrt auf einer Straße. Details zum Rendering fehlen."
+    },
+    "223": {
+      "title": "Niagarafälle mit sieben Hydrogen-Unteragenten",
+      "takeaway": "Unterteile eine Szene in Komponenten, die ein Koordinator an einzelne Agenten verteilt.",
+      "notes": "Der Autor schreibt Carbon und sieben Hydrogen-Unteragenten eine Niagara-Szene aus einem Prompt in unter einer Stunde zu. Die Aufnahme zeigt Wasser, Boote, wechselnde Blickwinkel und Umgebungen."
+    },
+    "224": {
+      "title": "Kontinuität in zwei historischen Romantikclips",
+      "takeaway": "Lege fest, welche Details bei der Fortsetzung einer Szene erhalten bleiben sollen.",
+      "notes": "Der Autor schreibt eine kurze romantische Szene auf einem Ozeandampfer einem Gemini-Workflow mit Hydrogen zu. Die zweiteilige Aufgabenstellung verlangt gleichbleibende Figuren und Kostüme. Das Videomodell bleibt offen."
+    },
+    "225": {
+      "title": "Eine Wasserkugel in der Gemini-App",
+      "takeaway": "Prüfe an einer einfachen optischen Szene, wie Glanzlichter und Brechung zusammenspielen.",
+      "notes": "Google zeigt in der Gemini-App eine wasserartige Kugel mit Hydrogen-Schrift und schreibt sie Hydrogen zu. Die Quelle zeigt das Ergebnis. Die Rendering-Umgebung bleibt offen."
     }
   }
 }

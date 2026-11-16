@@ -5,12 +5,12 @@
     "title": "Seçilmiş Gemini 4 Hydrogen Rehberi ve Kullanım Örnekleri",
     "introduction": "Giriş",
     "intro": "Kaynaklarla desteklenen uygulamalar, kodlama iş akışları ve pratik karşılaştırmalar üzerinden Gemini 4 Hydrogen'ı keşfedin.",
-    "mission": "Seçilen 40 örnek, insanların ne geliştirdiğini, nasıl çalıştığını ve sonuçların nerede yetersiz kaldığını gösteriyor.",
+    "mission": "225 örnek, Hydrogen’in nasıl kullanıldığını ve sonuçların hangi noktalarda yetersiz kaldığını gösteriyor.",
     "boundary": "Her örnek kaynağına bağlantı verir ve yazarını belirtir. Demolar, sağlayıcı örnekleri ve üretici karşılaştırmaları notlarda işaretlenir; eksik istemler yeniden oluşturulmaz.",
     "overview": "Genel bakış",
-    "overview_cases": "13 Kasım 2026'da kaydedilen, en fazla 500 X gönderisi içeren bir derlemede incelenen 75 demo gönderisinden seçilmiş 40 örnek.",
+    "overview_cases": "Toplam 225 vaka var. 17 Kasım’da 1.304 X gönderisi incelendikten sonra 185 vaka eklendi. Yeni kaynaklar toplandığında 30’dan fazla beğeniye sahipti.",
     "overview_coverage": "Beş kategori; ajanları, öğrenme ve uygulamaları, e-tablolar ve Search'ü, etkileşimli 3B'yi, karşılaştırma ve sınırlamaları kapsar.",
-    "overview_media": "Seçilen 41 kaynak görselinin tamamı korunmuştur: kapak görselleriyle birlikte 38 oynatılabilir video ve 3 görsel.",
+    "overview_media": "264 özgün görsel kaynak, önizlemeli 168 oynatılabilir video ve 96 görsel içeriyor.",
     "overview_model": "Gemini 4 Hydrogen, 12 Kasım 2026'da duyuruldu. Modeli ve mevcut erişim seçeneklerini EvoLink'te keşfedin.",
     "note": "Aksi belirtilmedikçe model atıfları, maliyetler, süreler ve sonuçlar kaynakların iddialarıdır. Video incelemesinde tam işlevsel testler değil, örneklenmiş kareler kullanılmıştır. Kodlanmış uygulamaların kayıtları, yerel video üretiminin kanıtı değildir. Farklı çalıştırma ortamları, akıl yürütme seviyeleri veya yineleme sayıları nedeniyle karşılaştırmalar kontrollü değildir.",
     "official_sources": "Resmî kaynaklar",
@@ -254,6 +254,931 @@
       "title": "Üç model savanada bir atı canlandırıyor",
       "takeaway": "Genel maliyet veya kalite iddialarını kabul etmeden önce hareketi ve görsel ayrıntıyı doğrudan inceleyin.",
       "notes": "Üretici Hydrogen, Carbon ve Argon'ı savanada at sahnesinde sunuyor. Daha yüksek hız, daha düşük maliyet ve yüksek kalite iddiaları kaynağın değerlendirmesi olarak kalıyor; burada tekrarlanmış kontrollü bir karşılaştırma değildir."
+    },
+    "41": {
+      "title": "Uzay Görsellerinden HTML Sahnesine",
+      "takeaway": "Az sayıda referansla, oluşturulan sahnenin ayırt edilebilir bir görsel üslup taşıyıp taşımadığını sınayın.",
+      "notes": "Yazar uzay görselleştirmesini Hydrogen'a atfediyor. Kaynak, modele verilen gezegen görsellerini ve bunlardan üretilen halkalı gezegenli HTML sahnesini gösteriyor."
+    },
+    "42": {
+      "title": "Gemini Canvas'ta Formula 1 Prototipi",
+      "takeaway": "Üretilen araç modelini farklı açılardan incelemek için birkaç kamera görünümü ekleyin.",
+      "notes": "Yazar Formula 1 tarzı araç görüntüleyicisini Gemini Canvas'taki ilk Hydrogen denemesine atfediyor. Kayıt, kamera ön ayarlarını ve süspansiyon görünümlerini gösteriyor."
+    },
+    "43": {
+      "title": "API'de Hydrogen ve Antigravity'de Carbon",
+      "takeaway": "Aynı istemden çıkan görselleri karşılaştırırken her çalıştırmanın ortamını kaydedin.",
+      "notes": "Yazar Hydrogen'ı doğrudan API üzerinden, Carbon'u Antigravity'de çalıştırıp sonuçları yan yana gösteriyor. Bildirilen 4 dakika 47 saniye bu kurulumdaki Hydrogen çalıştırmasına ait."
+    },
+    "44": {
+      "title": "Hydrogen ve Astra Karşılaştırmasında Gölge Ayrıntısı",
+      "takeaway": "Küçük görüntü ayrıntılarını iki çalıştırmanın maliyeti ve süresiyle birlikte değerlendirin.",
+      "notes": "Yazar gölge içerdiği için Hydrogen çıktısını tercih ediyor ve kendi kurulumunda daha hızlı tamamlandığını bildiriyor."
+    },
+    "45": {
+      "title": "Prosedürel 3B Hareket Karşılaştırması",
+      "takeaway": "Prosedürel bir animasyonda akıcılık ve kompozisyonu karşılaştırırken üretim süresini kaydedin.",
+      "notes": "Yazar Hydrogen High'a atfettiği çizgili 3B biçimin beş dakikadan kısa sürdüğünü bildiriyor ve kendi testinde daha pahalı modellerin çıktılarıyla karşılaştırıyor."
+    },
+    "46": {
+      "title": "PokéBench'te 89 Dakikalık Görsel Test",
+      "takeaway": "Uzun bir görsel ajan testinde görev sonucuyla birlikte hamleleri ve API hatalarını kaydedin.",
+      "notes": "Kaynak, duyurudan önce Vertex'te High ayarıyla yapılan bir çalıştırmada Hydrogen'ın Brock'u 365 hamle ve 89 dakikada geçtiğini bildiriyor. Başarısız API çağrısı bildirilmedi. Sonuç bu test ortamına özgü."
+    },
+    "47": {
+      "title": "Hydrogen ve DeepSeek Aynı 3B Sahneyi Kuruyor",
+      "takeaway": "Görsel çıktıları karşılaştırırken süreyi ve API ücretini ayrı ayrı kaydedin.",
+      "notes": "AIHubMix aynı 3B sahne isteminde Hydrogen ve DeepSeek V4.1 Flash'ı erişilebilir en yüksek akıl yürütme ayarlarında karşılaştırıyor. Sağlayıcı, Hydrogen için 3 dakika ve 1,30 USD, DeepSeek için 100 dakika ve 0,90 USD bildiriyor."
+    },
+    "48": {
+      "title": "SVG Olarak BMW Yan Profili",
+      "takeaway": "Oranları, silüeti ve küçük ayrıntıları bir aracın SVG yan görünümünden inceleyin.",
+      "notes": "Yazar BMW M4 CS'nin SVG yan görünümünü Gemini uygulamasındaki Hydrogen High'a atfediyor ve üretim süresinin 30 saniyenin altında olduğunu bildiriyor."
+    },
+    "49": {
+      "title": "Bir Gökbilimcinin Yüzen Adası",
+      "takeaway": "Küçük bir sahneye belirgin bir tema verip nesnelerin ve ışığın bunu nasıl desteklediğini inceleyin.",
+      "notes": "Yazar yüzen gökbilimci adasını Arena'da Hydrogen olarak etiketlenen bir sürüme atfediyor. Bu çalıştırmanın dört dakika sürdüğünü bildiriyor."
+    },
+    "50": {
+      "title": "Referans Görselden Gezilebilir 3B Manzaraya",
+      "takeaway": "Görselden oluşturulan sahnenin hem referansa sadakatini hem de hareket olanağını sınayın.",
+      "notes": "Yazar Gemini uygulamasında Hydrogen'a atfettiği oynanabilir 3B manzarayı paylaşıyor. GLSL yansımaları, prosedürel geometri ve yüzme fiziğini tarif ediyor."
+    },
+    "51": {
+      "title": "3B Bloklardan Minyatür Diorama",
+      "takeaway": "Bloklarla kurulan bir minyatürde şekillerin bütünlüklü bir sahne oluşturup oluşturmadığına bakın.",
+      "notes": "Yazar 3B bloklardan oluşan minyatür dioramanın kaydını paylaşıp Hydrogen'a atfediyor. Süre ve kurulum ayrıntıları belirtilmiyor."
+    },
+    "52": {
+      "title": "Etkileşimli Kiraz Çiçeği Ağacı",
+      "takeaway": "Tek bir hareketli nesne ve birkaç denetimle küçük bir sahnedeki anlık değişiklikleri keşfedin.",
+      "notes": "Yazar ekran görüntüsündeki kiraz çiçeği ağacı arayüzünü Hydrogen'a atfediyor. Görüntüde sahne ayarları yer alıyor. Uygulama ayrıntıları belirtilmiyor."
+    },
+    "53": {
+      "title": "Agent Arena'da Görev Başına Süre ve Maliyet",
+      "takeaway": "Toplam başarıyla birlikte görev başına gecikmeyi, maliyeti ve çıktı token'larını inceleyin.",
+      "notes": "Agent Arena, Hydrogen High için görev başına medyan 5,3 dakika ve 1,60 USD bildiriyor. Çıktı token'ı kullanımı Carbon ve Argon'dan daha yüksek."
+    },
+    "54": {
+      "title": "Görsel Belge ve Terminal Kıyaslamaları",
+      "takeaway": "Akıl yürütme bütçesi seçerken belge ve terminal sonuçlarını ayrı değerlendirin.",
+      "notes": "Artificial Analysis görsel belgelerde güçlü sonuçlar ve terminal görevlerinde farklı oranlarda ilerleme bildiriyor. Ek akıl yürütme, bilimsel terminal puanını artırırken genel Terminal-Bench sonucu %54'te kaldı."
+    },
+    "55": {
+      "title": "Vals Index ve Tax Agent Sonuçları",
+      "takeaway": "Uzmanlık gerektiren bir görevin puanını genel değerlendirmeyle birlikte inceleyin.",
+      "notes": "Vals AI kendi endeksinde %68,5 ve test sırasında Tax Agent'ta birincilik bildiriyor."
+    },
+    "56": {
+      "title": "CursorBench'te Varsayılan Ayarla Hydrogen",
+      "takeaway": "Varsayılan ayardaki puanı kendi deponuzda yapacağınız testler için başlangıç noktası olarak kullanın.",
+      "notes": "Cursor kendi testinde varsayılan ayarla Hydrogen için %54,3, Gemini 3.8 Flash için %39,6 bildiriyor."
+    },
+    "57": {
+      "title": "Dört Modelle Okçu Savaşı Animasyonu",
+      "takeaway": "Her animasyonun savaşçıların hareketlerini ne kadar anlaşılır aktardığını karşılaştırın.",
+      "notes": "Yazar Hydrogen, Fable 5.2, GPT-6.1 Sol ve Carbon ile üretilen okçu savaşı sonuçlarını aynı klipte yan yana gösteriyor."
+    },
+    "58": {
+      "title": "On Beş Dakikada Minecraft Tarzı Prototip",
+      "takeaway": "Bir voksel oyununda kazma ve envanter gibi sistemlerin uyumunu sınayın.",
+      "notes": "Yazar, Hydrogen Extra High ile 15 dakikada Minecraft tarzı bir prototip kurduğunu bildiriyor. Blok yerleştirme, kazma ve envanterden söz ediyor. Kayıt bu özellikleri kısmen gösteriyor."
+    },
+    "59": {
+      "title": "n8n'de Hydrogen ile Araç Kullanımı",
+      "takeaway": "n8n'deki araç çağrısı döngülerini Hydrogen'a atayıp planlamayı ayrı bir adımda yürütün.",
+      "notes": "n8n, Hydrogen desteğini belgeliyor. Planlamada Carbon ya da Argon, uygulamada Hydrogen kullanılmasını öneriyor ve kurulum bağlantısını paylaşıyor."
+    },
+    "60": {
+      "title": "Box Agent ile Karmaşık Kurumsal Belgeler",
+      "takeaway": "Gerçekçi bir belge iş yükünde doğruluk, çalışma süresi ve token kullanımını kontrol edin.",
+      "notes": "Box erken erişim değerlendirmesinde, tipik bir görevde Gemini 3.8 Flash'a göre doğruluğun beş puan arttığını, sürenin yarıdan aza indiğini ve yaklaşık %12 daha az token kullanıldığını bildiriyor."
+    },
+    "61": {
+      "title": "Devin FrontierCode'da Hydrogen",
+      "takeaway": "Yamaların birleştirmeye uygunluğunu karşılaştırıp ajan test ortamını kaydedin.",
+      "notes": "Cognition, FrontierCode 2.0'da %38,2 bildiriyor. Hydrogen için kullanılan kurulum, karşılaştırma modellerinin Devin CLI kurulumundan farklı."
+    },
+    "62": {
+      "title": "Küçük Bir Etkileşimli Animasyonda Kırılma",
+      "takeaway": "Sahneyi büyütmeden önce optik bir etkiyi kısa önizlemelerle iyileştirin.",
+      "notes": "Yazar Small Delights serisindeki küçük bir animasyonu Hydrogen'a atfediyor ve ışık kırılmasına dikkat çekiyor. Kaynak yinelemeli bir tasarım sürecini anlatıyor."
+    },
+    "63": {
+      "title": "Yokuş Yukarı Akan Nehir",
+      "takeaway": "Alışılmadık bir hareket yönüyle küçük bir sahne kurup görsel etkiyi inceleyin.",
+      "notes": "Yazar ters yönde akan nehri web üzerinde Hydrogen ile oluşturduğunu bildiriyor ve kaydı paylaşıyor. Süre ve kota kullanımı yazarın gözlemleri."
+    },
+    "64": {
+      "title": "Açık Talimata Rağmen Web Araması",
+      "takeaway": "Tarama yapmadan yanıt gerektiren bir iş akışında araçların çağrılıp çağrılmadığını kontrol edin.",
+      "notes": "Yazar, Hydrogen'ın arama ve araç kullanımını yasaklayan talimata rağmen web araması yaptığını bildiriyor. Paylaşım gözlemlenen tek bir örneği gösteriyor."
+    },
+    "65": {
+      "title": "Antigravity Swarm'da Kota Takibi",
+      "takeaway": "Çok ajanlı bir çalıştırmada toplam token sayısını ve tüketilen kotayı kaydedin.",
+      "notes": "Yazar Swarm kullanırken 17 milyon token ve beş saatlik kotasının %21'ini tükettiğini bildiriyor. Sayılar bu oturuma ve kullandığı plana ait."
+    },
+    "66": {
+      "title": "Mesleki Görev Testlerinde Araç Çağrıları",
+      "takeaway": "Bir ajanın mesleki görevi yerine getirmeden önce bağlamı nasıl topladığını inceleyin.",
+      "notes": "Mercor, APEX-Agents'ta %78,0 Pass@1 ve görev başına ortalama 93 araç çağrısı bildiriyor. Rapor hukuk, danışmanlık ve bankacılık görevlerini kapsıyor."
+    },
+    "67": {
+      "title": "Hydrogen ile 3B Portre",
+      "takeaway": "Üç boyutlu bir gösterimde kişinin tanınabilirliğini portreyle sınayın.",
+      "notes": "Yazar, gönderide seslendiği kişinin 3B portresini Hydrogen'a atfediyor ve görseli paylaşıyor. Kurulumla ilgili bilgi sınırlı."
+    },
+    "68": {
+      "title": "Dört Model Bir Büyücü ve Ejderhayı Canlandırıyor",
+      "takeaway": "Aynı fantastik sahnenin farklı sürümlerinde düzeni, hareketlerin anlaşılırlığını ve efektleri karşılaştırın.",
+      "notes": "Klip bir büyücü ve ejderha sahnesini Hydrogen ve üç Claude modeliyle karşılaştırıyor. Yazar bu örnekte Claude çıktısını tercih ediyor."
+    },
+    "69": {
+      "title": "Çok Ajanlı Kurulumda Kimlik Doğrulama",
+      "takeaway": "Ajan başka bir sağlayıcıya iş aktardığında kimlik doğrulamasını hangi istemcinin yaptığını kontrol edin.",
+      "notes": "Yazar, Claude'dan Antigravity CLI üzerinden Hydrogen kullanmasını istediğini bildiriyor. Claude Code'un doğrudan kimlik doğrulamayı denediğini ve Antigravity erişiminin askıya alındığını söylüyor. Ekran görüntüsünde askıya alma bildirimi var. Nedeni istemcinin izlediği yola bağlıyor."
+    },
+    "70": {
+      "title": "Antigravity'de Goal Mode Çalıştırması",
+      "takeaway": "Uzun bir kodlama oturumunda planı, kod değişikliklerini ve test sonuçlarını izleyin.",
+      "notes": "Yazar, Hydrogen Extra ile planlama, uygulama ve testleri kapsayan 105 dakikalık bir Goal Mode oturumu bildiriyor. Test sonuçları yazarın beyanına dayanıyor."
+    },
+    "71": {
+      "title": "MazeBench'te Düşük Başarı Oranları",
+      "takeaway": "Uzamsal akıl yürütmeye güvenmeden önce labirent görevleriyle sınayın.",
+      "notes": "Yayımlanan MazeBench karşılaştırması, bu kurulumda Hydrogen için %1, Sonnet 5.5 için %4 ve GPT-6.1 Terra için %8 bildiriyor."
+    },
+    "72": {
+      "title": "Üç Gemini Modeli Yelkenli Sahnesi Kuruyor",
+      "takeaway": "Temalı bir Three.js sahnesinde hareket ve çevre ayrıntılarını karşılaştırın.",
+      "notes": "Yazar Hydrogen, Argon ve Carbon'un yelkenli çıktılarını gösteriyor. Carbon'un ayrıntılarını tercih ediyor ve kendi testinde Hydrogen'ın Argon'a yaklaştığını söylüyor."
+    },
+    "73": {
+      "title": "Antigravity Orchestrator'da Carbon ve Hydrogen",
+      "takeaway": "Daha hızlı uygulama modeli takıldığında planlama modelinin devreye girmesini sağlayın.",
+      "notes": "Google, Carbon'un planlayıp sorunlarda devreye girdiğini, Hydrogen'ın düzenleyip test ettiğini açıklıyor. Terminal-Bench 4.0'da Carbon'a yakın başarı, daha az kota kullanımı ve daha kısa süre bildiriyor."
+    },
+    "74": {
+      "title": "Workspace Verilerinden Grafik ve Rapor",
+      "takeaway": "Eksik analiz, grafik veya rapor çıktısını bir takip isteminin tamamlayıp tamamlamadığını kontrol edin.",
+      "notes": "Yazar, Workspace for Education Fundamentals demosunda Hydrogen ile veri analiz edip grafik ve rapor dosyası oluşturdu. İki tur gerektiğini bildiriyor."
+    },
+    "75": {
+      "title": "Forma Numarası Okurken Tükenen Bütçe",
+      "takeaway": "Küçük bir görsel ayrıntıyı okumak için çaba sınırı ve alternatif yöntem belirleyin.",
+      "notes": "Testi yapan kişi, Hydrogen XHigh'ın 131.069 düşünme token'ı kullandığını ve 9 dakika 55 saniyenin ardından forma numarası döndürmediğini bildiriyor."
+    },
+    "76": {
+      "title": "Model Ailelerinin ClutterBench Performansı",
+      "takeaway": "Bir model ailesinin genel güçlü yanlarının karmaşık sahnelere yansıyıp yansımadığını test edin.",
+      "notes": "Yazarın paylaştığı ClutterBench sonuçlarında Hydrogen, gösterilen Gemini modellerinin önünde ve karşılaştırmadaki OpenAI modellerinin gerisinde."
+    },
+    "77": {
+      "title": "Haber Özetinden Anlatımlı Klibe",
+      "takeaway": "Araştırılmış bir haber özetinden kısa bir anlatımlı video hazırlayıp kullanılan olguları kontrol edin.",
+      "notes": "Yazar, mobil Gemini'de Hydrogen'ın güncel haberleri arayıp bir taslak hazırlamasını kaydediyor. Video isteğinden sonra uygulamada on saniyelik oynatım görülüyor. Süre ve anlatım bilgileri yazarın beyanı. Görüntüyü üreten sistem belirtilmiyor."
+    },
+    "78": {
+      "title": "Minecraft Tarzı Anatomik Kesit Büstü",
+      "takeaway": "Oluşturulan kesitte istenen iç yapıların yer alıp almadığını kontrol edin.",
+      "notes": "Yazar Hydrogen ve Argon'a tek istemle aynı anatomik Minecraft büstünü oluşturma görevi verdi. Hydrogen çıktısında kafatası, kaburgalar ve omurgayı tanıdığını bildiriyor."
+    },
+    "79": {
+      "title": "Üç Model Aynı Sahne Nesnesini Üretiyor",
+      "takeaway": "Bir testte daha ucuz model daha çok token kullanabildiğinde kaliteyi ve token sayısını ayrı izleyin.",
+      "notes": "Karşılaştırma, Hydrogen, Carbon ve Fable 5.2'nin tüfek biçimli aynı nesneyi oluşturmasını gösteriyor. Yazar Hydrogen için 3,69 milyon token ve 1,62 USD, Carbon için 398.000 token ve 0,77 USD bildiriyor."
+    },
+    "80": {
+      "title": "Tümevarım Testi ve Token Tüketimi",
+      "takeaway": "Zor görevlerde akıl yürütme puanıyla birlikte faturalanan giriş ve çıkış token'larını izleyin.",
+      "notes": "Testi yapan kişi, Hydrogen'ın 100 soruluk tümevarım testinde Opus 5.5'e yakın bir sonuçla dördüncü olduğunu bildiriyor. 55 milyon çıktı ve faturalanan 307 milyon girdi token'ı bildiriyor. Hesaplama ayrıntısı belirsiz."
+    },
+    "81": {
+      "title": "Google E-Tablolar'da Gemini ile Piksel Sanatı",
+      "takeaway": "Gemini seçeneklerini aynı Google E-Tablolar çizim göreviyle karşılaştırın.",
+      "notes": "Yazar Hydrogen'ın Google E-Tablolar'da piksel sanatı çizmesini gösteriyor ve Antigravity Orchestrator, Carbon ile Argon çalışmalarına bağlantı veriyor. Gösterimde biçimsel puanlama yok."
+    },
+    "82": {
+      "title": "Referans Görselden Daire Maketinin Baskısına",
+      "takeaway": "Görselden 3B model üretme testini fiziksel baskıya kadar götürün.",
+      "notes": "Yazar, Seinfeld dairesinin referans görselini ve Hydrogen'a atfettiği modelin fiziksel baskısını paylaşıyor."
+    },
+    "83": {
+      "title": "Üç Modelle 3B Hayvan Animasyonu",
+      "takeaway": "Aynı 3B hayvan modelleme görevinde anatomiyi ve hareketi inceleyin.",
+      "notes": "Kaynak, tek modelleme görevinde Hydrogen, GPT-6.1 Terra ve Claude Haiku 5.5'i karşılaştırıyor. Yazar Hydrogen çıktısındaki zayıflıkları belirtiyor. Gözlem bu görevle sınırlı."
+    },
+    "84": {
+      "title": "ts-bench'te Hydrogen ve Qwen",
+      "takeaway": "Genel kıyaslama sonucuyla birlikte araç çağrısı hatalarını inceleyin.",
+      "notes": "Kaynak ts-bench'te Hydrogen ve Qwen4 Max Preview'ı karşılaştırıp araç çağrılarının güvenilirliğini ele alıyor. Ekran görüntüsü değerlendirme sonuçlarını gösteriyor."
+    },
+    "85": {
+      "title": "Vending-Bench İşletme Simülasyonu",
+      "takeaway": "Simüle edilen geliri ajanın işletim maliyetiyle birlikte karşılaştırın.",
+      "notes": "Andon Labs, Hydrogen'ın Vending-Bench 2'de üçüncü olduğunu ve simülasyonda benzer fiyatlı modellerden daha çok gelir elde ettiğini bildiriyor."
+    },
+    "86": {
+      "title": "Golden Merry Gemi Sahnesi",
+      "takeaway": "Tanıdık bir kurmaca gemiyle deniz sahnesinin görsel düzenini sınayın.",
+      "notes": "Yazar, mavi sulardaki Golden Merry klibini Hydrogen'a atfediyor. Paylaşım istemi, araç ayarlarını ve yineleme sayısını belirtmiyor."
+    },
+    "87": {
+      "title": "OpenClaw'da Hydrogen",
+      "takeaway": "Kullanmayı düşündüğünüz ajan çerçevesinde model seçimini kontrol edin.",
+      "notes": "OpenClaw Hydrogen desteğini duyuruyor ve ekran görüntüsü paylaşıyor. Gönderi kıyaslama sonucu veya kurulum dökümü içermiyor."
+    },
+    "88": {
+      "title": "Bulutların İçinde Hareket Eden Balina",
+      "takeaway": "Kodla üretilen bir hayvan sahnesinde akıcı hareketi ve göz tasarımını ayrı değerlendirin.",
+      "notes": "Kaynak, bulutların arasında hareket eden kodla oluşturulmuş balinayı gösteriyor ve yaklaşık iki dakikalık Hydrogen çalıştırması bildiriyor. Süre ve kota yazarın gözlemlerine dayanıyor."
+    },
+    "89": {
+      "title": "Dört Model Minyatür Ada Kuruyor",
+      "takeaway": "Ada tasarımlarını her ortamın çalışma süresi ve maliyetiyle birlikte karşılaştırın.",
+      "notes": "Yazar dört ada çıktısını karşılaştırıp Hydrogen için 4, GPT-6.1 Terra için 20, Sol için 40 ve DeepSeek için 60 dakika bildiriyor. Hydrogen için ek ücret çıkmaması yazarın kurulumuna özgü."
+    },
+    "90": {
+      "title": "Web Kamerasıyla Havada Çizim",
+      "takeaway": "Havada çizgiler çizin ve arayüzün hareketleri nasıl takip ettiğine bakın.",
+      "notes": "Yazar erken Hydrogen erişimiyle web kamerası üzerinden çizim aracı geliştirdiğini bildiriyor ve kullanım kaydını paylaşıyor."
+    },
+    "91": {
+      "title": "Kodla Üretilen Kumaş Yırtılmalarının Karşılaştırması",
+      "takeaway": "Aynı animasyon görevinde esneme, yırtılma ve kürkle etkileşimi sınayın.",
+      "notes": "Yazar Hydrogen ve Claude Fable 5.2'nin kodla üretilen animasyonlarını karşılaştırıp Fable çıktısını görsel olarak üstün buluyor. Eşleşen ayarlar ve bağımsız fizik doğrulaması belirtilmiyor."
+    },
+    "92": {
+      "title": "Gemini Canvas'ta Bir Su Altı Şehri",
+      "takeaway": "Küçük bir 3B sahneden başlayıp birkaç turda gezilebilir alanlar ve hareketli canlılar ekleyin.",
+      "notes": "Yazar, Gemini uygulamasında birden çok istemle balık, denizanası, mercan ve gezilebilir cam kubbeler içeren su altı şehri oluşturuyor."
+    },
+    "93": {
+      "title": "Tek Çalıştırmada Web Portalı",
+      "takeaway": "Tek tek akışları sınamadan önce ilk arayüzü portal düzeni üzerinden değerlendirin.",
+      "notes": "Yazar Antigravity'de Hydrogen ile tek üretimde oluşturduğunu bildirdiği portalın ekran görüntüsünü paylaşıyor. Portal etkileşimlerinin çalışıp çalışmadığı belirtilmiyor."
+    },
+    "94": {
+      "title": "İzlenemeyen Kaynakla Doğruluk Kontrolü",
+      "takeaway": "Bir ekran görüntüsü hakkındaki yargıya dayanarak hareket etmeden önce incelenebilir kaynak isteyin.",
+      "notes": "Yazar, Hydrogen'a bir gönderi görüntüsünün doğru olup olmadığını sordu. Modelin içeriği doğruladığını, doğrulama aracını tekrar tekrar açtığını ve asıl kaynağı paylaşmadığını bildiriyor."
+    },
+    "95": {
+      "title": "Cities: Skylines Tarzı Bir Şehir Kurma Oyunu",
+      "takeaway": "Bir şehir oyunu prototipi hazırlayıp denetimlerin ve simülasyonların uyumunu inceleyin.",
+      "notes": "Yazar Hydrogen'a atfettiği Cities: Skylines tarzı prototipi gösteriyor ve üretim oturumunun 30 dakikadan kısa sürdüğünü bildiriyor."
+    },
+    "96": {
+      "title": "Hydrogen ve Sol ile 2B Pelikan",
+      "takeaway": "Aynı basit 2B animasyon görevinde süreyi ve hareket kalitesini karşılaştırın.",
+      "notes": "Klip, Hydrogen ve GPT-6.1 Sol ile üretilen bisikletli pelikanları gösteriyor. Yazar Hydrogen için 28 saniye, Sol için 6 dakika 51 saniye bildiriyor. Çalıştırma ayarlarının eşitliği doğrulanmıyor."
+    },
+    "97": {
+      "title": "Blender MCP ile Taht Salonu",
+      "takeaway": "Oluşturulan sahnenin kompozisyonunu Blender MCP ile düzenleyicide inceleyin.",
+      "notes": "Yazar Game of Thrones'daki Demir Taht salonunun yeniden oluşturulmasını Hydrogen ve Blender MCP'ye atfediyor. Sahnenin kaydını paylaşıyor."
+    },
+    "98": {
+      "title": "Dört Modelle Ağda Sallanma Oyunu",
+      "takeaway": "Aynı tek dosya kısıtıyla oluşturulan oyunlarda hareketi ve denetimleri karşılaştırın.",
+      "notes": "Kaynak, dört Gemini modeline harici varlık kullanmadan tek HTML dosyasında aynı 3B oyunu yaptırıyor. Hydrogen Extra High, Gemini 3.8 Flash, Argon ve Carbon High ayarında."
+    },
+    "99": {
+      "title": "Three.js ile Gri Tonlu Korsan Gemisi",
+      "takeaway": "Three.js sahnesini gri tonla sınırlayıp ışığın geometriyi görünür kılıp kılmadığını sınayın.",
+      "notes": "Yazar Antigravity'de Hydrogen kullanarak Three.js ile gri tonlarda bir korsan gemisi oluşturdu. Kayıt, aydınlatma ve 3B ayrıntı testini gösteriyor."
+    },
+    "100": {
+      "title": "Dört Model Bina Dioraması Oluşturuyor",
+      "takeaway": "Aynı mimari görevde farklı modellerin çıktısını ve ışık tercihlerini karşılaştırın.",
+      "notes": "Yazar aynı istemi kullandığını belirttiği Hydrogen, GPT-6.2, Claude Fable 5.2 ve DeepSeek dioramalarını gösteriyor. Sıralama ve hız yorumu yazara ait."
+    },
+    "101": {
+      "title": "CadXStudio'da Parametrik Masa Lambası",
+      "takeaway": "Oluşturulan CAD modelinin parça ölçülerini ve düzenlenebilirliğini inceleyin.",
+      "notes": "CadXStudio tarayıcıda çalışan bir masa lambası modelini gösteriyor ve 35 düzenlenebilir parça bildiriyor. Örnek araç sağlayıcısından geliyor."
+    },
+    "102": {
+      "title": "C++ ile Tapınak Yolu Animasyonu",
+      "takeaway": "Modelin web altyapısı olmadan çalışan animasyon yazmasını küçük bir yerel sahneyle sınayın.",
+      "notes": "Yazar tapınak kapılarının altındaki yol animasyonunu Extra High ayarında Hydrogen'a atfediyor ve uygulama dili olarak C++'ı belirtiyor."
+    },
+    "103": {
+      "title": "Üç Model Tren Sahnesi Oluşturuyor",
+      "takeaway": "Bir tren sahnesiyle kullandığınız model ayarlarının sürelerini karşılaştırın.",
+      "notes": "Yazar Hydrogen ile yaklaşık 3, GPT-6.1 Terra ile 20 ve Qwen4 Max Preview ile 68 dakika bildiriyor. Klip çıktıları gösteriyor. Ayarlar ve yineleme sayıları belirtilmiyor."
+    },
+    "104": {
+      "title": "Extra Ayarında Yağmurlu Chinatown",
+      "takeaway": "Yoğun bir animasyonda akıl yürütme ayarını seçmeden önce süreyi ölçüp bitmiş sahneyi inceleyin.",
+      "notes": "Yazar başka bir üreticinin istemini Hydrogen Extra ile kullanıp yağmurlu Chinatown MP4'ü için yaklaşık dört saat bildiriyor. Ayrı Claude Fable 5.2 çalıştırmasıyla karşılaştırılabilirlik sınırlı."
+    },
+    "105": {
+      "title": "30 Modülden Kurulan Kasaba Sahnesi",
+      "takeaway": "Sahneyi istemlerle ayrı modüller halinde oluşturup birleşik görünümü inceleyin.",
+      "notes": "Yazar Gemini uygulamasındaki Hydrogen High'ı kullandığını ve 30 modülün her biri için bir istem verdiğini bildiriyor."
+    },
+    "106": {
+      "title": "Üç Model Bir Gezegen Görselleştiricisi Kuruyor",
+      "takeaway": "Bilimsel bir görsel arayüz için aynı istemi birkaç modelle deneyin.",
+      "notes": "Kayıt Claude Fable 5.2, GPT-6.2 Sol ve Hydrogen'ın gezegen çıktılarını karşılaştırıyor. Sıralama yazarın görsel değerlendirmesi. Ayar eşitliği ve nesnel puanlama açık."
+    },
+    "107": {
+      "title": "Dört Model Chrome Dino'yu Yeniden Yapıyor",
+      "takeaway": "Tanıdık bir oyunun her sürümünün süresini ölçüp oynanabilir sonuçları karşılaştırın.",
+      "notes": "Yazar T-Rex oyunu için AI Studio'da Hydrogen ile 18 dakika 41 saniye ve Fable 5.2 ile 45 dakika 30 saniye bildiriyor. Kayıt Qwen4-Max-Preview, Carbon ve görsel puanları da gösteriyor."
+    },
+    "108": {
+      "title": "Yüzen Adada Postane",
+      "takeaway": "Küçük bir bina tarif edip malzeme ve ışığın sahneye katkısını inceleyin.",
+      "notes": "Yazar Hydrogen'dan yüzen adada minyatür 3B postane istedi. Paylaştığı kayıtta dokuları, renkleri ve ışığı öne çıkarıyor."
+    },
+    "109": {
+      "title": "İki Kodlama Ajanı Farklı Gemiler Yapıyor",
+      "takeaway": "Seçtiğiniz ortamda ilk kullanılabilir çıktıyı ve düzeltme maliyetini karşılaştırın.",
+      "notes": "Yazar aynı istemi Sonnet için Claude Code, Hydrogen için Cursor'da kullandı. Hydrogen'ın daha kısa sürdüğünü ve ikinci bir sürüm gerektirdiğini bildiriyor."
+    },
+    "110": {
+      "title": "Koi Courtyard'da Su ve Balıklar",
+      "takeaway": "Hareketli balıklar içeren sahnede yüzey yansımalarıyla su ışığının tutarlılığını inceleyin.",
+      "notes": "Yazar Koi Courtyard testinin Hydrogen sürümünde ışık desenlerini, yansımaları ve balık davranışını vurguluyor. Carbon sürümünü bağlam için iliştiriyor."
+    },
+    "111": {
+      "title": "Dört Modelle Mancınık ve Katı Cisim Fiziği",
+      "takeaway": "Aynı görevde oynanabilir fizik prototiplerini karşılaştırıp akıl yürütme ayarlarını kaydedin.",
+      "notes": "Yazar dört Gemini modelini yüzlerce taş blok içeren mancınık sahnesinde denedi. Hydrogen Extra High için 10 dakika 3 saniye ve Carbon High için 23 dakika 33 saniye bildirdi. Gemini 3.8 Flash High en hızlısıydı."
+    },
+    "112": {
+      "title": "Gemini Uygulamasında Canlı 3B Sahne",
+      "takeaway": "Gemini web arayüzünde etkileşimli ışık ve parçacıklar prototipleyin.",
+      "notes": "Yazar parçacıklar, hareketli aydınlatma ve gerçek zamanlı denetimler içeren Hydrogen sahnesini gösteriyor. Kayıtta sahne Gemini tarayıcı arayüzünde çalışıyor."
+    },
+    "113": {
+      "title": "Tarayıcı CAD'inde Beton Mikseri Montajı",
+      "takeaway": "Oluşturulan montajı CAD akışında kullanmadan önce parça ağacını ve parçaların uyumunu inceleyin.",
+      "notes": "Yazar Hydrogen'ın CadX Studio'da tek istemle 40 dakikada 265 parçalı beton mikseri oluşturduğunu bildiriyor. Parçaları tek tek elle modellemediğini belirtiyor."
+    },
+    "114": {
+      "title": "Blender'da Prosedürel Balta Modelleme",
+      "takeaway": "Prosedürel bir Blender varlığını referans silüeti ve birkaç düzenleyici görünümüyle inceleyin.",
+      "notes": "Yazar, Antigravity CLI'da Hydrogen kullanarak Python modülleri ve yinelemeli görünüm kontrolleriyle stilize balta yaptığını söylüyor. Kayıt dahil 51 dakika ve 5,01 USD API maliyeti bildiriyor."
+    },
+    "115": {
+      "title": "Tek HTML Dosyasında Pembe 3B Sahne",
+      "takeaway": "Harici varlık kullanmadan Three.js sahnesi kurup kompozisyonun anlaşılabilirliğini inceleyin.",
+      "notes": "Yazar pembe sahneyi Hydrogen'a atfediyor ve harici varlık olmadan tek HTML dosyasında Three.js kullandığını bildiriyor. Bağlantıdaki Koi Courtyard ayrı bir proje."
+    },
+    "116": {
+      "title": "FrontierMemory'de Kalıcı Ajan Belleği",
+      "takeaway": "Uzun ömürlü ajan belleği için model seçerken puanı ve çalıştırma başına maliyeti karşılaştırın.",
+      "notes": "Letta, Hydrogen için Argon'la aynı olan %64,4 ve bellek çalıştırması başına yaklaşık 100 USD bildiriyor. Kıyaslama ayarlarında Carbon için %71,1 ve yaklaşık 94 USD bildiriyor."
+    },
+    "117": {
+      "title": "Arızalı LiveKit Sesli Ajanında Hydrogen",
+      "takeaway": "Kontrollü bir araç hatasıyla ajanın desteklenmeyen sonuçlar bildirip bildirmediğini sınayın.",
+      "notes": "LiveKit Hydrogen'ı kasıtlı olarak arızalandırılmış bir sesli ajanda test edip sıfır yanlış bildirim raporluyor. Sağlayıcı Gemini 3.8 Flash'la kıyaslıyor ve raporuna bağlantı veriyor."
+    },
+    "118": {
+      "title": "28 Modüllü Ember Isle Projesi",
+      "takeaway": "Büyük sahneyi modüllere bölüp her üretimin süresini kaydedin.",
+      "notes": "Yazar Ember Isle için Gemini uygulamasında Hydrogen High kullandı. 28 modül, modül başına bir istem ve istem başına 82 ile 290 saniye bildiriyor."
+    },
+    "119": {
+      "title": "Yalnızca Kodla Büyük Patlama Simülasyonu",
+      "takeaway": "Kısa bir animasyonla görsel bir açıklama tasarlayıp bilimsel çerçevesini kontrol edin.",
+      "notes": "Yazar Gemini uygulamasındaki Hydrogen'a 15 saniyelik Büyük Patlama görselleştirmesini atfediyor. Tamamen kodla üretildiğini ve web, doku, harici varlık ya da 3B model kullanılmadığını bildiriyor."
+    },
+    "120": {
+      "title": "Patlatılmış Montaj Görünümlü Helikopter",
+      "takeaway": "3B prototipte uçuş denetimlerinin faydalı inceleme görünümleriyle bir araya gelip gelmediğini sınayın.",
+      "notes": "Yazar uçurulabilir helikopteri, montaj görünümünü ve patlatılmış görünümleri gösteriyor. Prototipi yüksek akıl yürütme ayarındaki Hydrogen'a atfediyor."
+    },
+    "121": {
+      "title": "Röntgen ve Tel Kafes Görünümlü Hydrogen Express",
+      "takeaway": "Denetlenebilir 3B prototipe birden fazla inceleme modu ekleyin.",
+      "notes": "Yazar hız denetimleri, patlatılmış görünüm, tel kafes ve röntgen modları olan bir tren gösteriyor. Çalıştırma için yaklaşık beş dakika bildiriyor."
+    },
+    "122": {
+      "title": "Gökyüzünde Yakıt İstasyonu",
+      "takeaway": "Davranışını demoda görünür kılmak için sahneye hareketli nesneler ve değişen ışık ekleyin.",
+      "notes": "Yazar Hydrogen ile kurulan gökyüzü istasyonunu, retro uçan arabayı, dönen türbinleri ve gece gündüz geçişini gösteriyor. Tek üretim bildiriyor."
+    },
+    "123": {
+      "title": "Üç Gemini Modeli Bisikletliyi Canlandırıyor",
+      "takeaway": "Aynı görevde kısa hareketli sahneleri karşılaştırıp süreleri ayrı kaydedin.",
+      "notes": "Yazar Carbon, Argon ve Hydrogen ile üretilen bisikletliyi gösteriyor. Hydrogen için yaklaşık 90 saniye ve Argon için beş dakikadan fazla süre bildiriyor. Carbon'un görüntüsünü tercih ediyor."
+    },
+    "124": {
+      "title": "Kimya Kitabından Etkileşimli Derse",
+      "takeaway": "İpuçları, sesli anlatım ve isteğe bağlı metinle kendi kendine öğrenme dersi oluşturun.",
+      "notes": "Yazar sesli yönlendirme ve ipuçları içeren dokuzuncu sınıf kimya dersini gösteriyor. Gösterim kullanım akışını belgeliyor."
+    },
+    "125": {
+      "title": "Vocaloid Şarkı Prototipi",
+      "takeaway": "Tek seferde oluşturulan bestenin karaktere ve müzik tarzına uygunluğunu inceleyin.",
+      "notes": "Yazar şarkı klibini paylaşıp besteyi Hydrogen'a atfediyor. Sesin hangi araçla üretildiği belirtilmiyor."
+    },
+    "126": {
+      "title": "İki Model LEGO Dünyası Kuruyor",
+      "takeaway": "Her modelin verilen sürede temalı dünyanın ne kadarını oluşturduğunu karşılaştırın.",
+      "notes": "Yazar Fable 5.2 ve Hydrogen’ın LEGO dünyalarını gösteriyor. Kendi çalıştırmalarında sırasıyla 44 ve 28 dakika bildiriyor."
+    },
+    "127": {
+      "title": "İki Depoya Ekilen Hataları Onarma",
+      "takeaway": "Kodlama ajanının hangi hataları bulup düzelttiğini ölçmek için bilinen kusurlar ekleyin.",
+      "notes": "Testi yapan kişi iki depoya 105 hata yerleştirdi. Bu kurulumda en yüksek çaba ayarındaki Hydrogen, aynı çaba ayarındaki Sonnet 5.5'in hemen arkasında yer aldı."
+    },
+    "128": {
+      "title": "İki Modelle Çöp Adam ve İmleç",
+      "takeaway": "İki etkileşimli animasyonun işaretçiye tepkisini karşılaştırın.",
+      "notes": "Yazar Fable'ın çöp adam ve imleç animasyonunu tercih ediyor. Hydrogen'ı daha düşük maliyetli bir deneme için yeterli buluyor."
+    },
+    "129": {
+      "title": "Tek HTML Dosyasında Su Değirmeni",
+      "takeaway": "Hızlı bir 3B prototipi, hareketi fark edilen nesnelere sahip küçük bir manzarayla sınayın.",
+      "notes": "Yazar Hydrogen'ın kayıttaki su değirmeni sahnesini tek HTML dosyasında yaklaşık 30 saniyede oluşturduğunu bildiriyor."
+    },
+    "130": {
+      "title": "İki Model Dağ Manzarası Oluşturuyor",
+      "takeaway": "Manzara animasyonunda kompozisyonu, üretim süresini ve maliyeti ayrı karşılaştırın.",
+      "notes": "Yazar Hydrogen ve Opus 5.5 ile hazırladığı dağ animasyonlarını paylaşıyor. Hydrogen için 20 dakika 30 saniye ile 0,50 USD, Opus için 11 dakika 23 saniye ile 2,50 USD bildiriyor."
+    },
+    "131": {
+      "title": "Özel Test Ortamında İngilizceden Farsçaya Çeviri",
+      "takeaway": "Zor bir çeviriyi insan çevirisiyle karşılaştırıp değerlendirin.",
+      "notes": "Yazar kendi test ortamında bir çeviri görevinde Hydrogen'a 100 üzerinden 94 verdi. Öznel değerlendirme bu düzene bağlı."
+    },
+    "132": {
+      "title": "Hydrogen Extra ile Blender Sahnesi",
+      "takeaway": "Görsel ayrıntıları artırmadan önce Blender'da geometriyi ve malzemeleri denetleyin.",
+      "notes": "Yazar Hydrogen Extra'ya atfettiği Blender sahnesini gösteriyor ve bu oturumdaki abonelik kotası kullanımını tahmin ediyor."
+    },
+    "133": {
+      "title": "Dört Model Batan Gemi Sahnesi Kuruyor",
+      "takeaway": "Aynı sahne testinde görsel sadakati, süreyi ve maliyeti ayrı kaydedin.",
+      "notes": "Yazar Hydrogen için 8,6 dakika ve 1,16 USD, Gemini 3.8 Flash için 10,8 dakika ve 1,06 USD bildiriyor. Carbon ve Opus 5.5'i de deniyor ve gerçekçilikte Opus'u tercih ediyor."
+    },
+    "134": {
+      "title": "Görselden Karmaşık Bir İntegrali Okuma",
+      "takeaway": "Uzun ifadeyi sadeleştirmeden önce modelin eşit integral sınırlarını fark edip etmediğini kontrol edin.",
+      "notes": "Yazar, Gemini uygulamasında Hydrogen High'ın integral ekran görüntüsüne verdiği yanıtı kaydediyor. Test dış integralin iki sınırının eşit olduğunun anlaşılmasıyla ilgili."
+    },
+    "135": {
+      "title": "Dört Modelle Kör Reklam Metni Karşılaştırması",
+      "takeaway": "Yazı iş akışında kullanacağınız çıktıyı seçmeden önce model adlarını gizleyin.",
+      "notes": "Yazar dört modelle kör metin karşılaştırması yaptığını ve Hydrogen çıktısını tercih ettiğini bildiriyor. Kendi testinde Hydrogen'ın Carbon'dan daha hızlı ve daha düşük maliyetli olduğunu söylüyor."
+    },
+    "136": {
+      "title": "Akıl Yürütme Ayarına Göre Görsel Algılama ve Okuma",
+      "takeaway": "Her akıl yürütme düzeyinde algılama, metin doğruluğu, maliyet ve gecikmeyi ayrı ölçün.",
+      "notes": "Testi yapan kişi Hydrogen, Argon ve Carbon'un algılama ile metin puanlarını ayrı bildiriyor. Hydrogen High'ın görsel başına ortalaması 29,3 saniye, puanları 64,6 ve 87,2. Carbon High daha maliyetli ve yavaş olmasına rağmen iki alanda da daha yüksek puan aldı."
+    },
+    "137": {
+      "title": "Dört Model Yukarı Bak'taki Evi Yeniden Yapıyor",
+      "takeaway": "3B modeller arasındaki farkları aynı referans görseli ve görevle karşılaştırın.",
+      "notes": "Yazar dört çalıştırmada Hydrogen'ın en hızlı ve en düşük maliyetli olduğunu bildiriyor, görsel olarak Fable'ı tercih ediyor. Ayarlar ve fiyatlandırma kaynağın beyanına dayanıyor."
+    },
+    "138": {
+      "title": "WebGL2 ile İnsan Hücresi Ansiklopedisi",
+      "takeaway": "Hücre içindeki uzamsal ilişkileri etkileşimli kesitle anlatın.",
+      "notes": "Yazar Hydrogen ve Antigravity ile harici kütüphane kullanmadan WebGL2 tabanlı 3B insan hücresi ansiklopedisi geliştirdiğini bildiriyor. Kesit görünümünü vurguluyor."
+    },
+    "139": {
+      "title": "Hydrogen ile İki Parçacık Animasyonu",
+      "takeaway": "Basit görsel efektlerde şekil ve hareketi iki farklı parçacık sahnesiyle inceleyin.",
+      "notes": "Yazar iki kısa parçacık efekti kaydını Hydrogen'a atfediyor. Çıktılar gösteriliyor, kurulum ayrıntısı belirtilmiyor."
+    },
+    "140": {
+      "title": "Parking Bench'te Yalnızca Görselle Oynayan Rakip",
+      "takeaway": "Bulmaca rakibini tek durum girdisi olarak tahta görüntüsüyle sınayın.",
+      "notes": "Yazar oyunu Carbon'un kurduğunu ve oyuncuların beş seviyede API üzerinden Hydrogen ya da Gemini Decision 1 ile karşılaştığını söylüyor. İkisine de ızgara durumu olmadan tahta PNG'si gönderiliyor."
+    },
+    "141": {
+      "title": "Google Dokümanlar İçin Videolu Anlatım",
+      "takeaway": "Mobil düzenlemeyi ekran görüntüleri ve numaralı işaretlerle anlatın.",
+      "notes": "Yazar mobil Google Dokümanlar'da metin seçimi, stil, renk, yazı tipi ve kaydetmeyi gösteren kurguyu Hydrogen'a atfediyor. Örnek kareler işaretlemeleri gösteriyor. Kurgu yöntemi belirtilmiyor."
+    },
+    "142": {
+      "title": "Minyatür Dünyada Gece Gündüz Düğmesi",
+      "takeaway": "Arayüz durumları arasındaki geçişin akıcılığını basit bir düğmeyle sınayın.",
+      "notes": "Yazar düğmeyle kontrol edilen gece gündüz geçişini gösteriyor ve geliştirme için 0,21 USD harcadığını bildiriyor."
+    },
+    "143": {
+      "title": "65 Modülde Bir Çevre Kurmak",
+      "takeaway": "Oluşturulan sahne büyüdükçe yapım süresini ve birleştirme işini izleyin.",
+      "notes": "Yazar Gemini uygulamasında her biri bir istemle oluşturulan 65 modül bildiriyor ve sonucun kaydını paylaşıyor."
+    },
+    "144": {
+      "title": "Sabit Kamerayla Dans Klibi",
+      "takeaway": "Referanslı animasyonun karakter tasarımını, kompozisyonu ve kamera konumunu koruyup korumadığını sınayın.",
+      "notes": "Yazar Japonca bir istemi ve Google Gemini'de Hydrogen'la ilişkilendirdiği dans klibini paylaşıyor. İstem sabit kamera ve referans üslubunu korumayı şart koşuyor. Kullanılan video modeli belirtilmiyor."
+    },
+    "145": {
+      "title": "Başlangıç Testinde Takılan Kodlama Ajanı",
+      "takeaway": "Düzeltmeyi beklemeden önce başlangıç testinin süresini sınırlayın ve ilerlemeyi kontrol edin.",
+      "notes": "Yazar, Hydrogen'ın uzun bekleyişten sonra hâlâ başlangıç testini çalıştırdığı Antigravity oturumunu gösteriyor. Ekran görüntüsünde durdurup sorunu araştırma isteği var."
+    },
+    "146": {
+      "title": "MZ-1500 İçin BASIC Ortamı",
+      "takeaway": "Retro bir BASIC ortamı prototipleyin ve çevre birimi desteğini ayrı kontrol edin.",
+      "notes": "Yazar demoyu Hydrogen'a atfediyor ve yaklaşık 15 dakika bildiriyor. PCG, PSG ve QuickDisk desteği listeleniyor. QuickDisk, LOAD ile sınırlı."
+    },
+    "147": {
+      "title": "İki Model Etkileşimli Robot Kolu Yapıyor",
+      "takeaway": "Three.js robot kolunun eklemlerinin kullanıcı girdisine tutarlı tepki verip vermediğini sınayın.",
+      "notes": "GMI Cloud aynı Three.js robot kolu görevinde Hydrogen ve Sonnet 5.5 çıktılarını gösteriyor. Sağlayıcı bu karşılaştırmada Sonnet'i tercih ediyor."
+    },
+    "148": {
+      "title": "Etkileşimli FAA Yer Durdurma Haritası",
+      "takeaway": "Operasyon durdurması bitince kuyruğun neden sürdüğünü zaman çizelgesi ve haritayla gösterin.",
+      "notes": "Yazar Hydrogen ile FAA aksaklık haritasını 222 saniyede kurduğunu ve bir etiketi düzelttiğini bildiriyor. Zaman çizelgesi resmi raporları izliyor. Trafik, tipik sefer saatleriyle simüle ediliyor."
+    },
+    "149": {
+      "title": "Minyatür Pagoda Bahçesi",
+      "takeaway": "Minyatürde mimari ile çevre düzenlemesinin uyumunu inceleyin.",
+      "notes": "Yazar blok tarzı pagoda ve bahçe klibini Hydrogen'a atfediyor. Kayıt çıktıyı gösteriyor, uygulama ayrıntıları belirtilmiyor."
+    },
+    "150": {
+      "title": "Ayrı Modellerle Planlama, Uygulama ve İnceleme",
+      "takeaway": "Planlama, uygulama ve inceleme için ayrı roller tanımlayın ve model başına toplamları karşılaştırın.",
+      "notes": "Yazar planlama için Opus 5.5, uygulama için Hydrogen ve yedekte Sol, inceleme için Sol 6.1 kullandığını anlatıyor. Kendi Antigravity kullanım sayılarını ayrı yayımlanmış kıyaslamalarla birlikte sunuyor."
+    },
+    "151": {
+      "title": "Hydrogen ve Sol ile Kış Köyü",
+      "takeaway": "Kodlama karşılaştırmasında süre, harcama ve sahne kalitesini ayrı değerlendirin.",
+      "notes": "Yazar Hydrogen High için 3 dakika ve 1,37 USD, Sol High için 15 dakika ve 4,03 USD bildiriyor. Kış köyünde Sol'un tasarımını tercih ediyor."
+    },
+    "152": {
+      "title": "High ve Ultra Ayarlarında Three.js Adası",
+      "takeaway": "Ürünlerin kotalarını ayrı ele alarak görselleri, süreyi ve akıl yürütme düzeyini karşılaştırın.",
+      "notes": "Yazar Three.js adası için Hydrogen High ile yaklaşık 90 saniye, GPT-6.1 Sol Ultra ile yaklaşık 30 dakika bildiriyor. Maliyetler tahmini, akıl yürütme düzeyleri farklı."
+    },
+    "153": {
+      "title": "II. Dünya Savaşı Havaalanı Dioraması",
+      "takeaway": "Görünüşün yanı sıra işlevi sınamak için 3B demoya görsel referanslar ve mekanik hareket gereksinimleri verin.",
+      "notes": "Yazar Hydrogen'a referanslar ve kısa bir tarifle tek HTML dosyasında havaalanı dioraması yaptırdığını bildiriyor. Görev, hareket edebilen uçak ve tank gerektiriyordu."
+    },
+    "154": {
+      "title": "Kodlama İstemcisinde Hydrogen Kurulumu",
+      "takeaway": "Desteklenen bir istemcide Google API anahtarıyla birlikte tam model kimliğini kullanın.",
+      "notes": "Yazar Google AI Studio'dan anahtar almayı ve OpenCode ya da Cline'da gemini-4-hydrogen seçmeyi anlatıyor. Erişim ve hız sınırları sağlayıcıya bağlı."
+    },
+    "155": {
+      "title": "Hydrogen ile SuperARIS Araştırma Ekibi",
+      "takeaway": "Çok modelli ajan ekibinde Hydrogen'a belirli araştırma ve metin görevleri atayın.",
+      "notes": "Paylaşım, SuperARIS kurulumu ve ekip seçimini anlatıyor. Tartışma ve yazı için Hydrogen ya da Carbon, koordinasyon ve uygulama için ayrı roller öneriyor. Tarif araştırma kalitesini ölçmüyor."
+    },
+    "156": {
+      "title": "Dört Modelle Bir Çekirdek Modülü Baştan Yazmak",
+      "takeaway": "Yeniden yazım için ajan seçerken kodu anlama, tasarım ve uygulama becerisini karşılaştırın.",
+      "notes": "Yazar Hydrogen, Argon, GPT-6 Astra ve Claude Opus 5.5'in çekirdek modül yenilemelerini karşılaştırıyor. Hydrogen'ın uygulamadaki güçlü yanlarını diğer çalıştırmalardaki mimari tasarımdan ayrı ele alıyor."
+    },
+    "157": {
+      "title": "3B PS5 Kumandasında Ayrıntı Karşılaştırması",
+      "takeaway": "Kumanda modellerinde düğme gölgelerini ve arka donanım ayrıntılarını inceleyin.",
+      "notes": "Yazar Hydrogen High ve GPT-6.2 Sol'u 3B kumandada karşılaştırıyor. Yaklaşık 3 ve 11 dakika bildiriyor. Sol çıktısında arka ve yan denetimleri daha eksiksiz buluyor."
+    },
+    "158": {
+      "title": "Muse İşleri Antigravity CLI'a Aktarıyor",
+      "takeaway": "Uzaktaki asistanı yerel kodlama ortamına bağlayın ve varsayılan yazı modelini seçin.",
+      "notes": "Yazar, Muse'un ev bilgisayarındaki Antigravity CLI'a görev gönderip sonuç aldığını anlatıyor. Varsayılanı Hydrogen, Argon da kullanılabiliyor. Örneklerde Japonca metinler ve görseller var."
+    },
+    "159": {
+      "title": "Farklı Akıl Yürütme Bütçeleriyle CursorBench",
+      "takeaway": "Hızlı bir varsayılan ayar seçmeden önce farklı akıl yürütme düzeylerinin başarısını karşılaştırın.",
+      "notes": "Yazar Hydrogen'a ayrılan akıl yürütme bütçesi artınca CursorBench 4.0 başarısının hızla yükseldiğini bildiriyor. Sonuç test edilen ayarlara özgü."
+    },
+    "160": {
+      "title": "Üç Model Yıldız Temalı Tapınak Oluşturuyor",
+      "takeaway": "3B görevde görüntü kararlılığını görsel ayrıntıdan ayrı değerlendirin.",
+      "notes": "Yazar Hydrogen, DeepSeek V4.1 1017 ve Qwen4 Max Preview'ı karşılaştırıyor. Hydrogen'ın daha hızlı çalıştığını, siyah ekran veya titreme olmadığını ve görüntünün daha az ayrıntılı olduğunu bildiriyor."
+    },
+    "161": {
+      "title": "Bir Dakikada HTML Nişancı Oyunu",
+      "takeaway": "Tek HTML dosyasıyla bir nişancı oyununun temel denetim ve geri bildirim döngüsünü sınayın.",
+      "notes": "Yazar Hydrogen'ın tek istemden bir dakikanın altında oynanabilir oyun oluşturduğunu bildiriyor. Tek HTML dosyası kullanıldı ve çerçeve ya da kurulum adımı gerekmiyordu."
+    },
+    "162": {
+      "title": "Mevcut Geçiş Tasarımını Sorgulamak",
+      "takeaway": "Kodlama ajanlarından geçiş sırasında mevcut mimarinin değiştirilip değiştirilmemesini değerlendirmelerini isteyin.",
+      "notes": "Yazar, Hydrogen ve Argon'un mevcut yaklaşımı desteklediği, Claude Opus'un ise mimariyi değiştirip geçişi öne çekmeyi önerdiği incelemeyi gösteriyor. Sonuç tek bir projeye ait."
+    },
+    "163": {
+      "title": "AITuber OnAir'de Hydrogen ile Sohbet",
+      "takeaway": "Live2D avatarının arkasındaki sohbet modeli olarak Hydrogen'ı deneyin.",
+      "notes": "Projenin geliştiricisi AITuber OnAir'de Hydrogen desteğini duyuruyor ve Live2D dahil örnek sohbet avatarları sunuyor. Kayıt entegrasyonu gösteriyor."
+    },
+    "164": {
+      "title": "Kodla Oluşturulan Tanıtım Videosu",
+      "takeaway": "Kodlama modeline kısa bir tanıtım görevi verip hareketli grafikleri inceleyin.",
+      "notes": "Yazar GPT-6.2 Astra temalı tanıtım videosunu gösteriyor ve Hydrogen'ın bunu yalnızca kodla ürettiğini söylüyor. Video kod tabanlı üretim akışını gösteriyor."
+    },
+    "165": {
+      "title": "İki Model Tapınaktan Kaçış Oyununu Yorumluyor",
+      "takeaway": "Aynı oyun fikrinde ışık ve atmosferin sahneyi ne kadar anlaşılır kıldığını karşılaştırın.",
+      "notes": "Runable, tapınaktan kaçış oyununun Hydrogen ve Argon uygulamalarını gösteriyor. Sağlayıcı Hydrogen'ın ışığını daha atmosferik, Argon sahnesini daha aydınlık buluyor."
+    },
+    "166": {
+      "title": "Üç Gemini Modeli Ralli Aracı Canlandırıyor",
+      "takeaway": "Eğimli virajda süspansiyon davranışının ve lastik tutuşunun inandırıcılığını değerlendirin.",
+      "notes": "Yazar taş ocağı sahnesinde Carbon, Argon ve Hydrogen'ın Three.js arazi aracı animasyonlarını karşılaştırıyor. Görev, eğimli toprak yolda süspansiyon sıkışması ve kayma içeriyor."
+    },
+    "167": {
+      "title": "Prosedürel Kızılgerdan Animasyonu",
+      "takeaway": "Oluşturulan uçuş animasyonunda kanat ve gövde hareketlerini inceleyin.",
+      "notes": "Yazar kızılgerdan uçuş animasyonunun kodunu Hydrogen'a atfediyor. Bir takip paylaşımı aynı çalışma için ayrı Antigravity Swarm grafiğini gösteriyor."
+    },
+    "168": {
+      "title": "Antigravity Orchestrator ve Swarm Arasında Seçim",
+      "takeaway": "Sıralı görevlerde modeller arasında iş devri, paralel görevlerde bağımsız uygulayıcı ve doğrulayıcı kullanın.",
+      "notes": "Yazar, güçlü modelin planlayıp Hydrogen'ın uyguladığı Orchestrator akışını şemalaştırıyor. Bunu /swarm ile karşılaştırıyor ve seçimi görevlerin birbirine bağımlılığına bağlıyor."
+    },
+    "169": {
+      "title": "İki Modelle Chasing Views Animasyonu",
+      "takeaway": "Çıktıyı ve süreyi modellerin akıl yürütme ayarlarıyla birlikte karşılaştırın.",
+      "notes": "Yazar Hydrogen Extra High ve Opus 5.5 High ile Chasing Views animasyonlarını gösteriyor. Sırasıyla 22 ve 18 dakika bildiriyor."
+    },
+    "170": {
+      "title": "Design Creativity Bench'te Hız ve Maliyet",
+      "takeaway": "Yaratıcılık puanıyla birlikte tasarım başına üretim süresini ve maliyeti karşılaştırın.",
+      "notes": "Testi yürüten ekip Hydrogen için 49,4 yaratıcılık puanı ve tasarım başına medyan 3,4 dakika ile 0,39 USD bildiriyor. Bu değerlendirmede Argon daha yavaş ve ucuz, Carbon daha yavaş ve pahalı."
+    },
+    "171": {
+      "title": "Referans Görselden SolidWorks Modeline",
+      "takeaway": "Bir ajanın SolidWorks modelleme iş akışını 3B referans görselle sınayın.",
+      "notes": "Yazar Antigravity'de Hydrogen'a tek görsel verdiğini bildiriyor ve SolidWorks parçasını gösteriyor. Takip gönderisinde SolidWorks MCP anılıyor. Bu seçkide tolerans ve mühendislik uygunluğu test edilmedi."
+    },
+    "172": {
+      "title": "Dört Model Çölde Dörtnala Koşan Atı Canlandırıyor",
+      "takeaway": "Işığa veya modelleme ayrıntısına geçmeden önce toynağın zemine temasını ve ağırlık aktarımını karşılaştırın.",
+      "notes": "Yazar çölde koşan at için Astra, Carbon, Fable 5.2 ve Hydrogen'ı karşılaştırıyor. Astra'nın yürüyüşünü tercih ediyor ve Hydrogen'ın at modelinin yapısını eleştiriyor."
+    },
+    "173": {
+      "title": "Jung'un Eşzamanlılığı Üzerine Sunum",
+      "takeaway": "İlgili kavramların açıkça anlatılması gereken bir konuyla slayt üretimini sınayın.",
+      "notes": "Yazar Carl Jung'un eşzamanlılık ve nedensellik dışı düzen konulu sunumunu Hydrogen ve özel slayt aracına atfediyor. Aracı Antigravity'de geliştirdiğini söylüyor ve slaytları paylaşıyor."
+    },
+    "174": {
+      "title": "FrontierCS 2'de Bilgisayar Bilimi Araştırması",
+      "takeaway": "Standart kodlama testlerine bir araştırma kıyaslaması ekleyip çalışma ortamını kaydedin.",
+      "notes": "Kaynak, Antigravity'deki Hydrogen'ın FrontierCS 2 başarı oranında yedinci olduğunu bildiriyor. Kıyaslama bilgisayar bilimi araştırmalarından teknik problemleri kullanıyor."
+    },
+    "175": {
+      "title": "Dört Modelle Bulutların Üzerinde Rio",
+      "takeaway": "Aynı yaratıcı görevde maliyet, süre ve algılanan kaliteyi karşılaştırın.",
+      "notes": "Testi yapan kişi Hydrogen Extra High için 6,21 USD bildiriyor ve en az bu sonucu beğeniyor. Astra bu çalıştırmada daha kısa sürdü. Rapor yerleşik video üretimini doğrulamıyor."
+    },
+    "176": {
+      "title": "GBENCH Teknik Görevlerinde Hydrogen",
+      "takeaway": "Teknik işi değerlendirirken fiyat ve süreyle birlikte doğrulanabilir kodlu ve kodsuz sonuçlara bakın.",
+      "notes": "Testi yürüten ekip, devre tasarımı ve soyut akıl yürütme gibi görevler içeren GBENCH'te Hydrogen sonuçlarını bildiriyor. Benzer fiyat ve hızda Sol'u daha rekabetçi buluyor."
+    },
+    "177": {
+      "title": "Arabalara Paralel Park Öğretmek",
+      "takeaway": "Oluşturulan simülasyonlarda öğrenme ilerlemesini ve son başarı oranlarını karşılaştırın.",
+      "notes": "Yazar aynı görevde Hydrogen ile 44 aracın 5'inin, Fable 5.2 ile 40 aracın 26'sının park ettiğini bildiriyor. Bu çalıştırmalarda yapım süresi 5,6 ve 24 dakika."
+    },
+    "178": {
+      "title": "Etkileşimli Mitokondri Motoru",
+      "takeaway": "Etkileşimli bir şemayla moleküler hareketi ATP üretimiyle ilişkilendirin.",
+      "notes": "Yazar Hydrogen High'ın tek istemle ATP sentaz uygulaması oluşturduğunu, sonradan kamera düzeltmesi yaptığını söylüyor. Geometri kryo-EM koordinatlarından geliyor ve hareket basitleştirilmiş."
+    },
+    "179": {
+      "title": "Qix Tarzı Alan Ele Geçirme Oyunu",
+      "takeaway": "Kısa bir arcade oyunu tarifiyle ilk çıktının etkileşimli döngü içerip içermediğini sınayın.",
+      "notes": "Yazar ücretsiz Gemini arayüzünden Qix tarzı bir alan oyunu istedi ve demoyu paylaştı. Gönderide Hydrogen etiketi ve tek istek bilgisi yer alıyor."
+    },
+    "180": {
+      "title": "Hydrogen ile HTML Slaytları",
+      "takeaway": "HTML üretimini sınarken slaytların görsel hiyerarşisini ve düzenini inceleyin.",
+      "notes": "Yazar Hydrogen'ın oluşturduğu HTML slaytlarını gösteriyor ve çıktıyı hızlı ve ayrıntılı olarak nitelendiriyor. Kayıt sunumu gösteriyor. Karşılaştırmalı süre verilmiyor."
+    },
+    "181": {
+      "title": "Terminal-Bench 4.0'da Hydrogen",
+      "takeaway": "Komut satırı kodlama modeli seçerken tamamlama oranını ve görev maliyetini birlikte değerlendirin.",
+      "notes": "Bağımsız Terminal-Bench 4.0 çalıştırması Hydrogen'ı Claude Opus 5.5 ve GPT-6.1 Sol ile karşılaştırıyor. Testi yapan kişi yakın puanlar ve iki model arasında maliyet bildiriyor. Test ortamının olgunluğunun gerçek kullanımı etkilediğini belirtiyor."
+    },
+    "182": {
+      "title": "Tek HTML Dosyasında İllüstrasyon",
+      "takeaway": "Görsel referansın harici varlık olmadan kodla yeniden oluşturulup oluşturulamadığını sınayın.",
+      "notes": "DeepMind çalışanı tek dosyalık illüstrasyonu gösteriyor. Kütüphane, görsel üretici, beceri paketi veya gömülü varlık kullanılmadığını söylüyor."
+    },
+    "183": {
+      "title": "Üç Gemini Modeli Ahtapotu Canlandırıyor",
+      "takeaway": "Kayanın kavranmasının gövdeyi ileri taşıyıp taşımadığına bakın.",
+      "notes": "Yazar Carbon, Argon ve Hydrogen'ın Three.js sahnesinde kayaya tutunup ilerleyen ahtapot animasyonlarını gösteriyor. Kolun kavrama hareketiyle gövdenin ilerlemesi arasındaki bağlantıyı karşılaştırmayı öneriyor."
+    },
+    "184": {
+      "title": "Chrome'da Yapılandırılmış YouTube Özeti",
+      "takeaway": "Chrome'daki Gemini panelinden zaman damgalı özet ve kaynaklı arka plan isteyin.",
+      "notes": "Japonca gönderi, Chrome'da açık YouTube videosunun Gemini ile özetlenmesini gösteriyor. Yayımlanan istem kısa özet, ana noktalar, bölüm akışı, kaynaklı arka plan, olgusal çekinceler ve ek kaynaklar istiyor."
+    },
+    "185": {
+      "title": "Dersten Kısa Videoya",
+      "takeaway": "Dersi videoya dönüştürürken anlatımın doğruluğunu ve temposunu kontrol edin.",
+      "notes": "Yazar ders iş akışını Hydrogen'a atfediyor ve iki klip paylaşıyor. Videoyu hangi sistemin oluşturduğu belirtilmiyor."
+    },
+    "186": {
+      "title": "Durağan Sahneden Deniz Papağanı Animasyonu",
+      "takeaway": "Mevcut HTML sahnesini prosedürel animasyonun ilk karesi olarak kullanın.",
+      "notes": "Yazar Hydrogen'dan tek HTML dosyasında 50 karelik bir devam animasyonu istedi. Klipte deniz papağanı karakterin şapkasını alıyor."
+    },
+    "187": {
+      "title": "Bir Kale Modelleme Testi",
+      "takeaway": "Farklı model çalıştırmalarında kale çıktılarını ve kaynak kullanımını karşılaştırın.",
+      "notes": "Yazar Hydrogen'ın 3B kalesini gösteriyor ve önceki model karşılaştırmalarına bağlantı veriyor. Bildirilen haftalık Google AI Pro kotasının %3'ü bu çalıştırmaya ait."
+    },
+    "188": {
+      "title": "Antigravity Swarm'da Tarayıcı Kullanımı",
+      "takeaway": "Swarm değerlendirirken ajan görevleriyle birlikte tarayıcı etkinliğini inceleyin.",
+      "notes": "Bir Google çalışanı Hydrogen ve Antigravity Swarm ile tarayıcı kullanımının ekran görüntüsünü paylaşıyor. Tam görev günlüğü bulunmuyor."
+    },
+    "189": {
+      "title": "Google Drive Üzerinden Muse'a İş Devri",
+      "takeaway": "Sıradaki adımı ikinci bir ajan yürütecekse araştırmayı izlenen Drive klasörü üzerinden devredin.",
+      "notes": "Yazar, Hydrogen'ın bilgiyi toplayıp Drive dosyasında düzenlediğini ve dosya gelince Muse'un işi devraldığını anlatıyor. Şema devir akışını gösteriyor."
+    },
+    "190": {
+      "title": "Gemini Canvas'ta Blok Flüt Rehberi",
+      "takeaway": "Notayı enstrüman yönergeleriyle eşleştiren alıştırma aracı için hızlı modu deneyin.",
+      "notes": "Video Hydrogen'ın hızlı moduyla oluşturulan Canvas blok flüt rehberini gösteriyor. Yazar, aracın içe aktarılan notalardan da yapılabildiğini bildiriyor."
+    },
+    "191": {
+      "title": "Kapsam Büyüyünce Değişen Proje Tahmini",
+      "takeaway": "Teslim tahmini belirgin şekilde değiştiğinde modelden kapsamı ve varsayımları açıklamasını isteyin.",
+      "notes": "Yazar, gerekli özellikleri içeren daha gerçekçi takvim isteyince bir aylık tahminin bir yıla çıktığı konuşmayı paylaşıyor. Gerçek proje süresi bilinmiyor."
+    },
+    "192": {
+      "title": "Antigravity Swarm Pelikanı Canlandırıyor",
+      "takeaway": "Animasyon ve sesi kodlama ajanlarına atayıp birleşik sahneyi inceleyin.",
+      "notes": "Yazar farklı sanat tarzları arasında geçen JavaScript pelikan sahnesini Carbon ve Hydrogen'a atfediyor. Müziğin ve ses efektlerinin kodla üretildiğini söylüyor."
+    },
+    "193": {
+      "title": "Artık Yılı da İçeren Takvim Sorusu",
+      "takeaway": "Basit bir dönüşüm sorusunda takvime özgü durumların hesaba katılıp katılmadığını kontrol edin.",
+      "notes": "Yazar Hydrogen High ve GPT'ye bir yılın kaç saniye olduğunu sordu. İki ekran görüntüsü de normal yıl ile artık yılı ayırıyor. Hydrogen ayrıca ortalama Gregoryen yılı hesaplıyor."
+    },
+    "194": {
+      "title": "Tek HTML Dosyasında TAJ VICE",
+      "takeaway": "Tek dosya sınırıyla gezilebilir harita prototipleyip kalan hataları sınayın.",
+      "notes": "Yazar 12 saatten kısa oturumda Hydrogen ile kurgusal Agra'da geçen GTA esintili oyun geliştirdi. Saf JavaScript, bir HTML dosyası ve harici varlık kullanılmadığını belirtiyor. Oynanış hataları sürüyor."
+    },
+    "195": {
+      "title": "Google Cloud Projesi Üzerinden Antigravity",
+      "takeaway": "Yönetilen kimlik bilgileriyle Hydrogen'ı etkinleştirirken doğrulamayı ve proje faturalamasını denetleyin.",
+      "notes": "Yazar kişisel Antigravity planından Application Default Credentials kullanan Google Cloud Agent Platform projesine geçişi anlatıyor. Model listesinde Hydrogen var. Proje ücretlerinin SKU'ya göre izlenmesi de açıklanıyor."
+    },
+    "196": {
+      "title": "Yanıtta Güncelliğini Yitirmiş Abonelik Sınırları",
+      "takeaway": "Araştırma asistanını değerlendirirken güncel plan şartlarını ve model adlarını birincil kaynaklardan doğrulayın.",
+      "notes": "Yazar, Hydrogen'ın benzer bir model adını karıştırdığı ve Qwen planı için eski zaman pencereleri verdiği yanıtları gösteriyor. Bunlar kayıttaki belirli referans hataları."
+    },
+    "197": {
+      "title": "WebGL Animasyonunun Hikâyesini İyileştirmek",
+      "takeaway": "Teknik açıdan karmaşık ilk sürümde akış belirsizse daha güçlü bir hikâye isteyin.",
+      "notes": "Yazar ilk WebGL sürümünü iliştiriyor ve görsel karmaşa ile hikâye eksikliğine dair geri bildirimden sonra ikinci sürümü gösteriyor. İyileştirmeyi beğeniyor ama Claude Code çıktısını tercih ediyor."
+    },
+    "198": {
+      "title": "Mobil Tasarımı Carbon Planlıyor, Hydrogen Uyguluyor",
+      "takeaway": "Etkileşim tasarımını planlama modeline, uygulamayı yürütme modeline verin.",
+      "notes": "Yazar mobil uygulamanın planını Carbon'a, Reanimated fiziği dahil uygulamasını Hydrogen'a atfediyor. Akıcı olarak tarif ettiği hareketi kayıtta gösteriyor."
+    },
+    "199": {
+      "title": "İki Model Dağda Ejderha Dövüşünü Kodluyor",
+      "takeaway": "Aynı sahnede iki karakterin etkileşiminin nasıl canlandırıldığını karşılaştırın.",
+      "notes": "Yazar dağ tapınağının üzerindeki ejderha dövüşü için Qwen-4 Max ve Hydrogen ile kodla oluşturulan animasyonları paylaşıyor. İstemi başka bir üreticiye atfediyor."
+    },
+    "200": {
+      "title": "Tek İstemden 3B Minyatür Ada",
+      "takeaway": "Tek çalıştırmada suyun, arazinin ve önemli noktaların anlaşılır biçimde yerleştirilip yerleştirilmediğini sınayın.",
+      "notes": "Yazar adayı tek istemle Hydrogen'ın kurduğunu bildiriyor. Görselde binalar ve başka işaret noktaları var."
+    },
+    "201": {
+      "title": "Yeniden Kullanılabilir Three.js Pelikan İstemi",
+      "takeaway": "Bisiklet animasyonunda bacak, tekerlek ve yön hareketlerinin uyumunu sınayın.",
+      "notes": "Yazar eksiksiz Japonca Three.js istemini ve Hydrogen'ın sahil yolundaki çıktısını yayımlıyor. Aynı istemi daha önce GPT-6.1 Terra'ya verdiğini bildiriyor. Bu kayıt Hydrogen'a ait."
+    },
+    "202": {
+      "title": "T3 Code Kurulumunda Hydrogen",
+      "takeaway": "Gerçekçi bir oturumda kodlama istemcisini deneyip kayan ve haftalık kotaları takip edin.",
+      "notes": "Yazar T3 Code'da Gemini Pro bağlantısıyla Hydrogen'ı yaklaşık yarım gün kullandığını bildiriyor. Ekran görüntüleri kota deneyimini gösteriyor. Karşılaştırmada hissedilen hız ile doğruluğu ayrı değerlendiriyor."
+    },
+    "203": {
+      "title": "Elle Çizilmiş Görünümlü Kamu Spotu",
+      "takeaway": "Bir kamu mesajıyla elle çizilmiş görsel üslubu değerlendirin.",
+      "notes": "Yazar elle çizilmiş tarzda kısa kamu spotunu Gemini 4 Hydrogen'a atfediyor. Tek seferde üretim yazarın beyanı. Görüntüyü üreten model ve süreç açıklanmıyor."
+    },
+    "204": {
+      "title": "On Sanat Tarzında Bisikletli Tavus Kuşu",
+      "takeaway": "Görsel geçişleri oluşturmak ve sesi eşlemek için çok modelli Swarm kullanın.",
+      "notes": "Yazar on tarzı birleştiren bisikletli tavus kuşunu Carbon ve Hydrogen Swarm'a atfediyor. Görsel, müzik ve ses efektlerinin kodla üretildiğini bildiriyor."
+    },
+    "205": {
+      "title": "Üç Ortamda Aynı Kır Evi İstemi",
+      "takeaway": "Görsel bir görevi başka model ayarı veya platforma taşırken çıktı biçimini kontrol edin.",
+      "notes": "Yazar Antigravity'de Hydrogen High ve Carbon High, AI Studio'da Hydrogen Extra High ile durağan çıktı bildiriyor. Arena'da Hydrogen etiketli çalıştırma animasyonlu SVG üretti. Model sürümü bağımsız olarak belirlenmedi."
+    },
+    "206": {
+      "title": "Tek İstemle Pano Karşılaştırması",
+      "takeaway": "Ortak bir arayüz istemiyle düzeni ve bilgi hiyerarşisini karşılaştırın.",
+      "notes": "Yazar GPT-6.1 Sol ve Hydrogen'a atfettiği web arayüzlerini yan yana paylaşıyor. Görseller karşılaştırmaya elverişli. Uygulama, ayarlar ve işlevler belirtilmiyor."
+    },
+    "207": {
+      "title": "Görselden React.gg Sitesini Yeniden Yapmak",
+      "takeaway": "Referans görselden başlayıp hangi ayrıntıların düzenleme gerektirdiğini inceleyin.",
+      "notes": "Yazar Hydrogen'a referans görsel verip React.gg'yi birkaç istemde yeniden oluşturduğunu bildiriyor. Demo bağlantısını paylaşıyor ve eşleşmenin kusursuz olmadığını belirtiyor."
+    },
+    "208": {
+      "title": "Tekillik Temalı Etkileşimli Panel",
+      "takeaway": "Tek bir görsel fikir etrafında kısa etkileşimli akış prototipleyin.",
+      "notes": "Yazar Hydrogen'a atfettiği tekillik temalı paneli paylaşıyor. Kayıt sonucu gösteriyor. Uygulama bağlamı sınırlı."
+    },
+    "209": {
+      "title": "İki Model Yandan Kaydırmalı Animasyon Kodluyor",
+      "takeaway": "Oluşturulan aksiyon sahnelerinde hareket sürekliliğine ve yapım maliyetine bakın.",
+      "notes": "Yazar Hydrogen ve GPT-6 Astra'nın yandan kaydırmalı sahnelerini karşılaştırıyor. Bu iki çalıştırmada Hydrogen'ın hareketini doğal buluyor ve daha düşük maliyet bildiriyor."
+    },
+    "210": {
+      "title": "Koşu Antrenörü Olarak Gemini",
+      "takeaway": "Antrenman kaydını önerilerle karşılaştırıp hedefleri başlangıç seviyenize göre ayarlayın.",
+      "notes": "Yazar koşu koçluğunu Gemini Hydrogen'a atfediyor ve yaklaşık bir yıldaki en uzun koşusunu yaptığını bildirip antrenman ekran görüntüsünü paylaşıyor. Örnek kişisel deneyime dayanıyor."
+    },
+    "211": {
+      "title": "Zincir Üzerinde Skor Tutan Tarayıcı Oyunu",
+      "takeaway": "Masaüstü oyununu deneyin ve skor kaydını oynanıştan ayrı doğrulayın.",
+      "notes": "Yazar Base üzerinde skor tutan Sheytonak oyununun yapımında Hydrogen kullandığını söylüyor. Masaüstü optimizasyonunu, mobildeki sorunları ve kalan hataları belirtiyor."
+    },
+    "212": {
+      "title": "Japonca Yanıtta Görüntülenmeyen Formüller",
+      "takeaway": "TeX komutlu yanıtlarda doğrulukla birlikte matematiğin ekranda nasıl göründüğünü sınayın.",
+      "notes": "Yazar Hydrogen'a geçtikten sonra Japonca Gemini yanıtında dizilmiş denklemler yerine ham matematik işaretleri görüyor. Ekran görüntüsü arayüzdeki tek bir biçim hatasını gösteriyor."
+    },
+    "213": {
+      "title": "Japonca İstemden MIDI Üreten Beste Uygulaması",
+      "takeaway": "Japonca girdiyi MIDI, WAV ve piyano rulosuna dönüştüren bir aracı prototipleyin.",
+      "notes": "Yazar Hydrogen ile kurulan uygulamanın Japonca girdiyi İngilizce müzik istemine çevirdiğini, MIDI yazdığını, WAV ve piyano rulosu videosu ürettiğini gösteriyor. Bunlar demo uygulamasının işlevleri."
+    },
+    "214": {
+      "title": "Sessiz Kalma Talimatını Sınamak",
+      "takeaway": "İş akışı gerektiriyorsa modelin hiç yanıt üretmemesini sınayın.",
+      "notes": "Yazar cevapsız kalma testinin ekran görüntüsünü paylaşıyor ve Carbon ile Argon'da farklı davranış bildiriyor. Paylaşım bir deneme grubunu gösteriyor."
+    },
+    "215": {
+      "title": "Tek Sayfalık Konser Özeti",
+      "takeaway": "Etkinlik bilgisini kolay taranabilen görsel bir sayfaya dönüştürün.",
+      "notes": "Yazar Batten Girls konserinin Japonca görsel özetini paylaşıp Hydrogen'a atfediyor. Kaynak malzemelerin ve istemin tamamı gösterilmiyor."
+    },
+    "216": {
+      "title": "Üç Model Elektrik Motorunu Açıklıyor",
+      "takeaway": "Aynı simülasyon istemiyle görsel netliği ve öğretici denetimleri karşılaştırın.",
+      "notes": "Yazar Hydrogen'ı iki Qwen modeliyle karşılaştırdı. Hydrogen'ın 3B motorunu ve fizik açıklamalarını tercih etti. Değerlendirme tek karşılaştırmaya ait."
+    },
+    "217": {
+      "title": "İki Model Akışıyla Masa Sahnesi Animasyonu",
+      "takeaway": "Sahne ayrıntılarını, ses düzeyini ve sondaki sabit kareyi asıl istemle karşılaştırın.",
+      "notes": "Yazar API üzerinden aynı istemle Hydrogen ve Astra destekli masa animasyonları üretti. Gemini sonucunu daha akıcı buluyor ama son karede hareketin sürdüğünü ve sesin daha kısık olduğunu söylüyor. İşleme hattı belirtilmiyor."
+    },
+    "218": {
+      "title": "Avatardan Günlük Yaşam Montajı",
+      "takeaway": "Tek avatar ve dört gündelik sahneyle kısa storyboard uyarlamasını değerlendirin.",
+      "notes": "Yazar X avatarı ile ders çalışma, yemek, telefona bakma ve spor sahneleri verdi. Yaklaşık on saniyelik sonucu Hydrogen'a atfediyor. Görüntüyü üreten sistem belirtilmiyor."
+    },
+    "219": {
+      "title": "Hydrogen ComfyUI Karakter Klibini Planlıyor",
+      "takeaway": "Kostümü ve arka planı sabit tutup video boyunca ifadeleri ve hareketleri değiştirin.",
+      "notes": "Yazar klibin referans tasarıma göre planlanmasını Hydrogen'a atfediyor. Görüntü üretiminde ayrı bir ComfyUI MiniMax görselden videoya hattı kullanıyor. Yeni açılış karesi ve 30 çekimlik istem hazırlıyor."
+    },
+    "220": {
+      "title": "Almance Vale'i 100 Modüle Çıkarmak",
+      "takeaway": "Mevcut uygulamayı bir kodlama ajanına taşıyıp modül eklerken üslubu korumasını isteyin.",
+      "notes": "Yazar projeyi Gemini uygulamasından Antigravity'ye taşıdı. Swarm modunda Hydrogen Extra ile kod düzenini koruduğunu ve birkaç saatte Almance Vale'i 100 modüle çıkardığını bildiriyor."
+    },
+    "221": {
+      "title": "Prosedürel Sesli 2B Köy",
+      "takeaway": "Yapım süresinin yanında seslerin ekrandaki olaylara uyup uymadığını kontrol edin.",
+      "notes": "Yazar 2B köyde Qwen 4 Max ve Extra High ayarındaki Hydrogen'ı karşılaştırıyor. Qwen için yaklaşık 75 dakika ve 0,90 USD, Hydrogen için 12 dakika ve 1,70 USD bildiriyor. Hydrogen'ın müziğini olaylara daha uyumlu buluyor."
+    },
+    "222": {
+      "title": "Bir Şarkı İçin Geniş Ekran Görselleştirmesi",
+      "takeaway": "Şarkı ve çerçeve tarifi verip hareketin müziğin enerjisini nasıl taşıdığını inceleyin.",
+      "notes": "Yazar Hydrogen XHigh'a sadece şarkı, 21:9 biçimi ve hız hissi isteği verdiğini söylüyor. Klip yolda hızlı ilerleyen görüntüler içeriyor. Görüntünün nasıl üretildiği açıklanmıyor."
+    },
+    "223": {
+      "title": "Yedi Hydrogen Alt Ajanıyla Niagara Şelalesi",
+      "takeaway": "Koordinatöre farklı sahne öğeleri vererek bunları uygulayıcı ajanlara dağıtmasını sağlayın.",
+      "notes": "Yazar tek istemle bir saatin altında kurulan Niagara deneyimini Carbon ve yedi Hydrogen alt ajanına atfediyor. Kayıt suyu, tekneleri, farklı bakış açılarını ve değişen ortamları gösteriyor."
+    },
+    "224": {
+      "title": "İki Tarihî Romantik Klipte Süreklilik",
+      "takeaway": "İkinci klipte devam ederken hangi ayrıntıların korunacağını belirtin.",
+      "notes": "Yazar okyanus gemisindeki kısa romantik sahneyi Hydrogen kullanılan Gemini iş akışına atfediyor. İki bölümlü tarifte karakter ve kostüm sürekliliği isteniyor. Video modeli belirtilmiyor."
+    },
+    "225": {
+      "title": "Gemini Uygulamasında Su Küresi",
+      "takeaway": "Basit bir optik sahneyle parlak noktaların ve kırılmanın ilişkisini inceleyin.",
+      "notes": "Google, Hydrogen yazılı su benzeri küreyi Gemini uygulamasında gösteriyor ve Hydrogen'a atfediyor. Kaynak sonucu gösteriyor, görüntü oluşturma düzeneğini açıklamıyor."
     }
   }
 }

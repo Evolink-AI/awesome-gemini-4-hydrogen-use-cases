@@ -176,7 +176,7 @@ def main() -> int:
         parsed = urllib.parse.urlparse(url)
         expected_creator_reuse = parsed.hostname == "x.com" and "/status/" not in parsed.path
         expected_video_reuse = url.startswith(R2) and parsed.path.endswith(".mp4")
-        expected_image_reuse = url.startswith(R2) and "/hydrogen-20261113/media/" in parsed.path and parsed.path.endswith((".jpg", ".jpeg", ".png", ".webp"))
+        expected_image_reuse = url.startswith(R2) and re.search(r"/hydrogen-202611(?:13|17)/media/", parsed.path) and parsed.path.endswith((".jpg", ".jpeg", ".png", ".webp"))
         expected_endpoint_reuse = expected_method_endpoint_reuse(relative_path, url, count, (ROOT / relative_path).read_text(encoding="utf-8"))
         if expected_creator_reuse or expected_video_reuse or expected_image_reuse or expected_endpoint_reuse:
             if expected_creator_reuse:
