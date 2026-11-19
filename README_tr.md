@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![View Hydrogen in your browser](https://img.shields.io/badge/View_Hydrogen-Browser-4285f4)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_try)
-[![Gemini Native API (English)](https://img.shields.io/badge/Gemini_Native_API-English-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=docs_link)
+[![Gemini Native API via the Hydrogen model page](https://img.shields.io/badge/Gemini_Native_API-Model_Page-f22f3d)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -42,7 +42,7 @@ Her örnek kaynağına bağlantı verir ve yazarını belirtir. Demolar, sağlay
 
 **Resmî kaynaklar: [Google duyurusu](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Google DeepMind model kartı](https://deepmind.google/models/model-cards/gemini-4-hydrogen/)**
 
-**Buradan başlayın: [Hydrogen'ı EvoLink'te keşfedin](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [API anahtarı alın](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)**
+**Buradan başlayın: [Hydrogen'ı EvoLink'te keşfedin](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [API anahtarı alın (model sayfası üzerinden)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)**
 
 <a id="quick-start"></a>
 ## ⚡ Hızlı başlangıç
@@ -50,7 +50,7 @@ Her örnek kaynağına bağlantı verir ve yazarını belirtir. Demolar, sağlay
 EvoLink'te başlayın; Hydrogen'ı bir uygulamaya entegre etmek istediğinizde Gemini yerel API'sini kullanın.
 
 1. [Gemini 4 Hydrogen’ı tarayıcıda görüntüleyin](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
-2. [EvoLink API anahtarı oluşturun veya yönetin](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)
+2. [EvoLink API anahtarı oluşturun veya yönetin (model sayfası üzerinden)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)
 
 Asgari yerel API isteği
 
@@ -67,7 +67,7 @@ curl --fail-with-body --silent --show-error \
 
 `POST https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent`
 
-[Gemini Yerel API hızlı başlangıç rehberini okuyun (İngilizce)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=first_run)
+[Gemini Yerel API hızlı başlangıç rehberini okuyun (İngilizce) (model sayfası üzerinden)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 > [!TIP]
 > Üretilen metni yanıtın candidates[].content.parts[].text alanlarından okuyun.

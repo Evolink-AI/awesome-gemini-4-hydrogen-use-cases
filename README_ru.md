@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![View Hydrogen in your browser](https://img.shields.io/badge/View_Hydrogen-Browser-4285f4)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_try)
-[![Gemini Native API (English)](https://img.shields.io/badge/Gemini_Native_API-English-f22f3d)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=docs_link)
+[![Gemini Native API via the Hydrogen model page](https://img.shields.io/badge/Gemini_Native_API-Model_Page-f22f3d)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -42,7 +42,7 @@
 
 **Официальные материалы: [Анонс Google](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Карточка модели Google DeepMind](https://deepmind.google/models/model-cards/gemini-4-hydrogen/)**
 
-**Начните здесь: [Изучить Hydrogen на EvoLink](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [Получить ключ API](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)**
+**Начните здесь: [Изучить Hydrogen на EvoLink](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [Получить ключ API (со страницы модели)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)**
 
 <a id="quick-start"></a>
 ## ⚡ Быстрый старт
@@ -50,7 +50,7 @@
 Начните с EvoLink, а для интеграции Hydrogen в приложение используйте нативный API Gemini.
 
 1. [Открыть Gemini 4 Hydrogen в браузере](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
-2. [Создать ключ API EvoLink или управлять им](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)
+2. [Создать ключ API EvoLink или управлять им (со страницы модели)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)
 
 Минимальный запрос к нативному API
 
@@ -67,7 +67,7 @@ curl --fail-with-body --silent --show-error \
 
 `POST https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent`
 
-[Прочитать краткое руководство по нативному API Gemini (на английском)](https://evolink.ai/docs/en/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=first_run)
+[Прочитать краткое руководство по нативному API Gemini (на английском) (со страницы модели)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 > [!TIP]
 > Прочитайте сгенерированный текст в полях candidates[].content.parts[].text ответа.

@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![View Hydrogen in your browser](https://img.shields.io/badge/View_Hydrogen-Browser-4285f4)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_try)
-[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/ko/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=docs_link)
+[![Gemini Native API via the Hydrogen model page](https://img.shields.io/badge/Gemini_Native_API-Model_Page-f22f3d)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -42,7 +42,7 @@
 
 **공식 참고 자료: [Google 발표](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Google DeepMind 모델 카드](https://deepmind.google/models/model-cards/gemini-4-hydrogen/)**
 
-**여기서 시작하기: [EvoLink에서 Hydrogen 살펴보기](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [API 키 받기](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)**
+**여기서 시작하기: [EvoLink에서 Hydrogen 살펴보기](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [API 키 받기 (모델 페이지에서)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)**
 
 <a id="quick-start"></a>
 ## ⚡ 빠른 시작
@@ -50,7 +50,7 @@
 먼저 EvoLink에서 시작하고, Hydrogen을 앱에 통합할 때 Gemini 네이티브 API를 사용하세요.
 
 1. [브라우저에서 Gemini 4 Hydrogen 보기](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
-2. [EvoLink API 키 생성 또는 관리](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)
+2. [EvoLink API 키 생성 또는 관리 (모델 페이지에서)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)
 
 최소 구성의 네이티브 API 요청
 
@@ -67,7 +67,7 @@ curl --fail-with-body --silent --show-error \
 
 `POST https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent`
 
-[Gemini 네이티브 API 빠른 시작 읽기](https://evolink.ai/docs/ko/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=first_run)
+[Gemini 네이티브 API 빠른 시작 읽기 (모델 페이지에서)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 > [!TIP]
 > 응답의 candidates[].content.parts[].text 필드에서 생성된 텍스트를 읽습니다.

@@ -4,7 +4,7 @@
 
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC_BY_4.0-lightgrey.svg)](LICENSE)
 [![View Hydrogen in your browser](https://img.shields.io/badge/View_Hydrogen-Browser-4285f4)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_try)
-[![Gemini Native API](https://img.shields.io/badge/Gemini_Native_API-Quick_Start-f22f3d)](https://evolink.ai/docs/de/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=docs_link)
+[![Gemini Native API via the Hydrogen model page](https://img.shields.io/badge/Gemini_Native_API-Model_Page-f22f3d)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=badge&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 [![🇺🇸 English](https://img.shields.io/badge/🇺🇸_English-111111)](README.md)
 [![🇪🇸 Español](https://img.shields.io/badge/🇪🇸_Español-ffb703)](README_es.md)
@@ -42,7 +42,7 @@ Jeder Fall verlinkt seine Quelle und nennt den Urheber. Demos, Anbieterbeispiele
 
 **Offizielle Referenzen: [Google-Ankündigung](https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/) · [Modellkarte von Google DeepMind](https://deepmind.google/models/model-cards/gemini-4-hydrogen/)**
 
-**Hier starten: [Hydrogen auf EvoLink entdecken](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [API-Schlüssel erhalten](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)**
+**Hier starten: [Hydrogen auf EvoLink entdecken](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=readme&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=landing_overview) · [API-Schlüssel erhalten (über die Modellseite)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=overview&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)**
 
 <a id="quick-start"></a>
 ## ⚡ Schnellstart
@@ -50,7 +50,7 @@ Jeder Fall verlinkt seine Quelle und nennt den Urheber. Demos, Anbieterbeispiele
 Starte auf EvoLink und nutze anschließend die native Gemini-API, wenn du Hydrogen in eine Anwendung integrieren möchtest.
 
 1. [Gemini 4 Hydrogen im Browser ansehen](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=browser_try)
-2. [Einen EvoLink-API-Schlüssel erstellen oder verwalten](https://evolink.ai/dashboard/keys?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=api_key)
+2. [Einen EvoLink-API-Schlüssel erstellen oder verwalten (über die Modellseite)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_api_key)
 
 Minimale Anfrage an die native API
 
@@ -67,7 +67,7 @@ curl --fail-with-body --silent --show-error \
 
 `POST https://direct.evolink.ai/v1beta/models/gemini-4-hydrogen:generateContent`
 
-[Den Schnellstart zur nativen Gemini-API lesen](https://evolink.ai/docs/de/api-manual/language-series/gemini/native-api/native-api-quickstart?utm_source=github&utm_medium=docs&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=first_run)
+[Den Schnellstart zur nativen Gemini-API lesen (über die Modellseite)](https://evolink.ai/gemini-4-hydrogen?utm_source=github&utm_medium=quickstart&utm_campaign=awesome-gemini-4-hydrogen-guide-and-use-cases&utm_content=model_for_docs)
 
 > [!TIP]
 > Lies den generierten Text aus den Feldern candidates[].content.parts[].text der Antwort.

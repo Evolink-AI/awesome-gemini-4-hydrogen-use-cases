@@ -41,14 +41,10 @@ python3 scripts/audit_r2_source_media.py --report /path/to/evidence/media-audit.
 
 Keep raw research exports, local machine paths, downloaded source media, credentials, and internal audit reports out of commits. Do not claim functional testing or a successful API call merely because a URL or source video loads. Report blocked checks rather than silently passing them.
 
-## Documentation locale routing
+## README model links
 
-The README-to-documentation mapping is maintained in `scripts/build_readmes.py` and enforced by `scripts/verify_repository.py`.
+Every EvoLink README link points to the Gemini 4 Hydrogen model detail page. The model page provides access to API keys and the Gemini Native API documentation. The README continues to show the runnable API request directly.
 
-- Native documentation: English → `en`, Spanish → `es`, Japanese → `ja`, Korean → `ko`, German → `de`, French → `fr`, Simplified Chinese → `cn`
-- Explicit English fallback: Portuguese, Turkish, Traditional Chinese, and Russian
-- Every fallback README must identify the English destination in both the documentation badge and visible link copy
-
-Do not infer a localized documentation route from a README locale. An HTTP 200 alone does not prove the correct page. Keep the native API endpoint free of UTM parameters; placement-specific campaign parameters belong on the EvoLink landing, key-management, and documentation links.
+Use the placement-specific UTM values defined in `scripts/build_readmes.py`. The validator checks the model destination and attribution for all eight placements in each language. Keep the native API endpoint free of UTM parameters.
 
 The current repository slug identifies Hydrogen. The November 13 edition still references its original versioned R2 paths. Later updates use their own versioned paths.
