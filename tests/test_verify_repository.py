@@ -73,15 +73,16 @@ class ValidationMutations(unittest.TestCase):
 
 class ConversionPlacementMutations(unittest.TestCase):
     def test_exact_eight_roles_and_wrong_placement(self):
-        docs = v.api_docs_for('en')
-        actual = {
-            v.MODEL_PAGE: [('banner', 'readme_banner'), ('badge', 'model_try'), ('readme', 'landing_overview'), ('quickstart', 'browser_try')],
-            v.API_KEYS: [('overview', 'api_key'), ('quickstart', 'api_key')],
-            docs: [('badge', 'docs_link'), ('docs', 'first_run')],
-        }
-        self.assertEqual(v.validate_conversion_placements(actual, docs, 'README.md'), [])
-        actual[v.MODEL_PAGE][-1] = ('quickstart', 'model_link')
-        self.assertTrue(v.validate_conversion_placements(actual, docs, 'README.md'))
+        placements = [
+            ('banner', 'readme_banner'), ('badge', 'model_try'),
+            ('badge', 'model_for_docs'), ('readme', 'landing_overview'),
+            ('overview', 'model_for_api_key'), ('quickstart', 'browser_try'),
+            ('quickstart', 'model_for_api_key'), ('quickstart', 'model_for_docs'),
+        ]
+        actual = {v.MODEL_PAGE: placements}
+        self.assertEqual(v.validate_conversion_placements(actual, 'README.md'), [])
+        placements[-1] = ('quickstart', 'model_link')
+        self.assertTrue(v.validate_conversion_placements(actual, 'README.md'))
 
 
 if __name__ == '__main__':

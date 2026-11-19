@@ -20,12 +20,6 @@ R2_PREFIX = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-medi
 UPDATE_MEDIA_PREFIX = "https://pub-62cf7640cd0f4066b60933bd2e9b85ef.r2.dev/model-repo-media/awesome-gemini-4-hydrogen-use-cases/hydrogen-20261117/media/"
 R2_PREFIXES = (R2_PREFIX, UPDATE_MEDIA_PREFIX)
 MODEL_PAGE = "https://evolink.ai/gemini-4-hydrogen"
-API_KEYS = "https://evolink.ai/dashboard/keys"
-API_DOCS_PATH = "api-manual/language-series/gemini/native-api/native-api-quickstart"
-DOC_LOCALE_BY_README = {
-    "en": "en", "es": "es", "pt": "en", "ja": "ja", "ko": "ko", "de": "de",
-    "fr": "fr", "tr": "en", "zh-TW": "en", "zh-CN": "cn", "ru": "en",
-}
 FALLBACK_MARKERS = {"pt": "inglês", "tr": "İngilizce", "zh-TW": "英文", "ru": "английском"}
 GOOGLE_RELEASE = "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-hydrogen/"
 MODEL_CARD = "https://deepmind.google/models/model-cards/gemini-4-hydrogen/"
@@ -121,20 +115,18 @@ def validate_conversion_url(url: str, filename: str) -> list[str]:
     return []
 
 
-def validate_conversion_placements(actual: dict, docs_url: str, filename: str) -> list[str]:
+def validate_conversion_placements(actual: dict, filename: str) -> list[str]:
     expected = {
-        MODEL_PAGE: [("banner", "readme_banner"), ("badge", "model_try"),
-                     ("readme", "landing_overview"), ("quickstart", "browser_try")],
-        API_KEYS: [("overview", "api_key"), ("quickstart", "api_key")],
-        docs_url: [("badge", "docs_link"), ("docs", "first_run")],
+        MODEL_PAGE: [
+            ("banner", "readme_banner"), ("badge", "model_try"),
+            ("badge", "model_for_docs"), ("readme", "landing_overview"),
+            ("overview", "model_for_api_key"), ("quickstart", "browser_try"),
+            ("quickstart", "model_for_api_key"), ("quickstart", "model_for_docs"),
+        ],
     }
-    if set(actual) != set(expected) or any(sorted(actual.get(base, [])) != sorted(pairs) for base, pairs in expected.items()):
+    if set(actual) != set(expected) or any(sorted(actual[base]) != sorted(pairs) for base, pairs in expected.items()):
         return [f"{filename}: conversion placement UTM matrix differs"]
     return []
-
-
-def api_docs_for(locale: str) -> str:
-    return f"https://evolink.ai/docs/{DOC_LOCALE_BY_README[locale]}/{API_DOCS_PATH}"
 
 
 def main() -> int:
@@ -286,19 +278,11 @@ def main() -> int:
                 visual = asset["poster_url"] if asset["kind"] == "video" else asset["url"]
                 if text.count(f'src="{visual}"') != 1:
                     errors.append(f'{filename}: case {item["public_number"]} visual is missing or duplicated')
-        expected_docs = api_docs_for(locale)
-        if MODEL_PAGE not in text or expected_docs not in text or API_KEYS not in text:
-            errors.append(f"{filename}: model, key, or API conversion route is missing")
-        docs_routes = re.findall(rf"https://evolink\.ai/docs/([^/]+)/{re.escape(API_DOCS_PATH)}", text)
-        if docs_routes != [DOC_LOCALE_BY_README[locale]] * 2:
-            errors.append(f"{filename}: documentation routes do not match locale mapping")
-        if locale in FALLBACK_MARKERS and "Gemini Native API (English)" not in text:
-            errors.append(f"{filename}: English documentation fallback badge is not disclosed")
-        if locale not in FALLBACK_MARKERS and "Gemini Native API (English)" in text:
-            errors.append(f"{filename}: localized documentation is incorrectly marked as English fallback")
-
-        conversion_pairs: dict[str, list[tuple[str, str]]] = {MODEL_PAGE: [], API_KEYS: [], expected_docs: []}
-        conversion_urls = [url.rstrip(".,;") for url in URL_RE.findall(text) if any(url.startswith(base) for base in conversion_pairs)]
+        conversion_pairs: dict[str, list[tuple[str, str]]] = {}
+        conversion_urls = [
+            url.rstrip(".,;") for url in URL_RE.findall(text)
+            if urllib.parse.urlparse(url).hostname == "evolink.ai"
+        ]
         exact_duplicates = [url for url, count in Counter(conversion_urls).items() if count > 1]
         if exact_duplicates:
             errors.append(f"{filename}: duplicate EvoLink conversion URL reuses one placement UTM")
@@ -307,11 +291,10 @@ def main() -> int:
             parsed = urllib.parse.urlparse(url)
             base = urllib.parse.urlunparse(parsed._replace(query="", fragment=""))
             query = urllib.parse.parse_qs(parsed.query)
-            if base in conversion_pairs:
-                if query.get("utm_source") != ["github"] or query.get("utm_campaign") != [CAMPAIGN]:
-                    errors.append(f"{filename}: conversion URL has incorrect source or campaign")
-                conversion_pairs[base].append((query.get("utm_medium", [""])[0], query.get("utm_content", [""])[0]))
-        errors.extend(validate_conversion_placements(conversion_pairs, expected_docs, filename))
+            conversion_pairs.setdefault(base, []).append(
+                (query.get("utm_medium", [""])[0], query.get("utm_content", [""])[0])
+            )
+        errors.extend(validate_conversion_placements(conversion_pairs, filename))
 
         overview_text = text.split(f'## 📊', 1)[-1].split(f'## 📑', 1)[0]
         related_text = text.split('<a id="related-repositories"></a>', 1)[-1].split('<a id="quick-start"></a>', 1)[0]
@@ -364,8 +347,7 @@ def main() -> int:
     print(f"localized_case_instances={expected_count * len(READMES)}")
     print(f"visuals_per_readme={len(visual_urls)}")
     print(f"playable_videos_per_readme={len(playable_urls)}")
-    print("docs_locales=en,es,ja,ko,de,fr,cn")
-    print("docs_fallbacks=pt,tr,zh-TW,ru->en")
+    print("model_detail_links_per_readme=8")
     return 0
 
 
